@@ -82,7 +82,7 @@
 	department_experience_type = EXP_TYPE_SECURITY
 	display_order = 2
 	label_class = "security"
-	ui_color = "#d46a78"
+	ui_color = "#707070"
 	nation_prefixes = list("Securi", "Beepski", "Shitcuri", "Red", "Stunba", "Flashbango", "Flasha", "Stanfordi")
 	department_delivery_areas = list(
 		/area/station/security/office,

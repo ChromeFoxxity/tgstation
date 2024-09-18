@@ -167,25 +167,25 @@
 #define DEPARTMENT_UNASSIGNED "No Department"
 
 #define DEPARTMENT_BITFLAG_SECURITY (1<<0)
-#define DEPARTMENT_SECURITY "Security"
+#define DEPARTMENT_SECURITY "Security Department"
 #define DEPARTMENT_BITFLAG_COMMAND (1<<1)
-#define DEPARTMENT_COMMAND "Command"
+#define DEPARTMENT_COMMAND "Administrative"
 #define DEPARTMENT_BITFLAG_SERVICE (1<<2)
-#define DEPARTMENT_SERVICE "Service"
+#define DEPARTMENT_SERVICE "Civil Department"
 #define DEPARTMENT_BITFLAG_CARGO (1<<3)
-#define DEPARTMENT_CARGO "Cargo"
+#define DEPARTMENT_CARGO "Logistics Department"
 #define DEPARTMENT_BITFLAG_ENGINEERING (1<<4)
-#define DEPARTMENT_ENGINEERING "Engineering"
+#define DEPARTMENT_ENGINEERING "Engineering & Technical Services"
 #define DEPARTMENT_BITFLAG_SCIENCE (1<<5)
-#define DEPARTMENT_SCIENCE "Science"
+#define DEPARTMENT_SCIENCE "Science Department"
 #define DEPARTMENT_BITFLAG_MEDICAL (1<<6)
-#define DEPARTMENT_MEDICAL "Medical"
+#define DEPARTMENT_MEDICAL "Medical Departemnt"
 #define DEPARTMENT_BITFLAG_SILICON (1<<7)
 #define DEPARTMENT_SILICON "Silicon"
 #define DEPARTMENT_BITFLAG_ASSISTANT (1<<8)
 #define DEPARTMENT_ASSISTANT "Assistant"
 #define DEPARTMENT_BITFLAG_CAPTAIN (1<<9)
-#define DEPARTMENT_CAPTAIN "Captain"
+#define DEPARTMENT_CAPTAIN "Site Director"
 
 DEFINE_BITFIELD(departments_bitflags, list(
 	"SECURITY" = DEPARTMENT_BITFLAG_SECURITY,
@@ -255,12 +255,12 @@ DEFINE_BITFIELD(job_flags, list(
 #define FACTION_STATION "Station"
 
 // Variable macros used to declare who is the supervisor for a given job, announced to the player when they join as any given job.
-#define SUPERVISOR_CAPTAIN "the Captain"
-#define SUPERVISOR_CE "the Chief Engineer"
-#define SUPERVISOR_CMO "the Chief Medical Officer"
-#define SUPERVISOR_HOP "the Head of Personnel"
-#define SUPERVISOR_HOS "the Head of Security"
-#define SUPERVISOR_QM "the Quartermaster"
+#define SUPERVISOR_CAPTAIN "the Site Director"
+#define SUPERVISOR_CE "the Engineering Director"
+#define SUPERVISOR_CMO "the Medical Director"
+#define SUPERVISOR_HOP "the Site Manager"
+#define SUPERVISOR_HOS "the Security Director"
+#define SUPERVISOR_QM "the Logistics Officer"
 #define SUPERVISOR_RD "the Research Director"
 
 /// Mind traits that should be shared by every head of staff. has to be this way cause byond lists lol
