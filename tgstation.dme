@@ -6401,7 +6401,7 @@
 #include "modular_f19\code\game\machinery\computers\laptops.dm"
 #include "modular_f19\code\game\machinery\computers\modular_computers.dm"
 #include "modular_f19\code\game\machinery\doors\airlock.dm"
-#include "modular_f19\code\game\machinery\computers\modular_computers.dm"
+#include "modular_f19\code\game\machinery\tramstuff\tramcode.dm"
 #include "modular_f19\code\modules\clothing\under\jobs\command.dm"
 #include "modular_f19\code\modules\clothing\under\jobs\science.dm"
 #include "modular_f19\code\modules\clothing\under\jobs\security.dm"
