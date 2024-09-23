@@ -129,4 +129,3 @@ TRIMLINE_SUBTYPE_HELPER(/obj/effect/turf_decal/trimline/euclid)
 TRIMLINE_SUBTYPE_HELPER(/obj/effect/turf_decal/trimline/keter)
 
 #undef TRIMLINE_SUBTYPE_HELPER
-#undef DECAL_ALPHA
