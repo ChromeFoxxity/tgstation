@@ -3,20 +3,20 @@
  */
 
 /datum/security_level/green
-	sound = 'modular_f19/modules/alerts/sound/security_levels/green.ogg'
+	sound = 'modular_f19/code/modules/alerts/sound/security_levels/green.ogg'
 
 /datum/security_level/blue
-	sound = 'modular_f19/modules/alerts/sound/security_levels/blue.ogg'
+	sound = 'modular_f19/code/modules/alerts/sound/security_levels/blue.ogg'
 
 /datum/security_level/red
-	sound = 'modular_f19/modules/alerts/sound/security_levels/red.ogg'
+	sound = 'modular_f19/code/modules/alerts/sound/security_levels/red.ogg'
 
 /datum/security_level/delta
 	announcement_color = "pink"
 	lowering_to_configuration_key = /datum/config_entry/string/alert_delta_downto
 	elevating_to_configuration_key = /datum/config_entry/string/alert_delta_upto
-	sound = 'modular_f19/modules/alerts/sound/security_levels/delta.ogg'
-	looping_sound = 'modular_f19/modules/alerts/sound/misc/alarm_delta.ogg'
+	sound = 'modular_f19/code/modules/alerts/sound/security_levels/delta.ogg'
+	looping_sound = 'modular_f19/code/modules/alerts/sound/misc/alarm_delta.ogg'
 	looping_sound_interval = 8 SECONDS
 
 
@@ -33,7 +33,7 @@
 	fire_alarm_light_color = COLOR_VIOLET
 	lowering_to_configuration_key = /datum/config_entry/string/alert_violet_downto
 	elevating_to_configuration_key = /datum/config_entry/string/alert_violet_upto
-	sound = 'modular_f19/modules/alerts/sound/security_levels/violet.ogg'
+	sound = 'modular_f19/code/modules/alerts/sound/security_levels/violet.ogg'
 	shuttle_call_time_mod = 0.75
 
 /**
@@ -49,7 +49,7 @@
 	fire_alarm_light_color = LIGHT_COLOR_ORANGE
 	lowering_to_configuration_key = /datum/config_entry/string/alert_orange_downto
 	elevating_to_configuration_key = /datum/config_entry/string/alert_orange_upto
-	sound = 'modular_f19/modules/alerts/sound/security_levels/orange.ogg'
+	sound = 'modular_f19/code/modules/alerts/sound/security_levels/orange.ogg'
 	shuttle_call_time_mod = 0.75
 
 /**
@@ -66,7 +66,7 @@
 	fire_alarm_light_color = LIGHT_COLOR_DIM_YELLOW
 	lowering_to_configuration_key = /datum/config_entry/string/alert_amber_downto
 	elevating_to_configuration_key = /datum/config_entry/string/alert_amber_upto
-	sound = 'modular_f19/modules/alerts/sound/security_levels/amber.ogg'
+	sound = 'modular_f19/code/modules/alerts/sound/security_levels/amber.ogg'
 	shuttle_call_time_mod = 0.5
 
 /**
@@ -82,8 +82,8 @@
 	fire_alarm_light_color = COLOR_ASSEMBLY_WHITE
 	lowering_to_configuration_key = /datum/config_entry/string/alert_epsilon_downto
 	elevating_to_configuration_key = /datum/config_entry/string/alert_epsilon_upto
-	sound = 'modular_f19/modules/alerts/sound/security_levels/epsilon.ogg'
-	looping_sound = 'modular_f19/modules/alerts/sound/misc/alarm_delta.ogg'
+	sound = 'modular_f19/code/modules/alerts/sound/security_levels/epsilon.ogg'
+	looping_sound = 'modular_f19/code/modules/alerts/sound/misc/alarm_delta.ogg'
 	looping_sound_interval = 8 SECONDS
 
 /**
@@ -99,6 +99,6 @@
 	fire_alarm_light_color = COLOR_ASSEMBLY_PURPLE
 	elevating_to_configuration_key = /datum/config_entry/string/alert_gamma
 	shuttle_call_time_mod = 0.25
-	sound = 'modular_f19/modules/alerts/sound/security_levels/gamma_alert.ogg'
-	looping_sound = 'modular_f19/modules/alerts/sound/security_levels/gamma_alert.ogg'
+	sound = 'modular_f19/code/modules/alerts/sound/security_levels/gamma_alert.ogg'
+	looping_sound = 'modular_f19/code/modules/alerts/sound/security_levels/gamma_alert.ogg'
 	looping_sound_interval = 13 SECONDS

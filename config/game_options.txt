@@ -71,12 +71,17 @@ HUMANS_NEED_SURNAMES
 
 
 ## ALERT LEVELS ###
-ALERT_GREEN All threats to the station have passed. Security may not have weapons visible, privacy laws are once again fully enforced.
-ALERT_BLUE_UPTO The station has received reliable information about possible hostile activity on the station. Security staff may have weapons visible, random searches are permitted.
-ALERT_BLUE_DOWNTO The immediate threat has passed. Security may no longer have weapons drawn at all times, but may continue to have them visible. Random searches are still allowed.
-ALERT_RED_UPTO There is an immediate serious threat to the station. Security may have weapons unholstered at all times. Random searches are allowed and advised. Additionally, access requirements on some doors have been lifted.
-ALERT_RED_DOWNTO The station's destruction has been averted. There is still however an immediate serious threat to the station. Security may have weapons unholstered at all times, random searches are allowed and advised.
-ALERT_DELTA Destruction of the station is imminent. All crew are instructed to obey all instructions given by heads of staff. Any violations of these orders can be punished by death. This is not a drill.
+ALERT_AMBER_UPTO A major security emergency has developed. All Civil Personnel are to report to the nearest Breach Shelter. Random searches are allowed and advised.
+ALERT_AMBER_DOWNTO A major security emergency is still underway. All Civil Personnel are to report to the nearest Breach Shelter. Non-security personnel are required to obey all relevant instructions from security staff.
+ALERT_ORANGE_UPTO A major engineering emergency has developed. Non-engineering personnel are required to evacuate any affected areas and obey relevant instructions from engineering staff. Engineering staff will have expanded access to areas of the facility during the emergency.
+ALERT_ORANGE_DOWNTO A major engineering emergency has developed. Non-engineering personnel are required to evacuate any affected areas and obey relevant instructions from engineering staff. Engineering staff will have expanded access to areas of the facility during the emergency.
+ALERT_VIOLET_UPTO A major biological emergency has developed. All Civil Personnel without a Level-3 Biohazard Suit are to report to the nearest Breach Shelter. All Civil Personnel are required to obey all relevant instructions from medical and security staff.
+ALERT_VIOLET_DOWNTO A major biological emergency has developed. All Civil Personnel without a Level-3 Biohazard Suit are to report to the nearest Breach Shelter. All Civil Personnel are required to obey all relevant instructions from medical and security staff.
+ALERT_EPSILON_UPTO The SCP Foundation has ordered the Epsilon security level on the facility. Consider all employment contracts terminated.
+ALERT_EPSILON_DOWNTO The SCP Foundation has ordered the Epsilon security level on the facility. Consider all employment contracts terminated.
+ALERT_DELTA_UPTO The Alpha Warheads have been activated. Destruction of the site is imminent. All employees are instructed to obey all instructions given by administrative staff. Any violations of these orders can be punished by termination. This is not a drill.
+ALERT_DELTA_DOWNTO The Alpha Warheads have been activated. Destruction of the site is still imminent. All employees are instructed to obey all instructions given by administrative staff. Any violations of these orders can be punished by termination. This is not a drill.
+ALERT_GAMMA The O5 Council has placed all facilities under Gamma Alert status. The world is facing a XK-Class End Of The World Scenario. Security Personnel is authorized full access to lethal equipment to enforce Martial Law. Failure to follow emergency procedures is punishable by termination. This is not a drill.
 
 ## The total weight of station goals possible for a round (allows multiple goals)
 STATION_GOAL_BUDGET 1

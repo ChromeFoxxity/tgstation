@@ -158,10 +158,10 @@
 /datum/config_entry/flag/arrivals_shuttle_require_safe_latejoin //Require the arrivals shuttle to be operational in order for latejoiners to join
 
 /datum/config_entry/string/alert_green
-	default = "All threats to the station have passed. Security may not have weapons visible, privacy laws are once again fully enforced."
+	default = "All threats to the facility have passed. All clear. Privacy laws are once again fully enforced. You may proceed to your workstations."
 
 /datum/config_entry/string/alert_blue_upto
-	default = "The station has received reliable information about possible hostile activity on the station. Security staff may have weapons visible, random searches are permitted."
+	default = "The site has received reliable information about possible hostile activity in this facility. Security staff may have weapons visible, random searches are permitted."
 
 /datum/config_entry/string/alert_blue_downto
 	default = "The immediate threat has passed. Security may no longer have weapons drawn at all times, but may continue to have them visible. Random searches are still allowed."

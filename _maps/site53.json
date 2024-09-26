@@ -3,6 +3,9 @@
 	"map_name": "Site 53",
 	"map_path": "modular_f19/maps/map_files",
 	"map_file": "site53-1.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"planetary": 1,
 	"shuttles": {
 		"cargo": "cargo_box",
 		"ferry": "ferry_fancy",
