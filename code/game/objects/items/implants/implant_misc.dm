@@ -62,7 +62,7 @@
 	radio_key = /obj/item/encryptionkey/headset_cargo
 
 /obj/item/implant/radio/syndicate
-	desc = "Are you there God? It's me, Syndicate Comms Agent."
+	desc = "Are you there God? It's me, Chaos Insurgency Comms Agent."
 	radio_key = /obj/item/encryptionkey/syndicate
 	subspace_transmission = TRUE
 

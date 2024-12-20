@@ -12,7 +12,7 @@
       records. Due to a visual bug and usability issue photos above 1 by 1 meters
       in size will no longer work for mugshots in records.
   Remuluson2:
-  - bugfix: After pressure from Nanotrasen, Space Wizard Federation made glass and
+  - bugfix: After pressure from SCP Foundation, Space Wizard Federation made glass and
       bone knives non-conductive again.
   scriptis:
   - bugfix: removes an infinite powercell from tram maintenance
@@ -146,7 +146,7 @@
   - bugfix: Fixed some issues with podpeople hair and horns not being drawn under
       the right circumstances all the time.
   Holoo-1:
-  - bugfix: Nanotrasen has conducted high precision in-depth analysis of Deltastation
+  - bugfix: SCP Foundation has conducted high precision in-depth analysis of Deltastation
       and its shuttles. As a result anomalous floortiles were replaced with standard
       issued ones.
   Iamgoofball:
@@ -217,7 +217,7 @@
       number of chickens and chicks are tracked. It's now possible for admins to make
       anything into an egg.
   dessysalta, Cheshify:
-  - rscadd: Nanotrasen has added a martial artist gi to the AutoDrobe for those who
+  - rscadd: SCP Foundation has added a martial artist gi to the AutoDrobe for those who
       want to go even further byond.
   - imageadd: Aforementioned gi sprites.
   tralezab:
@@ -619,7 +619,7 @@
   DAKKA-WAAAGH:
   - bugfix: Fixed duplicate tile decals and made tile decal shapes more efficient
   Helg2:
-  - balance: Syndicate briefcase full of cash is now worth of 3 tc instead of 5. Better
+  - balance: Chaos Insurgency briefcase full of cash is now worth of 3 tc instead of 5. Better
       than nothing
   - qol: added tooltips for pneumatic cannon. Also changed powerfist's tooltips slightly.
   - bugfix: fixed that you can't put wrench in pneumatic cannon.
@@ -819,7 +819,7 @@
   Astrogem2:
   - rscadd: New space ruin that I have made, which adds some variety to space searching.
   Cheshify:
-  - rscadd: Nanotrasen has given the crew access to a brand new emergency shuttle!
+  - rscadd: SCP Foundation has given the crew access to a brand new emergency shuttle!
       Watch out for it's destructive entrance!
   LT3:
   - imageadd: New fire alarm
@@ -1041,7 +1041,7 @@
   - balance: Changed Virologist and Scientist into Common objectives for kidnapping
   - balance: Changed Paramedic into Uncommon objectives for kidnapping
   Thunder12345:
-  - rscadd: The Nanotrasen Costuming Department has released specifications for how
+  - rscadd: The SCP Foundation Costuming Department has released specifications for how
       to convert the Head of Security's cap into a shako.
   Wallem:
   - balance: Fixes a glaring oversight with the entrenching tool's balancing.
@@ -1109,7 +1109,7 @@
   - imageadd: Resprites the Wirebrush
   - imagedel: Removes the sprite for the Advanced Wirebrush
   san7890:
-  - bugfix: 'The Syndicate have gotten their hands on the most dangerous weapon: A
+  - bugfix: 'The Chaos Insurgency have gotten their hands on the most dangerous weapon: A
       photocopier that doesn''t require any money. God save us all.'
   - bugfix: The hermit of the Icemoon has decided to build their hut in some deeper
       caves for a bit more protection from the local fauna.

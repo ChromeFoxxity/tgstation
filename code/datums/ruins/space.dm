@@ -36,7 +36,7 @@
 	id = "asteroid4"
 	suffix = "asteroid4.dmm"
 	name = "Space-Ruin Asteroid 4"
-	description = "Nanotrasen Escape Pods have a 100%* success rate, and a 99%* customer satisfaction rate. \
+	description = "SCP Foundation Escape Pods have a 100%* success rate, and a 99%* customer satisfaction rate. \
 	*Please note that these statistics are taken from pods that have successfully docked with a recovery vessel."
 
 /datum/map_template/ruin/space/asteroid5
@@ -111,7 +111,7 @@
 	id = "derelict6"
 	suffix = "derelict6.dmm"
 	name = "Space-Ruin Derelict 6"
-	description = "The hush-hush of Nanotrasen when it comes to stations seemingly vanishing off the radar is an interesting topic, theories of nuclear destruction float about while Nanotrasen \
+	description = "The hush-hush of SCP Foundation when it comes to stations seemingly vanishing off the radar is an interesting topic, theories of nuclear destruction float about while SCP Foundation \
 	flat-out denies said stations ever existing."
 
 /datum/map_template/ruin/space/derelict7
@@ -153,7 +153,7 @@
 /datum/map_template/ruin/space/caravanambush
 	id = "caravanambush"
 	suffix = "caravanambush.dmm"
-	name = "Space-Ruin Syndicate Ambush"
+	name = "Space-Ruin Chaos Insurgency Ambush"
 	description = "A caravan route used by passing cargo freights has been ambushed by a salvage team manned by the syndicate. \
 	The caravan managed to send off a distress message before being surrounded, their video feed cutting off as the sound of gunfire and a parrot was heard."
 
@@ -238,7 +238,7 @@
 /datum/map_template/ruin/space/listeningstation
 	id = "listeningstation"
 	suffix = "listeningstation.dmm"
-	name = "Space-Ruin Syndicate Listening Station"
+	name = "Space-Ruin Chaos Insurgency Listening Station"
 	description = "Listening stations form the backbone of the syndicate's information-gathering operations. \
 	Assignment to these stations is dreaded by most agents, as it entails long and lonely shifts listening to nearby stations chatter incessantly about the most meaningless things."
 
@@ -324,14 +324,14 @@
 /datum/map_template/ruin/space/forgottenship
 	id = "forgottenship"
 	suffix = "forgottenship.dmm"
-	name = "Space-Ruin Syndicate Forgotten Ship"
+	name = "Space-Ruin Chaos Insurgency Forgotten Ship"
 	description = "Seemingly abandoned ship went of course right into NT controlled space. It seems that malfunction caused most systems to turn off, except for sleepers."
 
 /datum/map_template/ruin/space/old_syndie_infiltrator
 	id = "old_infiltrator"
 	suffix = "old_infiltrator.dmm"
 	name = "Space-Ruin Abandoned Infiltrator"
-	description = "Only one in five Gorlex Marauder strike forces return from their regular raids into Nanotrasen space. \
+	description = "Only one in five Gorlex Marauder strike forces return from their regular raids into SCP Foundation space. \
 		For the other four... well, their ship doesn't just disappear when their target evacuates."
 
 /datum/map_template/ruin/space/hellfactory
@@ -470,7 +470,7 @@
 	id = "Space_phonebooth"
 	suffix = "phonebooth.dmm"
 	name = "Space-Ruin Phonebooth"
-	description = "A venture by Nanotrasen to help popularize the use of holopads."
+	description = "A venture by SCP Foundation to help popularize the use of holopads."
 
 /datum/map_template/ruin/space/the_outlet
 	id = "the_outlet"

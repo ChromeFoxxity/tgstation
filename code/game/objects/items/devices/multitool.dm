@@ -84,7 +84,7 @@
 	SIGNAL_HANDLER
 	buffer = null
 
-// Syndicate device disguised as a multitool; it will turn red when an AI camera is nearby.
+// Chaos Insurgency device disguised as a multitool; it will turn red when an AI camera is nearby.
 
 /obj/item/multitool/ai_detect
 	actions_types = list(/datum/action/item_action/toggle_multitool)

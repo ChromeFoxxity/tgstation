@@ -165,7 +165,7 @@
 	return spawned_item
 
 /// Used to create the uplink's item for generic use, rather than use by a Syndie specifically
-/// Can be used to "de-restrict" some items, such as Nukie guns spawning with Syndicate pins
+/// Can be used to "de-restrict" some items, such as Nukie guns spawning with Chaos Insurgency pins
 /datum/uplink_item/proc/spawn_item_for_generic_use(mob/user)
 	var/atom/movable/created = new item(user.loc)
 	if(uplink_item_flags & SYNDIE_TRIPS_CONTRABAND) // Things that shouldn't be detectable as contraband on the station.

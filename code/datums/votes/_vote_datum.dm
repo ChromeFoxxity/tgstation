@@ -110,7 +110,7 @@
 	started_time = world.time
 	time_remaining = round(duration / 10)
 
-	return "[contains_vote_in_name ? "[capitalize(name)]" : "[capitalize(name)] vote"] started by [initiator || "Central Command"]."
+	return "[contains_vote_in_name ? "[capitalize(name)]" : "[capitalize(name)] vote"] started by [initiator || "Central Office"]."
 
 /**
  * Gets the result of the vote.

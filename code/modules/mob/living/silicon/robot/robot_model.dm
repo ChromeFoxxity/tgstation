@@ -845,7 +845,7 @@
 			enzyme.reagents.add_reagent(/datum/reagent/consumable/enzyme, 2 * coeff)
 
 /obj/item/robot_model/syndicate
-	name = "Syndicate Assault"
+	name = "Chaos Insurgency Assault"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/melee/energy/sword/cyborg,
@@ -872,7 +872,7 @@
 	cyborg.faction |= FACTION_SILICON //ai is your bff now!
 
 /obj/item/robot_model/syndicate_medical
-	name = "Syndicate Medical"
+	name = "Chaos Insurgency Medical"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/reagent_containers/borghypo/syndicate,
@@ -897,7 +897,7 @@
 	hat_offset = list("north" = list(0, 3), "south" = list(0, 3), "east" = list(-1, 3), "west" = list(1, 3))
 
 /obj/item/robot_model/saboteur
-	name = "Syndicate Saboteur"
+	name = "Chaos Insurgency Saboteur"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/borg/sight/thermal,

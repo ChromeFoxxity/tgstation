@@ -277,7 +277,7 @@
 "pl" = (
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/machinery/door/airlock/centcom{
-	name = "Syndicate Secure Airlock System";
+	name = "Chaos Insurgency Secure Airlock System";
 	desc = "Truly, a marvel of modern engineering."
 	},
 /obj/structure/cable,
@@ -437,7 +437,7 @@
 "wj" = (
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/machinery/door/airlock/centcom{
-	name = "Nanotrasen Airlock";
+	name = "SCP Foundation Airlock";
 	desc = "Truly, a marvel of modern engineering."
 	},
 /obj/structure/cable,

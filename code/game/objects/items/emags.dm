@@ -212,7 +212,7 @@
 /obj/item/card/emag/battlecruiser
 	name = "battlecruiser coordinates upload card"
 	desc = "An ominous card that contains the location of the station, and when applied to a communications console, \
-	the ability to long-distance contact the Syndicate fleet."
+	the ability to long-distance contact the Chaos Insurgency fleet."
 	icon_state = "battlecruisercaller"
 	worn_icon_state = "emag"
 	///whether we have called the battlecruiser

@@ -10,7 +10,7 @@
 /datum/map_template/shuttle/ruin/caravan_victim
 	suffix = "caravan_victim"
 	name = "Small Freighter"
-	description = "Small freight vessel, starts near blacked-out with 3 Syndicate Commandos and 1 Syndicate Stormtrooper, alongside a large hull breach."
+	description = "Small freight vessel, starts near blacked-out with 3 Chaos Insurgency Commandos and 1 Chaos Insurgency Stormtrooper, alongside a large hull breach."
 
 /datum/map_template/shuttle/ruin/pirate_cutter
 	suffix = "pirate_cutter"
@@ -19,10 +19,10 @@
 
 /datum/map_template/shuttle/ruin/syndicate_dropship
 	suffix = "syndicate_dropship"
-	name = "Syndicate Dropship"
-	description = "Light Syndicate vessel with laser turrets. Spawns with a Syndicate mob in the bridge."
+	name = "Chaos Insurgency Dropship"
+	description = "Light Chaos Insurgency vessel with laser turrets. Spawns with a Chaos Insurgency mob in the bridge."
 
 /datum/map_template/shuttle/ruin/syndicate_fighter_shiv
 	suffix = "syndicate_fighter_shiv"
-	name = "Syndicate Fighter"
-	description = "A small Syndicate vessel with exactly one tile of useful interior space and 4 laser turrets. Starts with a Syndicate mob in the pilot's seat, and extremely cramped."
+	name = "Chaos Insurgency Fighter"
+	description = "A small Chaos Insurgency vessel with exactly one tile of useful interior space and 4 laser turrets. Starts with a Chaos Insurgency mob in the pilot's seat, and extremely cramped."

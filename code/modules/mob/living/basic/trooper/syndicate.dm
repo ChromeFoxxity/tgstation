@@ -1,13 +1,13 @@
-/// Syndicate troopers
+/// Chaos Insurgency troopers
 /mob/living/basic/trooper/syndicate
-	name = "Syndicate Operative"
-	desc = "Death to Nanotrasen."
+	name = "Chaos Insurgency Operative"
+	desc = "Death to SCP Foundation."
 	faction = list(ROLE_SYNDICATE)
 	loot = list(/obj/effect/mob_spawn/corpse/human/syndicatesoldier)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatesoldier
 
 /mob/living/basic/trooper/syndicate/space
-	name = "Syndicate Commando"
+	name = "Chaos Insurgency Commando"
 	maxHealth = 170
 	health = 170
 	loot = list(/obj/effect/gibspawner/human)
@@ -21,7 +21,7 @@
 	set_light(4)
 
 /mob/living/basic/trooper/syndicate/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "Chaos Insurgency Stormtrooper"
 	maxHealth = 250
 	health = 250
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper
@@ -44,7 +44,7 @@
 	return ..()
 
 /mob/living/basic/trooper/syndicate/melee/space
-	name = "Syndicate Commando"
+	name = "Chaos Insurgency Commando"
 	maxHealth = 170
 	health = 170
 	unsuitable_atmos_damage = 0
@@ -57,7 +57,7 @@
 	set_light(4)
 
 /mob/living/basic/trooper/syndicate/melee/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "Chaos Insurgency Stormtrooper"
 	maxHealth = 250
 	health = 250
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper
@@ -77,7 +77,7 @@
 	l_hand = /obj/item/shield/energy
 
 /mob/living/basic/trooper/syndicate/melee/sword/space
-	name = "Syndicate Commando"
+	name = "Chaos Insurgency Commando"
 	maxHealth = 170
 	health = 170
 	unsuitable_atmos_damage = 0
@@ -90,7 +90,7 @@
 	ADD_TRAIT(src, TRAIT_SPACEWALK, INNATE_TRAIT)
 
 /mob/living/basic/trooper/syndicate/melee/sword/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "Chaos Insurgency Stormtrooper"
 	maxHealth = 250
 	health = 250
 	projectile_deflect_chance = 50
@@ -128,7 +128,7 @@
 	loot = list(/obj/effect/mob_spawn/corpse/human/syndicatesoldier)
 
 /mob/living/basic/trooper/syndicate/ranged/space
-	name = "Syndicate Commando"
+	name = "Chaos Insurgency Commando"
 	maxHealth = 170
 	health = 170
 	unsuitable_atmos_damage = 0
@@ -141,7 +141,7 @@
 	set_light(4)
 
 /mob/living/basic/trooper/syndicate/ranged/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "Chaos Insurgency Stormtrooper"
 	maxHealth = 250
 	health = 250
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper
@@ -162,12 +162,12 @@
 	loot = list()
 
 /mob/living/basic/trooper/syndicate/ranged/smg/pilot //caravan ambush ruin
-	name = "Syndicate Salvage Pilot"
+	name = "Chaos Insurgency Salvage Pilot"
 	loot = list(/obj/effect/mob_spawn/corpse/human/syndicatepilot)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatepilot
 
 /mob/living/basic/trooper/syndicate/ranged/smg/space
-	name = "Syndicate Commando"
+	name = "Chaos Insurgency Commando"
 	maxHealth = 170
 	health = 170
 	unsuitable_atmos_damage = 0
@@ -180,7 +180,7 @@
 	set_light(4)
 
 /mob/living/basic/trooper/syndicate/ranged/smg/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "Chaos Insurgency Stormtrooper"
 	maxHealth = 250
 	health = 250
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper
@@ -193,7 +193,7 @@
 	r_hand = /obj/item/gun/ballistic/shotgun/bulldog
 
 /mob/living/basic/trooper/syndicate/ranged/shotgun/space
-	name = "Syndicate Commando"
+	name = "Chaos Insurgency Commando"
 	maxHealth = 170
 	health = 170
 	unsuitable_atmos_damage = 0
@@ -206,7 +206,7 @@
 	set_light(4)
 
 /mob/living/basic/trooper/syndicate/ranged/shotgun/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "Chaos Insurgency Stormtrooper"
 	maxHealth = 250
 	health = 250
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper

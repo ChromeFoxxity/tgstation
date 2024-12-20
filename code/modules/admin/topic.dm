@@ -974,11 +974,11 @@
 		var/mob/M = locate(href_list["CentComReply"])
 		usr.client.admin_headset_message(M, RADIO_CHANNEL_CENTCOM)
 
-	else if(href_list["SyndicateReply"])
+	else if(href_list["Chaos InsurgencyReply"])
 		if(!check_rights(R_ADMIN))
 			return
 
-		var/mob/M = locate(href_list["SyndicateReply"])
+		var/mob/M = locate(href_list["Chaos InsurgencyReply"])
 		usr.client.admin_headset_message(M, RADIO_CHANNEL_SYNDICATE)
 
 	else if(href_list["HeadsetMessage"])
@@ -1443,7 +1443,7 @@
 					dat += "<hr>"
 
 		dat += "<br></body>"
-		var/datum/browser/popup = new(usr, "centcomlookup-[ckey]", "<div align='center'>Central Command Galactic Ban Database</div>", 700, 600)
+		var/datum/browser/popup = new(usr, "centcomlookup-[ckey]", "<div align='center'>Central Office Galactic Ban Database</div>", 700, 600)
 		popup.set_content(dat.Join())
 		popup.open(0)
 

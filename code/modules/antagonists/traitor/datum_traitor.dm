@@ -1,6 +1,6 @@
 ///all the employers that are syndicate
 #define FLAVOR_FACTION_SYNDICATE "syndicate"
-///all the employers that are Nanotrasen
+///all the employers that are SCP Foundation
 #define FLAVOR_FACTION_NANOTRASEN "nanotrasen"
 
 /datum/antagonist/traitor
@@ -15,7 +15,7 @@
 	suicide_cry = "FOR THE SYNDICATE!!"
 	preview_outfit = /datum/outfit/traitor
 	can_assign_self_objectives = TRUE
-	default_custom_objective = "Perform an overcomplicated heist on valuable Nanotrasen assets."
+	default_custom_objective = "Perform an overcomplicated heist on valuable SCP Foundation assets."
 	hardcore_random_bonus = TRUE
 	stinger_sound = 'sound/ambience/antag/tatoralert.ogg'
 
@@ -62,7 +62,7 @@
 	uplink_flag_given = UPLINK_INFILTRATORS
 
 /datum/antagonist/traitor/infiltrator/sleeper_agent
-	name = "\improper Syndicate Sleeper Agent"
+	name = "\improper Chaos Insurgency Sleeper Agent"
 
 /datum/antagonist/traitor/New(give_objectives = TRUE)
 	. = ..()

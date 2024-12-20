@@ -587,7 +587,7 @@ GLOBAL_VAR(station_nuke_source)
 		if(DETONATION_HIT_SYNDIE_BASE)
 			priority_announce(
 				"Long Range Scanners indicate that the nuclear device has detonated on a previously unknown base, we assume \
-				the base to be of Syndicate Origin. Good work crew.",
+				the base to be of Chaos Insurgency Origin. Good work crew.",
 				"Nuclear Operations Command",
 			)
 

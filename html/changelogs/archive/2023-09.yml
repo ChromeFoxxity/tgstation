@@ -441,7 +441,7 @@
   - qol: A tip about nautical directions, too.
   Hatterhat:
   - rscadd: The SC/FISHER disruptor pistol, a very compact, permanently silenced energy
-      gun, is now stocked in Nanotrasen-accessible black markets with a price generally
+      gun, is now stocked in SCP Foundation-accessible black markets with a price generally
       somewhere between 400 and 800 credits. Aspiring users are warned that it's really
       bad for trying to actually kill people. Caveat emptor.
   - rscadd: Guns now have a dry_fire_sound_volume variable, allowing for guns to be
@@ -700,7 +700,7 @@
   - bugfix: The Nightmare's Light Eater can no longer suck the light out of space
       tiles.
   Moose1002:
-  - bugfix: Nanotrasen has finally recalled their faulty multitools and replaced them
+  - bugfix: SCP Foundation has finally recalled their faulty multitools and replaced them
       with working ones! The multitool's buffer now properly clears itself.
   - qol: Moved multitool link messages to balloon alerts
   RikuTheKiller:
@@ -906,7 +906,7 @@
   - code_imp: Convert supermatter_zap() and tesla_zap() zap_str argument unit to be
       in joules, and scales everything that uses that argument.
   Singul0:
-  - bugfix: Syndicate Modsuit AI's now downloads the current codespeak book upon being
+  - bugfix: Chaos Insurgency Modsuit AI's now downloads the current codespeak book upon being
       downloaded.
   Vekter:
   - bugfix: Fixes Birdshot's recycler being turned the wrong direction.
@@ -1244,7 +1244,7 @@
       domains.
   - bugfix: Changed quantum console UI to display "no bandwidth" rather than "none"
   lizardqueenlexi:
-  - bugfix: The reverse revolver now looks like a normal Syndicate revolver on inspection.
+  - bugfix: The reverse revolver now looks like a normal Chaos Insurgency revolver on inspection.
   nikothedude:
   - code_imp: Gauze removal is now handled by the gauze's destroy instead of seep_gauze
   xPokee:

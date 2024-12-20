@@ -176,9 +176,9 @@
 			announcement_text_list += "We're also offering fortune telling services out of the front door if you have paying customers."
 			announcement_title += "Fortune-Telling Entertainment Shuttle"
 		if(HUNTER_PACK_MI13)
-			announcement_text_list += "Illegal intrusion detected in the crew monitoring network. Central Command has been informed."
+			announcement_text_list += "Illegal intrusion detected in the crew monitoring network. Central Office has been informed."
 			announcement_text_list += "Please report any suspicious individuals or behaviour to your local security team."
-			announcement_title += "Nanotrasen Intrusion Countermeasures Electronics"
+			announcement_title += "SCP Foundation Intrusion Countermeasures Electronics"
 	if(!length(announcement_text_list))
 		announcement_text_list += "Unidentified ship detected near the station."
 		stack_trace("Fugitive hunter announcement was unable to generate an announcement text based on backstory: [backstory]")

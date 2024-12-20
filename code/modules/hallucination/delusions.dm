@@ -208,7 +208,7 @@
 /datum/hallucination/delusion/preset/syndies
 	dynamic_delusion = TRUE
 	random_hallucination_weight = 1
-	delusion_name = "Syndicate"
+	delusion_name = "Chaos Insurgency"
 	affects_others = TRUE
 	affects_us = FALSE
 

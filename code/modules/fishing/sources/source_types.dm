@@ -217,8 +217,8 @@
 		/obj/item/fish/chainsawfish = 7 MINUTES,
 		/obj/item/fish/pike/armored = 7 MINUTES,
 	)
-	catalog_description = "Syndicate dimension (Fishing portal generator)"
-	radial_name = "Syndicate"
+	catalog_description = "Chaos Insurgency dimension (Fishing portal generator)"
+	radial_name = "Chaos Insurgency"
 	fishing_difficulty = FISHING_DEFAULT_DIFFICULTY + 15
 	overlay_state = "portal_syndicate"
 	radial_state = "syndi_snake"

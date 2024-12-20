@@ -54,7 +54,7 @@
 #define ADMIN_SP(user) "(<a href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];skill=[REF(user)]'>SP</a>)"
 #define ADMIN_KICK(user) "(<a href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];boot2=[REF(user)]'>KICK</a>)"
 #define ADMIN_CENTCOM_REPLY(user) "(<a href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];CentComReply=[REF(user)]'>RPLY</a>)"
-#define ADMIN_SYNDICATE_REPLY(user) "(<a href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];SyndicateReply=[REF(user)]'>RPLY</a>)"
+#define ADMIN_SYNDICATE_REPLY(user) "(<a href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];Chaos InsurgencyReply=[REF(user)]'>RPLY</a>)"
 #define ADMIN_SC(user) "(<a href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];adminspawncookie=[REF(user)]'>SC</a>)"
 #define ADMIN_SMITE(user) "(<a href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];adminsmite=[REF(user)]'>SMITE</a>)"
 #define ADMIN_LOOKUP(user) "[key_name_admin(user)][ADMIN_QUE(user)]"
@@ -73,7 +73,7 @@
 #define ADMIN_LUAVIEW_CHUNK(state, log_index) "(<a href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];lua_state=[REF(state)];log_index=[log_index]'>VIEW CODE</a>)"
 /// Displays "(SHOW)" in the chat, when clicked it tries to show atom(paper). First you need to set the request_state variable to TRUE for the paper.
 #define ADMIN_SHOW_PAPER(atom) "(<A href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];show_paper=[REF(atom)]'>SHOW</a>)"
-/// Displays "(PRINT)" in the chat, when clicked it will try to print the atom(paper) on the CentCom/Syndicate fax machine.
+/// Displays "(PRINT)" in the chat, when clicked it will try to print the atom(paper) on the CentCom/Chaos Insurgency fax machine.
 #define ADMIN_PRINT_FAX(atom, sender, destination) "(<a href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];print_fax=[REF(atom)];sender_name=[sender];destination=[destination]'>PRINT</a>)"
 /// Displays "(PLAY)" in the chat, when clicked it tries to play internet sounds from the request.
 #define ADMIN_PLAY_INTERNET(text, credit) "(<A href='?_src_=holder;[HrefToken(forceGlobal = TRUE)];play_internet=[url_encode(text)];credit=[credit]'>PLAY</a>)"

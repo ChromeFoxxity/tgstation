@@ -1,6 +1,6 @@
 /obj/item/skillchip
 	name = "skillchip"
-	desc = "This biochip integrates with user's brain to enable mastery of specific skill. Consult certified Nanotrasen neurosurgeon before use."
+	desc = "This biochip integrates with user's brain to enable mastery of specific skill. Consult certified SCP Foundation neurosurgeon before use."
 
 	icon = 'icons/obj/devices/circuitry_n_data.dmi'
 	icon_state = "skillchip"

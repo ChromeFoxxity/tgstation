@@ -13,8 +13,8 @@
 	uplink_item_flags = NONE
 
 /datum/uplink_item/spy_unique/syndie_bowman
-	name = "Syndicate Bowman"
-	desc = "A bowman headset for members of the Syndicate. Not very conspicuous."
+	name = "Chaos Insurgency Bowman"
+	desc = "A bowman headset for members of the Chaos Insurgency. Not very conspicuous."
 	item = /obj/item/radio/headset/syndicate/alt
 	cost = 1
 	uplink_item_flags = SYNDIE_ILLEGAL_TECH
@@ -129,7 +129,7 @@
 	uplink_item_flags = SYNDIE_ILLEGAL_TECH | SYNDIE_TRIPS_CONTRABAND
 
 /datum/uplink_item/spy_unique/medkit_lite
-	name = "Syndicate First Medic Kit"
+	name = "Chaos Insurgency First Medic Kit"
 	desc = "A syndicate tactical combat medkit, but only stocked enough to do basic first aid."
 	item = /obj/item/storage/medkit/tactical_lite
 	uplink_item_flags = SYNDIE_TRIPS_CONTRABAND

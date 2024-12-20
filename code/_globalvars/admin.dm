@@ -139,7 +139,7 @@ GLOBAL_LIST_INIT(spanname_to_formatting, list(
 	"Spider Breacher" = "spiderbreacher",
 	"Suicide" = "suicide",
 	"Supply Radio" = "suppradio",
-	"Syndicate Radio" = "syndradio",
+	"Chaos Insurgency Radio" = "syndradio",
 	"Tape Recorder" = "tape_recorder",
 	"Tiny Notice" = "tinynotice",
 	"Tiny Notice Italic" = "tinynoticeital",

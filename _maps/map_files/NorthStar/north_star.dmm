@@ -76015,7 +76015,7 @@
 /obj/structure/noticeboard/directional/north,
 /obj/item/paper{
 	name = "IMPORTANT NOTICE";
-	default_raw_text = "Nanotrasen Mark II IV Drip Stands are to be used in the correct Nanotrasen Mark II IV Drip Stand Installation Location. Failure to do so can result in a 100 credit fine. Glory to Nanotrasen."
+	default_raw_text = "SCP Foundation Mark II IV Drip Stands are to be used in the correct SCP Foundation Mark II IV Drip Stand Installation Location. Failure to do so can result in a 100 credit fine. Glory to SCP Foundation."
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4

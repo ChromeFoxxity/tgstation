@@ -141,7 +141,7 @@
 		do_sparks(4, TRUE, src)
 		qdel(src)
 	else
-		to_chat(user, span_warning("Unable to connect to Syndicate command. Please wait and try again later or use the beacon on your uplink to get your points refunded."))
+		to_chat(user, span_warning("Unable to connect to Chaos Insurgency command. Please wait and try again later or use the beacon on your uplink to get your points refunded."))
 
 /obj/item/antag_spawner/nuke_ops/spawn_antag(client/our_client, turf/T, kind, datum/mind/user)
 	var/mob/living/carbon/human/nukie = new()
@@ -196,7 +196,7 @@
 	name = "syndicate cyborg beacon"
 	desc = "A single-use beacon designed to quickly launch reinforcement cyborgs into the field."
 	antag_datum = /datum/antagonist/nukeop/reinforcement/cyborg
-	special_role_name = "Syndicate Cyborg"
+	special_role_name = "Chaos Insurgency Cyborg"
 
 /obj/item/antag_spawner/nuke_ops/borg_tele/assault
 	name = "syndicate assault cyborg beacon"
@@ -323,7 +323,7 @@
 	/// What category to ignore the poll
 	var/poll_ignore_category = POLL_IGNORE_SYNDICATE
 	/// text given when device fails to secure candidates
-	var/fail_text = "Unable to connect to Syndicate command. Please wait and try again later or use the beacon on your uplink to get your points refunded."
+	var/fail_text = "Unable to connect to Chaos Insurgency command. Please wait and try again later or use the beacon on your uplink to get your points refunded."
 
 /obj/item/antag_spawner/loadout/proc/check_usability(mob/user)
 	if(used)
@@ -432,7 +432,7 @@
 	imp.implant(monkey_man, user)
 
 /datum/outfit/syndicate_monkey
-	name = "Syndicate Monkey Agent Kit"
+	name = "Chaos Insurgency Monkey Agent Kit"
 
 	head = /obj/item/clothing/head/fedora
 	mask = /obj/item/cigarette/syndicate

@@ -679,7 +679,7 @@
 	belt = /obj/item/gun/energy/shrink_ray
 
 /datum/outfit/deathmatch_loadout/battler/clown/upgraded
-	name = "Deathmatch: Clown (Syndicate Gear)"
+	name = "Deathmatch: Clown (Chaos Insurgency Gear)"
 	display_name = "Clown Commando"
 	desc = "They were bound to show up sooner or later."
 

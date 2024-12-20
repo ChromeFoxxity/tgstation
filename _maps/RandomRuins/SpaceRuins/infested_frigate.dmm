@@ -1714,7 +1714,7 @@
 /obj/item/wallframe/telescreen/entertainment{
 	icon_state = "entertainment";
 	name = "relatively interesting news";
-	desc = "It's been live this whole time, news from Nanotrasen core space, just an hour ago.";
+	desc = "It's been live this whole time, news from SCP Foundation core space, just an hour ago.";
 	light_power = 0.5;
 	light_range = 3
 	},
@@ -2158,7 +2158,7 @@
 /obj/structure/frame/computer{
 	anchored = 1;
 	icon_state = "1";
-	name = "Syndicate bridge console";
+	name = "Chaos Insurgency bridge console";
 	desc = "At least it used to be."
 	},
 /obj/effect/turf_decal{
@@ -2874,7 +2874,7 @@
 /obj/structure/showcase/machinery/microwave{
 	icon_state = "mwbloodyo";
 	desc = "A product so good your enemies still own one. The dim bloody light compliments the TV's.";
-	name = "Nanotrasen brand microwave";
+	name = "SCP Foundation brand microwave";
 	pixel_y = 7
 	},
 /obj/structure/cable,

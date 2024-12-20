@@ -1,6 +1,6 @@
 /obj/structure/closet/wardrobe
 	name = "wardrobe"
-	desc = "It's a storage unit for standard-issue Nanotrasen attire."
+	desc = "It's a storage unit for standard-issue SCP Foundation attire."
 	icon_door = "blue"
 
 /obj/structure/closet/wardrobe/PopulateContents()
@@ -70,7 +70,7 @@
 
 /obj/structure/closet/wardrobe/orange
 	name = "prison wardrobe"
-	desc = "It's a storage unit for Nanotrasen-regulation prisoner attire."
+	desc = "It's a storage unit for SCP Foundation-regulation prisoner attire."
 	icon_door = "orange"
 
 /obj/structure/closet/wardrobe/orange/PopulateContents()

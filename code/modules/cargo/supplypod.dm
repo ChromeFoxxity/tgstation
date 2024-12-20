@@ -2,7 +2,7 @@
 //------------------------------------SUPPLY POD-------------------------------------//
 /obj/structure/closet/supplypod
 	name = "supply pod" //Names and descriptions are normally created with the setStyle() proc during initialization, but we have these default values here as a failsafe
-	desc = "A Nanotrasen supply drop pod."
+	desc = "A SCP Foundation supply drop pod."
 	icon = 'icons/obj/supplypods.dmi'
 	icon_state = "pod" //This is a common base sprite shared by a number of pods
 	pixel_x = SUPPLYPOD_X_OFFSET //2x2 sprite
@@ -80,7 +80,7 @@
 	return ..()
 
 /obj/structure/closet/supplypod/extractionpod
-	name = "Syndicate Extraction Pod"
+	name = "Chaos Insurgency Extraction Pod"
 	desc = "A specalised, blood-red styled pod for extracting high-value targets out of active mission areas. <b>Targets must be manually stuffed inside the pod for proper delivery.</b>"
 	specialised = TRUE
 	style = /datum/pod_style/syndicate
@@ -764,7 +764,7 @@
 //------------------------------------UPGRADES-------------------------------------//
 /obj/item/disk/cargo/bluespace_pod //Disk that can be inserted into the Express Console to allow for Advanced Bluespace Pods
 	name = "Bluespace Drop Pod Upgrade"
-	desc = "This disk provides a firmware update to the Express Supply Console, granting the use of Nanotrasen's Bluespace Drop Pods to the supply department."
+	desc = "This disk provides a firmware update to the Express Supply Console, granting the use of SCP Foundation's Bluespace Drop Pods to the supply department."
 	icon = 'icons/obj/devices/circuitry_n_data.dmi'
 	icon_state = "cargodisk"
 	inhand_icon_state = "card-id"

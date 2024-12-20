@@ -2,13 +2,13 @@
 ///all the corpses meant as mob drops yes, these definitely could be sorted properly. i invite (you) to do it!!
 
 /obj/effect/mob_spawn/corpse/human/syndicatesoldier
-	name = "Syndicate Operative"
+	name = "Chaos Insurgency Operative"
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 	outfit = /datum/outfit/syndicatesoldiercorpse
 
 /datum/outfit/syndicatesoldiercorpse
-	name = "Syndicate Operative Corpse"
+	name = "Chaos Insurgency Operative Corpse"
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/armor/vest
 	shoes = /obj/item/clothing/shoes/combat
@@ -21,13 +21,13 @@
 	id_trim = /datum/id_trim/chameleon/operative
 
 /obj/effect/mob_spawn/corpse/human/syndicatecommando
-	name = "Syndicate Commando"
+	name = "Chaos Insurgency Commando"
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 	outfit = /datum/outfit/syndicatecommandocorpse
 
 /datum/outfit/syndicatecommandocorpse
-	name = "Syndicate Commando Corpse"
+	name = "Chaos Insurgency Commando Corpse"
 	uniform = /obj/item/clothing/under/syndicate
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
@@ -42,7 +42,7 @@
 	outfit = /datum/outfit/syndicatecommandocorpse/lessenedgear
 
 /datum/outfit/syndicatecommandocorpse/lessenedgear
-	name = "Syndicate Commando Corpse (Less Antag Gear)"
+	name = "Chaos Insurgency Commando Corpse (Less Antag Gear)"
 	gloves = /obj/item/clothing/gloves/tackler
 	back = null
 	id = null
@@ -52,7 +52,7 @@
 	outfit = /datum/outfit/syndicatecommandocorpse/soft_suit
 
 /datum/outfit/syndicatecommandocorpse/soft_suit
-	name = "Syndicate Commando Corpse (Softsuit)"
+	name = "Chaos Insurgency Commando Corpse (Softsuit)"
 	suit = /obj/item/clothing/suit/space/syndicate/black
 	head = /obj/item/clothing/head/helmet/space/syndicate/black
 	gloves = /obj/item/clothing/gloves/color/black
@@ -61,13 +61,13 @@
 	id_trim = null
 
 /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "Chaos Insurgency Stormtrooper"
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 	outfit = /datum/outfit/syndicatestormtroopercorpse
 
 /datum/outfit/syndicatestormtroopercorpse
-	name = "Syndicate Stormtrooper Corpse"
+	name = "Chaos Insurgency Stormtrooper Corpse"
 	uniform = /obj/item/clothing/under/syndicate
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/tackler/combat
@@ -78,13 +78,13 @@
 	id_trim = /datum/id_trim/chameleon/operative
 
 /obj/effect/mob_spawn/corpse/human/syndicatepilot
-	name = "Syndicate Pilot"
+	name = "Chaos Insurgency Pilot"
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 	outfit = /datum/outfit/syndicatepilotcorpse
 
 /datum/outfit/syndicatepilotcorpse
-	name = "Syndicate Pilot Corpse"
+	name = "Chaos Insurgency Pilot Corpse"
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/armor/vest/alt
 	shoes = /obj/item/clothing/shoes/combat
@@ -293,7 +293,7 @@
 	head = /obj/item/clothing/head/collectable/paper
 
 /obj/effect/mob_spawn/corpse/human/nanotrasensoldier
-	name = "\improper Nanotrasen Private Security Officer"
+	name = "\improper SCP Foundation Private Security Officer"
 	outfit = /datum/outfit/nanotrasensoldiercorpse
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
@@ -312,7 +312,7 @@
 	id_trim = /datum/id_trim/centcom/corpse/private_security/tradepost_officer
 
 /obj/effect/mob_spawn/corpse/human/nanotrasenassaultsoldier
-	name = "\improper Nanotrasen Assault Officer Corpse"
+	name = "\improper SCP Foundation Assault Officer Corpse"
 	outfit = /datum/outfit/nanotrasenassaultsoldiercorpse
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
@@ -331,7 +331,7 @@
 	id_trim = /datum/id_trim/centcom/corpse/assault
 
 /obj/effect/mob_spawn/corpse/human/nanotrasenelitesoldier
-	name = "\improper Nanotrasen Elite Assault Officer Corpse"
+	name = "\improper SCP Foundation Elite Assault Officer Corpse"
 	outfit = /datum/outfit/nanotrasenelitesoldiercorpse
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"

@@ -395,7 +395,7 @@
       actually appear on console lists
   - spellcheck: AI Upload cameras edited to not be lowercase (ai_upload -> AI Upload)
   VexingRaven:
-  - bugfix: Fixed a malfunctioning lantern on Ice Box and the Syndicate Listening
+  - bugfix: Fixed a malfunctioning lantern on Ice Box and the Chaos Insurgency Listening
       Station.
   Vishenka0704:
   - rscadd: Added "ProcCall" & "Tweak Components Rating" modes in buildmode
@@ -420,7 +420,7 @@
       access.
   - qol: '''Mining'' access is now named ''Mining Dock'' while ''Mining EVA'' is now
       named ''Mining Outpost'', to better reflect what they are.'
-  - qol: Syndicate sleepers (the ones in the nukie base outpost) now drops their board
+  - qol: Chaos Insurgency sleepers (the ones in the nukie base outpost) now drops their board
       on deconstruction.
   - bugfix: SaturnX now properly turns you invisible again.
   ShizCalev:
@@ -563,7 +563,7 @@
   scriptis:
   - qol: AIs are now loudmode in binary chat
   skylord-a52:
-  - rscadd: The Syndicate is now branching off into cheap tourist merchandise -- collect
+  - rscadd: The Chaos Insurgency is now branching off into cheap tourist merchandise -- collect
       your limited edition t-shirt today by entering the nearest kidnapping pod!
 2022-09-16:
   JohnFulpWillard:
@@ -829,7 +829,7 @@
       phrase on that voice analyzer.
   - bugfix: Voice analyzers should now properly trigger TTVs to blow up.
   skylord-a52:
-  - imageadd: Nanotrasen Grilling Jorts have received a cosmetic upgrade
+  - imageadd: SCP Foundation Grilling Jorts have received a cosmetic upgrade
 2022-09-25:
   KirbyDaMaster:
   - rscadd: '-6 Quirk for all prosthetics named "Quadruple Amputee" change: prosthetic
@@ -863,7 +863,7 @@
   - bugfix: Properly makes Gin garden alcoholic and adds quality tag. Is also now
       made with lime juice to prevent triggering the lemonade recipe.
   san7890, kugamo@ParadiseSS13:
-  - rscadd: Nanotrasen had a loose shipping container hit the hull of Central Command
+  - rscadd: SCP Foundation had a loose shipping container hit the hull of Central Command
       from one "Station P", so they just decided to pour those into the station's
       autodrobes.
 2022-09-26:
@@ -927,7 +927,7 @@
       plans of their drop pods, sabotaged by an intern many moons ago, resulting in
       a Totally Safe Skill Cape Delivery!
   Jacquerel:
-  - rscadd: Nanotrasen has started tracking exactly how often you're blowing up the
+  - rscadd: SCP Foundation has started tracking exactly how often you're blowing up the
       supermatter engine. Surely they can't be sending as many new crystals over there
       as their financial reports imply.
   JohnFulpWillard:

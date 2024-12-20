@@ -9,7 +9,7 @@
 
 /obj/item/paper/fluff/ruins/dangerous_research/smith
 	name = "A Traitor's Memo"
-	default_raw_text = "The Syndicate is up to something strange here; they've hired these people, most totally unaware of their true employers.<BR>I've sent the collected data to Nanotrasen, and I'm going to try to disrupt the test tomorrow, allowing this to continue isn't right.<BR>They're keeping the patient semi-lucid, so some stims should wake him up."
+	default_raw_text = "The Chaos Insurgency is up to something strange here; they've hired these people, most totally unaware of their true employers.<BR>I've sent the collected data to SCP Foundation, and I'm going to try to disrupt the test tomorrow, allowing this to continue isn't right.<BR>They're keeping the patient semi-lucid, so some stims should wake him up."
 	///Dream-Of-Beaches Journal
 /obj/item/paper/fluff/ruins/dangerous_research/beaches_journal_1
 	name = "Journal of Dreams-Of-Beaches - Day 1"
@@ -18,7 +18,7 @@
 /obj/item/paper/fluff/ruins/dangerous_research/beaches_journal_2
 	name = "Journal of Dreams-Of-Beaches - Day 33"
 	default_raw_text = "Something odd is going on. John has been blinded and muted for a time now but he's still moving around in that central chamber, drawing something. Elias, Smith, and Whitner seem to have some idea about what's going on and won't answer my questions.<BR>I'm going to sneak into the lab tonight to get a look at those drawings."
-	
+
 /obj/item/paper/fluff/ruins/dangerous_research/beaches_journal_3
 	name = "Journal of Dreams-Of-Beaches - Day 52"
 	default_raw_text = "Smith was in the chamber, gone in an instant.<BR> I don't know what happened to the doctor or Elias, I just heard flesh tearing and glass shattering.<BR> When my eyes opened, the room was painted in red and rust.<BR>Simes was there, but she just flashed away, all that was left was the gun.<BR>Armstrong grabbed me and we somehow made it out, boarded it up with the tables in the lobby.<BR>Took two of the suits, we'll send out a distress signal when we're out there."

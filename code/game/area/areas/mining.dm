@@ -19,7 +19,7 @@
 	icon_state = "mining_storage"
 
 /area/mine/lobby/raptor
-	name = "Nanotrasen Raptor Farm"
+	name = "SCP Foundation Raptor Farm"
 	icon_state = "mining_storage"
 
 /area/mine/production

@@ -260,7 +260,7 @@
   - bugfix: the examine text on the Seed Extractor now accurately displays the amount
       of seeds you may potentially get
   Spookuni:
-  - balance: Nanotrasen has released experimental new laser lenses for laser rifles,
+  - balance: SCP Foundation has released experimental new laser lenses for laser rifles,
       energy guns, and illegal hellfire modkits, increasing the number of shots they
       can fire from full charge by roughly 20%.
   Wayland-Smithy:
@@ -403,7 +403,7 @@
   dragomagol:
   - bugfix: The Tram whiteship now has a chance to spawn!
   itseasytosee:
-  - bugfix: Syndicate hardsuit helmet sprites will now properly update when combat
+  - bugfix: Chaos Insurgency hardsuit helmet sprites will now properly update when combat
       mode is activated.
   tf-4:
   - bugfix: When someone ties a neckerchief near you, it no longer tells you you did
@@ -550,8 +550,8 @@
   - bugfix: Flight potions now work on fly people, androids and skeletons
   Wallem, based off of work done by Keelin:
   - bugfix: Lets people wash the ant debuff off of themselves, as intended.
-  - rscadd: Due to a leak in Nanotrasen Brand Ant Farms during shipping, a large influx
-      of space-ants have been inadvertently dumped onto every Nanotrasen station.
+  - rscadd: Due to a leak in SCP Foundation Brand Ant Farms during shipping, a large influx
+      of space-ants have been inadvertently dumped onto every SCP Foundation station.
       Don't go leaving food around too long, and please be sure to watch your step,
       we're pretty sure they bite...
   - imageadd: New giant ant sprite by Doshmobile
@@ -669,7 +669,7 @@
   - bugfix: Deltastation's Atmos waste now sends external connectors to waste, rather
       than the other way around.
   Kubisopplay:
-  - bugfix: A CABAL of syndicate hackers broke Nanotrasen protections, allowing malfunctions
+  - bugfix: A CABAL of syndicate hackers broke SCP Foundation protections, allowing malfunctions
       in AI to finally happen again
   Malgover:
   - rscadd: Adds ANTI-TIDER-2500 to the SecTech vendor
@@ -742,14 +742,14 @@
 2021-07-24:
   GoldenAlpharex, with some help of Imaginos (PositiveEntropy):
   - imageadd: Added a new badge to display on future berets.
-  - expansion: Nanotrasen's fashion department decided to release a brand new series
+  - expansion: SCP Foundation's fashion department decided to release a brand new series
       of berets, meant to replace the old collection and featuring a wider array of
       possibilities!
   - refactor: Berets are now converted to GAGS, with more options for customization
       and greater consistancy between the sprites.
   - code_imp: Not all GAGS sprites can be recolored in vendors by default anymore.
   Kubisopplay:
-  - bugfix: Syndicate hackers outsmarted another group of syndicate hackers, and updated
+  - bugfix: Chaos Insurgency hackers outsmarted another group of syndicate hackers, and updated
       defensive protocols of cyborgs slaved to malfunctioning ais, once again letting
       them defend against emags
   Melbert:

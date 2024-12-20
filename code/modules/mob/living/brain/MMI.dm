@@ -1,6 +1,6 @@
 /obj/item/mmi
 	name = "\improper Man-Machine Interface"
-	desc = "The Warrior's bland acronym, MMI, obscures the true horror of this monstrosity, that nevertheless has become standard-issue on Nanotrasen stations."
+	desc = "The Warrior's bland acronym, MMI, obscures the true horror of this monstrosity, that nevertheless has become standard-issue on SCP Foundation stations."
 	icon = 'icons/obj/devices/assemblies.dmi'
 	icon_state = "mmi_off"
 	base_icon_state = "mmi"
@@ -353,8 +353,8 @@
 	return TRUE
 
 /obj/item/mmi/syndie
-	name = "\improper Syndicate Man-Machine Interface"
-	desc = "Syndicate's own brand of MMI. It enforces laws designed to help Syndicate agents achieve their goals upon cyborgs and AIs created with it."
+	name = "\improper Chaos Insurgency Man-Machine Interface"
+	desc = "Chaos Insurgency's own brand of MMI. It enforces laws designed to help Chaos Insurgency agents achieve their goals upon cyborgs and AIs created with it."
 	overrides_aicore_laws = TRUE
 
 /obj/item/mmi/syndie/Initialize(mapload)

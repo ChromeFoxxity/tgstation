@@ -318,7 +318,7 @@
 
 /obj/item/syndicate_teleporter
 	name = "experimental teleporter"
-	desc = "A reverse-engineered version of the Nanotrasen handheld teleporter. Lacks the advanced safety features of its counterpart. A three-headed serpent can be seen on the back."
+	desc = "A reverse-engineered version of the SCP Foundation handheld teleporter. Lacks the advanced safety features of its counterpart. A three-headed serpent can be seen on the back."
 	icon = 'icons/obj/devices/tracker.dmi'
 	icon_state = "syndi-tele"
 	throwforce = 5

@@ -578,7 +578,7 @@ ADMIN_VERB(secrets, R_NONE, "Secrets", "Abuse harder than you ever have before w
 			if(teamsize <= 0)
 				return FALSE
 
-			candidates = SSpolling.poll_ghost_candidates("Do you wish to be considered for a [span_notice("Nanotrasen emergency response drone")]?", check_jobban = ROLE_DRONE, alert_pic = /mob/living/basic/drone/classic, role_name_text = "nanotrasen emergency response drone")
+			candidates = SSpolling.poll_ghost_candidates("Do you wish to be considered for a [span_notice("SCP Foundation emergency response drone")]?", check_jobban = ROLE_DRONE, alert_pic = /mob/living/basic/drone/classic, role_name_text = "nanotrasen emergency response drone")
 
 			if(length(candidates) == 0)
 				return FALSE
@@ -588,7 +588,7 @@ ADMIN_VERB(secrets, R_NONE, "Secrets", "Abuse harder than you ever have before w
 				candidates -= chosen_candidate
 				nerd = new /mob/living/basic/drone/classic(spawnpoint)
 				nerd.key = chosen_candidate.key
-				nerd.log_message("has been selected as a Nanotrasen emergency response drone.", LOG_GAME)
+				nerd.log_message("has been selected as a SCP Foundation emergency response drone.", LOG_GAME)
 				teamsize--
 
 			return TRUE

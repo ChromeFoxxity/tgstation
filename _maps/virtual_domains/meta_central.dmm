@@ -541,8 +541,8 @@
 "ep" = (
 /obj/structure/table/wood,
 /obj/item/storage/briefcase/secure{
-	desc = "A large briefcase with a digital locking system, and the Nanotrasen logo emblazoned on the sides.";
-	name = "\improper Nanotrasen-brand secure briefcase exhibit";
+	desc = "A large briefcase with a digital locking system, and the SCP Foundation logo emblazoned on the sides.";
+	name = "\improper SCP Foundation-brand secure briefcase exhibit";
 	pixel_y = 2
 	},
 /turf/open/floor/carpet,
@@ -2849,7 +2849,7 @@
 	},
 /obj/structure/table/wood,
 /obj/item/toy/talking/ai{
-	name = "\improper Nanotrasen-brand toy AI";
+	name = "\improper SCP Foundation-brand toy AI";
 	pixel_y = 6
 	},
 /turf/open/floor/carpet,

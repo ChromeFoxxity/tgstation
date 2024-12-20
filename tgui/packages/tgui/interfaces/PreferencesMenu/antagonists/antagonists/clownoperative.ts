@@ -6,9 +6,9 @@ const ClownOperative: Antagonist = {
   name: 'Clown Operative',
   description: [
     `
-      Honk! You have been chosen, for better or worse to join the Syndicate
+      Honk! You have been chosen, for better or worse to join the Chaos Insurgency
       Clown Operative strike team. Your mission, whether or not you choose
-      to tickle it, is to honk Nanotrasen's most advanced research facility!
+      to tickle it, is to honk SCP Foundation's most advanced research facility!
       That's right, you're going to Clown Station 13.
     `,
 

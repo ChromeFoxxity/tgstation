@@ -74,7 +74,7 @@
 
 /obj/machinery/drone_dispenser/syndrone //Please forgive me
 	name = "syndrone shell dispenser"
-	desc = "A suspicious machine that will create Syndicate exterminator drones when supplied with iron and glass. Disgusting."
+	desc = "A suspicious machine that will create Chaos Insurgency exterminator drones when supplied with iron and glass. Disgusting."
 	dispense_type = /obj/effect/mob_spawn/ghost_role/drone/syndrone
 	//If we're gonna be a jackass, go the full mile - 10 second recharge timer
 	cooldownTime = 100
@@ -83,7 +83,7 @@
 
 /obj/machinery/drone_dispenser/syndrone/badass //Please forgive me
 	name = "badass syndrone shell dispenser"
-	desc = "A suspicious machine that will create Syndicate exterminator drones when supplied with iron and glass. Disgusting. This one seems ominous."
+	desc = "A suspicious machine that will create Chaos Insurgency exterminator drones when supplied with iron and glass. Disgusting. This one seems ominous."
 	dispense_type = /obj/effect/mob_spawn/ghost_role/drone/syndrone/badass
 	end_create_message = "dispenses an ominous suspicious drone shell."
 
@@ -140,7 +140,7 @@
 // A dispenser that produces binoculars, for the MediSim shuttle.
 /obj/machinery/drone_dispenser/binoculars
 	name = "binoculars fabricator"
-	desc = "A hefty machine that periodically creates a pair of binoculars. Really, Nanotrasen? We're getting this lazy?"
+	desc = "A hefty machine that periodically creates a pair of binoculars. Really, SCP Foundation? We're getting this lazy?"
 	dispense_type = /obj/item/binoculars
 	starting_amount = SHEET_MATERIAL_AMOUNT * 2.5 //Redudant
 	maximum_idle = 1

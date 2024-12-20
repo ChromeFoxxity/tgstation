@@ -214,7 +214,7 @@
   - bugfix: Fixed jump boots breaking if used when you can't jump, such as when inside
       a sleeper.
   - code_imp: Removed meteor-related free lag.
-  - bugfix: Syndicate MMIs will now properly transfer their laws to newly-constructed
+  - bugfix: Chaos Insurgency MMIs will now properly transfer their laws to newly-constructed
       AIs
   Pubby:
   - rscadd: Bluespace pipes to atmospherics, which create a single pipenet with all
@@ -248,7 +248,7 @@
   - rscadd: Wrapping stuff in a cocoon is now a targeted action!
   kevinz000:
   - rscadd: The syndicate have recently begun sending agents to extract vital research
-      information from Nanotrasen.
+      information from SCP Foundation.
   - bugfix: 'Timestop fields will now stop thrown objects experimental: Timestops
       will now be much quicker to react.'
   kingofkosmos:

@@ -64,7 +64,7 @@
 	icon_state = "centcom_cells"
 
 /area/centcom/central_command_areas/courtroom
-	name = "Nanotrasen Grand Courtroom"
+	name = "SCP Foundation Grand Courtroom"
 	icon_state = "centcom_court"
 
 /area/centcom/central_command_areas/holding
@@ -167,9 +167,9 @@
 	has_gravity = STANDARD_GRAVITY
 	flags_1 = NONE
 
-//Syndicates
+//Chaos Insurgencys
 /area/centcom/syndicate_mothership
-	name = "Syndicate Mothership"
+	name = "Chaos Insurgency Mothership"
 	icon_state = "syndie-ship"
 	requires_power = FALSE
 	has_gravity = STANDARD_GRAVITY
@@ -178,35 +178,35 @@
 	ambience_index = AMBIENCE_DANGER
 
 /area/centcom/syndicate_mothership/control
-	name = "Syndicate Control Room"
+	name = "Chaos Insurgency Control Room"
 	icon_state = "syndie-control"
 	static_lighting = TRUE
 
 /area/centcom/syndicate_mothership/expansion_bombthreat
-	name = "Syndicate Ordnance Laboratory"
+	name = "Chaos Insurgency Ordnance Laboratory"
 	icon_state = "syndie-elite"
 	static_lighting = TRUE
 	ambience_index = AMBIENCE_ENGI
 
 /area/centcom/syndicate_mothership/expansion_bioterrorism
-	name = "Syndicate Bio-Weapon Laboratory"
+	name = "Chaos Insurgency Bio-Weapon Laboratory"
 	icon_state = "syndie-elite"
 	static_lighting = TRUE
 	ambience_index = AMBIENCE_MEDICAL
 
 /area/centcom/syndicate_mothership/expansion_chemicalwarfare
-	name = "Syndicate Chemical Weapon Manufacturing Plant"
+	name = "Chaos Insurgency Chemical Weapon Manufacturing Plant"
 	icon_state = "syndie-elite"
 	static_lighting = TRUE
 	ambience_index = AMBIENCE_REEBE
 
 /area/centcom/syndicate_mothership/expansion_fridgerummage
-	name = "Syndicate Perishables and Foodstuffs Storage"
+	name = "Chaos Insurgency Perishables and Foodstuffs Storage"
 	icon_state = "syndie-elite"
 	static_lighting = TRUE
 
 /area/centcom/syndicate_mothership/elite_squad
-	name = "Syndicate Elite Squad"
+	name = "Chaos Insurgency Elite Squad"
 	icon_state = "syndie-elite"
 
 //MAFIA

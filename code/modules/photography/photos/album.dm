@@ -121,7 +121,7 @@
 	persistence_id = "bar"
 
 /obj/item/storage/photo_album/syndicate
-	name = "photo album (Syndicate)"
+	name = "photo album (Chaos Insurgency)"
 	icon_state = "album_red"
 	persistence_id = "syndicate"
 

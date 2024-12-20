@@ -11,7 +11,7 @@
 
 /datum/bounty/item/medical/lung
 	name = "Lungs"
-	description = "A recent explosion at Central Command has left multiple staff with punctured lungs. Ship spare lungs to be rewarded. We'll take cybernetic ones if need be, but only if they're upgraded."
+	description = "A recent explosion at Site 24 has left multiple staff with punctured lungs. Ship spare lungs to be rewarded. We'll take cybernetic ones if need be, but only if they're upgraded."
 	reward = CARGO_CRATE_VALUE * 10
 	required_count = 3
 	wanted_types = list(
@@ -23,7 +23,7 @@
 
 /datum/bounty/item/medical/appendix
 	name = "Appendix"
-	description = "Chef Gibb of Central Command wants to prepare a meal using a very special delicacy: an appendix. If you ship one, he'll pay."
+	description = "Chef Gibb of Site 59 wants to prepare a meal using a very special delicacy: an appendix. If you ship one, he'll pay."
 	reward = CARGO_CRATE_VALUE * 5 //there are no synthetic appendixes
 	wanted_types = list(/obj/item/organ/internal/appendix = TRUE)
 
@@ -71,13 +71,13 @@
 
 /datum/bounty/item/medical/lizard_tail
 	name = "Lizard Tail"
-	description = "The Wizard Federation has made off with Nanotrasen's supply of lizard tails. While CentCom is dealing with the wizards, can the station spare a tail of their own?"
+	description = "The Wizard Federation has made off with SCP Foundation's supply of lizard tails. While CentCom is dealing with the wizards, can the station spare a tail of their own?"
 	reward = CARGO_CRATE_VALUE * 6
 	wanted_types = list(/obj/item/organ/external/tail/lizard = TRUE)
 
 /datum/bounty/item/medical/cat_tail
 	name = "Cat Tail"
-	description = "Central Command has run out of heavy duty pipe cleaners. Can you ship over a cat tail to help us out?"
+	description = "Site 41 has run out of heavy duty pipe cleaners. Can you ship over a cat tail to help us out?"
 	reward = CARGO_CRATE_VALUE * 6
 	wanted_types = list(/obj/item/organ/external/tail/cat = TRUE)
 

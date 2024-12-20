@@ -267,7 +267,7 @@
   - bugfix: Fixed an error related to the V8 Engine that caused an infinite progress
       bar.
   san7890, ZephyrTFA:
-  - bugfix: Emojipedia has been restored to tablets! Look for it in your local Nanotrasen
+  - bugfix: Emojipedia has been restored to tablets! Look for it in your local SCP Foundation
       Software Hub.
   - balance: Everyone is now able to send Emojis via PDA Messaging! It's no longer
       restricted to just mime and curators, so enjoy sending the classics such as
@@ -311,7 +311,7 @@
       the locker
   san7890:
   - qol: When saving Experiment Log Recording Data to a data disk on either the Tachyon
-      Doppler or the Tank Compressor, Nanotrasen released a UI/UX update in order
+      Doppler or the Tank Compressor, SCP Foundation released a UI/UX update in order
       to have the button that saves the data onto your disk... say "Save".
 2022-11-09:
   MTandi:
@@ -340,7 +340,7 @@
   - bugfix: Plant-based cells will no longer show an error sprite if the plant it's
       made out of has its sprite located in a different file than all of the other
       plants.
-  - bugfix: After a lot of troubles, Nanotrasen's scientists finally managed to make
+  - bugfix: After a lot of troubles, SCP Foundation's scientists finally managed to make
       it possible to grow arms and legs out of the limb grower once more, giving sense
       back to the machine's name.
   Jacquerel:
@@ -496,7 +496,7 @@
   JohnFulpWillard:
   - bugfix: Ruins blacklisted from icebox shouldn't also blacklist it from lavaland,
       and vice versa.
-  - bugfix: Syndicate Cyborgs no longer have the PDA messaging app.
+  - bugfix: Chaos Insurgency Cyborgs no longer have the PDA messaging app.
   Jolly:
   - qol: Library Consoles and Book Management Consoles should no longer have their
       keyboards hanging over the edge of tables.
@@ -664,7 +664,7 @@
   Time-Green:
   - bugfix: Surgically removing wings during flight no longer grants infinite flight
   Vishenka0704:
-  - rscadd: A way to send faxes to CentCom/Syndicate
+  - rscadd: A way to send faxes to CentCom/Chaos Insurgency
   - admin: New fax panel(with stamps!!!)
   ZephyrTFA:
   - bugfix: shoving someone away from you correctly breaks your grab on them

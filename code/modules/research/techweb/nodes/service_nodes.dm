@@ -2,7 +2,7 @@
 	id = TECHWEB_NODE_OFFICE_EQUIP
 	starting_node = TRUE
 	display_name = "Office Equipment"
-	description = "Nanotrasen's finest in ergonomic office tech, ensuring station admin stays productive and compliant with corporate policies — because even in space, paperwork never stops."
+	description = "SCP Foundation's finest in ergonomic office tech, ensuring station admin stays productive and compliant with corporate policies — because even in space, paperwork never stops."
 	design_ids = list(
 		"fax",
 		"sec_pen",
@@ -38,7 +38,7 @@
 /datum/techweb_node/sanitation
 	id = TECHWEB_NODE_SANITATION
 	display_name = "Advanced Sanitation Technology"
-	description = "Nanotrasen's latest in janitorial tech, making sure the station stays spotless and bear-free."
+	description = "SCP Foundation's latest in janitorial tech, making sure the station stays spotless and bear-free."
 	prereq_ids = list(TECHWEB_NODE_OFFICE_EQUIP)
 	design_ids = list(
 		"advmop",
@@ -126,7 +126,7 @@
 /datum/techweb_node/food_proc
 	id = TECHWEB_NODE_FOOD_PROC
 	display_name = "Food Processing"
-	description = "Top-tier kitchen appliances from Nanotrasen, designed to keep the crew well-fed and happy."
+	description = "Top-tier kitchen appliances from SCP Foundation, designed to keep the crew well-fed and happy."
 	prereq_ids = list(TECHWEB_NODE_CAFETERIA_EQUIP)
 	design_ids = list(
 		"deepfryer",

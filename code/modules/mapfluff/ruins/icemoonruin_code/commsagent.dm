@@ -8,7 +8,7 @@
 		"\[00:05\]Years.",
 		"\[00:07\]Three FUCKING years in this frozen hellhole",
 		"\[00:11\]My mission's supposed to be over already!",
-		"\[00:15\]Nanotrasen has left their place to rot for like what,",
+		"\[00:15\]SCP Foundation has left their place to rot for like what,",
 		"\[00:20\]8, 9, 10 months? I lost track of it",
 		"\[00:25\]This was supposed to be a mission for TWO men,",
 		"\[00:29\]But the other agent hasn't even given any signs of waking up...",

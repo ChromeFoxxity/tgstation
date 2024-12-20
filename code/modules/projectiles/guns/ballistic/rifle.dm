@@ -274,7 +274,7 @@
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/rebarxbow/force
 
 /obj/item/gun/ballistic/rifle/rebarxbow/syndie
-	name = "Syndicate Rebar Crossbow"
+	name = "Chaos Insurgency Rebar Crossbow"
 	desc = "The syndicate liked the bootleg rebar crossbow NT engineers made, so they showed what it could be if properly developed. \
 			Holds three shots without a chance of exploding, and features a built in scope. Compatible with all known crossbow ammunition."
 	icon_state = "rebarxbowsyndie"
@@ -319,7 +319,7 @@
 	. = ..()
 	. += span_notice("<b><i>Looking down at the [name], you recall a tale told to you in some distant memory...</i></b>")
 
-	. += span_info("It's said that the first slaying committed on a Nanotrasen space station was by an assistant.")
+	. += span_info("It's said that the first slaying committed on a SCP Foundation space station was by an assistant.")
 	. += span_info("That this act, done by toolbox, maybe spear, was what consigned their kind to a life of destitution, rejection and violence.")
 	. += span_info("They carry the weight of this act visibly; the grey jumpsuit. Breathing deeply filtered air. And with bloodsoaked yellow hands clenched into fists. Eyes, sharp and waiting. Hunters in the dark.")
 	. += span_info("Eventually, these killing spirits sought to stake a claim on the metal tombs they were trapped within. Rejecting their status. Determined to be something more.")

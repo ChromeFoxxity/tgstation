@@ -6476,7 +6476,7 @@
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "bhG" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Syndicate Secure Airlock System";
+	name = "Chaos Insurgency Secure Airlock System";
 	desc = "Truly, a marvel of modern engineering."
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
@@ -10826,8 +10826,8 @@
 "cGN" = (
 /obj/structure/table/wood,
 /obj/item/pai_card{
-	name = "\improper Nanotrasen-brand personal AI device exhibit";
-	desc = "A real Nanotrasen success, these personal AIs provide all of the companionship of an AI without any law related red-tape."
+	name = "\improper SCP Foundation-brand personal AI device exhibit";
+	desc = "A real SCP Foundation success, these personal AIs provide all of the companionship of an AI without any law related red-tape."
 	},
 /obj/machinery/light/warm/directional/west,
 /turf/open/floor/carpet,
@@ -23101,7 +23101,7 @@
 	pixel_y = 32
 	},
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to SCP Foundation Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -38725,7 +38725,7 @@
 "mDY" = (
 /obj/structure/table/wood,
 /obj/item/toy/talking/ai{
-	name = "\improper Nanotrasen-brand toy AI";
+	name = "\improper SCP Foundation-brand toy AI";
 	pixel_y = 6
 	},
 /turf/open/floor/carpet,
@@ -47995,7 +47995,7 @@
 "pWW" = (
 /obj/structure/table/wood,
 /obj/structure/showcase/machinery/tv{
-	desc = "A slightly battered looking TV. Several slideshows play on the screen, showcasing Nanotrasen's various technological marvels. They even got the Nanoplay on this thing!";
+	desc = "A slightly battered looking TV. Several slideshows play on the screen, showcasing SCP Foundation's various technological marvels. They even got the Nanoplay on this thing!";
 	dir = 1;
 	pixel_x = 2;
 	pixel_y = 3
@@ -57323,7 +57323,7 @@
 /area/station/medical/surgery/aft)
 "tkp" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Syndicate Secure Airlock System";
+	name = "Chaos Insurgency Secure Airlock System";
 	desc = "Truly, a marvel of modern engineering."
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
@@ -61837,7 +61837,7 @@
 "uHQ" = (
 /obj/item/paper{
 	name = "initiation paperwork";
-	default_raw_text = "Congradulations, agent 'INSERT NAME HERE'! You have been assigned reconnaissance duty among the orbiting rocks of Indecipheres! As this location was previously scouted as a potential build site for a Nanotrasen outpost, one of our benefactors has taken the oppertunity to pre-emptively construct a listening outpost within the region! You have been tasked with monitoring the potentially active future crew and logging all events onboard. If you are a Nanotrasen official who has stumbled upon this outpost before it could be properly established: Please ignore this entire paper."
+	default_raw_text = "Congradulations, agent 'INSERT NAME HERE'! You have been assigned reconnaissance duty among the orbiting rocks of Indecipheres! As this location was previously scouted as a potential build site for a SCP Foundation outpost, one of our benefactors has taken the oppertunity to pre-emptively construct a listening outpost within the region! You have been tasked with monitoring the potentially active future crew and logging all events onboard. If you are a SCP Foundation official who has stumbled upon this outpost before it could be properly established: Please ignore this entire paper."
 	},
 /obj/machinery/computer/records/medical/syndie{
 	dir = 1;
@@ -69589,7 +69589,7 @@
 /area/station/engineering/atmospherics_engine)
 "xAc" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Syndicate Secure Airlock System";
+	name = "Chaos Insurgency Secure Airlock System";
 	desc = "Truly, a marvel of modern engineering."
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,

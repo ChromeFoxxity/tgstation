@@ -67,7 +67,7 @@
 /datum/brain_trauma/special/honorbound/proc/check_visible_guilt(mob/living/attacked_mob)
 	//will most likely just hit nuke ops but good catch-all. WON'T hit traitors
 	if(ROLE_SYNDICATE in attacked_mob.faction)
-		guilty(attacked_mob, "for their misaligned association with the Syndicate!")
+		guilty(attacked_mob, "for their misaligned association with the Chaos Insurgency!")
 	//not an antag datum check so it applies to wizard minions as well
 	if(ROLE_WIZARD in attacked_mob.faction)
 		guilty(attacked_mob, "for blasphemous magicks!")

@@ -227,7 +227,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/item/radio/intercom, 27)
 
 /obj/item/radio/intercom/syndicate/freerange
 	name = "syndicate wide-band intercom"
-	desc = "A custom-made Syndicate-issue intercom used to transmit on all Nanotrasen frequencies. Particularly expensive."
+	desc = "A custom-made Chaos Insurgency-issue intercom used to transmit on all SCP Foundation frequencies. Particularly expensive."
 	freerange = TRUE
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/item/radio/intercom/prison, 27)

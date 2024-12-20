@@ -1,7 +1,7 @@
 /datum/computer_file/program/contract_uplink
 	filename = "contractor uplink"
-	filedesc = "Syndicate Contractor Uplink"
-	extended_desc = "A standard, Syndicate issued system for handling important contracts while on the field."
+	filedesc = "Chaos Insurgency Contractor Uplink"
+	extended_desc = "A standard, Chaos Insurgency issued system for handling important contracts while on the field."
 	program_open_overlay = "contractor-assign"
 	program_icon = "tasks"
 	size = 10
@@ -9,7 +9,7 @@
 	program_flags = PROGRAM_UNIQUE_COPY
 	can_run_on_flags = PROGRAM_PDA //this is all we've got sprites for :sob:
 	undeletable = TRUE
-	tgui_id = "SyndicateContractor"
+	tgui_id = "Chaos InsurgencyContractor"
 
 	///The traitor datum stored on the program. Starts off as null and is set by the player.
 	var/datum/antagonist/traitor/traitor_data

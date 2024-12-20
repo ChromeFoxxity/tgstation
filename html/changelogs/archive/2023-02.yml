@@ -134,7 +134,7 @@
   - bugfix: On IceBox, the library air vents are now connected to the main network
       again.
   LT3:
-  - imageadd: Nanotrasen's insurance provider finally sprung the cash for a new tram.
+  - imageadd: SCP Foundation's insurance provider finally sprung the cash for a new tram.
       Made with the latest in lightweight and mostly* non-flammable materials, travel
       in comfort and style!
   - code_imp: All tram components are now organised based on type
@@ -203,7 +203,7 @@
   - bugfix: gauze now properly stops you from re-wrapping limbs that already have
       fresh gauze
   Sealed101:
-  - bugfix: Nanotrasen Artificial Intelligence Department has repelled a Cybersun
+  - bugfix: SCP Foundation Artificial Intelligence Department has repelled a Cybersun
       attack on AI personalities and advanced camera frameworks that was based on
       the last year's AI GRID OF DOOM ion law incident. Free-look camera consoles
       and AIs should no longer have a grid of free vision that also prevents interacting
@@ -526,7 +526,7 @@
   - bugfix: Equipping an fov item, disconnecting, waiting 6 minutes and reconnecting
       will no longer break your game
   Melbert:
-  - bugfix: Syndicate declarations of war no longer murder apostrophes and their friends
+  - bugfix: Chaos Insurgency declarations of war no longer murder apostrophes and their friends
   - bugfix: The alert box for the declaration of war no longer looks funky, and counts
       forwards in time rather than backwards
   - bugfix: Fixed being able to send unencoded HTML to newscasters
@@ -637,7 +637,7 @@
   Jacquerel:
   - bugfix: The Fugu Gland can once more be used on Ian, Carp, Giant Spiders, or other
       basic mobs.
-  - bugfix: Syndicate mobs will once again attack windows to try to reach you, and
+  - bugfix: Chaos Insurgency mobs will once again attack windows to try to reach you, and
       space ruin spiders won't.
   - bugfix: Netherworld-themed mobs will correctly adjust their speed as they take
       damage.
@@ -692,7 +692,7 @@
   Chubbygummibear & JohnFulpWillard:
   - rscadd: A ton of new NtOS themes, which are accessible by the new Themify application
       that comes with all PCs.
-  - rscadd: Emagging a PC now defaults it to the Syndicate option (and adds it to
+  - rscadd: Emagging a PC now defaults it to the Chaos Insurgency option (and adds it to
       go back to it if you wish)
   - rscadd: There's a new maintenance app that gives you rarer themes
   - qol: The NtOS Main menu was moved around, added "header" applications that are
@@ -790,7 +790,7 @@
   JohnFulpWillard:
   - bugfix: NtOS program downloader now works again, and will now properly alert you
       of downloading illegal ROMs if you change your theme to anything that isn't
-      Syndicate.
+      Chaos Insurgency.
   - bugfix: NtOS themes are now recognized by all windows.
   - spellcheck: Hallucinations where you see people put things away now tell you they
       put the right thing away.

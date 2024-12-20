@@ -236,7 +236,7 @@
   - code_imp: Code for Academy, Challenge, Spacebattle, and Wild West away missions
       has been removed
   jlsnow301:
-  - bugfix: Syndicate fission360 apps work again
+  - bugfix: Chaos Insurgency fission360 apps work again
   lizardqueenlexi:
   - bugfix: fixed an incorrect disposals junction in Tramstation Medical department
   orthography:
@@ -244,8 +244,8 @@
   - bugfix: fixes the lack of air in the BMP asteroid spawns.
 2022-07-09:
   13spacemen:
-  - rscadd: Experimental Syndicate Teleporter is now available in the Traitor Uplink
-      for 8 TC. Warning, not as safe as Nanotrasen Teleporters.
+  - rscadd: Experimental Chaos Insurgency Teleporter is now available in the Traitor Uplink
+      for 8 TC. Warning, not as safe as SCP Foundation Teleporters.
   Fikou:
   - bugfix: ethereals no longer revive after being changeling drained
   GoldenAlpharex:
@@ -274,7 +274,7 @@
   - admin: Get-Current-Logs and Get-Server-Logs now let you download entire folders
       at once
   carshalash:
-  - balance: Syndicate no longer wants easily printed upload boards.
+  - balance: Chaos Insurgency no longer wants easily printed upload boards.
   jlsnow301:
   - bugfix: Fixed scrolling the orbit ui
   kawoppi:
@@ -346,7 +346,7 @@
       trapped inside.
   - bugfix: On TramStation, the xenobiology pen disposals bins should no longer pop
       off the floor tile on the turf they reside on. They should also now like...
-      actually work. Nanotrasen had to re-route the disposals a bit to accomodate,
+      actually work. SCP Foundation had to re-route the disposals a bit to accomodate,
       but that's alright.
 2022-07-12:
   Couls:
@@ -494,7 +494,7 @@
       is closed
   SuperSlayer:
   - spellcheck: Traitor codewords are now given by their employer, rather then by
-      The Syndicate
+      The Chaos Insurgency
   TheBoondock:
   - rscadd: After years of research, the council of elder atmosian created and publish
       an experimental design for a long range gas analyzer. The design specified it
@@ -817,7 +817,7 @@
   magatsuchi:
   - bugfix: fixes storage item icons not updating properly
   necromanceranne:
-  - balance: Syndicate encryption keys protect your headset from radio jammers.
+  - balance: Chaos Insurgency encryption keys protect your headset from radio jammers.
   orthography:
   - bugfix: fixes the highfive memory saying deuteragonist instead of the name of
       the second actor.
@@ -1111,6 +1111,6 @@
   - spellcheck: adds extra information to objective explanation text.
   - bugfix: makes the photo objective more specific
   san7890:
-  - bugfix: Nanotrasen should no longer place single bedsheets on double beds.
+  - bugfix: SCP Foundation should no longer place single bedsheets on double beds.
   timothymtorres:
   - rscadd: Bubblegum now spawns demonic bubblegum candy when they devour corpses.

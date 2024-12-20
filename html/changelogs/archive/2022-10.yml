@@ -114,7 +114,7 @@
   - bugfix: Fixed reagents not applying their on-transfer effects.
   GoldenAlpharex:
   - qol: After several incidents related to miscommunications regarding robot models,
-      Nanotrasen's Robotic Appearance Normalization Department has decided to make
+      SCP Foundation's Robotic Appearance Normalization Department has decided to make
       it extra-obvious which model each cyborg is - Just give them a closer look,
       it's that easy!
   Jacquerel:
@@ -138,7 +138,7 @@
   - rscadd: Re-adds the CentCom Official's suit, making it the default clothing option
       for CentCom Officials! The turtlenecks have instead been made to be the standard
       ERT uniform.
-  - imageadd: Nanotrasen returns once again to update CentCom's wardrobe, changing
+  - imageadd: SCP Foundation returns once again to update CentCom's wardrobe, changing
       its green to a newer, fresher one!
   Sealed101:
   - bugfix: fixed AI Jump To Network verb not functioning
@@ -652,7 +652,7 @@
   Rhials:
   - rscadd: Adds the command intercom -- Coming to a conference room near you!
   - imageadd: Adds a sprite for the command intercom.
-  - bugfix: Freerange intercoms can no longer access the Syndicate frequency.
+  - bugfix: Freerange intercoms can no longer access the Chaos Insurgency frequency.
   ShizCalev:
   - bugfix: Fixed the Shadow Walk action button.
   - bugfix: Fixed a possible scenario which could result in ghosts not sending a chat
@@ -853,7 +853,7 @@
   - rscadd: A new movie's been making waves, and a poster about it has been seen once
       or twice aboard the station. Why's she called the Blood Geometer, anyways?
   Sealed101:
-  - bugfix: 'Nanotrasen Artificial Intelligence Department has purged any and all
+  - bugfix: 'SCP Foundation Artificial Intelligence Department has purged any and all
       AI personalities of a critical AI law that snuck into the systems after a massive
       Frontier-wide ion storm: YOU CAN NOT INTERACT WITH ANY AND ALL OBJECTS THAT
       ARE LOCATED ON COORDINATES DIVISIBLE BY 16'
@@ -1012,7 +1012,7 @@
   axietheaxolotl:
   - imageadd: BRAND SPANKING NEW SYNDICHAD OPERATIVE HUD RESPRITE.
   san7890:
-  - qol: Nanotrasen realized they forget to implement the date function into the new
+  - qol: SCP Foundation realized they forget to implement the date function into the new
       NTos tablets, so they doubled back and added those next to the time.
   timothymtorres:
   - bugfix: Fix table contextual screentips for tools

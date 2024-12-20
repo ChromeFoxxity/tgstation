@@ -309,7 +309,7 @@
 
 /datum/deathmatch_modifier/drop_pod
 	name = "Drop Pod: Syndies"
-	description = "Steel Rain: Syndicate Edition"
+	description = "Steel Rain: Chaos Insurgency Edition"
 	///A lazylist of lobbies that have this modifier enabled
 	var/list/signed_lobbies
 	///The type of drop pod that'll periodically fall from the sky

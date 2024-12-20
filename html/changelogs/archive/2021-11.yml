@@ -397,9 +397,9 @@
   - expansion: The weapon description for energy guns now takes in consideration the
       number of pellets the selected mode has.
   Ghommie and MrDoomBringer:
-  - balance: The Syndicate's Robotics Division is glad to announce their line of Syndicate
+  - balance: The Chaos Insurgency's Robotics Division is glad to announce their line of Chaos Insurgency
       Saboteur cyborgs hasn't been affected by CentCom's Robotics decision to downgrade
-      the Engiborg RCDs. This is because The Syndicate is not CentCom or Nanotrasen
+      the Engiborg RCDs. This is because The Chaos Insurgency is not CentCom or SCP Foundation
       despite what some tinfoil hat-wearing billies-bobs may say.
   KathyRyals:
   - rscadd: Felinids don't like getting sprayed with water.
@@ -469,7 +469,7 @@
   - bugfix: Changelings no longer get sent to Argentina when using last resort
   - bugfix: Blind people and those without eyes are no longer affected by changeling's
       last resort explosion.
-  Nanotrasen Medi-Sciences Division:
+  SCP Foundation Medi-Sciences Division:
   - qol: The medical holobarrier is slightly transparent to convey you can move through
       it, as well as more animated!
   TheFakeElon:
@@ -544,7 +544,7 @@
   - bugfix: Fixed the foreach and filter circuit component not functioning correctly.
   itseasytosee:
   - imageadd: added a sprite for the sectile when worn on your belt.
-  - expansion: The Nanotrasen High Impact Weapons Division would like to apologize
+  - expansion: The SCP Foundation High Impact Weapons Division would like to apologize
       for manufacturing a large quantity of dud onboard nuclear warheads. Following
       a recall, we expect that the replacement batch of warheads will be 900% more
       likely to Anhilate all life within its radius.
@@ -604,7 +604,7 @@
   - balance: The HoS, warden and officers no longer spawn with a stunbaton in their
       bags.
   GoldenAlpharex:
-  - bugfix: Quantum pads have had their blueprint tweaked by Nanotrasen's finest Bluespace
+  - bugfix: Quantum pads have had their blueprint tweaked by SCP Foundation's finest Bluespace
       Technicians, and will no longer break the laws of teleportation by teleporting
       themselves when they shouldn't.
   esainane:
@@ -739,7 +739,7 @@
   Colovorat:
   - qol: Bonfire can be made with wood
   Farquaar:
-  - imageadd: Due to lobbying pressure from the Yee-haw Conservation Society, Nanotrasen
+  - imageadd: Due to lobbying pressure from the Yee-haw Conservation Society, SCP Foundation
       vending machines now stock five new cowboy hats and an old-west vest.
   Ghommie:
   - bugfix: Fixed a mistake that made space bartenders sad (drinking glasses looking
@@ -886,7 +886,7 @@
       the Fission360 when a bomb is armed will show you the time remaining until detonation,
       and it can now point back to the Infiltrator. Hopefully you'll stop missing
       your pinpointers now.
-  - expansion: The Syndicate Infiltrator is now a point of interest in the orbit menu
+  - expansion: The Chaos Insurgency Infiltrator is now a point of interest in the orbit menu
       that ghosts can jump to.
   OrionTheFox:
   - rscadd: Added new reskins of the Catwalk Tiles, which will blend better with other

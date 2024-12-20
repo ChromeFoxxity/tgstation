@@ -373,7 +373,7 @@
       Hopefully those taking refuge in the commissary wasn''t causing too many issues.'
   Jolly, timothymtorres:
   - code_imp: 'Jolly: Armories across all maps have been tweaked slightly. Report
-      to a Nanotrasen security advisor for any missing guns, armor, helmets or anything
+      to a SCP Foundation security advisor for any missing guns, armor, helmets or anything
       else that was there previously (that means, post an issue on Github if theres
       an issue!!)'
   - code_imp: 'timothymtorres: Random item spawners now support better control of
@@ -580,7 +580,7 @@
       ends when the revolution is successful. The round continues as normal if the
       revolution fails.
   - rscadd: When the station is rolled in a state of Post-Revolutionary Fervor, the
-      Captain will find their bedsheets replaced with an anti-Nanotrasen variant.
+      Captain will find their bedsheets replaced with an anti-SCP Foundation variant.
 2023-07-14:
   Archimus12:
   - rscadd: Adds latex gloves and medical headsets to the MediDrobe.
@@ -783,7 +783,7 @@
   - bugfix: adds a BCI implanter to northstar circuit lab as it didn't come with one
       before
   itseasytosee:
-  - balance: the Syndicate Tome traitor item now grants anti-magic while held and
+  - balance: the Chaos Insurgency Tome traitor item now grants anti-magic while held and
       can be used to clear cult runes.
   necromanceranne:
   - bugfix: Replaces direct calls of try_infect() with appropriate procs so that CRISPR
@@ -1107,10 +1107,10 @@
   - admin: Changing shuttle events now alerts admins
   carlarctg:
   - bugfix: Hulks cannot be aggressive grabbed by strong grabbers anymore
-  - balance: Syndicate duffelbags can fit 2 extra bulky items, down from three.
+  - balance: Chaos Insurgency duffelbags can fit 2 extra bulky items, down from three.
   - balance: Reduced syndicate duffelbag's unzipped slowdown from '1' to '0.3', and
       set its zipping-up sped to 0.5, same as unzipping.
-  - rscadd: 'Added the following items to the Syndicate Duffelbag bulky exception
+  - rscadd: 'Added the following items to the Chaos Insurgency Duffelbag bulky exception
       list: Greentext, mech removal tool, gibtonite, skub, golem shells, mech ammo.
       Roughly sorted the list by item category.'
   - bugfix: Fixed the syndie surgery duffelbag having more items than it can hold

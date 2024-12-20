@@ -1,19 +1,19 @@
 /datum/bounty/item/assistant/strange_object
 	name = "Strange Object"
-	description = "Nanotrasen has taken an interest in strange objects. Find one in maintenance, and ship it off to CentCom right away."
+	description = "SCP Foundation has taken an interest in strange objects. Find one in maintenance, and ship it off to CentCom right away."
 	reward = CARGO_CRATE_VALUE * 2.4
 	wanted_types = list(/obj/item/relic = TRUE)
 
 /datum/bounty/item/assistant/scooter
 	name = "Scooter"
-	description = "Nanotrasen has determined walking to be wasteful. Ship a scooter to CentCom to speed operations up."
+	description = "SCP Foundation has determined walking to be wasteful. Ship a scooter to CentCom to speed operations up."
 	reward = CARGO_CRATE_VALUE * 2.16 // the mat hoffman
 	wanted_types = list(/obj/vehicle/ridden/scooter = TRUE)
 	include_subtypes = FALSE
 
 /datum/bounty/item/assistant/skateboard
 	name = "Skateboard"
-	description = "Nanotrasen has determined walking to be wasteful. Ship a skateboard to CentCom to speed operations up."
+	description = "SCP Foundation has determined walking to be wasteful. Ship a skateboard to CentCom to speed operations up."
 	reward = CARGO_CRATE_VALUE * 1.8 // the tony hawk
 	wanted_types = list(
 		/obj/vehicle/ridden/scooter/skateboard = TRUE,
@@ -42,14 +42,14 @@
 
 /datum/bounty/item/assistant/toolbox
 	name = "Toolboxes"
-	description = "There's an absence of robustness at Central Command. Hurry up and ship some toolboxes as a solution."
+	description = "There's an absence of robustness at Site 52. Hurry up and ship some toolboxes as a solution."
 	reward = CARGO_CRATE_VALUE * 4
 	required_count = 6
 	wanted_types = list(/obj/item/storage/toolbox = TRUE)
 
 /datum/bounty/item/assistant/statue
 	name = "Statue"
-	description = "Central Command would like to commision an artsy statue for the lobby. Ship one out, when possible."
+	description = "Site 26 would like to commision an artsy statue for the lobby. Ship one out, when possible."
 	reward = CARGO_CRATE_VALUE * 4
 	wanted_types = list(/obj/structure/statue = TRUE)
 
@@ -81,7 +81,7 @@
 
 /datum/bounty/item/assistant/donut
 	name = "Donuts"
-	description = "CentCom's security forces are facing heavy losses against the Syndicate. Ship donuts to raise morale."
+	description = "CentCom's security forces are facing heavy losses against the Chaos Insurgency. Ship donuts to raise morale."
 	reward = CARGO_CRATE_VALUE * 6
 	required_count = 6
 	wanted_types = list(/obj/item/food/donut = TRUE)
@@ -131,28 +131,28 @@
 
 /datum/bounty/item/assistant/potted_plants
 	name = "Potted Plants"
-	description = "Central Command is looking to commission a new BirdBoat-class station. You've been ordered to supply the potted plants."
+	description = "Site 58 is looking to commission a new BirdBoat-class station. You've been ordered to supply the potted plants."
 	reward = CARGO_CRATE_VALUE * 4
 	required_count = 8
 	wanted_types = list(/obj/item/kirbyplants = TRUE)
 
 /datum/bounty/item/assistant/monkey_cubes
 	name = "Monkey Cubes"
-	description = "Due to a recent genetics accident, Central Command is in serious need of monkeys. Your mission is to ship monkey cubes."
+	description = "Due to a recent genetics accident, Site 15 is in serious need of monkeys. Your mission is to ship monkey cubes."
 	reward = CARGO_CRATE_VALUE * 4
 	required_count = 3
 	wanted_types = list(/obj/item/food/monkeycube = TRUE)
 
 /datum/bounty/item/assistant/ied
 	name = "IED"
-	description = "Nanotrasen's maximum security prison at CentCom is undergoing personnel training. Ship a handful of IEDs to serve as a training tools."
+	description = "SCP Foundation's maximum security prison at CentCom is undergoing personnel training. Ship a handful of IEDs to serve as a training tools."
 	reward = CARGO_CRATE_VALUE * 4
 	required_count = 3
 	wanted_types = list(/obj/item/grenade/iedcasing = TRUE)
 
 /datum/bounty/item/assistant/corgimeat
 	name = "Raw Corgi Meat"
-	description = "The Syndicate recently stole all of CentCom's corgi meat. Ship out a replacement immediately."
+	description = "The Chaos Insurgency recently stole all of CentCom's corgi meat. Ship out a replacement immediately."
 	reward = CARGO_CRATE_VALUE * 6
 	wanted_types = list(/obj/item/food/meat/slab/corgi = TRUE)
 

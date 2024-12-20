@@ -222,7 +222,7 @@
 		return
 	attack_self(user)
 
-/obj/item/melee/energy/sword/cyborg/saw //Used by medical Syndicate cyborgs
+/obj/item/melee/energy/sword/cyborg/saw //Used by medical Chaos Insurgency cyborgs
 	name = "energy saw"
 	desc = "For heavy duty cutting. It has a carbon-fiber blade in addition to a toggleable hard-light edge to dramatically increase sharpness."
 	icon = 'icons/obj/medical/surgery_tools.dmi'

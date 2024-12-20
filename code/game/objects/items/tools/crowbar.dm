@@ -161,7 +161,7 @@
 
 /obj/item/crowbar/power/syndicate
 	name = "jaws of death"
-	desc = "An improved, faster, and smaller copy of Nanotrasen's standard jaws of life. Can be used to force open airlocks in its crowbar configuration."
+	desc = "An improved, faster, and smaller copy of SCP Foundation's standard jaws of life. Can be used to force open airlocks in its crowbar configuration."
 	icon_state = "jaws_syndie"
 	w_class = WEIGHT_CLASS_SMALL
 	toolspeed = 0.5

@@ -3,7 +3,7 @@
   - balance: raptors will now knock off their rider and disable them if hit by any
       energy projectiles or if they recieve any stamina damage
   Chestlet:
-  - bugfix: Nanotrasen sent us a batch of faulty canisters. They've been recalled
+  - bugfix: SCP Foundation sent us a batch of faulty canisters. They've been recalled
       and replaced with less faulty canisters.
   - bugfix: Zauker SM interaction works correctly now.
   DaCoolBoss:
@@ -1111,7 +1111,7 @@
   - bugfix: You no longer can remove N-Spector from scanner gates without unlocking
       them first
   Inari-Whitebear:
-  - spellcheck: Fixed a typo in the description for the Syndicate Rebar Crossbow in
+  - spellcheck: Fixed a typo in the description for the Chaos Insurgency Rebar Crossbow in
       the Uplink.
   MTandi:
   - qol: Mod UI is narrow again
@@ -1153,7 +1153,7 @@
   Jackriip:
   - refactor: refactored global set_basalt_light proc into object proc
   JoshAdamPowell:
-  - admin: 'Nanotrasen has brought Central Command kicking and screaming into the
+  - admin: 'SCP Foundation has brought Central Command kicking and screaming into the
       20th Century by providing them with a real fax machine.
 
       :cl:'

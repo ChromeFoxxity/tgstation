@@ -189,25 +189,25 @@
 	purchasable_from = UPLINK_ALL_SYNDIE_OPS
 	surplus = 0
 
-// ~~ Syndicate Revolver ~~
+// ~~ Chaos Insurgency Revolver ~~
 // Nuclear operatives get a special deal on their revolver purchase compared to traitors.
 
 /datum/uplink_item/weapon_kits/medium_cost/revolvercase
-	name = "Syndicate Revolver Case (Moderate)"
-	desc = "Waffle Corp's modernized Syndicate revolver. Fires 7 brutal rounds of .357 Magnum. \
+	name = "Chaos Insurgency Revolver Case (Moderate)"
+	desc = "Waffle Corp's modernized Chaos Insurgency revolver. Fires 7 brutal rounds of .357 Magnum. \
 		A classic operative weapon, brought to the modern era. Comes with 3 additional speedloaders of .357."
 	item = /obj/item/storage/toolbox/guncase/revolver
 
 /datum/uplink_item/ammo_nuclear/basic/revolver
 	name = ".357 Speed Loader (Revolver)"
-	desc = "A speed loader that contains seven additional .357 Magnum rounds; usable with the Syndicate revolver. \
+	desc = "A speed loader that contains seven additional .357 Magnum rounds; usable with the Chaos Insurgency revolver. \
 		For when you really need a lot of things dead. Operatives get a discount from most of our agents!"
 	item = /obj/item/ammo_box/a357
 	purchasable_from = parent_type::purchasable_from | UPLINK_SPY
 
 /datum/uplink_item/ammo_nuclear/special/revolver/phasic
 	name = ".357 Phasic Speed Loader (Revolver)"
-	desc = "A speed loader that contains seven additional .357 Magnum phasic rounds; usable with the Syndicate revolver. \
+	desc = "A speed loader that contains seven additional .357 Magnum phasic rounds; usable with the Chaos Insurgency revolver. \
 		These bullets are made from an experimental alloy, 'Ghost Lead', that allows it to pass through almost any non-organic material. \
 		The name is a misnomer. It doesn't contain any lead whatsoever!"
 	item = /obj/item/ammo_box/a357/phasic
@@ -215,7 +215,7 @@
 
 /datum/uplink_item/ammo_nuclear/special/revolver/heartseeker
 	name = ".357 Heartseeker Speed Loader (Revolver)"
-	desc = "A speed loader that contains seven additional .357 Magnum heartseeker rounds; usable with the Syndicate revolver. \
+	desc = "A speed loader that contains seven additional .357 Magnum heartseeker rounds; usable with the Chaos Insurgency revolver. \
 		Able to veer straight into targets! Don't miss a shot with heartseeker! As seen in the hit NTFlik horror-space western film, Forget-Me-Not!	\
 		Brought to you by Roseus Galactic!"
 	item = /obj/item/ammo_box/a357/heartseeker
@@ -321,7 +321,7 @@
 /datum/uplink_item/weapon_kits/high_cost/sniper
 	name = "Anti-Materiel Sniper Rifle Briefcase (Hard)"
 	desc = "An outdated, but still extremely powerful anti-material sniper rifle. Fires .50 BMG cartridges from a 6 round magazine. \
-		Can be fitted with a suppressor. If anyone asks how that even works, tell them it's Nanotrasen's fault. Comes with \
+		Can be fitted with a suppressor. If anyone asks how that even works, tell them it's SCP Foundation's fault. Comes with \
 		3 spare magazines; 2 regular magazines and 1 disruptor magazine. Also comes with a suit and tie."
 	item = /obj/item/storage/briefcase/sniper
 
@@ -366,7 +366,7 @@
 	name = "Double-Bladed Energy Sword Case (Very Hard)"
 	desc = "A case containing a double-bladed energy sword, anti-slip module, meth autoinjector, and a bar of soap. \
 		Some say the most infamous nuclear operatives utilized this combination of equipment to slaughter hundreds \
-		of Nanotrasen employees. However, some also say this is an embellishment from the Tiger Co-operative. \
+		of SCP Foundation employees. However, some also say this is an embellishment from the Tiger Co-operative. \
 		The soap did most of the work. Comes with a prisoner uniform so you fit the part."
 	item = /obj/item/storage/toolbox/guncase/doublesword
 
@@ -428,9 +428,9 @@
 // ~~ Detonator: In case you lose the old one ~~
 
 /datum/uplink_item/explosives/syndicate_detonator
-	name = "Syndicate Detonator"
-	desc = "The Syndicate detonator is a companion device to the Syndicate bomb. Simply press the included button \
-		and an encrypted radio frequency will instruct all live Syndicate bombs to detonate. \
+	name = "Chaos Insurgency Detonator"
+	desc = "The Chaos Insurgency detonator is a companion device to the Chaos Insurgency bomb. Simply press the included button \
+		and an encrypted radio frequency will instruct all live Chaos Insurgency bombs to detonate. \
 		Useful for when speed matters or you wish to synchronize multiple bomb blasts. Be sure to stand clear of \
 		the blast radius before using the detonator."
 	item = /obj/item/syndicatedetonator
@@ -458,23 +458,23 @@
 	item = /obj/item/antag_spawner/nuke_ops
 
 /datum/uplink_item/reinforcements/assault_borg
-	name = "Syndicate Assault Cyborg"
-	desc = "A cyborg designed and programmed for systematic extermination of non-Syndicate personnel. \
+	name = "Chaos Insurgency Assault Cyborg"
+	desc = "A cyborg designed and programmed for systematic extermination of non-Chaos Insurgency personnel. \
 		Comes equipped with a self-resupplying LMG, a grenade launcher, energy sword, emag, pinpointer, flash and crowbar."
 	item = /obj/item/antag_spawner/nuke_ops/borg_tele/assault
 
 /datum/uplink_item/reinforcements/medical_borg
-	name = "Syndicate Medical Cyborg"
+	name = "Chaos Insurgency Medical Cyborg"
 	desc = "A combat medical cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities. \
 		It comes equipped with a nanite hypospray, a medical beamgun, combat defibrillator, full surgical kit including an energy saw, an emag, pinpointer and flash. \
 		Thanks to its organ storage bag, it can perform surgery as well as any humanoid."
 	item = /obj/item/antag_spawner/nuke_ops/borg_tele/medical
 
 /datum/uplink_item/reinforcements/saboteur_borg
-	name = "Syndicate Saboteur Cyborg"
+	name = "Chaos Insurgency Saboteur Cyborg"
 	desc = "A streamlined engineering cyborg, equipped with covert modules. Also incapable of leaving the welder in the shuttle. \
 		Aside from regular Engineering equipment, it comes with a special destination tagger that lets it traverse disposals networks. \
-		Its chameleon projector lets it disguise itself as a Nanotrasen cyborg, on top it has thermal vision and a pinpointer."
+		Its chameleon projector lets it disguise itself as a SCP Foundation cyborg, on top it has thermal vision and a pinpointer."
 	item = /obj/item/antag_spawner/nuke_ops/borg_tele/saboteur
 
 /datum/uplink_item/reinforcements/overwatch_agent
@@ -524,8 +524,8 @@
 	purchasable_from = UPLINK_SERIOUS_OPS
 
 /datum/uplink_item/bundles_tc/induction_kit
-	name = "Syndicate Induction Kit"
-	desc = "Met a fellow syndicate agent on the station? Kept some TC in reserve just in case? Or are you communicating with one via the Syndicate channel? \
+	name = "Chaos Insurgency Induction Kit"
+	desc = "Met a fellow syndicate agent on the station? Kept some TC in reserve just in case? Or are you communicating with one via the Chaos Insurgency channel? \
 		Get this kit and you'll be able to induct them into your operative team via a special implant. \
 		Additionally, it contains an assortment of useful gear for new operatives, including a space suit, an Ansem pistol, two spare magazines, and more! \
 		*NOT* for usage with Reinforcements, and does not brainwash the target!"
@@ -534,7 +534,7 @@
 	purchasable_from = UPLINK_NUKE_OPS
 
 /datum/uplink_item/bundles_tc/cowboy
-	name = "Syndicate Outlaw Kit"
+	name = "Chaos Insurgency Outlaw Kit"
 	desc = "There've been high tales of an outlaw 'round these parts. A fella so ruthless and efficient no ranger could ever capture 'em. \
 	Now you can be just like 'em! \
 	This kit contains armor-lined cowboy equipment, a custom revolver and holster, and a horse with a complimentary apple to tame. \
@@ -607,9 +607,9 @@
 // Modsuits
 
 /datum/uplink_item/suits/modsuit/elite
-	name = "Elite Syndicate MODsuit"
-	desc = "An upgraded, elite version of the Syndicate MODsuit. It features fireproofing, and also \
-		provides the user with superior armor and mobility compared to the standard Syndicate MODsuit."
+	name = "Elite Chaos Insurgency MODsuit"
+	desc = "An upgraded, elite version of the Chaos Insurgency MODsuit. It features fireproofing, and also \
+		provides the user with superior armor and mobility compared to the standard Chaos Insurgency MODsuit."
 	item = /obj/item/mod/control/pre_equipped/elite
 	purchasable_from = (UPLINK_ALL_SYNDIE_OPS | UPLINK_SPY)
 
@@ -644,15 +644,15 @@
 
 /datum/uplink_item/device_tools/medgun_mod
 	name = "Medbeam Gun Module"
-	desc = "A wonder of Syndicate engineering, the Medbeam gun module, or Medi-Gun enables a medic to keep his fellow \
+	desc = "A wonder of Chaos Insurgency engineering, the Medbeam gun module, or Medi-Gun enables a medic to keep his fellow \
 		operatives in the fight, even while under fire. Don't cross the streams!"
 	item = /obj/item/mod/module/medbeam
 	cost = 15
 	purchasable_from = UPLINK_ALL_SYNDIE_OPS
 
 /datum/uplink_item/suits/syndi_intellicard
-	name = "Pre-Loaded Syndicate Intellicard"
-	desc = "A syndicate intellicard that can be activated to download a captured Nanotrasen AI, modified with the standard syndicate lawset. You can slot it into your modsuit for a conversational partner! It can additionally control the MODsuit's modules at will, and move your body around even if you're in critical condition or dead. \
+	name = "Pre-Loaded Chaos Insurgency Intellicard"
+	desc = "A syndicate intellicard that can be activated to download a captured SCP Foundation AI, modified with the standard syndicate lawset. You can slot it into your modsuit for a conversational partner! It can additionally control the MODsuit's modules at will, and move your body around even if you're in critical condition or dead. \
 			However, due to failsafes activated during the extraction process, the AI is unable to interact with electronics from anywhere but direct proximity..."
 	item = /obj/item/aicard/syndie/loaded
 	cost = 12
@@ -660,8 +660,8 @@
 	refundable = TRUE
 
 /datum/uplink_item/suits/synd_ai_upgrade
-	name = "Syndicate AI Upgrade"
-	desc = "...unless you buy the Syndicate Upgrade! This data chip allows the captured AI to increase its interaction range by two tiles per application. The Syndicate recommends three or four purchases at most, for a total of seven or infinite meters of range."
+	name = "Chaos Insurgency AI Upgrade"
+	desc = "...unless you buy the Chaos Insurgency Upgrade! This data chip allows the captured AI to increase its interaction range by two tiles per application. The Chaos Insurgency recommends three or four purchases at most, for a total of seven or infinite meters of range."
 	item = /obj/item/computer_disk/syndie_ai_upgrade
 	cost = 4
 	purchasable_from = UPLINK_ALL_SYNDIE_OPS
@@ -681,15 +681,15 @@
 	purchasable_from = UPLINK_FIREBASE_OPS
 
 /datum/uplink_item/device_tools/syndie_jaws_of_life
-	name = "Syndicate Jaws of Life"
-	desc = "Based on a Nanotrasen model, this powerful tool can be used as both a crowbar and a pair of wirecutters. \
+	name = "Chaos Insurgency Jaws of Life"
+	desc = "Based on a SCP Foundation model, this powerful tool can be used as both a crowbar and a pair of wirecutters. \
 		In its crowbar configuration, it can be used to force open airlocks. Very useful for entering the station or its departments."
 	item = /obj/item/crowbar/power/syndicate
 	cost = 4
 	purchasable_from = UPLINK_SERIOUS_OPS | UPLINK_SPY
 
 /datum/uplink_item/device_tools/medkit
-	name = "Syndicate Combat Medic Kit"
+	name = "Chaos Insurgency Combat Medic Kit"
 	desc = "This first aid kit is a suspicious black and red. Included is a number of atropine medipens \
 		for rapid stabilization and detonation prevention, sutures and regenerative mesh for wound treatment, and patches \
 		for faster healing on the field. Also comes with basic medical tools and sterlizer."
@@ -698,7 +698,7 @@
 	purchasable_from = UPLINK_SERIOUS_OPS
 
 /datum/uplink_item/device_tools/medkit/premium
-	name = "Syndicate Combat Medical Suite"
+	name = "Chaos Insurgency Combat Medical Suite"
 	desc = "This first aid kit is a suspicious black and red. Included is an unloaded combat chemical injector \
 		for suit-penetrative chem delivery, a medical science night vision HUD for quick identification of injured personnel and chemical supplies, \
 		improved medical supplies, including Interdyne-approved pharmaceuticals, a hacked cybernetic surgery toolset arm implant, \
@@ -708,9 +708,9 @@
 	purchasable_from = UPLINK_SERIOUS_OPS
 
 /datum/uplink_item/device_tools/potion
-	name = "Syndicate Sentience Potion"
+	name = "Chaos Insurgency Sentience Potion"
 	item = /obj/item/slimepotion/slime/sentience/nuclear
-	desc = "A potion recovered at great risk by undercover Syndicate operatives and then subsequently modified with Syndicate technology. \
+	desc = "A potion recovered at great risk by undercover Chaos Insurgency operatives and then subsequently modified with Chaos Insurgency technology. \
 		Using it will make any animal sentient, and bound to serve you, as well as implanting an internal radio for communication and an internal ID card for opening doors."
 	cost = 4
 	purchasable_from = UPLINK_SERIOUS_OPS | UPLINK_SPY
@@ -802,14 +802,14 @@
 	cant_discount = TRUE
 
 /datum/uplink_item/base_keys/bomb_key
-	name = "Syndicate Ordnance Laboratory Access Card"
+	name = "Chaos Insurgency Ordnance Laboratory Access Card"
 	desc = "Do you fancy yourself an explosives expert? If so, then consider yourself lucky! With this special Authorization Key, \
 		you can blow those corpo suits away with your very own home-made explosive devices. Made in your local firebase's \
-		very own Ordnance Laboratory! *The Syndicate is not responsible for injuries or deaths sustained while utilizing the lab."
+		very own Ordnance Laboratory! *The Chaos Insurgency is not responsible for injuries or deaths sustained while utilizing the lab."
 	item = /obj/item/keycard/syndicate_bomb
 
 /datum/uplink_item/base_keys/bio_key
-	name = "Syndicate Bio-Weapon Laboratory Access Card"
+	name = "Chaos Insurgency Bio-Weapon Laboratory Access Card"
 	desc = "In the right hands, even vile corpo technology can be turned into a vast arsenal of liberation and justice. From \
 		micro-organism symbiosis to slime-core weaponization, this special Authorization Key can let you push past the boundaries \
 		of bio-terrorism at breakneck speeds. As a bonus, these labs even come equipped with natural life support! *Plants not included."
@@ -817,7 +817,7 @@
 	purchasable_from = UPLINK_CLOWN_OPS | UPLINK_NUKE_OPS
 
 /datum/uplink_item/base_keys/chem_key
-	name = "Syndicate Chemical Plant Access Card"
+	name = "Chaos Insurgency Chemical Plant Access Card"
 	desc = "For some of our best Operatives, watching corpo space stations blow up with a flash of retribution just isn't enough. \
 		Folks like those prefer a more personal touch to their artistry. For those interested, a special Authorization Key \
 		can be instantly delivered to your location. Create groundbreaking chemical agents, cook up, sell the best of drugs, \

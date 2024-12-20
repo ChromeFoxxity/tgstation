@@ -11,7 +11,7 @@
   - balance: You can now sweep garbage into open trash bins (the crate subtype).
   Helg2:
   - spellcheck: Plate Gauntlets and Plate Boots now have proper looking names.
-  - bugfix: Syndicate Holster now works as intended (You can finally put both revolver
+  - bugfix: Chaos Insurgency Holster now works as intended (You can finally put both revolver
       and speedloaders in it at the same time).
   IndieanaJones, Melbert:
   - balance: Space Dragon can no longer choose its rift locations freely, and instead
@@ -84,7 +84,7 @@
   Rhials:
   - qol: Fugitive hunters now get a deadchat poll and notify deadchat properly.
   Singul0:
-  - bugfix: Nanotrasen engineers has installed delamination counters for all Northstar
+  - bugfix: SCP Foundation engineers has installed delamination counters for all Northstar
       class expeditionary vessels to increase the pressure for engineers not to fuck
       up
   carlarctg:
@@ -142,18 +142,18 @@
       with a suit that can't be obtained otherwise. Look in the suit storage units.
   - balance: Removed a magazine from the WT-550 rifle spawn on the Waystation space
       ruin.
-  - balance: Replaced red-and-black softsuits on the Faceoff space ruin with Syndicate
+  - balance: Replaced red-and-black softsuits on the Faceoff space ruin with Chaos Insurgency
       variants of the explorer.
-  - rscadd: Added a Syndicate variant of the explorer suit. The armor is identical
+  - rscadd: Added a Chaos Insurgency variant of the explorer suit. The armor is identical
       to the Goliath cloak with slightly more bomb and ballistic resistance.
   YehnBeep:
   - bugfix: After a thorough dressing down and threats of fines from the Fire Marshal,
-      Nanotrasen has reluctantly installed several missing fire alarms and other safety
+      SCP Foundation has reluctantly installed several missing fire alarms and other safety
       equipment in the North Star's Cargo Bay and a few other lower deck areas.
   - bugfix: Fixed minor area definition errors in North Star's cargo area.
 2023-06-06:
   DATA-xPUNGED:
-  - qol: Nanotrasen has issued a new wallet model, which lets you put biscuit papers
+  - qol: SCP Foundation has issued a new wallet model, which lets you put biscuit papers
       in them!
   Fikou:
   - balance: the cake hat wounds more
@@ -194,7 +194,7 @@
   carlarctg:
   - rscadd: Changes syndicate surgery duffelbags to contain advanced tools, sterilizine,
       surgical tape, and a roller bed.
-  - rscadd: Changed the Syndicate Infiltrators' surgery areas to contain a full syndicate
+  - rscadd: Changed the Chaos Insurgency Infiltrators' surgery areas to contain a full syndicate
       surgery duffelbag.
   - rscadd: The normal infiltrator now has a operating computer and a closet of misc.
       surgical clothing and anesthesic tank.
@@ -363,7 +363,7 @@
   - spellcheck: the H.E.C.K helmet is now typo-free
 2023-06-12:
   Dorsisdwarf:
-  - bugfix: Nanotrasen Cookery Command has ended the plague of staff complaining that
+  - bugfix: SCP Foundation Cookery Command has ended the plague of staff complaining that
       their tomato dishes are just complicated forms of soup by redefining "tomato
       soup" to include a dash of cream.
   FernandoJ8:
@@ -675,7 +675,7 @@
   - refactor: Greatly improve the reliability and performance of photocopiers.
   - qol: Changed the blanks so they look nicer, whilst also fixing the lawsuit request
       form.
-  - qol: Nanotrasen's bureaucracy division has ""improved"" the quality of their printer
+  - qol: SCP Foundation's bureaucracy division has ""improved"" the quality of their printer
       toner after many complaints from furious customers.
 2023-06-21:
   Addust:
@@ -821,7 +821,7 @@
   - bugfix: Tram hit count is centrally managed instead of independently on each sign,
       so they won't get out of sync
   Melbert:
-  - bugfix: The Syndicate Assault Cyborg can autofire their LMG
+  - bugfix: The Chaos Insurgency Assault Cyborg can autofire their LMG
   SyncIt21:
   - code_imp: makes sure cargo computer doesn't use `usr` var inside `ui_act()` which
       could cause undefined behaviour
@@ -1029,7 +1029,7 @@
   - bugfix: terminals(smes & apc) can operate on different cable layers by installing
       them with right click
   chemistrymain2:
-  - balance: Syndicate simplemob fire-rate raised to one shot per second.
+  - balance: Chaos Insurgency simplemob fire-rate raised to one shot per second.
   tf-4:
   - bugfix: Brand intelligence can no longer affect off-station vendors in some specific
       circumstances.

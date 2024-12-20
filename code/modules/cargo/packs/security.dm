@@ -35,7 +35,7 @@
 
 /datum/supply_pack/security/forensics
 	name = "Forensics Crate"
-	desc = "Stay hot on the criminal's heels with Nanotrasen's Detective Essentials™. \
+	desc = "Stay hot on the criminal's heels with SCP Foundation's Detective Essentials™. \
 		Contains a forensics scanner, six evidence bags, camera, special board for evidences, tape recorder, stick of chalk, \
 		and of course, a fedora."
 	cost = CARGO_CRATE_VALUE * 2.5
@@ -132,7 +132,7 @@
 /datum/supply_pack/security/justiceinbound
 	name = "Standard Justice Enforcer Crate"
 	desc = "This is it. The Bee's Knees. The Creme of the Crop. The Pick of the Litter. \
-		The best of the best of the best. The Crown Jewel of Nanotrasen. \
+		The best of the best of the best. The Crown Jewel of SCP Foundation. \
 		The Alpha and the Omega of security headwear. Guaranteed to strike fear into the hearts \
 		of each and every criminal aboard the station. Also comes with a security gasmask."
 	cost = CARGO_CRATE_VALUE * 6 //justice comes at a price. An expensive, noisy price.
@@ -321,7 +321,7 @@
 /datum/supply_pack/security/armory/swat
 	name = "SWAT Crate"
 	desc = "Contains two fullbody sets of tough, fireproof suits designed in a joint \
-		effort by IS-ERI and Nanotrasen. Each set contains a suit, helmet, mask, combat belt, \
+		effort by IS-ERI and SCP Foundation. Each set contains a suit, helmet, mask, combat belt, \
 		and gorilla gloves."
 	cost = CARGO_CRATE_VALUE * 7
 	contains = list(/obj/item/clothing/head/helmet/swat/nanotrasen = 2,

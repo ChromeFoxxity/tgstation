@@ -111,7 +111,7 @@
   - imageadd: Fire mutation now has the sprite of old space adaption while Pressure
       is a blue version of it.
   jlsnow301:
-  - bugfix: Removed two map-based runtimes for Syndicate Lavaland Base and The Derelict
+  - bugfix: Removed two map-based runtimes for Chaos Insurgency Lavaland Base and The Derelict
   tf-4:
   - admin: You now have to confirm that you want to reset the station name from the
       secrets panel.
@@ -122,7 +122,7 @@
       eye protection and the pepper immunity. All other sec masks (the swat and spacepol)
       are unchanged
   GoldenAlpharex:
-  - bugfix: Nanotrasen's Paranormal Containment team had some budget cuts, meaning
+  - bugfix: SCP Foundation's Paranormal Containment team had some budget cuts, meaning
       that ghosts are no longer stripped of their hair colors- You can finally sport
       that bright pink floor bedhead even in death once again!
   HarseTheef:
@@ -265,7 +265,7 @@
 2021-12-10:
   AnturK:
   - rscadd: You can now become patron of your favorite painting by buying sponsorship
-      from Nanotrasen Trust Foundation.
+      from SCP Foundation Trust Foundation.
   - rscadd: Painter's palettes are now available at library vendor.
   - qol: Can use strokes in paintings now
   Fikou:
@@ -307,7 +307,7 @@
       has brought Mothic food to the masses! Try out some new treats, like cheesecake
       balls, cheese soup, and five-cheese pizza at the kitchen today! There might
       even be some foods that don''t have cheese, too!'
-  - rscadd: "To coincide with the new popularity of Mothic cuisine, Nanotrasen now\
+  - rscadd: "To coincide with the new popularity of Mothic cuisine, SCP Foundation now\
       \ stocks seeds for T\xF6chta\xFCse Berries, a common ingredient in moth cooking,\
       \ in the Megaseed vendors. Additionally, herbs and bell peppers have also made\
       \ their way to the station's stock. Botanists, you know what to do."
@@ -507,7 +507,7 @@
   - bugfix: Long civilian bounty texts (specifically viro) no longer overflow the
       button. The window is slightly wider as a result.
   san7890:
-  - bugfix: Adds the High-performance liquid chromatography machine to the Syndicate
+  - bugfix: Adds the High-performance liquid chromatography machine to the Chaos Insurgency
       Lavaland Base.
 2021-12-21:
   Bizzonium:
@@ -556,7 +556,7 @@
   - bugfix: Adds seeds to vending machines as intended. Corrects pathway for lasagne.
       Fixes issue with Bell peppers and baking cheese.
   san7890:
-  - bugfix: The Nanotrasen News Network has updated their news tickers for when a
+  - bugfix: The SCP Foundation News Network has updated their news tickers for when a
       station horrifically blows up to be more accommodating towards the person directly
       responsible for making sure it didn't horrifically blow up.
 2021-12-23:

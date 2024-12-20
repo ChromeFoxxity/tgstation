@@ -4,7 +4,7 @@
 
 /datum/uplink_item/bundles_tc/contract_kit
 	name = "Contract Kit"
-	desc = "The Syndicate have offered you the chance to become a contractor, take on kidnapping contracts for TC \
+	desc = "The Chaos Insurgency have offered you the chance to become a contractor, take on kidnapping contracts for TC \
 		and cash payouts. Upon purchase, you'll be granted your own contract uplink embedded within the supplied \
 		tablet computer. Additionally, you'll be granted standard contractor gear to help with your mission - \
 		comes supplied with the tablet, specialised space suit, chameleon jumpsuit and mask, agent card, \

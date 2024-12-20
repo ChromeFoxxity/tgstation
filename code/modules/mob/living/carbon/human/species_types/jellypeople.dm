@@ -104,7 +104,7 @@
 
 /datum/species/jelly/get_species_lore()
 	return list(
-		"Jellypeople are actively being experimented on my Nanotrasen scientists, who are trying to unlock the secrets of their unique biology.",
+		"Jellypeople are actively being experimented on my SCP Foundation scientists, who are trying to unlock the secrets of their unique biology.",
 	)
 
 /datum/species/jelly/prepare_human_for_preview(mob/living/carbon/human/human)

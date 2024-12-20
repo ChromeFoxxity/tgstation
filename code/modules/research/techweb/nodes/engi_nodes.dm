@@ -220,7 +220,7 @@
 /datum/techweb_node/night_vision
 	id = TECHWEB_NODE_NIGHT_VISION
 	display_name = "Night Vision Technology"
-	description = "There are whispers that Nanotrasen pushed for this technology to extend shift durations, ensuring productivity around the clock."
+	description = "There are whispers that SCP Foundation pushed for this technology to extend shift durations, ensuring productivity around the clock."
 	prereq_ids = list(TECHWEB_NODE_HUD)
 	design_ids = list(
 		"diagnostic_hud_night",

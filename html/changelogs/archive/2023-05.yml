@@ -1,7 +1,7 @@
 2023-05-01:
   BlueMemesauce:
   - spellcheck: Deleted the extra line in combat information
-  - spellcheck: Fixed Nanotrasen being miscapitalized in traitor posters, a drink,
+  - spellcheck: Fixed SCP Foundation being miscapitalized in traitor posters, a drink,
       the ethereal lore, and some photocopier paperwork
   EOBGames:
   - rscdel: Kilostation has went back to its home planet. It served us faithfully
@@ -16,7 +16,7 @@
   JohnFulpWillard:
   - balance: Mimes can no longer write on paper without breaking their vow.
   - admin: Enslaving mobs is now logged in game.log
-  - refactor: Russian mobs are now subtypes of Syndicate basic mobs.
+  - refactor: Russian mobs are now subtypes of Chaos Insurgency basic mobs.
   - bugfix: Birdshot's observers now spawn on-station.
   - bugfix: Birdshot's EVA door now properly works.
   - bugfix: Birdshot now has a few extra rooms connected to the station's distro (atmos
@@ -367,7 +367,7 @@
   - rscadd: Chococoin now has a chance to spawn wherever the coins are used to spawn
       (wallets, greed ruins, deltastation bar)
   JohnFulpWillard:
-  - balance: Default Syndicate and Russian gunners now fire every 2.5 seconds instead
+  - balance: Default Chaos Insurgency and Russian gunners now fire every 2.5 seconds instead
       of every 0.2
   KoJIT2009:
   - qol: Added switch buttons to few dropdown in character preferences
@@ -565,7 +565,7 @@
   - rscadd: Added a new way out of Birdshot's gulag.
   - bugfix: Replaced the oven on Birdshot with a range.
   DrDiasyl aka DrTuxedo:
-  - sound: Nanotrasen have started installing music players in the elevators to boost
+  - sound: SCP Foundation have started installing music players in the elevators to boost
       workers' morale.
   Jacquerel:
   - balance: The Death Sandwich can no longer be renamed
@@ -643,7 +643,7 @@
   - bugfix: The Faceoff's faster-than-jetpack-speed enemies no longer attack explorers
       only passing by.
   carlarctg:
-  - rscadd: Adds the Syndicate Induction Kit for Nuclear Operatives, which lets them
+  - rscadd: Adds the Chaos Insurgency Induction Kit for Nuclear Operatives, which lets them
       induct any willing antagonist into the nuclear operative team for 10 TC.
   - rscadd: Uplink spacesuits are randomized between all their different colored variants!
       Visual only.
@@ -809,7 +809,7 @@
   Singul0:
   - bugfix: The buttons in HoP office of Icebox now actually works
   Treach:
-  - bugfix: The Lavaland Syndicate base now has the correct plumbing constructor.
+  - bugfix: The Lavaland Chaos Insurgency base now has the correct plumbing constructor.
   Watermelon914, Iamgoofball:
   - bugfix: Fixed message garbling. TTS messages won't play in the wrong order anymore.
   - qol: Added a way for players to change the volume of TTS.
@@ -992,7 +992,7 @@
       speaking everything is the same as usual.
   moocowswag:
   - qol: Apc covers can now be repaired with a welder and replaced with an apc frame.
-  - rscadd: Nanotrasen has uncovered a unique use for plasteel allowing the construction
+  - rscadd: SCP Foundation has uncovered a unique use for plasteel allowing the construction
       of new machines capable of fabricating and distributing hardlight into a modular
       barrier. These new machines are available via the advanced power manipulation
       techweb.
@@ -1136,10 +1136,10 @@
   - refactor: '`/datum/component/material_container/user_insert()` now extracts material
       from all the contents of an atom reccursively'
   TheVekter:
-  - rscadd: As a result of a recent safety lawsuit, Nanotrasen has mandated the return
+  - rscadd: As a result of a recent safety lawsuit, SCP Foundation has mandated the return
       of anesthetic canisters and masks to robotics research on all stations that
       are not currently equipped with them.
-  - balance: Syndicate corpses dropped from killing a Legion no longer come with a
+  - balance: Chaos Insurgency corpses dropped from killing a Legion no longer come with a
       MODSuit.
 2023-05-31:
   Epoc:
@@ -1156,7 +1156,7 @@
   Guillaume Prata:
   - bugfix: Air Alarms will properly shut up when atmos is fixed.
   Helg2:
-  - bugfix: Syndicate mod-suit in Tactical NukeOps Metagame Syndi-kit (the one with
+  - bugfix: Chaos Insurgency mod-suit in Tactical NukeOps Metagame Syndi-kit (the one with
       bulldog shotgun) now doesn't require any access, so you don't need to buy agent
       card to simply use it.
   JohnFulpWillard:

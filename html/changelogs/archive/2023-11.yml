@@ -80,7 +80,7 @@
   - bugfix: Lethal ballistic pellet-based shotgun shells no longer instantly delete.
   - balance: Operatives can once again read about the basics of CQC at a reasonable
       price of 14 TC.
-  - qol: All Syndicate MODsuits come with the potent ability to wear hats on their
+  - qol: All Chaos Insurgency MODsuits come with the potent ability to wear hats on their
       helmets FOR FREE. No longer does any operative need be shamed by their bald
       helmet's unhatted state when they spot the captain, in their MODsuit, wearing
       a hat on their helmet. The embarrassment has resulted in more than a few operatives
@@ -94,7 +94,7 @@
   rageguy505:
   - rscdel: Removed extra consoles from birdshot's bitrunners
   starrm4nn:
-  - bugfix: The Syndicate Revolver now has a Syndicate Firing Pin on the Nuke Ops
+  - bugfix: The Chaos Insurgency Revolver now has a Chaos Insurgency Firing Pin on the Nuke Ops
       uplink.
   timothymtorres:
   - rscdel: Remove duplicate pipe on pirate ship
@@ -371,7 +371,7 @@
   - rscadd: Soysauce fermentation to soybeans.
   - rscadd: Saltcane can be dried into a replacement seaweedsheet for sushi.
   zergspower:
-  - balance: NPC Syndicate Shotgunners range requirement returned
+  - balance: NPC Chaos Insurgency Shotgunners range requirement returned
 2023-11-10:
   Jacquerel:
   - qol: Adds the capability for some player-controlled mobs with ranged attacks to
@@ -397,7 +397,7 @@
       main office, and a replacement can be built with late-game mech research.
   - bugfix: Ripley MK-I and MK-II mechs no longer qdel their stored items when destroyed.
   san7890:
-  - bugfix: Nanotrasen has clarified an issue with their manual publishers, and these
+  - bugfix: SCP Foundation has clarified an issue with their manual publishers, and these
       guides should now contain actual user-pertinent content.
   starrm4nn:
   - qol: Bandolier can quick gather items now.
@@ -476,7 +476,7 @@
       They need to breath, and already got the suit for speed.
   necromanceranne:
   - bugfix: The Dread Disciples of Maint Khan, notorious Tunnel Arts practitioner
-      and maintenance warlord, have been driven from Nanotrasen stations within the
+      and maintenance warlord, have been driven from SCP Foundation stations within the
       Spinward Sector. The average punch accuracy has been increased as a direct result,
       with the most exhausted puncher now having a  max potential inaccuracy of 80%,
       rather than the absurd 20% of the Disciples.
@@ -892,7 +892,7 @@
       than nothing at all.
   - rscadd: The battle against Maint Khan's forces rages on in the periphery stations
       of the Spinward Sector. And with it, a new breed of unarmed warrior has emerged;
-      the cybernetic martial artist. Nanotrasen, rather than quell the minor maintenance
+      the cybernetic martial artist. SCP Foundation, rather than quell the minor maintenance
       civil war brewing in their sector, have chosen to exploit this conflict to push
       their weapons and cybernetics research to new heights!
   - rscadd: Advanced cybernetic arms can be printed at the Robotics exofabricator
@@ -955,8 +955,8 @@
   necromanceranne:
   - balance: Judo Joe, archnemesis of Maint Khan, has begun re-airing his midnight
       infomercials shilling his extremely expensive Tackle Supreme Judo Karate Training
-      video tapes. Unable to pass up a 'bargain', Nanotrasen has purchased these tapes
-      en masse. Tackling techniques have started to improve, as well as Nanotrasen's
+      video tapes. Unable to pass up a 'bargain', SCP Foundation has purchased these tapes
+      en masse. Tackling techniques have started to improve, as well as SCP Foundation's
       tackling instructional algorithms within tackle gloves.
   - balance: The outcomes for tackling are more equalized. It isn't as feast or famine,
       and should be somewhat more controllable without becoming too severe.

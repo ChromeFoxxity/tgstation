@@ -318,7 +318,7 @@
 	update_power()
 
 /obj/item/defibrillator/compact/combat/loaded/nanotrasen
-	name = "elite Nanotrasen defibrillator"
+	name = "elite SCP Foundation defibrillator"
 	desc = "A belt-equipped state-of-the-art defibrillator. Can revive through thick clothing, has an experimental self-recharging battery, and can be utilized as a weapon via applying the paddles while in a combat stance."
 	icon_state = "defibnt" //needs defib inhand sprites
 	inhand_icon_state = null
@@ -708,7 +708,7 @@
 	base_icon_state = "syndiepaddles"
 
 /obj/item/shockpaddles/syndicate/nanotrasen
-	name = "elite Nanotrasen defibrillator paddles"
+	name = "elite SCP Foundation defibrillator paddles"
 	desc = "A pair of paddles used to revive deceased ERT members. They possess both the ability to penetrate armor and to deliver powerful or disabling shocks offensively."
 	icon_state = "ntpaddles0"
 	inhand_icon_state = "ntpaddles0"

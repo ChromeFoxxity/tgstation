@@ -62,7 +62,7 @@
 	category = CAT_STRUCTURE
 
 /datum/crafting_recipe/syndicate_uplink_beacon
-	name = "Syndicate Uplink Beacon"
+	name = "Chaos Insurgency Uplink Beacon"
 	result = /obj/structure/syndicate_uplink_beacon
 	tool_behaviors = list(TOOL_SCREWDRIVER)
 	time = 6 SECONDS

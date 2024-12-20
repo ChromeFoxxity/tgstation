@@ -481,7 +481,7 @@
 
 /obj/item/storage/box/syndie_kit/nuke
 	name = "nuke core extraction kit"
-	desc = "A box containing the equipment and instructions for extracting the plutonium cores of most Nanotrasen nuclear explosives."
+	desc = "A box containing the equipment and instructions for extracting the plutonium cores of most SCP Foundation nuclear explosives."
 
 /obj/item/storage/box/syndie_kit/nuke/PopulateContents()
 	new /obj/item/screwdriver/nuke(src)
@@ -702,7 +702,7 @@
 
 /obj/item/storage/box/syndie_kit/induction_kit
 	name = "syndicate induction kit"
-	desc = "Contains all you need for introducing your newest comrade to the Syndicate and all its worker's benefits."
+	desc = "Contains all you need for introducing your newest comrade to the Chaos Insurgency and all its worker's benefits."
 
 /obj/item/storage/box/syndie_kit/induction_kit/PopulateContents()
 	// Basic weaponry, so they have something to use.
@@ -737,7 +737,7 @@
 
 /obj/item/implant/nuclear_operative
 	name = "nuclear operative implant"
-	desc = "Registers you as a member of a Syndicate nuclear operative team."
+	desc = "Registers you as a member of a Chaos Insurgency nuclear operative team."
 	implant_color = "r"
 
 /obj/item/implant/nuclear_operative/get_data()
@@ -798,7 +798,7 @@
 
 /obj/item/storage/box/syndie_kit/poster_box
 	name = "syndicate poster pack"
-	desc = "Contains a variety of demotivational posters to ensure minimum productivity for the crew of any Nanotrasen station."
+	desc = "Contains a variety of demotivational posters to ensure minimum productivity for the crew of any SCP Foundation station."
 
 	/// Number of posters this box contains when spawning.
 	var/poster_count = 3
@@ -824,7 +824,7 @@
 
 /obj/item/storage/box/syndicate/contract_kit
 	name = "Contract Kit"
-	desc = "Supplied to Syndicate contractors."
+	desc = "Supplied to Chaos Insurgency contractors."
 	icon_state = "syndiebox"
 	illustration = "writing_syndie"
 
@@ -837,7 +837,7 @@
 
 /obj/item/storage/box/syndicate/contractor_loadout
 	name = "Standard Loadout"
-	desc = "Supplied to Syndicate contractors, providing their specialised space suit and chameleon uniform."
+	desc = "Supplied to Chaos Insurgency contractors, providing their specialised space suit and chameleon uniform."
 	icon_state = "syndiebox"
 	illustration = "writing_syndie"
 

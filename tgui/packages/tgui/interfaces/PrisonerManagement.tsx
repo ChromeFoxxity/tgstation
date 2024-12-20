@@ -241,7 +241,7 @@ const LogIn = () => {
         </Stack.Item>
         <Stack.Item align="center" grow>
           <Box color="red" fontSize="18px" bold mt={5}>
-            Nanotrasen SecurityHUB
+            SCP Foundation SecurityHUB
           </Box>
         </Stack.Item>
         <Stack.Item>

@@ -24803,7 +24803,7 @@
 	},
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to SCP Foundation Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -36192,7 +36192,7 @@
 	pixel_y = 15;
 	pixel_x = 6;
 	name = "monkey cube";
-	desc = "A new Nanotrasen classic, the monkey cube. Tastes like everything!"
+	desc = "A new SCP Foundation classic, the monkey cube. Tastes like everything!"
 	},
 /obj/item/wirecutters{
 	pixel_y = 6
@@ -38995,7 +38995,7 @@
 /obj/structure/table/glass,
 /obj/machinery/recharger,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to SCP Foundation Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 14
 	},

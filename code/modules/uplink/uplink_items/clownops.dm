@@ -64,7 +64,7 @@
 
 /datum/uplink_item/explosives/bombanana
 	name = "Bombanana"
-	desc = "A banana with an explosive taste! discard the peel quickly, as it will explode with the force of a Syndicate minibomb \
+	desc = "A banana with an explosive taste! discard the peel quickly, as it will explode with the force of a Chaos Insurgency minibomb \
 		a few seconds after the banana is eaten."
 	item = /obj/item/food/grown/banana/bombanana
 	cost = 4 //it is a bit cheaper than a minibomb because you have to take off your helmet to eat it, which is how you arm it
@@ -116,7 +116,7 @@
 
 /datum/uplink_item/reinforcement/monkey_agent
 	name = "Simian Agent Reinforcements"
-	desc = "Call in an extremely well trained monkey secret agent from our Syndicate Banana Department. \
+	desc = "Call in an extremely well trained monkey secret agent from our Chaos Insurgency Banana Department. \
 		They've been trained to operate machinery and can read, but they can't speak Common."
 	item = /obj/item/antag_spawner/loadout/monkey_man
 	cost = 7

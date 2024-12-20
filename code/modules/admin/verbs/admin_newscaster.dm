@@ -120,7 +120,7 @@ ADMIN_VERB(access_news_network, R_ADMIN, "Access Newscaster Network", "Allows yo
 	data["channelAuthor"] = current_channel?.author
 
 	if(!current_channel)
-		data["channelAuthor"] = "Nanotrasen Inc"
+		data["channelAuthor"] = "SCP Foundation Inc"
 		data["channelDesc"] = "Welcome to Newscaster Net. Interface & News networks Operational."
 		data["channelLocked"] = TRUE
 	else

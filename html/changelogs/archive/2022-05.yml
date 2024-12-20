@@ -20,7 +20,7 @@
   carshalash:
   - bugfix: corrects pathway in sausage and eggs. Now cooked with fried eggs as intended.
   magatsuchi:
-  - rscadd: Back by popular demand, the Syndicate has re-included their state-of-the-art
+  - rscadd: Back by popular demand, the Chaos Insurgency has re-included their state-of-the-art
       Chameleon Gun into their chameleon kits, capable of disguising itself as any
       gun known to man-kind! Lethal rounds not included.
   the-orange-cow:
@@ -99,7 +99,7 @@
       while the safeties are on.
   - bugfix: 'Fix xray trait to appear on mobs that equip xray glasses or have xray
       eye augmentation. expansion: Playing cards with other people gives a mood event
-      and is added to memory expansion: Syndicate card decks can be shuffled faster
+      and is added to memory expansion: Chaos Insurgency card decks can be shuffled faster
       than normal decks. expansion: People with the supernatural phobia will now be
       terrified of tarot card decks. expansion: NT has outlawed the use of x-ray vision,
       science goggles combined with invisible ink, or using pens or crayons to gain
@@ -592,7 +592,7 @@
       so mapping helpers can function correctly
   - bugfix: maintenance access returned to the library door on IceBox station
   san7890:
-  - bugfix: Nanotrasen will no longer install two separate APCs in the prison wing
+  - bugfix: SCP Foundation will no longer install two separate APCs in the prison wing
       of IceBoxStation.
 2022-05-13:
   Ebb-Real:
@@ -625,7 +625,7 @@
       out the top of the map, since they magically now have ceilings.
   - rscadd: 'However, this dark magick to give Ice Moon Ruins ceilings come at a cost:
       avalanches over certain chasms are now much more likely, and can decimate certain
-      infrastructure. Nanotrasen has ensured that anything vital shouldn''t be impacted
+      infrastructure. SCP Foundation has ensured that anything vital shouldn''t be impacted
       by this, but do expect to see certain "unmaintained" catwalk sections be swept
       up in an avalanche of sorts.'
   timothymtorres:
@@ -967,7 +967,7 @@
   SmArtKar:
   - bugfix: Fixed ethereal revive crystal bugging out when buckled
   san7890:
-  - bugfix: Nanotrasen realized that intern they left to do announcements accidentally
+  - bugfix: SCP Foundation realized that intern they left to do announcements accidentally
       obscured the location of where any potential blood cultists may be summoning
       their eldritch deity, this should no longer happen whenever they tack this intern
       on.
@@ -1020,7 +1020,7 @@
   TemporalOroboros:
   - rscadd: Smoke expands through newly opened airlocks if it hasn't finished spreading.
   san7890:
-  - bugfix: Nanotrasen's Reality Corrections Office has stumbled across an older station
+  - bugfix: SCP Foundation's Reality Corrections Office has stumbled across an older station
       with a bunch of abandoned spacemen abroad. Rather than rescue them, they elected
       to fix the weird lighting issues their external portions had, and then flew
       off. Those spaceman are still out there.
@@ -1104,7 +1104,7 @@
   - bugfix: The DB query retrieving the feedback thread link for adminwho properly
       deletes the DB query across all code paths, stopping error spam in admin chat.
   san7890:
-  - bugfix: On DeltaStation, Nanotrasen has made access from Medbay Maintenance to
+  - bugfix: On DeltaStation, SCP Foundation has made access from Medbay Maintenance to
       the Recreation Area unrestricted.
 2022-05-27:
   ArcaneMusic:
@@ -1192,7 +1192,7 @@
       tabs.
   - admin: Added an debug data disk to test mutations.
   san7890:
-  - rscadd: 'Nanotrasen has installed a new holodeck subroutine, cleverly termed:
+  - rscadd: 'SCP Foundation has installed a new holodeck subroutine, cleverly termed:
       Microwave Paradise. Enjoy those microwaves.'
   - bugfix: If you haven't been able to see any working space ruins lately, that's
       our bad. Should be fixed now.

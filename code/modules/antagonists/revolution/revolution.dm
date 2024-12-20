@@ -359,7 +359,7 @@
 		if (where)
 			to_chat(carbon_owner, "The flash in your [where] will help you to persuade the crew to join your cause.")
 		else
-			to_chat(carbon_owner, "The Syndicate were unfortunately unable to get you a flash.")
+			to_chat(carbon_owner, "The Chaos Insurgency were unfortunately unable to get you a flash.")
 
 	if(give_hud)
 		var/obj/item/organ/internal/cyberimp/eyes/hud/security/syndicate/hud = new()

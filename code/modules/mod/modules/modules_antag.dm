@@ -615,6 +615,6 @@
 		It is possible that this technology has its origins in Spider Clan advancements, \
 		but the exact source of the Wraith Module is highly disputed. \
 		No group has stepped forward to claim it as their handiwork due to the political consequences of having stolen Spider Clan tech and their inevitable retaliation for such transgressions. \
-		Most point fingers at Cybersun Industries, but murmurs suggest it could even be even more clandestine organizations amongst the Syndicate branches. \
+		Most point fingers at Cybersun Industries, but murmurs suggest it could even be even more clandestine organizations amongst the Chaos Insurgency branches. \
 		Whatever the case, if you are looking at one of these right now, don't show it to a space ninja." \
 	)

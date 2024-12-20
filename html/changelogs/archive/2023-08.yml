@@ -46,16 +46,16 @@
   DaydreamIQ:
   - bugfix: Birdshot's morgue has surgical tools and a laptop for the coroner to use
   Derpguy3:
-  - qol: The Syndicate battlecruiser's fighters have received external cameras to
+  - qol: The Chaos Insurgency battlecruiser's fighters have received external cameras to
       aid its pilots.
   - qol: Warning lights have been added to the landing pad of the battlecruiser to
       (hopefully) reduce incident numbers.
-  - bugfix: A stray air alarm was removed from the bridge of the Syndicate battlecruiser.
+  - bugfix: A stray air alarm was removed from the bridge of the Chaos Insurgency battlecruiser.
   - bugfix: The turret control panel in the bridge of the battlecruiser has been moved
       to a wall, allowing access without needing to climb the table.
-  - bugfix: Airlocks on the Syndicate battlecruiser which were missing syndicate access,
+  - bugfix: Airlocks on the Chaos Insurgency battlecruiser which were missing syndicate access,
       has had it added.
-  - bugfix: The Syndicate medibot on the battlecruiser can now be unlocked by its
+  - bugfix: The Chaos Insurgency medibot on the battlecruiser can now be unlocked by its
       crew.
   Jacquerel:
   - bugfix: Several places on Birdshot which were missing an APC now aren't.
@@ -336,7 +336,7 @@
   Ben10Omintrix:
   - refactor: the hivebot is now a basic please report any bugs
   CRITAWAKETS:
-  - rscadd: The Syndicate has begun rolling out new Tactical Deniability Implants
+  - rscadd: The Chaos Insurgency has begun rolling out new Tactical Deniability Implants
       for their Nuclear Operative teams. It seems these implants are designed to make
       teams "fight harder" by "giving incentives for fighting to the bitter end",
       whatever they're talking about.
@@ -408,7 +408,7 @@
       refactor; Removes a lot of redundant item entry code and tidies up the actual
       code part of the nuclear uplink so that it is much easier to find things within
       it.'
-  - rscadd: Added 40 new cosmetic items to the Syndicate Store. Buy them now from
+  - rscadd: Added 40 new cosmetic items to the Chaos Insurgency Store. Buy them now from
       the Hat Crate, only 5 TC!
   - code_imp: Updated the nuclear operative uplink files.
   siliconOpossum:
@@ -690,7 +690,7 @@
   YehnBeep:
   - bugfix: fixed missing seating at the All American Diner
   carlarctg:
-  - rscadd: Adds a unique medibot to the Syndicate Infiltrator. It doesn't like nukes
+  - rscadd: Adds a unique medibot to the Chaos Insurgency Infiltrator. It doesn't like nukes
       - when one is armed, disarmed, or detonating, it says an unique line. Players
       can optionally enable personalities on it if they want to. Probably best to
       just let it stay on the shuttle though. (It's also in the Interdyne Pharmaceuticals
@@ -734,7 +734,7 @@
   - bugfix: Fixed mech being able to leave transit tube in transit
   - bugfix: Fixed mech internal damage flags working incorrectly
   - bugfix: Fixed Gygax leg overloading being useless
-  - bugfix: Fixed mechs ignoring their stock parts on creation. Syndicate mechs now
+  - bugfix: Fixed mechs ignoring their stock parts on creation. Chaos Insurgency mechs now
       stronger against lasers and consume less energy on move. Upgrading from tier
       1 to tier 2 doesn't make mech consume MORE energy than before the upgrade.
   - balance: Rebalanced mech energy drain with part upgrades. Base energy drain reduced
@@ -1329,7 +1329,7 @@
   - image: tweaks and adjustments to the Cargo resprite have been made, as well as
       respriting some missed icons such as the Winter Coats and QM Cloak
   Seven:
-  - bugfix: Syndicate ranged mobs (and probably other basic mobs) properly update
+  - bugfix: Chaos Insurgency ranged mobs (and probably other basic mobs) properly update
       their shell's description to show they are spent.
   Vincent983:
   - qol: Various jobs have gotten additional programs uploaded at roundstart, engineers
@@ -1407,7 +1407,7 @@
   necromanceranne:
   - bugfix: Compact fishing toolboxes no longer break space and time to contain any
       normal-sized object. Instead, they only break space and time to contain fishing
-      rods. Settlers migrating to Nanotrasen space have no reasonable explanation
+      rods. Settlers migrating to SCP Foundation space have no reasonable explanation
       for this phenomenon.
   nikothedude:
   - balance: Prosthetics and slimepeople can now have limbs dismembered

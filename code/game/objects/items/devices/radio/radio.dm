@@ -171,7 +171,7 @@
 
 	add_radio(src, frequency)
 
-/obj/item/radio/proc/make_syndie() // Turns normal radios into Syndicate radios!
+/obj/item/radio/proc/make_syndie() // Turns normal radios into Chaos Insurgency radios!
 	qdel(keyslot)
 	keyslot = new /obj/item/encryptionkey/syndicate()
 	special_channels |= RADIO_SPECIAL_SYNDIE
@@ -314,7 +314,7 @@
 	if that fails, they send a mundane radio transmission.
 
 	Headsets cannot send/receive mundane transmissions, only subspace.
-	Syndicate radios can hear transmissions on all well-known frequencies.
+	Chaos Insurgency radios can hear transmissions on all well-known frequencies.
 	CentCom radios can hear the CentCom frequency no matter what.
 	*/
 

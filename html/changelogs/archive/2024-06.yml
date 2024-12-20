@@ -117,7 +117,7 @@
   - bugfix: Fixed the biogenerator's tabs
   - bugfix: Orbit UI icons are no longer scrollable..
   junkgle01:
-  - rscadd: Changes the layout of MetaStation's cargo to fit with new Nanotrasen guidelines.
+  - rscadd: Changes the layout of MetaStation's cargo to fit with new SCP Foundation guidelines.
   mc-oofert:
   - balance: you may not decap people with a plasma cutter
   necromanceranne:
@@ -296,18 +296,18 @@
   - qol: you now don't need to weld a closet to install/uninstall electronics/card
       readers.
   ShizCalev:
-  - bugfix: Syndicate AI can no longer be selected via the station law upload console.
+  - bugfix: Chaos Insurgency AI can no longer be selected via the station law upload console.
   - bugfix: Non-syndicate borgs can no longer accidentally be slaved to syndicate
       AI by pulsing their AI wires.
-  - bugfix: Syndicate borgs can no longer be slaved to the station AI by pulsing their
+  - bugfix: Chaos Insurgency borgs can no longer be slaved to the station AI by pulsing their
       AI wires.
-  - bugfix: Syndicate operatives onboard the station can no longer end up with an
+  - bugfix: Chaos Insurgency operatives onboard the station can no longer end up with an
       objective to destroy their own syndicate AI.
   SyncIt21:
   - bugfix: autolathes don't hang when printing items in areas without apc or if it
       runs out of materials mid printing
   Wayland-Smithy:
-  - bugfix: Pre-Loaded Syndicate Intellicard AI's no longer appear in PDA messenger.
+  - bugfix: Pre-Loaded Chaos Insurgency Intellicard AI's no longer appear in PDA messenger.
   Whoneedspacee:
   - bugfix: Bubblegum can no longer melee you while using his charge abilities.
   githubuser4141:
@@ -382,7 +382,7 @@
   Ben10Omintrix:
   - bugfix: lobstrosities will no longer be able to fish out multiple necropolis chests
   DATA-xPUNGED:
-  - rscadd: NT reports indicate that the Syndicate have increased listening activities
+  - rscadd: NT reports indicate that the Chaos Insurgency have increased listening activities
       on Icemoon, crew is advised to watch out for possible communication interference.
   DustanHache:
   - bugfix: Lobstrosities are no longer pre-cooked through bluespace shenanigans.
@@ -516,7 +516,7 @@
   - sound: added new crossbow firing sound effect
 2024-06-11:
   Addust:
-  - bugfix: The Syndicate has corrected some technical issues at a listening post
+  - bugfix: The Chaos Insurgency has corrected some technical issues at a listening post
       in the Icemoon.
   DaCoolBoss:
   - rscadd: The Lizard's Gas ruin in Lavaland has been revamped, and now dispenses
@@ -670,7 +670,7 @@
 2024-06-15:
   BurgerBB:
   - bugfix: Tweaks some instances of get_safe_turf so things like the nuclear disk
-      doesn't accidentally teleport to the Icebox Syndicate Base
+      doesn't accidentally teleport to the Icebox Chaos Insurgency Base
   EnterTheJake:
   - image: Rust Heretic's blade now has a new, slicker sprite.
   Exester509:
@@ -802,7 +802,7 @@
       operators) should now be visible far earlier when a world is about to reboot.
 2024-06-19:
   Bisar:
-  - rscadd: The Nanotrasen safety commission reminds employees to properly clean themselves
+  - rscadd: The SCP Foundation safety commission reminds employees to properly clean themselves
       of all flammable material before going on smoke breaks.
   - rscadd: Sparks now ignite flammable things. Including you. Keep a fire extinguisher
       handy or stop dousing yourself in welding fuel!
@@ -1007,7 +1007,7 @@
   - rscadd: As an observer, you can now switch views between station and virtual domain
       by clicking the hololadder and netpod respectively.
   - rscdel: Removed the starfront saloon BR map.
-  - bugfix: 'Syndicate assault map: Added pistols, reduced exploits.'
+  - bugfix: 'Chaos Insurgency assault map: Added pistols, reduced exploits.'
 2024-06-24:
   Bisar:
   - balance: Sparks have been heavily adjusted; they only affect items made of plasma,
@@ -1399,7 +1399,7 @@
   - spellcheck: fixed spelling of "aggressive" in the shuttle manipulator description
       for the Birdshot Whiteship.
   carlarctg:
-  - spellcheck: Syndicate jaws of life are now jaws of death!
+  - spellcheck: Chaos Insurgency jaws of life are now jaws of death!
   - spellcheck: Made its desc. more descriptive, stating that its faster.
   - rscadd: Heretics can now sacrifice Cultists for sweet loot.
   - rscadd: Cultists can now sacrifice Heretics for sick trinkets.

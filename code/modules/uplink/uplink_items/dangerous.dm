@@ -90,8 +90,8 @@
 	refundable = TRUE
 
 /datum/uplink_item/dangerous/revolver
-	name = "Syndicate Revolver"
-	desc = "Waffle Corp's modernized Syndicate revolver. Fires 7 brutal rounds of .357 Magnum."
+	name = "Chaos Insurgency Revolver"
+	desc = "Waffle Corp's modernized Chaos Insurgency revolver. Fires 7 brutal rounds of .357 Magnum."
 	item = /obj/item/gun/ballistic/revolver/syndicate
 	cost = 13
 	surplus = 50

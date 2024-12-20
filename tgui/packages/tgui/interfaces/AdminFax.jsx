@@ -99,16 +99,16 @@ export const FaxMainPanel = (props) => {
             icon="n"
             mr="7px"
             width="49%"
-            onClick={() => setPaperName('Nanotrasen Official Report')}
+            onClick={() => setPaperName('SCP Foundation Official Report')}
           >
-            Nanotrasen
+            SCP Foundation
           </Button>
           <Button
             icon="s"
             width="49%"
-            onClick={() => setPaperName('Syndicate Report')}
+            onClick={() => setPaperName('Chaos Insurgency Report')}
           >
-            Syndicate
+            Chaos Insurgency
           </Button>
         </Box>
         <Divider />
@@ -127,12 +127,12 @@ export const FaxMainPanel = (props) => {
             icon="n"
             mr="7px"
             width="49%"
-            onClick={() => setFromWho('Nanotrasen')}
+            onClick={() => setFromWho('SCP Foundation')}
           >
-            Nanotrasen
+            SCP Foundation
           </Button>
-          <Button icon="s" width="49%" onClick={() => setFromWho('Syndicate')}>
-            Syndicate
+          <Button icon="s" width="49%" onClick={() => setFromWho('Chaos Insurgency')}>
+            Chaos Insurgency
           </Button>
         </Box>
         <Divider />

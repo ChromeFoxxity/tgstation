@@ -14,22 +14,22 @@
 			this suit proves to be cheaper than your standard issue MODsuit, with none of the movement restrictions of the space suits employed by the company. \
 			However, this greater mobility comes at a cost, and the suit is ineffective at protecting the wearer from the vacuum of space. \
 			The suit does come pre-equipped with a special psi-emitter stealth module that makes it impossible to recognize the wearer \
-			as well as causing significant demoralization amongst Nanotrasen crew."
+			as well as causing significant demoralization amongst SCP Foundation crew."
 	item = /obj/item/mod/control/pre_equipped/infiltrator
 	cost = 6
 	purchasable_from = ~UPLINK_ALL_SYNDIE_OPS
 
 /datum/uplink_item/suits/space_suit
-	name = "Syndicate Space Suit"
-	desc = "This red and black Syndicate space suit is less encumbering than Nanotrasen variants, \
-			fits inside bags, and has a weapon slot. Nanotrasen crew members are trained to report red space suit \
+	name = "Chaos Insurgency Space Suit"
+	desc = "This red and black Chaos Insurgency space suit is less encumbering than SCP Foundation variants, \
+			fits inside bags, and has a weapon slot. SCP Foundation crew members are trained to report red space suit \
 			sightings, however."
 	item = /obj/item/storage/box/syndie_kit/space
 	cost = 4
 
 /datum/uplink_item/suits/modsuit
-	name = "Syndicate MODsuit"
-	desc = "The feared MODsuit of a Syndicate agent. Features armoring and a set of inbuilt modules."
+	name = "Chaos Insurgency MODsuit"
+	desc = "The feared MODsuit of a Chaos Insurgency agent. Features armoring and a set of inbuilt modules."
 	item = /obj/item/mod/control/pre_equipped/traitor
 	cost = 8
 	purchasable_from = ~UPLINK_ALL_SYNDIE_OPS //you can't buy it in nuke, because the elite modsuit costs the same while being better
@@ -71,9 +71,9 @@
 	cost = 2
 
 /datum/uplink_item/suits/modsuit/elite_traitor
-	name = "Elite Syndicate MODsuit"
-	desc = "An upgraded, elite version of the Syndicate MODsuit. It features fireproofing, and also \
-			provides the user with superior armor and mobility compared to the standard Syndicate MODsuit."
+	name = "Elite Chaos Insurgency MODsuit"
+	desc = "An upgraded, elite version of the Chaos Insurgency MODsuit. It features fireproofing, and also \
+			provides the user with superior armor and mobility compared to the standard Chaos Insurgency MODsuit."
 	item = /obj/item/mod/control/pre_equipped/traitor_elite
 	// This one costs more than the nuke op counterpart
 	purchasable_from = ~UPLINK_ALL_SYNDIE_OPS

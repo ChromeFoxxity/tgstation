@@ -302,7 +302,7 @@
 /obj/item/mod/core/plasma
 	name = "MOD plasma core"
 	icon_state = "mod-core-plasma"
-	desc = "Nanotrasen's attempt at capitalizing on their plasma research. These plasma cores are refueled \
+	desc = "SCP Foundation's attempt at capitalizing on their plasma research. These plasma cores are refueled \
 		through plasma fuel, allowing for easy continued use by their mining squads."
 	/// How much charge we can store.
 	var/maxcharge = 10 * STANDARD_CELL_CHARGE

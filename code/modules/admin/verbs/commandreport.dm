@@ -2,21 +2,21 @@
 #define DEFAULT_ANNOUNCEMENT_SOUND "default_announcement"
 
 /// Preset central command names to chose from for centcom reports.
-#define CENTCOM_PRESET "Central Command"
-#define SYNDICATE_PRESET "The Syndicate"
+#define CENTCOM_PRESET "Central Office"
+#define SYNDICATE_PRESET "The Chaos Insurgency"
 #define WIZARD_PRESET "The Wizard Federation"
 #define CUSTOM_PRESET "Custom Command Name"
 
-ADMIN_VERB(change_command_name, R_ADMIN, "Change Command Name", "Change the name of Central Command.", ADMIN_CATEGORY_EVENTS)
-	var/input = input(user, "Please input a new name for Central Command.", "What?", "") as text|null
+ADMIN_VERB(change_command_name, R_ADMIN, "Change Command Name", "Change the name of Central Office.", ADMIN_CATEGORY_EVENTS)
+	var/input = input(user, "Please input a new name for Central Office.", "What?", "") as text|null
 	if(!input)
 		return
 	change_command_name(input)
-	message_admins("[key_name_admin(user)] has changed Central Command's name to [input]")
-	log_admin("[key_name(user)] has changed the Central Command name to: [input]")
+	message_admins("[key_name_admin(user)] has changed Central Office's name to [input]")
+	log_admin("[key_name(user)] has changed the Central Office name to: [input]")
 
 /// Verb to open the create command report window and send command reports.
-ADMIN_VERB(create_command_report, R_ADMIN, "Create Command Report", "Create a command report to be sent to the station.", ADMIN_CATEGORY_EVENTS)
+ADMIN_VERB(create_command_report, R_ADMIN, "Create Central Report", "Create a command report to be sent to the station.", ADMIN_CATEGORY_EVENTS)
 	BLACKBOX_LOG_ADMIN_VERB("Create Command Report")
 	var/datum/command_report_menu/tgui = new /datum/command_report_menu(user.mob)
 	tgui.ui_interact(user.mob)

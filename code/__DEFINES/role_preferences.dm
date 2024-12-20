@@ -33,7 +33,7 @@
 #define ROLE_OPERATIVE_MIDROUND "Operative (Midround)"
 #define ROLE_PARADOX_CLONE "Paradox Clone"
 #define ROLE_REV_HEAD "Head Revolutionary"
-#define ROLE_SLEEPER_AGENT "Syndicate Sleeper Agent"
+#define ROLE_SLEEPER_AGENT "Chaos Insurgency Sleeper Agent"
 #define ROLE_SPACE_DRAGON "Space Dragon"
 #define ROLE_SPIDER "Spider"
 #define ROLE_WIZARD_MIDROUND "Wizard (Midround)"
@@ -43,7 +43,7 @@
 #define ROLE_HERETIC_SMUGGLER "Heretic Smuggler"
 #define ROLE_PROVOCATEUR "Provocateur"
 #define ROLE_STOWAWAY_CHANGELING "Stowaway Changeling"
-#define ROLE_SYNDICATE_INFILTRATOR "Syndicate Infiltrator"
+#define ROLE_SYNDICATE_INFILTRATOR "Chaos Insurgency Infiltrator"
 
 // Other roles
 #define ROLE_ANOMALY_GHOST "Ectoplasmic Anomaly Ghost"
@@ -58,14 +58,14 @@
 #define ROLE_LAZARUS_GOOD "Friendly Revived Mob"
 #define ROLE_MIND_TRANSFER "Mind Transfer Potion"
 #define ROLE_MONKEY_HELMET "Monkey Mind Magnification Helmet"
-#define ROLE_OVERTHROW "Syndicate Mutineer" //Role removed, left here for safety.
+#define ROLE_OVERTHROW "Chaos Insurgency Mutineer" //Role removed, left here for safety.
 #define ROLE_PAI "pAI"
 #define ROLE_POSIBRAIN "Posibrain"
 #define ROLE_PYROCLASTIC_SLIME "Pyroclastic Anomaly Slime"
 #define ROLE_REV "Revolutionary"
 #define ROLE_REVENANT "Revenant"
 #define ROLE_SENTIENCE "Sentience Potion Spawn"
-#define ROLE_SYNDICATE "Syndicate"
+#define ROLE_SYNDICATE "Chaos Insurgency"
 
 #define ROLE_CLOWN_OPERATIVE "Clown Operative"
 #define ROLE_FREE_GOLEM "Free Golem"
@@ -76,12 +76,12 @@
 #define ROLE_SERVANT_GOLEM "Servant Golem"
 #define ROLE_SLAUGHTER_DEMON "Slaughter Demon"
 #define ROLE_WIZARD_APPRENTICE "apprentice"
-#define ROLE_SYNDICATE_MONKEY "Syndicate Monkey Agent"
+#define ROLE_SYNDICATE_MONKEY "Chaos Insurgency Monkey Agent"
 #define ROLE_CONTRACTOR_SUPPORT "Contractor Support Unit"
 #define ROLE_OPERATIVE_OVERWATCH "Operative Overwatch Agent"
-#define ROLE_SYNDICATE_SABOBORG "Syndicate Sabotage Cyborg"
-#define ROLE_SYNDICATE_MEDBORG "Syndicate Medical Cyborg"
-#define ROLE_SYNDICATE_ASSAULTBORG "Syndicate Assault Cyborg"
+#define ROLE_SYNDICATE_SABOBORG "Chaos Insurgency Sabotage Cyborg"
+#define ROLE_SYNDICATE_MEDBORG "Chaos Insurgency Medical Cyborg"
+#define ROLE_SYNDICATE_ASSAULTBORG "Chaos Insurgency Assault Cyborg"
 
 //Spawner roles
 #define ROLE_ANCIENT_CREW "Ancient Crew"
@@ -97,7 +97,7 @@
 #define ROLE_GHOST_ROLE "Ghost Role"
 #define ROLE_HERMIT "Hermit"
 #define ROLE_HOTEL_STAFF "Hotel Staff"
-#define ROLE_LAVALAND_SYNDICATE "Lavaland Syndicate"
+#define ROLE_LAVALAND_SYNDICATE "Lavaland Chaos Insurgency"
 #define ROLE_LIFEBRINGER "Lifebringer"
 #define ROLE_MAINTENANCE_DRONE "Maintenance Drone"
 #define ROLE_SKELETON "Skeleton"
@@ -105,10 +105,10 @@
 #define ROLE_SPACE_BARTENDER "Space Bartender"
 #define ROLE_SPACE_DOCTOR "Space Doctor"
 #define ROLE_SPACE_PIRATE "Space Pirate"
-#define ROLE_SPACE_SYNDICATE "Space Syndicate"
-#define ROLE_SYNDICATE_CYBERSUN "Cybersun Space Syndicate" //Ghost role syndi from Forgottenship ruin
-#define ROLE_SYNDICATE_CYBERSUN_CAPTAIN "Cybersun Space Syndicate Captain" //Forgottenship captain syndie
-#define ROLE_SYNDICATE_DRONE "Syndicate Drone"
+#define ROLE_SPACE_SYNDICATE "Space Chaos Insurgency"
+#define ROLE_SYNDICATE_CYBERSUN "Cybersun Space Chaos Insurgency" //Ghost role syndi from Forgottenship ruin
+#define ROLE_SYNDICATE_CYBERSUN_CAPTAIN "Cybersun Space Chaos Insurgency Captain" //Forgottenship captain syndie
+#define ROLE_SYNDICATE_DRONE "Chaos Insurgency Drone"
 #define ROLE_VENUSHUMANTRAP "Venus Human Trap"
 #define ROLE_ZOMBIE "Zombie"
 

@@ -364,7 +364,7 @@
 
 /obj/item/bombcore/training
 	name = "dummy payload"
-	desc = "A Nanotrasen replica of a syndicate payload. It's not intended to explode but to announce that it WOULD have exploded, then rewire itself to allow for more training."
+	desc = "A SCP Foundation replica of a syndicate payload. It's not intended to explode but to announce that it WOULD have exploded, then rewire itself to allow for more training."
 	var/defusals = 0
 	var/attempts = 0
 
@@ -647,7 +647,7 @@
 
 #undef DIMENSION_CHOICE_RANDOM
 
-///Syndicate Detonator (aka the big red button)///
+///Chaos Insurgency Detonator (aka the big red button)///
 
 /obj/item/syndicatedetonator
 	name = "big red button"

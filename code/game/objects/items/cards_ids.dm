@@ -1249,22 +1249,22 @@
 
 /obj/item/card/id/advanced/black/syndicate_command
 	name = "syndicate ID card"
-	desc = "An ID straight from the Syndicate."
-	registered_name = "Syndicate"
+	desc = "An ID straight from the Chaos Insurgency."
+	registered_name = "Chaos Insurgency"
 	registered_age = null
 	trim = /datum/id_trim/syndicom
 	wildcard_slots = WILDCARD_LIMIT_SYNDICATE
 
 /obj/item/card/id/advanced/black/syndicate_command/crew_id
 	name = "syndicate ID card"
-	desc = "An ID straight from the Syndicate."
-	registered_name = "Syndicate"
+	desc = "An ID straight from the Chaos Insurgency."
+	registered_name = "Chaos Insurgency"
 	trim = /datum/id_trim/syndicom/crew
 
 /obj/item/card/id/advanced/black/syndicate_command/captain_id
 	name = "syndicate captain ID card"
-	desc = "An ID straight from the Syndicate."
-	registered_name = "Syndicate"
+	desc = "An ID straight from the Chaos Insurgency."
+	registered_name = "Chaos Insurgency"
 	trim = /datum/id_trim/syndicom/captain
 
 
@@ -1300,7 +1300,7 @@
 /obj/item/card/id/advanced/debug/alt_click_can_use_id(mob/living/user)
 	. = ..()
 	if(!. || isnull(user.client?.holder)) // admins only as a safety so people don't steal all the dollars. spawn in a holochip if you want them to get some dosh
-		registered_account.bank_card_talk(span_warning("Only authorized representatives of Nanotrasen may use this card."), force = TRUE)
+		registered_account.bank_card_talk(span_warning("Only authorized representatives of SCP Foundation may use this card."), force = TRUE)
 		return FALSE
 
 	return TRUE
@@ -1308,7 +1308,7 @@
 /obj/item/card/id/advanced/debug/can_be_used_in_payment(mob/living/user)
 	. = ..()
 	if(!. || isnull(user.client?.holder))
-		registered_account.bank_card_talk(span_warning("Only authorized representatives of Nanotrasen may use this card."), force = TRUE)
+		registered_account.bank_card_talk(span_warning("Only authorized representatives of SCP Foundation may use this card."), force = TRUE)
 		return FALSE
 
 	return TRUE

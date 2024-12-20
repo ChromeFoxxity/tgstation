@@ -1,5 +1,5 @@
 /datum/outfit/syndicate
-	name = "Syndicate Operative - Basic"
+	name = "Chaos Insurgency Operative - Basic"
 
 	uniform = /obj/item/clothing/under/syndicate
 	shoes = /obj/item/clothing/shoes/combat
@@ -23,19 +23,19 @@
 	id_trim = /datum/id_trim/chameleon/operative
 
 /datum/outfit/syndicate/plasmaman
-	name = "Syndicate Operative - Basic (Plasmaman)"
+	name = "Chaos Insurgency Operative - Basic (Plasmaman)"
 	head = /obj/item/clothing/head/helmet/space/plasmaman/syndie
 	uniform = /obj/item/clothing/under/plasmaman/syndicate
 	r_hand = /obj/item/tank/internals/plasmaman/belt/full
 
 /datum/outfit/syndicate/leader
-	name = "Syndicate Leader - Basic"
+	name = "Chaos Insurgency Leader - Basic"
 	command_radio = TRUE
 
 	id_trim = /datum/id_trim/chameleon/operative/nuke_leader
 
 /datum/outfit/syndicate/leader/plasmaman
-	name = "Syndicate Leader - Basic (Plasmaman)"
+	name = "Chaos Insurgency Leader - Basic (Plasmaman)"
 	head = /obj/item/clothing/head/helmet/space/plasmaman/syndie
 	uniform = /obj/item/clothing/under/plasmaman/syndicate
 	r_hand = /obj/item/tank/internals/plasmaman/belt/full
@@ -64,7 +64,7 @@
 	nukie.update_icons()
 
 /datum/outfit/syndicate/full
-	name = "Syndicate Operative - Full Kit"
+	name = "Chaos Insurgency Operative - Full Kit"
 
 	glasses = /obj/item/clothing/glasses/night/colorless
 	mask = /obj/item/clothing/mask/gas/syndicate
@@ -80,11 +80,11 @@
 	)
 
 /datum/outfit/syndicate/full/loneop
-	name = "Syndicate Operative - Full Kit (Loneop)"
+	name = "Chaos Insurgency Operative - Full Kit (Loneop)"
 	uplink_type = /obj/item/uplink/loneop
 
 /datum/outfit/syndicate/full/plasmaman
-	name = "Syndicate Operative - Full Kit (Plasmaman)"
+	name = "Chaos Insurgency Operative - Full Kit (Plasmaman)"
 	back = /obj/item/mod/control/pre_equipped/nuclear/plasmaman
 	uniform = /obj/item/clothing/under/plasmaman/syndicate
 	r_pocket = /obj/item/tank/internals/plasmaman/belt/full
@@ -95,27 +95,27 @@
 	return ..()
 
 /datum/outfit/syndicate/full/plasmaman/loneop
-	name = "Syndicate Operative - Full Kit (Loneop Plasmaman)"
+	name = "Chaos Insurgency Operative - Full Kit (Loneop Plasmaman)"
 	uplink_type = /obj/item/uplink/loneop
 
 /datum/outfit/syndicate/reinforcement
-	name = "Syndicate Operative - Reinforcement"
+	name = "Chaos Insurgency Operative - Reinforcement"
 	tc = 0
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/smartgun = 1,
 		/obj/item/ammo_box/magazine/smartgun = 2,
 	)
-	var/faction = "The Syndicate"
+	var/faction = "The Chaos Insurgency"
 
 /datum/outfit/syndicate/reinforcement/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
 	if(visualsOnly)
 		return
 	to_chat(H, span_notice("You're an agent of [faction], sent to accompany the nuclear squad on their mission. \
-		Support your allies, and remember: Down with Nanotrasen."))
+		Support your allies, and remember: Down with SCP Foundation."))
 
 /datum/outfit/syndicate/reinforcement/plasmaman
-	name = "Syndicate Operative - Reinforcement (Plasmaman)"
+	name = "Chaos Insurgency Operative - Reinforcement (Plasmaman)"
 	head = /obj/item/clothing/head/helmet/space/plasmaman/syndie
 	uniform = /obj/item/clothing/under/plasmaman/syndicate
 	r_hand = /obj/item/tank/internals/plasmaman/belt/full
@@ -130,7 +130,7 @@
 	r_hand = /obj/item/tank/internals/plasmaman/belt/full
 
 /datum/outfit/syndicate/reinforcement/gorlex
-	name = "Syndicate Operative - Gorlex Reinforcement"
+	name = "Chaos Insurgency Operative - Gorlex Reinforcement"
 	suit = /obj/item/clothing/suit/armor/vest/alt
 	head = /obj/item/clothing/head/helmet/swat
 	neck = /obj/item/clothing/neck/large_scarf/syndie
@@ -138,7 +138,7 @@
 	faction = "the Gorlex Marauders"
 
 /datum/outfit/syndicate/reinforcement/cybersun
-	name = "Syndicate Operative - Cybersun Reinforcement"
+	name = "Chaos Insurgency Operative - Cybersun Reinforcement"
 	uniform = /obj/item/clothing/under/syndicate/combat
 	suit = /obj/item/clothing/suit/jacket/oversized
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -147,7 +147,7 @@
 	faction = "Cybersun Industries"
 
 /datum/outfit/syndicate/reinforcement/donk
-	name = "Syndicate Operative - Donk Reinforcement"
+	name = "Chaos Insurgency Operative - Donk Reinforcement"
 	suit = /obj/item/clothing/suit/hazardvest
 	head = /obj/item/clothing/head/utility/hardhat/orange
 	shoes = /obj/item/clothing/shoes/workboots
@@ -155,7 +155,7 @@
 	faction = "Donk Company"
 
 /datum/outfit/syndicate/reinforcement/waffle
-	name = "Syndicate Operative - Waffle Reinforcement"
+	name = "Chaos Insurgency Operative - Waffle Reinforcement"
 	uniform = /obj/item/clothing/under/syndicate/camo
 	suit = /obj/item/clothing/suit/armor/vest
 	head = /obj/item/clothing/head/helmet/blueshirt
@@ -163,7 +163,7 @@
 	faction = "the Waffle Corporation"
 
 /datum/outfit/syndicate/reinforcement/interdyne
-	name = "Syndicate Operative - Interdyne Reinforcement"
+	name = "Chaos Insurgency Operative - Interdyne Reinforcement"
 	uniform = /obj/item/clothing/under/syndicate/scrubs
 	suit = /obj/item/clothing/suit/toggle/labcoat/interdyne
 	head = /obj/item/clothing/head/beret/medical
@@ -174,7 +174,7 @@
 	faction = "Interdyne Pharmaceutics"
 
 /datum/outfit/syndicate/reinforcement/mi13
-	name = "Syndicate Operative - MI13 Reinforcement"
+	name = "Chaos Insurgency Operative - MI13 Reinforcement"
 	uniform = /obj/item/clothing/under/syndicate/sniper
 	shoes = /obj/item/clothing/shoes/laceup
 	glasses = /obj/item/clothing/glasses/sunglasses/big

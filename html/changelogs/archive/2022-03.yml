@@ -169,7 +169,7 @@
   - balance: Lowered thieves cost from 6 to 4.
   - balance: Disabled midround thieves.
   PositiveEntropy:
-  - imageadd: Nanotrasen has now officially updated all generic jumpsuits and the
+  - imageadd: SCP Foundation has now officially updated all generic jumpsuits and the
       prisoner one, marking the third rendition of jumpsuit styles being added into
       station!
   Thunder12345:
@@ -248,7 +248,7 @@
   san7890:
   - bugfix: You probably didn't notice, but the Bar's Atrium on IceBoxStation has
       been depowered (due to lack of an APC) for the last few weeks now. After a strong
-      reprimand to its Engineering staff, Nanotrasen will now ensure APCs are installed
+      reprimand to its Engineering staff, SCP Foundation will now ensure APCs are installed
       in that area.
   - imageadd: On the mapping-end, the engraved cult floors will no longer show up
       as base plating, but instead what they actually look like in game.
@@ -293,9 +293,9 @@
   lewcc:
   - refactor: Moves more tool behavior out of attackby().
   san7890:
-  - rscadd: Nanotrasen has declared that the area colloquially known as the "Science
+  - rscadd: SCP Foundation has declared that the area colloquially known as the "Science
       Break Room" will now get it's own power supply and formal definition.
-  - rscadd: Nanotrasen has decided to re-name the areas found on the mining station
+  - rscadd: SCP Foundation has decided to re-name the areas found on the mining station
       bases of Lavaland and IceBox Station.
 2022-03-09:
   Fikou:
@@ -327,7 +327,7 @@
   - qol: Attacking a machine as a monkey will now say if it did damage or not
   san7890:
   - bugfix: After a string of Nar'sie followers reportedly continuously "getting away
-      with it", Nanotrasen has decided to re-install the Chaplain's Altar back on
+      with it", SCP Foundation has decided to re-install the Chaplain's Altar back on
       Tramstation.
   - imageadd: You may now use the pensive emote in OOC chat, just like you would in
       your favorite messaging app.
@@ -428,7 +428,7 @@
   san7890:
   - rscadd: On DeltaStation, the Ordnance storage room now owns it's own doors.
   - bugfix: The barstools in the Nuclear Operative's Base now point the correct direction.
-  - rscadd: On DeltaStation, Nanotrasen realized that the "Pumping Room" they elaborately
+  - rscadd: On DeltaStation, SCP Foundation realized that the "Pumping Room" they elaborately
       crafted for Atmospherics wasn't actually the part of that division that actually
       moves gas to the rest of the station. They once again elaborately crafted a
       new room (called the "Mixing Room") and shifted everything around. It probably
@@ -476,7 +476,7 @@
       reagents when they spawn on the same tile.
   - qol: Ants no longer spawn on lavaland's basalt.
   san7890:
-  - rscadd: Instead of having four different corners on each floor, Nanotrasen has
+  - rscadd: Instead of having four different corners on each floor, SCP Foundation has
       decided to slap down full corners on each floor to keep that one floor looking
       that masterful shade of beige.
   timothymtorres:
@@ -519,7 +519,7 @@
   - bugfix: Fixes airlock reinforcement not being removable.
   - refactor: Heavily refactors reinforcing and un-reinforcing airlocks.
   san7890:
-  - bugfix: On KiloStation, there is no longer a weird floor decal on a wall. Nanotrasen
+  - bugfix: On KiloStation, there is no longer a weird floor decal on a wall. SCP Foundation
       has commissioned an institution-wide inquiry to find out which joker put it
       there.
   tastyfish:
@@ -596,16 +596,16 @@
   - imageadd: On the mapping end, the Abductor Ship, the Wizard's Ship, and the Thunderdome
       Administration and Observation Areas now have new area turf sprites. Does this
       matter to your in-game experience? Probably not.
-  - rscadd: 'On DeltaStation, IceBoxStation, and TramStation: Nanotrasen has now blocked
+  - rscadd: 'On DeltaStation, IceBoxStation, and TramStation: SCP Foundation has now blocked
       off the area informally known as the "Cargo Lobby", and formally defined it.'
-  - bugfix: Nanotrasen corrected an oversight with the Security Medical ward on TramStation;
+  - bugfix: SCP Foundation corrected an oversight with the Security Medical ward on TramStation;
       it now has an Air Alarm and APC.
   - bugfix: DeltaStation's Bomb Range no longer has a floating camera. Instead, the
       camera has been redirected to attach on the wall the proper way.
-  - bugfix: The Syndicate realized that the indoor portion of their top-secret Nuclear
+  - bugfix: The Chaos Insurgency realized that the indoor portion of their top-secret Nuclear
       Operative base actually partially owned some of the outside portion of the planetary
       body it rests on. It has been corrected.
-  - rscadd: Nanotrasen decided to shuffle some things around in DeltaStation's Grand
+  - rscadd: SCP Foundation decided to shuffle some things around in DeltaStation's Grand
       Surgery Theatre's Viewing Room in order to save the cost of having to purchase
       two new chairs with each station.
   - bugfix: KiloStation's Chapel Entrance now receives power.
@@ -651,7 +651,7 @@
   san7890:
   - imageadd: On the mapping end, the Diner now has it's own area turf. If you don't
       know what that means, just know that it's a good thing.
-  - rscadd: Nanotrasen decided to do a few more cost-cutting procedures, removing
+  - rscadd: SCP Foundation decided to do a few more cost-cutting procedures, removing
       lights from a certain outdoor section of KiloStation.
 2022-03-19:
   Fikou:
@@ -665,16 +665,16 @@
   carshalash:
   - qol: Adds three new orderable fish crates to split rates of fish one gets.
   san7890:
-  - bugfix: Nanotrasen has decided to quit installling posters on ice turfs near Lower
+  - bugfix: SCP Foundation has decided to quit installling posters on ice turfs near Lower
       Chapel Maintenance on IceBoxStation.
-  - bugfix: Nanotrasen will no longer stop placing two chairs on the same spot in
+  - bugfix: SCP Foundation will no longer stop placing two chairs on the same spot in
       IceBoxStation Departures.
   - rscadd: A mix-up in blueprints meant that TramStation didn't have a formally defined
       Ordnance Launch Area. This has now been rectified.
   - bugfix: TramStation's Ordnance Mixing no longer owns that bit of space that the
       waste gas is meant to exit the burn chamber from.
   - bugfix: TramStation's Ordnance Launch Area's APC now has connectivity to the grid.
-  - bugfix: Nanotrasen busted out some pulse rifles to get rid of some loose rock
+  - bugfix: SCP Foundation busted out some pulse rifles to get rid of some loose rock
       debris in the Northwestern Quadrant of KiloStation.
 2022-03-20:
   Dex:
@@ -735,13 +735,13 @@
       of area turfs! Who doesn't love those!
   - bugfix: In MetaStation Maintenance to the east of Cargo and to the west of the
       vault, in that little hallway, a deep dark secret was there. There were TWO
-      lockers present on the same tile. Nanotrasen has expertly trimmed it such that
+      lockers present on the same tile. SCP Foundation has expertly trimmed it such that
       only one locker will be placed there now.
-  - bugfix: Nanotrasen decided to make those fancy lights that point in the direction
+  - bugfix: SCP Foundation decided to make those fancy lights that point in the direction
       of exiting the Arrivals shuttle actually point in the right direction.
-  - bugfix: Nanotrasen has stamped out the odd issues with lighting and gravity on
+  - bugfix: SCP Foundation has stamped out the odd issues with lighting and gravity on
       the MetaStation AI Satellite.
-  - bugfix: Nanotrasen also realized it was a good idea to not install their cameras
+  - bugfix: SCP Foundation also realized it was a good idea to not install their cameras
       and lights on the windows surrounding MetaStation's AI Satellite.
   this awesome text:
   - balance: MODsuits have some armor.
@@ -837,15 +837,15 @@
   san7890:
   - bugfix: There is no longer a poster splayed out over a vending machine in KiloStation's
       Botany Section.
-  - bugfix: Nanotrasen realized that Kilo's Arrivals had a horrendous glitch... the
+  - bugfix: SCP Foundation realized that Kilo's Arrivals had a horrendous glitch... the
       lights and cameras weren't hooked up to anything. How saddening. It's been fixed
       now.
-  - bugfix: Also, Nanotrasen realized they spilled some dark juice (trademark) on
+  - bugfix: Also, SCP Foundation realized they spilled some dark juice (trademark) on
       some other lattices in that area so they cleaned up after themselves as well.
       How responsible!
-  - bugfix: Nanotrasen decided that today was a good day to remove the random floating
+  - bugfix: SCP Foundation decided that today was a good day to remove the random floating
       poster on the exterior of Security on KiloStation.
-  - bugfix: Nanotrasen realized that they should stop installing grilles right on
+  - bugfix: SCP Foundation realized that they should stop installing grilles right on
       top of the Air Flow Meters on IceBoxStation.
   timothymtorres:
   - qol: Mood events colors now accurately reflect the severity for the positive or
@@ -868,7 +868,7 @@
   JohnFulpWillard:
   - bugfix: Bot's modes have been fixed, Medibots will no longer be on 'arrest' mode.
   san7890:
-  - imageadd: Nanotrasen has upgraded "that machine that prints all of those decals
+  - imageadd: SCP Foundation has upgraded "that machine that prints all of those decals
       on our station tiles" to now print two corners that face opposite each other
       at the same time. Very cool!
   tnekohue:
@@ -911,7 +911,7 @@
   maxspells:
   - expansion: Surgery steps play sound effects appropriate to the step
   san7890:
-  - rscadd: Nanotrasen has refurbished the Recreation Deck on DeltaStation. Feel free
+  - rscadd: SCP Foundation has refurbished the Recreation Deck on DeltaStation. Feel free
       to "ooh" and "aah" at all of the new features that have been added.
   unit0016:
   - qol: Mappers now have access to an autoname helper for airlocks! One less field

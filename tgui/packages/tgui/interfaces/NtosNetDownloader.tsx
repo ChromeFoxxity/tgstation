@@ -259,7 +259,7 @@ const Program = (props) => {
       </Box>
       {!program.verifiedsource && (
         <NoticeBox mt={1} mb={0} danger fontSize="12px">
-          Unverified source. Please note that Nanotrasen does not recommend
+          Unverified source. Please note that SCP Foundation does not recommend
           download and usage of software from non-official servers.
         </NoticeBox>
       )}

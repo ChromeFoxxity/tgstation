@@ -27,7 +27,7 @@ GLOBAL_LIST_INIT(battle_royale_regions, list(
 /obj/item/royale_implanter
 	name = "royale implanter"
 	desc = "Subtly implants people with rumble royale implants, \
-		preparing them to struggle for their life for the enjoyment of the Syndicate's paying audience. \
+		preparing them to struggle for their life for the enjoyment of the Chaos Insurgency's paying audience. \
 		Implants may cause irritation at site of implantation."
 	icon = 'icons/obj/medical/syringe.dmi'
 	icon_state = "nanite_hypo"

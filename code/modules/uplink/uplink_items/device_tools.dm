@@ -6,7 +6,7 @@
 	category = /datum/uplink_category/device_tools
 
 /datum/uplink_item/device_tools/soap
-	name = "Syndicate Soap"
+	name = "Chaos Insurgency Soap"
 	desc = "A sinister-looking surfactant used to clean blood stains to hide murders and prevent DNA analysis. \
 			You can also drop it underfoot to slip people."
 	item = /obj/item/soap/syndie
@@ -15,17 +15,17 @@
 	uplink_item_flags = SYNDIE_TRIPS_CONTRABAND
 
 /datum/uplink_item/device_tools/surgerybag
-	name = "Syndicate Surgery Duffel Bag"
-	desc = "The Syndicate surgery duffel bag is a toolkit containing all surgery tools, surgical drapes, \
-			a Syndicate brand MMI, a straitjacket, and a muzzle."
+	name = "Chaos Insurgency Surgery Duffel Bag"
+	desc = "The Chaos Insurgency surgery duffel bag is a toolkit containing all surgery tools, surgical drapes, \
+			a Chaos Insurgency brand MMI, a straitjacket, and a muzzle."
 	item = /obj/item/storage/backpack/duffelbag/syndie/surgery
 	cost = 4
 	surplus = 66
 
 /datum/uplink_item/device_tools/encryptionkey
-	name = "Syndicate Encryption Key"
+	name = "Chaos Insurgency Encryption Key"
 	desc = "A key that, when inserted into a radio headset, allows you to listen to all station department channels \
-			as well as talk on an encrypted Syndicate channel with other agents that have the same key. In addition, this key also protects \
+			as well as talk on an encrypted Chaos Insurgency channel with other agents that have the same key. In addition, this key also protects \
 			your headset from radio jammers."
 	item = /obj/item/encryptionkey/syndicate
 	cost = 2
@@ -33,8 +33,8 @@
 	restricted = TRUE
 
 /datum/uplink_item/device_tools/syndietome
-	name = "Syndicate Tome"
-	desc = "Using rare artifacts acquired at great cost, the Syndicate has reverse engineered \
+	name = "Chaos Insurgency Tome"
+	desc = "Using rare artifacts acquired at great cost, the Chaos Insurgency has reverse engineered \
 			the seemingly magical books of a certain cult. Though lacking the esoteric abilities \
 			of the originals, these inferior copies are still quite useful, being able to provide \
 			both weal and woe on the battlefield, even if they do occasionally bite off a finger."
@@ -75,7 +75,7 @@
 	cost = 6
 
 /datum/uplink_item/device_tools/syndicate_teleporter
-	name = "Experimental Syndicate Teleporter"
+	name = "Experimental Chaos Insurgency Teleporter"
 	desc = "A handheld device that teleports the user 4-8 meters forward. \
 			Beware, teleporting into a wall will trigger a parallel emergency teleport; \
 			however if that fails, you may need to be stitched back together. \
@@ -158,8 +158,8 @@
 	return source //For log icon
 
 /datum/uplink_item/device_tools/toolbox
-	name = "Full Syndicate Toolbox"
-	desc = "The Syndicate toolbox is a suspicious black and red. It comes loaded with a full tool set including a \
+	name = "Full Chaos Insurgency Toolbox"
+	desc = "The Chaos Insurgency toolbox is a suspicious black and red. It comes loaded with a full tool set including a \
 			multitool and combat gloves that are resistant to shocks and heat."
 	item = /obj/item/storage/toolbox/syndicate
 	cost = 1
@@ -167,7 +167,7 @@
 
 /datum/uplink_item/device_tools/rad_laser
 	name = "Radioactive Microlaser"
-	desc = "A radioactive microlaser disguised as a standard Nanotrasen health analyzer. When used, it emits a \
+	desc = "A radioactive microlaser disguised as a standard SCP Foundation health analyzer. When used, it emits a \
 			powerful burst of radiation, which, after a short delay, can incapacitate all but the most protected \
 			of humanoids. It has two settings: intensity, which controls the power of the radiation, \
 			and wavelength, which controls the delay before the effect kicks in."
@@ -265,7 +265,7 @@
 	cost = 3
 
 /datum/uplink_item/device_tools/syndicate_climbing_hook
-	name = "Syndicate Climbing Hook"
+	name = "Chaos Insurgency Climbing Hook"
 	desc = "High-tech rope, a refined hook structure, the peak of climbing technology. Only useful for climbing up holes, provided the operation site has any."
 	item = /obj/item/climbing_hook/syndicate
 	cost = 1

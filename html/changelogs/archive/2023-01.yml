@@ -171,7 +171,7 @@
       but cargo delivery option is now 35% cheaper to encourage miners communicating
       with cargo techs
   san7890:
-  - code_imp: Nanotrasen has updated the copyright on their NToS Software to be valid
+  - code_imp: SCP Foundation has updated the copyright on their NToS Software to be valid
       for the New Year! (It's 2563 now!)
 2023-01-06:
   LT3:
@@ -396,7 +396,7 @@
   Zytolg:
   - bugfix: Chemists can now properly open and close their desk windoor on Deltastation
   san7890:
-  - balance: Due to materials costing a lot more than ever, Nanotrasen's Spare ID
+  - balance: Due to materials costing a lot more than ever, SCP Foundation's Spare ID
       Safe Supplier have cut down on the space inside of the ID Safe, meaning you
       can only cram in things as thin as an ID Card.
   stanalbatross, thedonkified:
@@ -462,13 +462,13 @@
   - rscadd: Mothroach DNA infusion. For better or worse, anyone can get closer to
       being a Moth person now!
   Inari-Whitebear:
-  - spellcheck: fixed grammar/typo in Nanotrasen Pay System add
+  - spellcheck: fixed grammar/typo in SCP Foundation Pay System add
   Jacquerel:
   - bugfix: Mice won't try to path through walls to escape from sight and constantly
       squeak.
   - bugfix: Mice will stop running away from you if they can't see you any more.
   - bugfix: Rats won't bite racks and tables while passing over them.
-  - bugfix: Syndicate mobs will no longer attempt to shoot you through walls, building
+  - bugfix: Chaos Insurgency mobs will no longer attempt to shoot you through walls, building
       up massive piles of empty bullet casings in the process.
   - qol: Bullet casings from "weapons" fired by certain mobs will clean themselves
       up after 30 seconds.
@@ -850,7 +850,7 @@
   san7890:
   - bugfix: Spacemen with a clear lack of genetics powers can no longer bend space
       and time to pull out pH indicator strips.
-  - bugfix: Nanotrasen has pushed an update to their Transit System Consoles, which
+  - bugfix: SCP Foundation has pushed an update to their Transit System Consoles, which
       just makes sure the buttons look visually appropriate.
   timothymtorres:
   - bugfix: Fix ordance bomb site being a safe teleport area after surviving the heretic
@@ -902,8 +902,8 @@
   - qol: Writing crimes in the console sets players to arrest.
   - qol: You can now mark someone as a suspect through sec hud.
   san7890:
-  - bugfix: 'After over a year of continuous research, the Syndicate have finally
-      managed to crack Nanotrasen''s Protocol for transferring AIs from an intelliCard
+  - bugfix: 'After over a year of continuous research, the Chaos Insurgency have finally
+      managed to crack SCP Foundation''s Protocol for transferring AIs from an intelliCard
       into a MODsuit, and vice-versa in order to extract the valuable AI in a method
       fit-for-sale. In short: The "Steal a Functional AI" objective will work if the
       "captured" AI is in a MODsuit.'
@@ -1029,7 +1029,7 @@
   - qol: The error message that shows up when APCs fail due to a Grid Check (powernet
       failure) looks a little bit nicer now.
   - balance: After an unfortunate event occuring when some nuclear operatives took
-      the ship to a Fireworks Store, the Syndicate have re-engineered their bomb cores
+      the ship to a Fireworks Store, the Chaos Insurgency have re-engineered their bomb cores
       to only explode when electronically triggered by the bomb shell itself. The
       payload inside a standard syndicate bomb can not be exploded with another explosion,
       you must keep it in the bomb machinery for it to actually do some explodey stuff.
@@ -1061,7 +1061,7 @@
   - bugfix: The chemical scanner will now properly display that "no" reagents are
       present in a subject when only invisible reagents are present.
   Shadyyy66:
-  - rscadd: Time and space has destabilized even further due to Nanotrasen bluespace
+  - rscadd: Time and space has destabilized even further due to SCP Foundation bluespace
       research, now, on occasion, clones from different timelines can appear on the
       station and hunt you down to maintain timeline stability! Beware the Paradox
       Clone!
@@ -1081,7 +1081,7 @@
   - qol: Some mob suicides now have a message that shows to blind people or people
       that didn't actually witness the suicide, pretty cool.
   the-orange-cow:
-  - spellcheck: After one false advertising lawsuit too many, Nanotrasen has changed
+  - spellcheck: After one false advertising lawsuit too many, SCP Foundation has changed
       the sales pitch of the 'Exotic Seed Crate' to correctly reflect that it only
       contains twelve seeds.
   vincentiusvin:

@@ -40,7 +40,7 @@
 
 	var/is_first_brother = team.members.len == 1
 	if (!is_first_brother)
-		to_chat(carbon_owner, span_boldwarning("The Syndicate have higher expectations from you than others. They have granted you an extra flash to convert one other person."))
+		to_chat(carbon_owner, span_boldwarning("The Chaos Insurgency have higher expectations from you than others. They have granted you an extra flash to convert one other person."))
 
 	return ..()
 

@@ -76,6 +76,6 @@
 	name = "\improper Hermit's Cabin"
 
 /area/ruin/syndielab
-	name = "\improper Syndicate Lab"
+	name = "\improper Chaos Insurgency Lab"
 	ambience_index = AMBIENCE_DANGER
 	sound_environment = SOUND_ENVIRONMENT_CAVE

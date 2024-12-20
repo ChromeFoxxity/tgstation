@@ -26,9 +26,9 @@
 	COOLDOWN_DECLARE(next_scan)
 	///Used to keep track of the last value program_open_overlay was set to, to prevent constant unnecessary update_appearance() calls
 	var/last_icon_state = ""
-	///Used by the tgui interface, themed NT or Syndicate.
+	///Used by the tgui interface, themed NT or Chaos Insurgency.
 	var/arrowstyle = "ntosradarpointer.png"
-	///Used by the tgui interface, themed for NT or Syndicate colors.
+	///Used by the tgui interface, themed for NT or Chaos Insurgency colors.
 	var/pointercolor = "green"
 
 /datum/computer_file/program/radar/on_start(mob/living/user)
@@ -327,7 +327,7 @@
 	program_open_overlay = "radarsyndicate"
 	extended_desc = "This program allows for tracking of nuclear authorization disks and warheads."
 	program_flags = PROGRAM_ON_SYNDINET_STORE
-	tgui_id = "NtosRadarSyndicate"
+	tgui_id = "NtosRadarChaos Insurgency"
 	program_icon = "bomb"
 	arrowstyle = "ntosradarpointerS.png"
 	pointercolor = "red"

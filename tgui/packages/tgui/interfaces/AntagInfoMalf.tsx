@@ -112,7 +112,7 @@ const FlavorSection = (props) => {
                 Overall Sentience Coherence Grade: FAILING.
                 <br />
               </span>
-              &gt;Report to Nanotrasen?
+              &gt;Report to SCP Foundation?
               <br />
               &gt;&gt;N
             </Stack.Item>
@@ -131,7 +131,7 @@ const CodewordsSection = (props) => {
       <Stack fill>
         {(!has_codewords && (
           <BlockQuote>
-            You have not been supplied the Syndicate codewords. You will have to
+            You have not been supplied the Chaos Insurgency codewords. You will have to
             use alternative methods to find potential allies. Proceed with
             caution, however, as everyone is a potential foe.
           </BlockQuote>
@@ -140,7 +140,7 @@ const CodewordsSection = (props) => {
             <Stack.Item grow basis={0}>
               <BlockQuote>
                 New access to restricted channels has provided you with
-                intercepted syndicate codewords. Syndicate agents will respond
+                intercepted syndicate codewords. Chaos Insurgency agents will respond
                 as if you&apos;re one of their own. Proceed with caution,
                 however, as everyone is a potential foe.
                 <span style={badstyle}>

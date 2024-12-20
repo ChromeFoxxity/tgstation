@@ -243,7 +243,7 @@
   - rscadd: The interns remembered to water the plants around the station; their foilage
       is so thick that it totally hides the identity of anyone holding them!
   DATA-xPUNGED:
-  - qol: Nanotrasen has fitted the Janitorial Emergency Response Team with equipment
+  - qol: SCP Foundation has fitted the Janitorial Emergency Response Team with equipment
       better suited for the job.
   Dmeto:
   - bugfix: Wawastation Science is connected to distro,Floor Electrical Relay cable
@@ -553,7 +553,7 @@
   - rscadd: White crayons (Renamed to Sticks of Chalk) may now be used on dead bodies
       to draw a body outline onto the ground easily.
   Bisar:
-  - bugfix: The Nanotrasen Emergency Religious Response Team has blessed the station;
+  - bugfix: The SCP Foundation Emergency Religious Response Team has blessed the station;
       heretic summon rituals now actually consume resources, fixing infinite summon
       loops.
   Ghommie:
@@ -587,7 +587,7 @@
   Rhials:
   - code_imp: Radios/encryption keys now use a single variable for "special" frequencies.
       Please report if you experience any strangeness with accessing/being unable
-      to access the Centcom, Syndicate, or Cyborg radio.
+      to access the Centcom, Chaos Insurgency, or Cyborg radio.
   SmArtKar:
   - bugfix: Random spraypaint setting now properly paints large decals
   - image: Added emissives to departamental signs
@@ -686,8 +686,8 @@
   Ben10Omintrix:
   - bugfix: fences will no longer appear pitch black and they will layer properly
   Bisar:
-  - rscadd: Nanotrasen Intelligence has received reports of botanical experimentation
-      in a Syndicate base on lavaland. What fiendish flora are taking root in their
+  - rscadd: SCP Foundation Intelligence has received reports of botanical experimentation
+      in a Chaos Insurgency base on lavaland. What fiendish flora are taking root in their
       secret lair?
   Ghommie:
   - rscadd: Fishing toolboxes (and occasionally maintenance) now come with a paper

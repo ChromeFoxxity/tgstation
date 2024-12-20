@@ -116,7 +116,7 @@
   - bugfix: Due to a Misprint, the Atmos Gas -> Pure pipes were incorrectly labeled
       on Birdshot. Your Cargo Techs have since remedied this.
   - bugfix: Our cable laying intern team didn't lay cable to the Secure Storage APC
-      in Enigneering. Getting coffee instead of working is a big no-no here at Nanotrasen
+      in Enigneering. Getting coffee instead of working is a big no-no here at SCP Foundation
       Tech Support, and they have since been reassigned. Your Chief Engineers have
       been instructed to make the modifications on all Birdshot Class Stations.
   - bugfix: We've noticed some Heads-Of-Staff getting lost on Birdshot. While Telecommunications
@@ -205,7 +205,7 @@
       behaviours when destroyed/deconstructed. Report these changes if you feel like
       they are bugs
   Zergspower:
-  - bugfix: fixes Borg and Syndicate inducers not working
+  - bugfix: fixes Borg and Chaos Insurgency inducers not working
   jlsnow301, infraredbaron:
   - rscadd: Added a new UI element over players that are interacting, building, etc.
 2024-04-07:

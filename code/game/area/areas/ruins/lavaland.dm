@@ -51,40 +51,40 @@
 	sound_environment = SOUND_ENVIRONMENT_ROOM
 	ambient_buzz = 'sound/ambience/magma.ogg'
 
-//Syndicate lavaland base
+//Chaos Insurgency lavaland base
 
 /area/ruin/syndicate_lava_base/engineering
-	name = "Syndicate Lavaland Engineering"
+	name = "Chaos Insurgency Lavaland Engineering"
 
 /area/ruin/syndicate_lava_base/medbay
-	name = "Syndicate Lavaland Medbay"
+	name = "Chaos Insurgency Lavaland Medbay"
 
 /area/ruin/syndicate_lava_base/arrivals
-	name = "Syndicate Lavaland Arrivals"
+	name = "Chaos Insurgency Lavaland Arrivals"
 
 /area/ruin/syndicate_lava_base/bar
-	name = "\improper Syndicate Lavaland Bar"
+	name = "\improper Chaos Insurgency Lavaland Bar"
 
 /area/ruin/syndicate_lava_base/main
-	name = "\improper Syndicate Lavaland Primary Hallway"
+	name = "\improper Chaos Insurgency Lavaland Primary Hallway"
 
 /area/ruin/syndicate_lava_base/cargo
-	name = "\improper Syndicate Lavaland Cargo Bay"
+	name = "\improper Chaos Insurgency Lavaland Cargo Bay"
 
 /area/ruin/syndicate_lava_base/chemistry
-	name = "Syndicate Lavaland Chemistry"
+	name = "Chaos Insurgency Lavaland Chemistry"
 
 /area/ruin/syndicate_lava_base/virology
-	name = "Syndicate Lavaland Virology"
+	name = "Chaos Insurgency Lavaland Virology"
 
 /area/ruin/syndicate_lava_base/testlab
-	name = "\improper Syndicate Lavaland Experimentation Lab"
+	name = "\improper Chaos Insurgency Lavaland Experimentation Lab"
 
 /area/ruin/syndicate_lava_base/dormitories
-	name = "\improper Syndicate Lavaland Dormitories"
+	name = "\improper Chaos Insurgency Lavaland Dormitories"
 
 /area/ruin/syndicate_lava_base/telecomms
-	name = "\improper Syndicate Lavaland Telecommunications"
+	name = "\improper Chaos Insurgency Lavaland Telecommunications"
 
 //Xeno Nest
 

@@ -143,15 +143,15 @@
 	sign_change_name = "Blank Sign"
 
 /obj/structure/sign/nanotrasen
-	name = "\improper Nanotrasen logo sign"
-	sign_change_name = "Corporate Logo - Nanotrasen"
-	desc = "A sign with the Nanotrasen logo on it. Glory to Nanotrasen!"
+	name = "\improper SCP Foundation logo sign"
+	sign_change_name = "Corporate Logo - SCP Foundation"
+	desc = "A sign with the SCP Foundation logo on it. Glory to SCP Foundation!"
 	icon_state = "nanotrasen"
 	is_editable = TRUE
 
 /obj/structure/sign/logo
-	name = "\improper Nanotrasen logo sign"
-	desc = "The Nanotrasen corporate logo."
+	name = "\improper SCP Foundation logo sign"
+	desc = "The SCP Foundation corporate logo."
 	icon_state = "nanotrasen_sign1"
 	buildable_sign = FALSE
 

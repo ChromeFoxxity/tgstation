@@ -885,7 +885,7 @@
 "hp" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/carbon/human/species/monkey{
-	faction = list("neutral","Syndicate")
+	faction = list("neutral","Chaos Insurgency")
 	},
 /turf/open/floor/iron/white/side{
 	dir = 9
@@ -893,7 +893,7 @@
 /area/ruin/syndicate_lava_base/virology)
 "hr" = (
 /mob/living/carbon/human/species/monkey{
-	faction = list("neutral","Syndicate")
+	faction = list("neutral","Chaos Insurgency")
 	},
 /turf/open/floor/iron/white/side{
 	dir = 5
@@ -991,7 +991,7 @@
 /area/ruin/syndicate_lava_base/cargo)
 "hE" = (
 /mob/living/carbon/human/species/monkey{
-	faction = list("neutral","Syndicate")
+	faction = list("neutral","Chaos Insurgency")
 	},
 /turf/open/floor/iron/white/side{
 	dir = 10
@@ -1000,7 +1000,7 @@
 "hG" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/carbon/human/species/monkey{
-	faction = list("neutral","Syndicate")
+	faction = list("neutral","Chaos Insurgency")
 	},
 /turf/open/floor/iron/white/side{
 	dir = 6

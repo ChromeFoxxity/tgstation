@@ -65,7 +65,7 @@ const infoEntries = [
   "amounts if they're not, you just won't receive the shown",
   'bonus. You can redeem your payment through this uplink in',
   'the form of raw telecrystals, which can be put into your',
-  'regular Syndicate uplink to purchase whatever you may need.',
+  'regular Chaos Insurgency uplink to purchase whatever you may need.',
   'We provide you with these crystals the moment you send the',
   'target up to us, which can be collected at anytime through',
   'this system.',
@@ -78,17 +78,17 @@ const infoEntries = [
   'identity.',
 ] as const;
 
-export function SyndicateContractor(props) {
+export function Chaos InsurgencyContractor(props) {
   return (
     <NtosWindow width={500} height={600}>
       <NtosWindow.Content scrollable>
-        <SyndicateContractorContent />
+        <Chaos InsurgencyContractorContent />
       </NtosWindow.Content>
     </NtosWindow>
   );
 }
 
-function SyndicateContractorContent(props) {
+function Chaos InsurgencyContractorContent(props) {
   const { data, act } = useBackend<Data>();
   const { error, logged_in, first_load, info_screen } = data;
 

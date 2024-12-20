@@ -177,7 +177,7 @@
 
 /obj/item/clothing/accessory/pride
 	name = "pride pin"
-	desc = "A Nanotrasen Diversity & Inclusion Center-sponsored holographic pin to show off your pride, reminding the crew of their unwavering commitment to equity, diversity, and inclusion!"
+	desc = "A SCP Foundation Diversity & Inclusion Center-sponsored holographic pin to show off your pride, reminding the crew of their unwavering commitment to equity, diversity, and inclusion!"
 	icon_state = "pride"
 	obj_flags = UNIQUE_RENAME | INFINITE_RESKIN
 	unique_reskin = list(
@@ -212,7 +212,7 @@
 /// Self-identify as a dangerous subversive
 /obj/item/clothing/accessory/anti_sec_pin
 	name = "subversive pin"
-	desc = "A badge which loudly and proudly proclaims your hostility to the Nanotrasen Security Team, and authority in general."
+	desc = "A badge which loudly and proudly proclaims your hostility to the SCP Foundation Security Team, and authority in general."
 	icon_state = "anti_sec"
 
 /obj/item/clothing/accessory/anti_sec_pin/Initialize(mapload)
@@ -266,7 +266,7 @@
 	if(!journalist_name)
 		journalist_name = tgui_input_text(user, "What is your name?", "Journalist Name", "[user.name]", MAX_NAME_LEN)
 	if(!press_name)
-		press_name = tgui_input_text(user, "For what organization you work?", "Press Name", "Nanotrasen", MAX_CHARTER_LEN)
+		press_name = tgui_input_text(user, "For what organization you work?", "Press Name", "SCP Foundation", MAX_CHARTER_LEN)
 
 /obj/item/clothing/accessory/press_badge/interact_with_atom(atom/interacting_with, mob/living/user, list/modifiers)
 	. = ..()

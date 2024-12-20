@@ -329,7 +329,7 @@ GLOBAL_LIST_INIT(bibleitemstates, list(
 	new /obj/item/reagent_containers/cup/glass/bottle/whiskey(src)
 
 /obj/item/book/bible/syndicate
-	name = "Syndicate Tome"
+	name = "Chaos Insurgency Tome"
 	desc = "A very ominous tome resembling a bible."
 	icon_state ="ebook"
 	item_flags = NO_BLOOD_ON_ITEM
@@ -341,7 +341,7 @@ GLOBAL_LIST_INIT(bibleitemstates, list(
 	damtype = BURN
 	attack_verb_continuous = list("attacks", "burns", "blesses", "damns", "scorches", "curses", "smites")
 	attack_verb_simple = list("attack", "burn", "bless", "damn", "scorch", "curses", "smites")
-	deity_name = "The Syndicate"
+	deity_name = "The Chaos Insurgency"
 	var/uses = 1
 	var/owner_name
 

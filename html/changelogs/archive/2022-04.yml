@@ -33,9 +33,9 @@
   Iamgoofball:
   - qol: You can now see the plant's health with a plant analyzer.
   Imaginos16:
-  - imageadd: Nanotrasen has once more updated its legendary Central Command Wardrobe,
+  - imageadd: SCP Foundation has once more updated its legendary Central Command Wardrobe,
       improving upon its designs even further!
-  - expansion: 'Nanotrasen has also added a new outfit for Special Ops Officers to
+  - expansion: 'SCP Foundation has also added a new outfit for Special Ops Officers to
       enjoy, instead of a simple leather jacket: The CentCom Officer''s Coat!'
   JohnFulpWillard:
   - bugfix: Assistant Traitors can now purchase the Ancient Toolbox again.
@@ -106,7 +106,7 @@
       that random parts of the library will no longer go completely missing. Enjoy.
   - bugfix: MetaStation's Abandoned Bar no longer has a floating poster just... floating
       there. It was weird, alright?
-  - bugfix: Nanotrasen realized how much they were spending on newscasters that got
+  - bugfix: SCP Foundation realized how much they were spending on newscasters that got
       buried under posters and the like, so the corporation decided to stock the crew
       with juuuuust enough. They have saved a lot of money from this venture, and
       the economy will promptly begin to skyrocket to new heights.
@@ -226,7 +226,7 @@
   - bugfix: paper logs once again include the paper's contents
   - bugfix: Airlock cycle links work now!
   san7890:
-  - bugfix: Nanotrasen dug around on TramStation, DeltaStation, and KiloStation and
+  - bugfix: SCP Foundation dug around on TramStation, DeltaStation, and KiloStation and
       found that grilles were covering a few gas flow meters in each of their atmospherics
       divisions. This should now be fully rectified.
   - rscadd: TramStation's Supply Division has had a redrawing in areas on both the
@@ -234,7 +234,7 @@
   - imageadd: New area turfs for the Station-Side Mining Dock have been added to our
       catalogue. We hope that you all eagerly anticipate this new collection as it's
       quite vogue for Spring fashion.
-  - balance: IceBoxStation's Public Mining Storage got shuffled around a bit. Nanotrasen
+  - balance: IceBoxStation's Public Mining Storage got shuffled around a bit. SCP Foundation
       realized they were spending too much on reinforced walls, and decided to re-opt
       for normal walls instead. To accomodate for this downturn in reinforced wallage,
       another layer of protection was added to the southern wall of the AI's Upload.
@@ -323,14 +323,14 @@
       person who mixed up their starship directions is being executed at noon.
   - bugfix: The Ash Walker's Base on Lavaland decided to stop putting tiles under
       solid rock.
-  - bugfix: The Syndicate Operatives positioned on Lavaland are no longer able to
+  - bugfix: The Chaos Insurgency Operatives positioned on Lavaland are no longer able to
       violate the ONE THING they were told to not perform (leave the base).
   - bugfix: 'On the mapping end: cyborg, monkey, moth, and plasmamen limbs will no
       longer show up as absolutely nothing.'
-  - bugfix: 'On Meta, Delta, and Kilo: Nanotrasen has decided to shuffle around those
+  - bugfix: 'On Meta, Delta, and Kilo: SCP Foundation has decided to shuffle around those
       brand-new newscasters to ensure the AIs could actually see the buttons they
       want to hit.'
-  - balance: On IceBoxStation, Nanotrasen finally decided to reinforce the western
+  - balance: On IceBoxStation, SCP Foundation finally decided to reinforce the western
       walls on the Captain's Room and the Teleporter Room.
   - rscadd: A conformational change in reality has caused every single bed (when applicable)
       to be tastefully rotated in the opposite direction.
@@ -378,7 +378,7 @@
   - bugfix: A handful of issues on icebox, pertaining to /area/s, firelocks, airlocks,
       mapping helpers, mapping mistakes, a literal space tile, and more have been
       squashed!
-  - bugfix: You can actually move the Syndicate Infiltrator's docking position on
+  - bugfix: You can actually move the Chaos Insurgency Infiltrator's docking position on
       icebox again. Yeah. I know.
 2022-04-10:
   ArcaneMusic:
@@ -484,7 +484,7 @@
   - bugfix: Fixes runtime with navigation verb paths where deleted paths were still
       attempting to animate
   san7890:
-  - bugfix: On DeltaStation, Nanotrasen will no longer place a Gas Vendor and an Intercom
+  - bugfix: On DeltaStation, SCP Foundation will no longer place a Gas Vendor and an Intercom
       in such a position on one of the walls on the Clown's bedroom where they overlap.
   techno0:
   - bugfix: Debug Glasses have SM protection
@@ -549,7 +549,7 @@
   - imageadd: Wrapped parcels now have an overlay when tagged with a destination.
   - refactor: Refactored wrapped parcels to have a common base type.
   san7890:
-  - bugfix: After a few mishaps, Nanotrasen fixed a few small area definition errors
+  - bugfix: After a few mishaps, SCP Foundation fixed a few small area definition errors
       on MetaStation.
   unv-annihilator:
   - bugfix: held mice are no longer edible by moths
@@ -580,7 +580,7 @@
   dragomagol:
   - bugfix: traitor logging has its own config flag
   san7890:
-  - bugfix: Nanotrasen will now stop placing reinforced window spawners right on top
+  - bugfix: SCP Foundation will now stop placing reinforced window spawners right on top
       of snow at IceBox Departures.
 2022-04-16:
   ATHATH:
@@ -648,17 +648,17 @@
   san7890:
   - rscadd: You should now be able to rotate bedsheets on yourself as you take restful
       sleeps.
-  - bugfix: Nanotrasen will no longer place bedsheets the wrong way on beds.
-  - bugfix: Nanotrasen has tied down a few unruly lattices on TramStation. It's amazing
+  - bugfix: SCP Foundation will no longer place bedsheets the wrong way on beds.
+  - bugfix: SCP Foundation has tied down a few unruly lattices on TramStation. It's amazing
       how they didn't fly off in orbit.
   - rscadd: The KiloStation Commissary (and the rooms that border it) have had their
       items be shuffled around a bit.
-  - rscadd: Nanotrasen realized that their holodeck simulation of the photobooth was
+  - rscadd: SCP Foundation realized that their holodeck simulation of the photobooth was
       not properly configured, and was showing up with ugly, grouted tiles. This has
       been rectified to be a pure white backdrop for all your photograph desires.
-  - bugfix: On KiloStation, Nanotrasen will no longer install screens in the space
+  - bugfix: On KiloStation, SCP Foundation will no longer install screens in the space
       compartment near the bridge.
-  - bugfix: On MetaStation, Nanotrasen will no longer screw a fire extinguisher right
+  - bugfix: On MetaStation, SCP Foundation will no longer screw a fire extinguisher right
       through the screen of a newscaster.
   timothymtorres:
   - qol: Add colored department posters to cargo delivery room in Meta to help identify
@@ -743,7 +743,7 @@
   Zytolg:
   - rscadd: Firebase Balthazor has received much needed upgrades. Operatives now have
       an adequate workspace for their radioactive activities.
-  - rscadd: The Syndicate Uplink has received Special Authorization Cards for use
+  - rscadd: The Chaos Insurgency Uplink has received Special Authorization Cards for use
       by authorized personnel.
   - rscdel: These expansions came at the cost of the old Nukeops Base.
   - qol: Nukeops get a bigger and better looking base. Escapees on hijacked shuttles
@@ -755,9 +755,9 @@
       tab to undergo mitosis.
   san7890:
   - bugfix: On IceBoxStation, to the northeastern airlock (in relation to the bar),
-      Nanotrasen will no longer paint the word "Caution" over text that says "STAND
+      SCP Foundation will no longer paint the word "Caution" over text that says "STAND
       CLEAR".
-  - bugfix: In MetaStation's Brig, Nanotrasen will no longer install Camera Monitors
+  - bugfix: In MetaStation's Brig, SCP Foundation will no longer install Camera Monitors
       on windows. They also removed an excess newscaster embedded within a wall.
   tf-4:
   - bugfix: Statues can now once again be wrenched.
@@ -891,7 +891,7 @@
   - bugfix: IceBox xenobio camera now attaches to a wall instead of floating in the
       air.
   PositiveEntropy, AxieTheAxolotl:
-  - imageadd: Resprites several syndicate outfits, particularly the Syndicate Coat,
+  - imageadd: Resprites several syndicate outfits, particularly the Chaos Insurgency Coat,
       the Turtlenecks, and the Combat Uniform!
   - imageadd: Resprites and updates the Really Black Suits!
   - rscdel: Removes the trak_suit from syndicate.dmi (it was a dupe and unused)
@@ -1133,7 +1133,7 @@
   - bugfix: papers are now scannable again after an oversight, and techweb now appears
       on all head pdas
   - rscdel: removes round start tablets
-  - bugfix: Nanotrasen has declared a recall on all item stacks, due to the fact the
+  - bugfix: SCP Foundation has declared a recall on all item stacks, due to the fact the
       fact they kept merging in hands and pockets. All stacks will now instead only
       merge in your storage containers, or on the floor.
   timothymtorres, TheBonded:
@@ -1145,7 +1145,7 @@
       once every 5 minutes.
   - balance: The value of gasses exported through the cargo department have been skewed
       way, WAY down in terms of price.
-  - balance: The Syndicate briefcase of cash now contains now costs 5 TC, up from
+  - balance: The Chaos Insurgency briefcase of cash now contains now costs 5 TC, up from
       1 TC, for 5000 credits.
   - balance: Printing items from lathes on station now costs a fee of 10 credits per
       item printed if it's from a lathe not under your department.
@@ -1168,7 +1168,7 @@
   sergeirocks100:
   - imageadd: Cannabis plants have recieved some new sprites.
   thgvr:
-  - bugfix: Cleaned up some pipes lying around in the Lavaland Syndicate base supermatter.
+  - bugfix: Cleaned up some pipes lying around in the Lavaland Chaos Insurgency base supermatter.
   vincentiusvin:
   - bugfix: fixed unpowered tram ordnance apc
 2022-04-29:
@@ -1208,9 +1208,9 @@
   castawaynont:
   - bugfix: DeltaStation cargo warehouse poster has been moved one tile down
   san7890:
-  - bugfix: Nanotrasen's Department of "Reality Fixing" has corrected an issue regarding
+  - bugfix: SCP Foundation's Department of "Reality Fixing" has corrected an issue regarding
       the space on the tiles of the southern solars on TramStation.
-  - bugfix: Nanotrasen will no longer install "Mining" Access Doors in DeltaStation's
+  - bugfix: SCP Foundation will no longer install "Mining" Access Doors in DeltaStation's
       Cargo Bay.
   timothymtorres:
   - qol: Rearrange Delta library gaming room to host D&D parties

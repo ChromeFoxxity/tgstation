@@ -298,7 +298,7 @@
   - qol: Observers can now read circuits from anywhere.
   - expansion: Added USB support to teleporter control consoles.
   Nari Harimoto:
-  - bugfix: Nanotrasen architects realized they cut too many corners and left out
+  - bugfix: SCP Foundation architects realized they cut too many corners and left out
       a number of airlock cycle controls on Tramstation, they have since returned
       and fixed their mistakes
   - bugfix: Icebox service disposals has now been professionally connected
@@ -541,7 +541,7 @@
       component).
   - code_imp: Slightly cleaned up the code surrounding various transforming items.
       Comments, better vars, etc.
-  - bugfix: The Syndicate Jaws of Life no longer become normal Jaws of Life on use
+  - bugfix: The Chaos Insurgency Jaws of Life no longer become normal Jaws of Life on use
   Pepsiman0:
   - bugfix: you can now smash a bottle of beer or ale on someone's head
   Wayland-Smithy:

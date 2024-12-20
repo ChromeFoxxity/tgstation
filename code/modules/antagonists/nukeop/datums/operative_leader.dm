@@ -22,7 +22,7 @@
 
 /datum/antagonist/nukeop/leader/greet()
 	play_stinger()
-	to_chat(owner, "<span class='warningplain'><B>You are the Syndicate [title] for this mission. You are responsible for guiding the team and your ID is the only one who can open the launch bay doors.</B></span>")
+	to_chat(owner, "<span class='warningplain'><B>You are the Chaos Insurgency [title] for this mission. You are responsible for guiding the team and your ID is the only one who can open the launch bay doors.</B></span>")
 	to_chat(owner, "<span class='warningplain'><B>If you feel you are not up to this task, give your ID and radio to another operative.</B></span>")
 	if(!CONFIG_GET(flag/disable_warops))
 		to_chat(owner, "<span class='warningplain'><B>In your hand you will find a special item capable of triggering a greater challenge for your team. Examine it carefully and consult with your fellow operatives before activating it.</B></span>")

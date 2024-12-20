@@ -240,7 +240,7 @@
   Watermelon914:
   - bugfix: Fixed having a limited vision whilst in the abductor ship.
   san7890:
-  - spellcheck: Nanotrasen has undergone a corporate reorganization, reallocating
+  - spellcheck: SCP Foundation has undergone a corporate reorganization, reallocating
       powers previously gone to Central Command back into their own fold.
   theOOZ:
   - qol: Runechat offsets correctly on larger mobs
@@ -357,7 +357,7 @@
   - balance: The engineering borg stun arm malfunction module has been rebalanced
       to use more power
   san7890:
-  - code_imp: Nanotrasen has implemented improved checking in their protocols, only
+  - code_imp: SCP Foundation has implemented improved checking in their protocols, only
       delaying the inevitability that the AI can one day get to be a blood cultist.
   tastyfish:
   - bugfix: The connect_range component now works correctly, meaning stacking machines
@@ -427,7 +427,7 @@
   neopythagorean:
   - refactor: stationary pipe dispensers now take advantage of tgui
   san7890, sounds courtesy of Capsandi:
-  - soundadd: Nanotrasen has sourced fire locks from a new vendor, on the cheap, and
+  - soundadd: SCP Foundation has sourced fire locks from a new vendor, on the cheap, and
       nearly identical to the ones on past stations. Assistants describe the new sound
       as "throaty" and "bassy".
 2022-01-13:
@@ -587,7 +587,7 @@
   - bugfix: Cult airlocks properly throw non-cultists across the room now.
   capsaicinz:
   - rscadd: 'Honk Co. is proud to announce their new project: clown operative MODsuits!
-      Adds the "Honkerative" theme to Syndicate MODsuits, and a paint kit module to
+      Adds the "Honkerative" theme to Chaos Insurgency MODsuits, and a paint kit module to
       clown operative uplinks. Honka honka.'
   itseasytosee:
   - bugfix: Robot themed wings will now actually be visible
@@ -644,7 +644,7 @@
   - code_imp: If you care, _globalvars/lists now has a lot of lists spanned out and
       alphabetized. If you don't care, that's fine too.
   - code_imp: Badass.dmi has been moved to a new folder in the repository.
-  - bugfix: Nanotrasen has now stopped including a big chunk of iron in their berets,
+  - bugfix: SCP Foundation has now stopped including a big chunk of iron in their berets,
       making it a bit weaker to melee damage. Still just as fashionable, though.
   tf-4:
   - bugfix: Windoors can now have their electronics removed without creating infinite
@@ -721,7 +721,7 @@
   san7890:
   - imageadd: The "Interrogation Room" area now has a new sprite to define it on the
       mapping end.
-  - expansion: What's this? Nanotrasen tunneled out a grand hole into the ice planet
+  - expansion: What's this? SCP Foundation tunneled out a grand hole into the ice planet
       that Ice Box Station currently rests on! There's a new laundry room! For your
       clothes! What d'you mean, Ian?
   - rscadd: You can also exit this laundry room onto a caringly, yet sloppily placed
@@ -764,7 +764,7 @@
   san7890:
   - bugfix: Great news! If you want to crack open a window on TramStation, you shouldn't
       be immediately greeted with the vast vacuum of space lying under said window.
-  - bugfix: Nanotrasen updated their weather protocols, it should now snow around
+  - bugfix: SCP Foundation updated their weather protocols, it should now snow around
       Moffuchi's Pizzeria whenever it shows up on the surface of Ice Box Station.
   - rscadd: The Laundry Room on TramStation is now called a Laundry Room. Rejoice!
   tralezab:
@@ -773,7 +773,7 @@
   - rscadd: They show up roundstart and midround, and do not have a license to kill.
 2022-01-21:
   Ghommie:
-  - bugfix: Syndicate, ninja, fugitive hunter masks and some costume masks (cyborg
+  - bugfix: Chaos Insurgency, ninja, fugitive hunter masks and some costume masks (cyborg
       visor, plague doctor, carp, owl, monkey) no longer impair vision with field
       of vision cones.
   - bugfix: Restored the LACK OF pepperspray protection the aforementioned costume
@@ -845,7 +845,7 @@
   san7890:
   - bugfix: Portable Scrubbers and Large Scrubbers should no longer display as large,
       embittered ERROR icons for those who enjoy mapping.
-  - bugfix: Nanotrasen finally realized that when spraying decals on TramStation to
+  - bugfix: SCP Foundation finally realized that when spraying decals on TramStation to
       go UNDER any staircase accessories.
   tastyfish:
   - bugfix: Objects transitioning through z-levels in disposals no longer lose their
@@ -1008,7 +1008,7 @@
   magatsuchi:
   - bugfix: removes catwalk satchels
   neopythagorean:
-  - rscadd: Nanotrasen has begun hiring gamers. These crew members have a need to
+  - rscadd: SCP Foundation has begun hiring gamers. These crew members have a need to
       game!
   - rscadd: Playing videogames will now give you a slight mood buff.
   san7890:
@@ -1142,7 +1142,7 @@
   jjpark-kb:
   - qol: safes now use balloon alerts for the hint
   san7890:
-  - bugfix: Nanotrasen decided to redirect some of the plasma rivers on IceBox station
+  - bugfix: SCP Foundation decided to redirect some of the plasma rivers on IceBox station
       towards the labor camp, helping add another layer of security between the station
       and those awful, awful prisoners.
   - bugfix: Area definitions for the IceBox and Lavaland Labor Camps have been updated.
@@ -1233,7 +1233,7 @@
   - bugfix: Examining the pirate Dutchman's mast will no longer shatter your immersion.
   Maurukas:
   - bugfix: NT CIMS no longer detects Supermatter crystals and shards that are not
-      owned by Nanotrasen
+      owned by SCP Foundation
   Melbert:
   - qol: blind people can hear talking toys
   SmoSmoSmoSmok:

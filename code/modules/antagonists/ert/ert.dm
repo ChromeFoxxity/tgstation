@@ -58,9 +58,9 @@
 /datum/antagonist/ert/official/greet()
 	. = ..()
 	if (ert_team)
-		to_chat(owner, "<span class='warningplain'>Central Command is sending you to [station_name()] with the task: [ert_team.mission.explanation_text]</span>")
+		to_chat(owner, "<span class='warningplain'>Central Office is sending you to [station_name()] with the task: [ert_team.mission.explanation_text]</span>")
 	else
-		to_chat(owner, "<span class='warningplain'>Central Command is sending you to [station_name()] with the task: [mission.explanation_text]</span>")
+		to_chat(owner, "<span class='warningplain'>Central Office is sending you to [station_name()] with the task: [mission.explanation_text]</span>")
 
 /datum/antagonist/ert/official/forge_objectives()
 	if (ert_team)
@@ -249,7 +249,7 @@
 
 	to_chat(owner, "<span class='warningplain'><B><font size=3 color=red>You are the [name].</font></B></span>")
 
-	var/missiondesc = "Your squad is being sent on a mission to [station_name()] by Nanotrasen's Security Division."
+	var/missiondesc = "Your squad is being sent on a mission to [station_name()] by SCP Foundation's Security Division."
 	if(leader) //If Squad Leader
 		missiondesc += " Lead your squad to ensure the completion of the mission. Board the shuttle when your team is ready."
 	else

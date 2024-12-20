@@ -42,7 +42,7 @@
   - bugfix: UI with tooltips will now be much faster to create them, such as R&D console
       searching or preferences menu tab switching.
   Sealed101:
-  - expansion: 'There is a new type of experiment provided by Nanotrasen: Machinery
+  - expansion: 'There is a new type of experiment provided by SCP Foundation: Machinery
       scanning!'
   Y0SH1M4S73R:
   - admin: Circuit components to perform animations and manipulate filters have been
@@ -246,7 +246,7 @@
   tralezab:
   - bugfix: Fixes catwalks not working at all!
   zxaber:
-  - rscadd: Emagged and Syndicate borgs can now self-detonate. For emagged borgs,
+  - rscadd: Emagged and Chaos Insurgency borgs can now self-detonate. For emagged borgs,
       this destroys the MMI, so know what you're signing up for.
 2021-10-09:
   Burgermancoding:
@@ -464,7 +464,7 @@
   - spellcheck: No more phantom hand grabbing.
   - bugfix: Pipes now properly fulfill your nicotine cravings.
   Zytolg:
-  - bugfix: The Nanotrasen Materials Reclamation Program has recycled the spare firelock
+  - bugfix: The SCP Foundation Materials Reclamation Program has recycled the spare firelock
       trapped in the Cargo Offices east windows.
 2021-10-16:
   Gandalf2k15:
@@ -584,7 +584,7 @@
       are more important than your tardiness and limbs, employee!'
   - bugfix: Fixed the numbering of escape pods in certain maps.
   Ebin-Halcyon:
-  - balance: Syndicate masks are now fire + acid proof
+  - balance: Chaos Insurgency masks are now fire + acid proof
   Ghilker:
   - qol: filters can now filter multiple gases at once
   Ghommie:
@@ -668,8 +668,8 @@
       the edited ban's new details.
   Zytolg:
   - bugfix: Tramstation is now free from oddly decaled walls.
-  - bugfix: The Lavaland Syndicate Base is now Powered again.
-  - code_imp: repathed /unpowered Syndicate Base areas to /powered
+  - bugfix: The Lavaland Chaos Insurgency Base is now Powered again.
+  - code_imp: repathed /unpowered Chaos Insurgency Base areas to /powered
   esainane:
   - bugfix: Gas Filters will now always attempt to move gas, as long as at least one
       output has space available. Any gas not able to be moved to its destination

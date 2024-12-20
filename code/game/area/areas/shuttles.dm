@@ -26,33 +26,33 @@
 
 ////////////////////////////Multi-area shuttles////////////////////////////
 
-////////////////////////////Syndicate infiltrator////////////////////////////
+////////////////////////////Chaos Insurgency infiltrator////////////////////////////
 
 /area/shuttle/syndicate
-	name = "Syndicate Infiltrator"
+	name = "Chaos Insurgency Infiltrator"
 	ambience_index = AMBIENCE_DANGER
 	area_limited_icon_smoothing = /area/shuttle/syndicate
 
 /area/shuttle/syndicate/bridge
-	name = "Syndicate Infiltrator Control"
+	name = "Chaos Insurgency Infiltrator Control"
 
 /area/shuttle/syndicate/medical
-	name = "Syndicate Infiltrator Medbay"
+	name = "Chaos Insurgency Infiltrator Medbay"
 
 /area/shuttle/syndicate/armory
-	name = "Syndicate Infiltrator Armory"
+	name = "Chaos Insurgency Infiltrator Armory"
 
 /area/shuttle/syndicate/eva
-	name = "Syndicate Infiltrator EVA"
+	name = "Chaos Insurgency Infiltrator EVA"
 
 /area/shuttle/syndicate/hallway
-	name = "Syndicate Infiltrator Hall"
+	name = "Chaos Insurgency Infiltrator Hall"
 
 /area/shuttle/syndicate/engineering
-	name = "Syndicate Infiltrator Engineering"
+	name = "Chaos Insurgency Infiltrator Engineering"
 
 /area/shuttle/syndicate/airlock
-	name = "Syndicate Infiltrator Airlock"
+	name = "Chaos Insurgency Infiltrator Airlock"
 
 ////////////////////////////Pirate Shuttle////////////////////////////
 
@@ -215,7 +215,7 @@
 	name = "SBC corvette"
 
 /area/shuttle/syndicate_scout
-	name = "Syndicate Scout"
+	name = "Chaos Insurgency Scout"
 
 /area/shuttle/ruin
 	name = "Ruined Shuttle"
@@ -226,13 +226,13 @@
 	name = "Ruined Caravan Shuttle"
 
 /area/shuttle/ruin/caravan/syndicate1
-	name = "Syndicate Fighter"
+	name = "Chaos Insurgency Fighter"
 
 /area/shuttle/ruin/caravan/syndicate2
-	name = "Syndicate Fighter"
+	name = "Chaos Insurgency Fighter"
 
 /area/shuttle/ruin/caravan/syndicate3
-	name = "Syndicate Drop Ship"
+	name = "Chaos Insurgency Drop Ship"
 
 /area/shuttle/ruin/caravan/pirate
 	name = "Pirate Cutter"

@@ -392,7 +392,7 @@
 
 /obj/item/melee/baton/telescopic/contractor_baton
 	name = "contractor baton"
-	desc = "A compact, specialised baton assigned to Syndicate contractors. Applies light electrical shocks to targets."
+	desc = "A compact, specialised baton assigned to Chaos Insurgency contractors. Applies light electrical shocks to targets."
 	icon = 'icons/obj/weapons/baton.dmi'
 	icon_state = "contractor_baton"
 	worn_icon_state = "contractor_baton"

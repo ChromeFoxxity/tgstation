@@ -143,7 +143,7 @@
 "bW" = (
 /obj/machinery/door/poddoor/shuttledock{
 	checkdir = 1;
-	name = "Syndicate Blast Door";
+	name = "Chaos Insurgency Blast Door";
 	turftype = /turf/open/misc/asteroid/snow
 	},
 /turf/open/floor/plating,
@@ -614,7 +614,7 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/computer/atmos_control/noreconnect{
 	atmos_chambers = list("nukiebase"="Burn Chamber");
-	desc = "Used to monitor the Syndicate Ordnance Laboratory's burn chamber.";
+	desc = "Used to monitor the Chaos Insurgency Ordnance Laboratory's burn chamber.";
 	dir = 1;
 	name = "Ordnance Chamber Monitor"
 	},
@@ -832,7 +832,7 @@
 	},
 /obj/item/pipe_dispenser{
 	desc = "A device used to rapidly pipe things. This one has a curious abundance of warning labels.";
-	name = "Syndicate Rapid Pipe Dispenser (RPD)";
+	name = "Chaos Insurgency Rapid Pipe Dispenser (RPD)";
 	pixel_y = -3
 	},
 /obj/item/flamethrower/full,
@@ -867,7 +867,7 @@
 "jh" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored{
 	chamber_id = "nukiebase";
-	desc = "Has a valve and pump attached to it. Slightly more menacing than Nanotrasen's standard.";
+	desc = "Has a valve and pump attached to it. Slightly more menacing than SCP Foundation's standard.";
 	dir = 1;
 	name = "syndicate air injector"
 	},
@@ -1518,7 +1518,7 @@
 /obj/docking_port/stationary{
 	dwidth = 25;
 	height = 50;
-	name = "Syndicate Auxiliary Shuttle Dock";
+	name = "Chaos Insurgency Auxiliary Shuttle Dock";
 	shuttle_id = "emergency_syndicate";
 	width = 50
 	},

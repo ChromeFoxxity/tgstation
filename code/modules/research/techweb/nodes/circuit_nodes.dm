@@ -110,7 +110,7 @@
 /datum/techweb_node/bci
 	id = TECHWEB_NODE_BCI
 	display_name = "Brain-Computer Interface"
-	description = "Embedded brain circuits. May occasionally stream Nanotrasen ads in dreams."
+	description = "Embedded brain circuits. May occasionally stream SCP Foundation ads in dreams."
 	prereq_ids = list(TECHWEB_NODE_CIRCUIT_SHELLS, TECHWEB_NODE_PASSIVE_IMPLANTS)
 	design_ids = list(
 		"bci_implanter",

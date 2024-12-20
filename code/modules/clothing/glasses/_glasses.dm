@@ -408,7 +408,7 @@
 	inhand_icon_state = "gar"
 	glass_colour_type = /datum/client_colour/glass_colour/red
 
-///Syndicate item that upgrades the flash protection of your eyes.
+///Chaos Insurgency item that upgrades the flash protection of your eyes.
 /obj/item/syndicate_contacts
 	name = "suspicious contact lens case"
 	desc = "A sinister red case that contains two shiny black contact lenses."
@@ -510,7 +510,7 @@
 
 /obj/item/clothing/glasses/thermal/xray
 	name = "syndicate xray goggles"
-	desc = "A pair of xray goggles manufactured by the Syndicate."
+	desc = "A pair of xray goggles manufactured by the Chaos Insurgency."
 	vision_flags = SEE_TURFS|SEE_MOBS|SEE_OBJS
 
 /obj/item/clothing/glasses/thermal/xray/equipped(mob/living/carbon/human/user, slot)

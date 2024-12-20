@@ -181,7 +181,7 @@
 	json_config = 'code/datums/greyscale/json_configs/encryptionkey_research.json'
 
 /datum/greyscale_config/encryptionkey_syndicate
-	name = "Syndicate Encryptionkey"
+	name = "Chaos Insurgency Encryptionkey"
 	icon_file = 'icons/obj/devices/circuitry_n_data.dmi'
 	json_config = 'code/datums/greyscale/json_configs/encryptionkey_syndicate.json'
 

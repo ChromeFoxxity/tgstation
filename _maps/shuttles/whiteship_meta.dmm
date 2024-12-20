@@ -272,7 +272,7 @@
 	},
 /mob/living/basic/trooper/syndicate/ranged{
 	environment_smash = 0;
-	name = "Syndicate Salvage Worker"
+	name = "Chaos Insurgency Salvage Worker"
 	},
 /turf/open/floor/plating,
 /area/shuttle/abandoned/engine)

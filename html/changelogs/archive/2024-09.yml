@@ -74,7 +74,7 @@
   - code_imp: The (currently unused) TGUI checkbox components returns a BYOND friendly
       list of the indexes of any choices now.
   EnterTheJake:
-  - rscadd: A Syndicate Rebar Quiver has been added to the uplink
+  - rscadd: A Chaos Insurgency Rebar Quiver has been added to the uplink
   - qol: Left clicking with a rebar crossbow will now draw/undraw the string.
   - balance: Rebar quivers are now a neck slot item.
   - balance: ' Hydrogen bolts damage has been upped to 55 brute and can now pierce
@@ -187,14 +187,14 @@
       of the chad blue ss13 icon.
   Rhials:
   - rscadd: Code-Violet Medical Support ERT teams have been rolled out for deployment
-      to Space Station 13 and related Nanotrasen Installations.
+      to Space Station 13 and related SCP Foundation Installations.
   Singul0:
   - bugfix: Fixes makarov-stechkin mix up on forgotten ship virtual domain.
   Xackii:
   - qol: You don't need two hands to stream with broadcast camera.
 2024-09-08:
   EnterTheJake:
-  - balance: Syndicate quiver is now small sized instead of Bulky.
+  - balance: Chaos Insurgency quiver is now small sized instead of Bulky.
   FeudeyTF:
   - bugfix: fixed removing last case
   SmArtKar:
@@ -318,7 +318,7 @@
   hack-wrench:
   - rscadd: tape recorder now records speaker name
   r3dj4ck0424:
-  - bugfix: The Syndicate have cleared up the static preventing them from sending
+  - bugfix: The Chaos Insurgency have cleared up the static preventing them from sending
       their battlecruisers to Birdshot Station. Watch out, crew!
 2024-09-12:
   LT3:
@@ -416,7 +416,7 @@
       had their size reduced.
   - balance: The airlock circuit shell has had its size increased.
   DaCoolBoss:
-  - rscadd: Adds the Syndicate Lab to the Icemoon ruin pool.
+  - rscadd: Adds the Chaos Insurgency Lab to the Icemoon ruin pool.
   IndieanaJones:
   - balance: Gorillas made from giving monkeys genetic damage are weaker than their
       normal counterparts.

@@ -39,7 +39,7 @@
 
 
 /obj/effect/mob_spawn/ghost_role/human/virtual_domain/syndie
-	name = "Virtual Syndicate Sleeper"
+	name = "Virtual Chaos Insurgency Sleeper"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
 	prompt_name = "a virtual syndicate operative"

@@ -128,6 +128,6 @@
 		return OXYLOSS
 
 /obj/item/gun/ballistic/rocketlauncher/unrestricted/nanotrasen
-	desc = "A reusable rocket propelled grenade launcher. The words \"Syndicate this way\" and an arrow have been written near the barrel. \
+	desc = "A reusable rocket propelled grenade launcher. The words \"Chaos Insurgency this way\" and an arrow have been written near the barrel. \
 	A sticker near the cheek rest reads, \"ENSURE AREA BEHIND IS CLEAR BEFORE FIRING\""
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/rocketlauncher/empty

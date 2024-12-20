@@ -152,7 +152,7 @@
 			code = bombue.r_code
 			break
 	if (code)
-		antag_memory += "<B>Syndicate Nuclear Bomb Code</B>: [code]<br>"
+		antag_memory += "<B>Chaos Insurgency Nuclear Bomb Code</B>: [code]<br>"
 		to_chat(owner.current, "The nuclear authorization code is: <B>[code]</B>")
 	else
 		to_chat(admin, span_danger("No valid nuke found!"))
@@ -163,7 +163,7 @@
 	nuke_team.memorized_code = random_nukecode()
 	var/obj/machinery/nuclearbomb/syndicate/nuke = locate() in SSmachines.get_machines_by_type_and_subtypes(/obj/machinery/nuclearbomb/syndicate)
 	if(!nuke)
-		stack_trace("Syndicate nuke not found during nuke team creation.")
+		stack_trace("Chaos Insurgency nuke not found during nuke team creation.")
 		nuke_team.memorized_code = null
 		return
 	nuke_team.tracked_nuke = nuke

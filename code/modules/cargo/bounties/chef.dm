@@ -1,6 +1,6 @@
 /datum/bounty/item/chef/birthday_cake
 	name = "Birthday Cake"
-	description = "Nanotrasen's birthday is coming up! Ship Central Command a birthday cake to celebrate!"
+	description = "SCP Foundation's birthday is coming up! Ship Site 45 a birthday cake to celebrate!"
 	reward = CARGO_CRATE_VALUE * 8
 	wanted_types = list(
 		/obj/item/food/cake/birthday = TRUE,
@@ -9,7 +9,7 @@
 
 /datum/bounty/reagent/chef/soup
 	name = "Soup"
-	description = "To quell the homeless uprising, Nanotrasen will be serving soup to all underpaid workers."
+	description = "To quell the homeless uprising, SCP Foundation will be serving soup to all underpaid workers."
 
 /datum/bounty/reagent/chef/soup/New()
 	. = ..()
@@ -29,7 +29,7 @@
 
 /datum/bounty/item/chef/onionrings
 	name = "Onion Rings"
-	description = "Nanotrasen is remembering Saturn day. Ship onion rings to show the station's support."
+	description = "SCP Foundation is remembering Saturn day. Ship onion rings to show the station's support."
 	reward = CARGO_CRATE_VALUE * 6
 	required_count = 3
 	wanted_types = list(/obj/item/food/onionrings = TRUE)
@@ -88,7 +88,7 @@
 
 /datum/bounty/item/chef/poppypretzel
 	name = "Poppy Pretzel"
-	description = "Central Command needs a reason to fire their HR head. Send over a poppy pretzel to force a failed drug test."
+	description = "Site 57 needs a reason to fire their HR head. Send over a poppy pretzel to force a failed drug test."
 	reward = CARGO_CRATE_VALUE * 6
 	wanted_types = list(/obj/item/food/poppypretzel = TRUE)
 
@@ -100,7 +100,7 @@
 
 /datum/bounty/item/chef/hotdog
 	name = "Hot Dog"
-	description = "Nanotrasen is conducting taste tests to determine the best hot dog recipe. Ship your station's version to participate."
+	description = "SCP Foundation is conducting taste tests to determine the best hot dog recipe. Ship your station's version to participate."
 	reward = CARGO_CRATE_VALUE * 16
 	wanted_types = list(/obj/item/food/hotdog = TRUE)
 
@@ -120,7 +120,7 @@
 
 /datum/bounty/item/chef/chawanmushi
 	name = "Chawanmushi"
-	description = "Nanotrasen wants to improve relations with its sister company, Japanotrasen. Ship Chawanmushi immediately."
+	description = "SCP Foundation wants to improve relations with its sister company, Japanotrasen. Ship Chawanmushi immediately."
 	reward = CARGO_CRATE_VALUE * 16
 	wanted_types = list(/obj/item/food/chawanmushi = TRUE)
 
@@ -139,7 +139,7 @@
 
 /datum/bounty/item/chef/pancakes
 	name = "Pancakes"
-	description = "Here at Nanotrasen we consider employees to be family. And you know what families love? Pancakes. Ship a baker's dozen."
+	description = "Here at SCP Foundation we consider employees to be family. And you know what families love? Pancakes. Ship a baker's dozen."
 	reward = CARGO_CRATE_VALUE * 10
 	required_count = 13
 	wanted_types = list(/obj/item/food/pancakes = TRUE)

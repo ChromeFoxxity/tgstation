@@ -1074,8 +1074,8 @@
 	item_flags = NO_PIXEL_RANDOM_DROP
 
 /obj/item/toy/beach_ball/branded
-	name = "\improper Nanotrasen-brand beach ball"
-	desc = "The simple beach ball is one of Nanotrasen's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Nanotrasen"
+	name = "\improper SCP Foundation-brand beach ball"
+	desc = "The simple beach ball is one of SCP Foundation's most popular products. 'Why do we make beach balls? Because we can! (TM)' - SCP Foundation"
 
 /obj/item/toy/beach_ball/baseball
 	name = "baseball"

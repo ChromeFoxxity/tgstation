@@ -28,7 +28,7 @@
 	interaction_flags_atom = parent_type::interaction_flags_atom | INTERACT_ATOM_ALLOW_USER_LOCATION | INTERACT_ATOM_IGNORE_MOBILITY
 
 	///A string of flavortext to be displayed at the top of the UI, related to the type of blueprints we are.
-	var/fluffnotice = "Property of Nanotrasen. For heads of staff only. Store in high-secure storage."
+	var/fluffnotice = "Property of SCP Foundation. For heads of staff only. Store in high-secure storage."
 	///Boolean on whether the blueprints are currently being used, which prevents double-using them to rename/create areas.
 	var/in_use = FALSE
 	///The type of area we'll create when we make a new area. This is a typepath.
@@ -220,7 +220,7 @@
 /obj/item/blueprints/cyborg
 	name = "station schematics"
 	desc = "A digital copy of the station blueprints stored in your memory."
-	fluffnotice = "Intellectual Property of Nanotrasen. For use in engineering cyborgs only. Wipe from memory upon departure from the station."
+	fluffnotice = "Intellectual Property of SCP Foundation. For use in engineering cyborgs only. Wipe from memory upon departure from the station."
 
 ///Golem blueprints - Used to make golem areas that won't give the hazardous area debuffs.
 /obj/item/blueprints/golem

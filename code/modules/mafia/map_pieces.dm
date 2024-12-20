@@ -72,7 +72,7 @@
 	custom_outfit = /datum/outfit/mafia/gothic
 
 /datum/map_template/mafia/syndicate
-	name = "Syndicate Megastation"
+	name = "Chaos Insurgency Megastation"
 	description = "Yes, it's a very confusing day at the Megastation. Will the syndicate conflict resolution operatives succeed?"
 	map_suffix = "mafia_syndie.dmm"
 	custom_outfit = /datum/outfit/mafia/syndie

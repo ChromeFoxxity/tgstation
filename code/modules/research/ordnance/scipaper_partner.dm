@@ -28,7 +28,7 @@
 
 /datum/scientific_partner/defense
 	name = "Defense Partnership"
-	flufftext = "We can work directly for Nanotrasen's \[REDACTED\] division, potentially providing us access with advanced offensive and defensive gadgets."
+	flufftext = "We can work directly for SCP Foundation's \[REDACTED\] division, potentially providing us access with advanced offensive and defensive gadgets."
 	accepted_experiments = list(
 		/datum/experiment/ordnance/explosive/lowyieldbomb,
 		/datum/experiment/ordnance/explosive/highyieldbomb,
@@ -45,7 +45,7 @@
 
 /datum/scientific_partner/medical
 	name = "Biological Research Division"
-	flufftext = "A collegiate of the best medical researchers Nanotrasen employs. They seem to be interested in the biological effects of some more exotic gases. Especially stimulants and neurosupressants."
+	flufftext = "A collegiate of the best medical researchers SCP Foundation employs. They seem to be interested in the biological effects of some more exotic gases. Especially stimulants and neurosupressants."
 	accepted_experiments = list(
 		/datum/experiment/ordnance/gaseous/nitrous_oxide,
 		/datum/experiment/ordnance/gaseous/bz,
@@ -61,7 +61,7 @@
 
 /datum/scientific_partner/physics
 	name = "NT Physics Quarterly"
-	flufftext = "A prestigious physics journal managed by Nanotrasen. The main journal for publishing cutting-edge physics research conducted by Nanotrasen, given that they aren't classified."
+	flufftext = "A prestigious physics journal managed by SCP Foundation. The main journal for publishing cutting-edge physics research conducted by SCP Foundation, given that they aren't classified."
 	accepted_experiments = list(
 		/datum/experiment/ordnance/gaseous/bz,
 		/datum/experiment/ordnance/explosive/hydrogenbomb,

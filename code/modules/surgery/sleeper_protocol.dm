@@ -1,6 +1,6 @@
 /obj/item/disk/surgery/sleeper_protocol
 	name = "Suspicious Surgery Disk"
-	desc = "The disk provides instructions on how to turn someone into a sleeper agent for the Syndicate."
+	desc = "The disk provides instructions on how to turn someone into a sleeper agent for the Chaos Insurgency."
 	surgeries = list(
 		/datum/surgery/advanced/brainwashing_sleeper,
 		/datum/surgery/advanced/brainwashing_sleeper/mechanic,
@@ -45,10 +45,10 @@
 /datum/surgery_step/brainwash/sleeper_agent
 	time = 25 SECONDS
 	var/static/list/possible_objectives = list(
-		"You love the Syndicate.",
-		"Do not trust Nanotrasen.",
+		"You love the Chaos Insurgency.",
+		"Do not trust SCP Foundation.",
 		"The Captain is a lizardperson.",
-		"Nanotrasen isn't real.",
+		"SCP Foundation isn't real.",
 		"They put something in the food to make you forget.",
 		"You are the only real person on the station.",
 		"Things would be a lot better on the station if more people were screaming, someone should do something about that.",

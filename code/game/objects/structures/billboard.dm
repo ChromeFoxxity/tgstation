@@ -26,13 +26,13 @@
 	icon_state = "billboard_space_cola"
 
 /obj/structure/billboard/nanotrasen
-	name = "\improper Nanotrasen billboard"
-	desc = "A billboard advertising Nanotrasen: A Better Tomorrow, Today."
+	name = "\improper SCP Foundation billboard"
+	desc = "A billboard advertising SCP Foundation: A Better Tomorrow, Today."
 	icon_state = "billboard_nanotrasen"
 
 /obj/structure/billboard/nanotrasen/defaced
-	name = "defaced Nanotrasen billboard"
-	desc = "A billboard advertising Nanotrasen. Someone's sprayed a message onto it: Fuck Corpo Pigs."
+	name = "defaced SCP Foundation billboard"
+	desc = "A billboard advertising SCP Foundation. Someone's sprayed a message onto it: Fuck Corpo Pigs."
 	icon_state = "billboard_fuck_corps"
 
 /obj/structure/billboard/azik

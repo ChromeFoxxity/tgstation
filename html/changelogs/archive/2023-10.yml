@@ -115,7 +115,7 @@
   Wallem:
   - rscadd: Adds The Hand of Midas, an ancient Egyptian matchlock pistol.
   ZephyrTFA:
-  - bugfix: The Syndicate have fired their previous construction company after poor
+  - bugfix: The Chaos Insurgency have fired their previous construction company after poor
       results in recent outposts.
   lizardqueenlexi:
   - bugfix: Your heart will no longer be deleted if an admin heals you while you have
@@ -429,7 +429,7 @@
       to select that one type from a radial menu with one option on it.
   - qol: As a Flesh Spider, the game now tells you how you can heal yourself.
   LT3:
-  - rscadd: Introducing Nanotrasen Wave! A Nanotrasen exclusive, Waveallows your PDA
+  - rscadd: Introducing SCP Foundation Wave! A SCP Foundation exclusive, Waveallows your PDA
       to be charged wirelessly through microwave frequencies. You can Wave-charge
       your device by placing it inside a compatible microwave and selecting the charge
       mode.
@@ -679,7 +679,7 @@
   - bugfix: Fish analyzers can now be actually used for experiments.
   LT3:
   - refactor: Tram process/industrial lift refactored into transport subsystem
-  - refactor: Nanotrasen has traded in last year's tram for a new 2563 model!
+  - refactor: SCP Foundation has traded in last year's tram for a new 2563 model!
   - rscadd: Tram spoilers can be emagged to cause extra damage on collision
   - rscadd: Tram can now be manually driven from the controller cabinet using TGUI
   - rscadd: Tram floor tiles can be created using plastic sheets
@@ -1035,7 +1035,7 @@
       smarter, and they also have a slightly improved set of attack effects and sounds.
       They love to drink milk, but will be harmed greatly if any heartless spaceman
       tricks them into drinking soymilk instead. Please report any bugs.
-  - refactor: Hostile Nanotrasen mobs now use the basic mob framework. This should
+  - refactor: Hostile SCP Foundation mobs now use the basic mob framework. This should
       make them a little smarter and more dangerous. Please report any bugs.
   - bugfix: Russian mobs will now actually use those knives they're holding.
   - refactor: Juggernaut constructs now use the basic mob framework. Please report
@@ -1110,7 +1110,7 @@
   - bugfix: The Demonic Frost-Miner will no longer run around destroying the corpses
       in its arena the moment the round begins.
   unit0016:
-  - bugfix: Every misaligned railing ending has been corrected by the Nanotrasen Hall
+  - bugfix: Every misaligned railing ending has been corrected by the SCP Foundation Hall
       Monitor's Lunchclub.
 2023-10-29:
   DrDiasyl:
@@ -1155,7 +1155,7 @@
   - spellcheck: Changed candy description to read better
   Toastgoats:
   - rscadd: The Ethereal Vintner's Union has been "convinced" to trade their signature
-      Lanternfruit with Nanotrasen!
+      Lanternfruit with SCP Foundation!
   - image: Sprites for the aforementioned fruit.
   jlsnow301:
   - bugfix: Fixed an invisibility exploit on large mobs. Probably better this way

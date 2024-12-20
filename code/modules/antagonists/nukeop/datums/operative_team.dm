@@ -19,10 +19,10 @@
 
 	switch(get_result())
 		if(NUKE_RESULT_FLUKE)
-			parts += "<span class='redtext big'>Humiliating Syndicate Defeat</span>"
+			parts += "<span class='redtext big'>Humiliating Chaos Insurgency Defeat</span>"
 			parts += "<B>The crew of [station_name()] gave [syndicate_name] operatives back their bomb! The syndicate base was destroyed!</B> Next time, don't lose the nuke!"
 		if(NUKE_RESULT_NUKE_WIN)
-			parts += "<span class='greentext big'>Syndicate Major Victory!</span>"
+			parts += "<span class='greentext big'>Chaos Insurgency Major Victory!</span>"
 			parts += "<B>[syndicate_name] operatives have destroyed [station_name()]!</B>"
 		if(NUKE_RESULT_NOSURVIVORS)
 			parts += "<span class='neutraltext big'>Total Annihilation!</span>"
@@ -34,10 +34,10 @@
 			parts += "<span class='redtext big'>[syndicate_name] operatives have earned Darwin Award!</span>"
 			parts += "<B>[syndicate_name] operatives blew up something that wasn't [station_name()] and got caught in the explosion.</B> Next time, don't do that!"
 		if(NUKE_RESULT_HIJACK_DISK)
-			parts += "<span class='greentext big'>Syndicate Miniscule Victory!</span>"
+			parts += "<span class='greentext big'>Chaos Insurgency Miniscule Victory!</span>"
 			parts += "<B>[syndicate_name] operatives failed to destroy [station_name()], but they managed to secure the disk and hijack the emergency shuttle, causing it to land on the syndicate base. Good job?</B>"
 		if(NUKE_RESULT_HIJACK_NO_DISK)
-			parts += "<span class='greentext big'>Syndicate Insignificant Victory!</span>"
+			parts += "<span class='greentext big'>Chaos Insurgency Insignificant Victory!</span>"
 			parts += "<B>[syndicate_name] operatives failed to destroy [station_name()] or secure the disk, but they managed to hijack the emergency shuttle, causing it to land on the syndicate base. Good job?</B>"
 		if(NUKE_RESULT_CREW_WIN_SYNDIES_DEAD)
 			parts += "<span class='redtext big'>Crew Major Victory!</span>"
@@ -49,7 +49,7 @@
 			parts += "<span class='neutraltext big'>Neutral Victory!</span>"
 			parts += "<B>The Research Staff failed to secure the authentication disk but did manage to kill most of the [syndicate_name] Operatives!</B>"
 		if(NUKE_RESULT_DISK_STOLEN)
-			parts += "<span class='greentext big'>Syndicate Minor Victory!</span>"
+			parts += "<span class='greentext big'>Chaos Insurgency Minor Victory!</span>"
 			parts += "<B>[syndicate_name] operatives survived the assault but did not achieve the destruction of [station_name()].</B> Next time, don't lose the disk!"
 		else
 			parts += "<span class='neutraltext big'>Neutral Victory</span>"
@@ -67,7 +67,7 @@
 			purchases += H.generate_render(show_key = FALSE)
 	text += printplayerlist(members)
 	text += "<br>"
-	text += "(Syndicates used [TC_uses] TC) [purchases]"
+	text += "(Chaos Insurgencys used [TC_uses] TC) [purchases]"
 	if(TC_uses == 0 && GLOB.station_was_nuked && !are_all_operatives_dead())
 		text += "<BIG>[icon2html('icons/ui/antags/badass.dmi', world, "badass")]</BIG>"
 
@@ -77,9 +77,9 @@
 
 /datum/team/nuclear/antag_listing_name()
 	if(syndicate_name)
-		return "[syndicate_name] Syndicates"
+		return "[syndicate_name] Chaos Insurgencys"
 	else
-		return "Syndicates"
+		return "Chaos Insurgencys"
 
 /datum/team/nuclear/antag_listing_entry()
 	var/disk_report = "<b>Nuclear Disk(s)</b><br>"

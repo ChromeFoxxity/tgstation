@@ -111,7 +111,7 @@
 
 /obj/item/lipstick/syndie
 	name = "syndie lipstick"
-	desc = "Syndicate branded lipstick with a killer dose of kisses. Observe safety regulations!"
+	desc = "Chaos Insurgency branded lipstick with a killer dose of kisses. Observe safety regulations!"
 	icon_state = "slipstick"
 	base_icon_state = "slipstick"
 	lipstick_color = COLOR_SYNDIE_RED

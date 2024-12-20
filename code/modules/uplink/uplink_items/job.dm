@@ -83,8 +83,8 @@
 	surplus = 25
 
 /datum/uplink_item/role_restricted/syndimmi
-	name = "Syndicate Brand MMI"
-	desc = "An MMI modified to give cyborgs laws to serve the Syndicate without having their interface damaged by Cryptographic Sequencers, this will not unlock their hidden modules."
+	name = "Chaos Insurgency Brand MMI"
+	desc = "An MMI modified to give cyborgs laws to serve the Chaos Insurgency without having their interface damaged by Cryptographic Sequencers, this will not unlock their hidden modules."
 	item = /obj/item/mmi/syndie
 	cost = 2
 	restricted_roles = list(JOB_ROBOTICIST, JOB_RESEARCH_DIRECTOR, JOB_SCIENTIST, JOB_CORONER, JOB_MEDICAL_DOCTOR, JOB_CHIEF_MEDICAL_OFFICER)
@@ -147,7 +147,7 @@
 	restricted_roles = list(JOB_STATION_ENGINEER, JOB_CHIEF_ENGINEER)
 
 /datum/uplink_item/role_restricted/rebarxbowsyndie
-	name = "Syndicate Rebar Crossbow"
+	name = "Chaos Insurgency Rebar Crossbow"
 	desc = "A much more professional version of the engineer's bootleg rebar crossbow. 3 shot mag, quicker loading, and better ammo. Owners manual included."
 	item = /obj/item/storage/box/syndie_kit/rebarxbowsyndie
 	cost = 10
@@ -359,7 +359,7 @@
 
 /datum/uplink_item/role_restricted/monkey_agent
 	name = "Simian Agent Reinforcements"
-	desc = "Call in an extremely well trained monkey secret agent from our Syndicate Banana Department. \
+	desc = "Call in an extremely well trained monkey secret agent from our Chaos Insurgency Banana Department. \
 		They've been trained to operate machinery and can read, but they can't speak Common. \
 		Please note that these are free-range monkeys that don't react with Mutadone."
 	item = /obj/item/antag_spawner/loadout/monkey_man

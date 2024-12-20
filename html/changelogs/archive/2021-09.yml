@@ -17,7 +17,7 @@
   - spellcheck: Corrected a possessive case in the text of the ancient note found
       in the ice library ruin.
   Nari Harimoto:
-  - bugfix: Nanotrasen expert roboticists have found an error in cyborg programming
+  - bugfix: SCP Foundation expert roboticists have found an error in cyborg programming
       which allows them to interact with things farther than they are supposed to.
       some of those errors have been squashed.
   - refactor: can_interact() now has a few less unnesscary overrides and now properly
@@ -398,7 +398,7 @@
   Fikou:
   - bugfix: server restarting stuff uses alert instead of tgui alert
   kopoba:
-  - spellcheck: Nanotrasen recount blood packs in cargo order now its match reality
+  - spellcheck: SCP Foundation recount blood packs in cargo order now its match reality
 2021-09-14:
   Ghilker:
   - spellcheck: fixed airlocks id from entrence to entrance

@@ -34,7 +34,7 @@
       :cl:'
   DrDiasyl aka DrTuxedo#0931:
   - rscadd: Added 'biscuit' cards! They can contain documents and can only be accessed
-      by cracking them open, you can't close them back. Nanotrasen now stores spare
+      by cracking them open, you can't close them back. SCP Foundation now stores spare
       ID safe codes in them.
   - rscadd: Placed paper cutters around the station. They're in Bridge, HoP office,
       Warden office, and Cargo.
@@ -252,9 +252,9 @@
   Xander3359:
   - bugfix: Anomaly releaser no longer creates a "Stable "
   ZephyrTFA:
-  - bugfix: Syndicate teleporter is no longer secretly nerfed due to internal code
+  - bugfix: Chaos Insurgency teleporter is no longer secretly nerfed due to internal code
       mishaps. (-1 range)
-  - bugfix: Syndicate teleporter now gibs you where it should correctly; resulting
+  - bugfix: Chaos Insurgency teleporter now gibs you where it should correctly; resulting
       in it being much more dangerous to use
   massaheartsu:
   - rscadd: Added a new ruin!
@@ -462,7 +462,7 @@
 2023-04-14:
   ? Cheshify, Fikou, Blue-Berry, Zytolg, InfiniteGalaxies, Striders, Sylphet, Riggle,
     Soal, Andry, Crit, Deranging, and Pumpkin0.
-  : - rscadd: Nanotrasen's Newest Exploratory Vessel is now available! Meet the North
+  : - rscadd: SCP Foundation's Newest Exploratory Vessel is now available! Meet the North
         Star!
     - rscadd: More landmines, and a landmine random spawner.
     - rscadd: energy barriers now have a regenerative subtype, fit for permanent installations.
@@ -643,7 +643,7 @@
   NamelessFairy:
   - bugfix: Fixes being unable to switch modes on the Oingo Boingo Punch-face
   Singul0:
-  - bugfix: Nanotrasen has supplied the North Star with a B.E.P.I.S Chamber.
+  - bugfix: SCP Foundation has supplied the North Star with a B.E.P.I.S Chamber.
   SyncIt21:
   - bugfix: RTD animation effect adding a timer on deleted floor tiles.
   tralezab:
@@ -916,7 +916,7 @@
   rageguy505:
   - bugfix: Adds prisoner ID's inside the gen pop lockers on the Northstar. Also renames
       the holding cells to Gen Pop.
-  - rscadd: A new venture by Nanotrasen has put phonebooths in space.
+  - rscadd: A new venture by SCP Foundation has put phonebooths in space.
   trevorpillow:
   - rscadd: Added hostile spawn tag to rats
 2023-04-26:

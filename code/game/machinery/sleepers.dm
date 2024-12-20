@@ -296,7 +296,7 @@
 		chem_buttons[chem] = chem
 
 /**
- * Syndicate version
+ * Chaos Insurgency version
  * Can be controlled from the inside and can be deconstructed.
  */
 /obj/machinery/sleeper/syndie
@@ -314,7 +314,7 @@
 
 ///Fully upgraded, not deconstructable, while using the normal sprite.
 /obj/machinery/sleeper/syndie/fullupgrade/nt
-	name = "\improper Nanotrasen sleeper"
+	name = "\improper SCP Foundation sleeper"
 	icon_state = "sleeper"
 	base_icon_state = "sleeper"
 	deconstructable = FALSE

@@ -412,7 +412,7 @@
 		var/datum/traitor_objective/objective = locate(href_list["edit_obj_tc"])
 		if(!istype(objective))
 			return
-		var/telecrystal = input("Set new telecrystal reward for [objective.name]","Syndicate uplink", objective.telecrystal_reward) as null | num
+		var/telecrystal = input("Set new telecrystal reward for [objective.name]","Chaos Insurgency uplink", objective.telecrystal_reward) as null | num
 		if(isnull(telecrystal))
 			return
 		objective.telecrystal_reward = telecrystal
@@ -422,7 +422,7 @@
 		var/datum/traitor_objective/objective = locate(href_list["edit_obj_pr"])
 		if(!istype(objective))
 			return
-		var/progression = input("Set new progression reward for [objective.name]","Syndicate uplink", objective.progression_reward) as null | num
+		var/progression = input("Set new progression reward for [objective.name]","Chaos Insurgency uplink", objective.progression_reward) as null | num
 		if(isnull(progression))
 			return
 		objective.progression_reward = progression
@@ -459,7 +459,7 @@
 						var/crystals = tgui_input_number(
 							user = usr,
 							message = "Amount of telecrystals for [key]",
-							title = "Syndicate uplink",
+							title = "Chaos Insurgency uplink",
 							default = U.uplink_handler.telecrystals,
 						)
 						if(isnum(crystals))
@@ -472,7 +472,7 @@
 				var/datum/component/uplink/uplink = find_syndicate_uplink()
 				if(!uplink)
 					return
-				var/progression = input("Set new progression points for [key]","Syndicate uplink", uplink.uplink_handler.progression_points) as null | num
+				var/progression = input("Set new progression points for [key]","Chaos Insurgency uplink", uplink.uplink_handler.progression_points) as null | num
 				if(isnull(progression))
 					return
 				uplink.uplink_handler.progression_points = progression

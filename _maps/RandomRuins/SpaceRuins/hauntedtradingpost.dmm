@@ -812,10 +812,10 @@
 /obj/structure/cable/layer1,
 /obj/structure/sign/poster/contraband/syndicate_pistol/directional/west,
 /mob/living/simple_animal/bot/secbot{
-	faction = list("Syndicate");
+	faction = list("Chaos Insurgency");
 	bot_cover_flags = 4;
 	baton_type = /obj/item/melee/baton/security/cattleprod;
-	name = "\improper Syndicate Securitron";
+	name = "\improper Chaos Insurgency Securitron";
 	desc = "A little security robot, reprogrammed by the syndicate. He looks downright surly."
 	},
 /turf/open/floor/carpet/donk,
@@ -1762,7 +1762,7 @@
 "pj" = (
 /obj/effect/spawner/random/entertainment/coin,
 /mob/living/basic/mad_piano{
-	faction = list("Syndicate")
+	faction = list("Chaos Insurgency")
 	},
 /obj/item/card/id/away/donk/boss{
 	pixel_y = 11
@@ -3642,7 +3642,7 @@
 	},
 /obj/structure/bed/dogbed,
 /mob/living/basic/pet/dog/bullterrier/guarddog{
-	faction = list("Syndicate")
+	faction = list("Chaos Insurgency")
 	},
 /turf/open/floor/carpet/donk,
 /area/ruin/space/has_grav/hauntedtradingpost/office)
@@ -5567,7 +5567,7 @@
 	additional_access = /datum/id_trim/away/hauntedtradingpost;
 	bot_mode_flags = 3;
 	req_one_access = list("syndicate");
-	faction = list("Syndicate")
+	faction = list("Chaos Insurgency")
 	},
 /turf/open/floor/carpet/orange,
 /area/ruin/space/has_grav/hauntedtradingpost/public/corridor)

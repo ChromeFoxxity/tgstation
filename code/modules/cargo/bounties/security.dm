@@ -1,6 +1,6 @@
 /datum/bounty/item/security/recharger
 	name = "Weapon Recharger"
-	description = "Nanotrasen military academy is conducting marksmanship exercises. They request that a recharger be shipped."
+	description = "SCP Foundation military academy is conducting marksmanship exercises. They request that a recharger be shipped."
 	reward = CARGO_CRATE_VALUE * 4
 	required_count = 1
 	wanted_types = list(/obj/machinery/recharger = TRUE)
@@ -28,13 +28,13 @@
 
 /datum/bounty/item/security/earmuffs
 	name = "Earmuffs"
-	description = "Central Command is getting tired of your station's messages. They've ordered that you ship some earmuffs to lessen the annoyance."
+	description = "Central Office is getting tired of your station's messages. They've ordered that you ship some earmuffs to lessen the annoyance."
 	reward = CARGO_CRATE_VALUE * 2
 	wanted_types = list(/obj/item/clothing/ears/earmuffs = TRUE)
 
 /datum/bounty/item/security/handcuffs
 	name = "Handcuffs"
-	description = "A large influx of escaped convicts have arrived at Central Command. Now is the perfect time to ship out spare handcuffs (or restraints)."
+	description = "A large influx of escaped Class-D's have arrived at Central Office. Now is the perfect time to ship out spare handcuffs (or restraints)."
 	reward = CARGO_CRATE_VALUE * 2
 	required_count = 5
 	wanted_types = list(/obj/item/restraints/handcuffs = TRUE)
@@ -84,7 +84,7 @@
 
 /datum/bounty/item/security/contraband
 	name = "Confiscated Contraband"
-	description = "The syndicate are constantly acting to subvert crewmates of Nanotrasen afilliated stations. Ship us your latest batch of confiscated contraband."
+	description = "The syndicate are constantly acting to subvert crewmates of SCP Foundation afilliated stations. Ship us your latest batch of confiscated contraband."
 	reward = CARGO_CRATE_VALUE * 4
 	required_count = 5
 	wanted_types = list(/obj/item = TRUE)

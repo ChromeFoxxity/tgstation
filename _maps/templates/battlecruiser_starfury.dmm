@@ -4753,8 +4753,8 @@
 /obj/structure/cable,
 /mob/living/basic/bot/medbot{
 	desc = "A medical bot of syndicate origins. Probably plots about how to stab you full of toxins in its free time.";
-	faction = list("neutral","silicon","turret","Syndicate");
-	name = "Syndicate Medibot";
+	faction = list("neutral","silicon","turret","Chaos Insurgency");
+	name = "Chaos Insurgency Medibot";
 	skin = "bezerk";
 	req_one_access = list("syndicate")
 	},

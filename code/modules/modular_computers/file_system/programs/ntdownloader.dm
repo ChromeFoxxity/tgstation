@@ -11,7 +11,7 @@
 
 	///The program currently being downloaded.
 	var/datum/computer_file/program/downloaded_file
-	///Boolean on whether the `downloaded_file` is being downloaded from the Syndicate store,
+	///Boolean on whether the `downloaded_file` is being downloaded from the Chaos Insurgency store,
 	///in which case it will appear as 'ENCRYPTED' in logs, rather than display file name.
 	var/hacked_download = FALSE
 	///How much of the data has been downloaded.

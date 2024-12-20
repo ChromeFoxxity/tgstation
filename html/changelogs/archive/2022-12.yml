@@ -247,7 +247,7 @@
   - bugfix: Door remotes now open windoors again.
   - qol: Door remotes now use balloon alerts for failures.
   ReinaCoder:
-  - rscadd: The Syndicate uplink revolver has been changed from the default .357 to
+  - rscadd: The Chaos Insurgency uplink revolver has been changed from the default .357 to
       the S-357. It has the same stats and price as the old version but with a new
       sprite.
   - qol: Adds a better explanation on the .357 uplink entry so players have an better
@@ -496,7 +496,7 @@
   - bugfix: Robotic limbs are no longer immune to being disabled through reaching
       maximum damage.
   san7890:
-  - bugfix: Nanotrasen will now no longer mount the HoPline's Ticket Machines on windows
+  - bugfix: SCP Foundation will now no longer mount the HoPline's Ticket Machines on windows
       for Meta, IceBox, and Tram.
   - bugfix: When you examine a mecha, you should now no longer see two integrity messages.
 2022-12-13:
@@ -610,7 +610,7 @@
       able to contact a randomly selected nanotrasen department.
   PositiveEntropy, AxieTheAxolotl:
   - imageadd: Resprites every revolver!
-  - imageadd: Adds the Syndicate Revolver, a visually new, but mechanically identical
+  - imageadd: Adds the Chaos Insurgency Revolver, a visually new, but mechanically identical
       .357 revolver to uplinks!
   jlsnow301:
   - bugfix: ERTs should now be properly grouped in the orbit UI
@@ -760,7 +760,7 @@
   - rscadd: Add language variety to machines that speak.  You can also pulse the vendor
       language wire to make it switch languages or EMP a machine to get the same effect.
   - rscadd: Shambling cola vendors will now speak a different language each time they
-      talk. Syndicate vendors will now speak codespeak.  Beach vendors will now speak
+      talk. Chaos Insurgency vendors will now speak codespeak.  Beach vendors will now speak
       beachbum.
 2022-12-23:
   Fikou:
@@ -806,7 +806,7 @@
   - rscdel: Removed syndicate mech pilots and syndicate civvies
   san7890:
   - bugfix: Bar/Restaurant Bots should no longer spam orders forever.
-  - bugfix: After a recent mishap with a high-ranking Syndicate operative, the uplink's
+  - bugfix: After a recent mishap with a high-ranking Chaos Insurgency operative, the uplink's
       unlock code and failsafe code (the one that makes it blow up if you say it)
       should never turn out to be the same.
   vincentiusvin:

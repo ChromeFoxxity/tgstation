@@ -41,8 +41,8 @@
 	wanted_types = list(/obj/item/clothing/head/costume/ushanka/polar = TRUE)
 
 /datum/bounty/item/bitrunning/syndicate
-	name = "Syndicate Plush"
-	description = "We're aware of some contraband that's made it aboard some of our stations that depict Syndicate agents as cute, marketable plushies. Please send us one so we can further investigate."
+	name = "Chaos Insurgency Plush"
+	description = "We're aware of some contraband that's made it aboard some of our stations that depict Chaos Insurgency agents as cute, marketable plushies. Please send us one so we can further investigate."
 	reward = CARGO_CRATE_VALUE * 8
 	required_count = 1
 	wanted_types = list(/obj/item/toy/plush/nukeplushie = 1)

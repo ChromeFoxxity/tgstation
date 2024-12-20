@@ -31,21 +31,21 @@
 	modules = list(/datum/map_generator_module/bottom_layer/syndie_floor, \
 		/datum/map_generator_module/border/syndie_walls,\
 		/datum/map_generator_module/bottom_layer/repressurize)
-	buildmode_name = "Pattern: Shuttle Room: Syndicate"
+	buildmode_name = "Pattern: Shuttle Room: Chaos Insurgency"
 
 /datum/map_generator/syndicate/mobsonly
 	modules = list(/datum/map_generator_module/bottom_layer/syndie_floor, \
 		/datum/map_generator_module/border/syndie_walls,\
 		/datum/map_generator_module/splatter_layer/syndie_mobs, \
 		/datum/map_generator_module/bottom_layer/repressurize)
-	buildmode_name = "Pattern: Shuttle Room: Syndicate: Mobs"
+	buildmode_name = "Pattern: Shuttle Room: Chaos Insurgency: Mobs"
 
 /datum/map_generator/syndicate/furniture
 	modules = list(/datum/map_generator_module/bottom_layer/syndie_floor, \
 		/datum/map_generator_module/border/syndie_walls,\
 		/datum/map_generator_module/syndie_furniture, \
 		/datum/map_generator_module/bottom_layer/repressurize)
-	buildmode_name = "Pattern: Shuttle Room: Syndicate: Furniture"
+	buildmode_name = "Pattern: Shuttle Room: Chaos Insurgency: Furniture"
 
 /datum/map_generator/syndicate/full
 	modules = list(/datum/map_generator_module/bottom_layer/syndie_floor, \
@@ -53,4 +53,4 @@
 		/datum/map_generator_module/syndie_furniture, \
 		/datum/map_generator_module/splatter_layer/syndie_mobs, \
 		/datum/map_generator_module/bottom_layer/repressurize)
-	buildmode_name = "Pattern: Shuttle Room: Syndicate: All"
+	buildmode_name = "Pattern: Shuttle Room: Chaos Insurgency: All"

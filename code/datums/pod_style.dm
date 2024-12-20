@@ -6,7 +6,7 @@
 	/// Name that is displayed to admins in pod config panel
 	var/ui_name = "Standard"
 	/// Description assigned to droppods of this style
-	var/desc = "A Nanotrasen supply drop pod."
+	var/desc = "A SCP Foundation supply drop pod."
 	/// Determines if this pod can use animations/masking/overlays
 	var/shape = POD_SHAPE_NORMAL
 	/// Base icon state assigned to this pod
@@ -25,23 +25,23 @@
 /datum/pod_style/advanced
 	name = "bluespace supply pod"
 	ui_name = "Advanced"
-	desc = "A Nanotrasen Bluespace supply pod. Teleports back to CentCom after delivery."
+	desc = "A SCP Foundation Bluespace supply pod. Teleports back to CentCom after delivery."
 	decal_icon = "bluespace"
 	glow_color = "blue"
 	id = "bluespace"
 
 /datum/pod_style/centcom
 	name = "\improper CentCom supply pod"
-	ui_name = "Nanotrasen"
-	desc = "A Nanotrasen supply pod, this one has been marked with Central Command's designations. Teleports back to CentCom after delivery."
+	ui_name = "SCP Foundation"
+	desc = "A SCP Foundation supply pod, this one has been marked with Central Office's designations. Teleports back to CentCom after delivery."
 	decal_icon = "centcom"
 	glow_color = "blue"
 	id = "centcom"
 
 /datum/pod_style/syndicate
 	name = "blood-red supply pod"
-	ui_name = "Syndicate"
-	desc = "An intimidating supply pod, covered in the blood-red markings of the Syndicate. It's probably best to stand back from this."
+	ui_name = "Chaos Insurgency"
+	desc = "An intimidating supply pod, covered in the blood-red markings of the Chaos Insurgency. It's probably best to stand back from this."
 	icon_state = "darkpod"
 	decal_icon = "syndicate"
 	glow_color = "red"
@@ -50,7 +50,7 @@
 /datum/pod_style/deathsquad
 	name = "\improper Deathsquad drop pod"
 	ui_name = "Deathsquad"
-	desc = "A Nanotrasen drop pod. This one has been marked the markings of Nanotrasen's elite strike team."
+	desc = "A SCP Foundation drop pod. This one has been marked the markings of SCP Foundation's elite strike team."
 	icon_state = "darkpod"
 	decal_icon = "deathsquad"
 	glow_color = "blue"
@@ -59,7 +59,7 @@
 /datum/pod_style/cultist
 	name = "bloody supply pod"
 	ui_name = "Cultist"
-	desc = "A Nanotrasen supply pod covered in scratch-marks, blood, and strange runes."
+	desc = "A SCP Foundation supply pod covered in scratch-marks, blood, and strange runes."
 	decal_icon = "cultist"
 	glow_color = "red"
 	id = "cultist"
@@ -77,9 +77,9 @@
 	id = "missile"
 
 /datum/pod_style/missile/syndicate
-	name = "\improper Syndicate cruise missile"
+	name = "\improper Chaos Insurgency cruise missile"
 	ui_name = "Syndie Missile"
-	desc = "A big ass, blood-red missile that didn't seem to fully detonate. It was likely launched from some deep space Syndicate missile silo. There appears to be an auxiliary payload hatch on the side, though manually opening it is likely impossible."
+	desc = "A big ass, blood-red missile that didn't seem to fully detonate. It was likely launched from some deep space Chaos Insurgency missile silo. There appears to be an auxiliary payload hatch on the side, though manually opening it is likely impossible."
 	icon_state = "smissile"
 	id = "syndie_missile"
 

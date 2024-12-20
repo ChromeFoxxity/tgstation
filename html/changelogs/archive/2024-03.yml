@@ -332,10 +332,10 @@
   - balance: Reinforced sections of station hull have gotten better at mitigating
       explosive shockwaves.
   necromanceranne:
-  - bugfix: A recent glitch within the Syndicate-coded uplinks resulted in a number
+  - bugfix: A recent glitch within the Chaos Insurgency-coded uplinks resulted in a number
       of Cybersun-branded cybernetics being distributed for absolutely no cost at
       all, except to the company itself. This embarrassment has resulted in increased
-      tensions within the Syndicate as a culprit for this costly mistake is sought
+      tensions within the Chaos Insurgency as a culprit for this costly mistake is sought
       out.
 2024-03-12:
   SyncIt21:
@@ -603,7 +603,7 @@
   SyncIt21:
   - bugfix: Selling stuff in cargo gives us money again.
   san7890:
-  - bugfix: Prisoners who are teleported to the Nanotrasen Work Camp should now always
+  - bugfix: Prisoners who are teleported to the SCP Foundation Work Camp should now always
       be stripped of their gear to prevent escapes.
 2024-03-20:
   Nidvex250:

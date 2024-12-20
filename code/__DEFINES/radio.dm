@@ -42,7 +42,7 @@
 #define RADIO_TOKEN_ENTERTAINMENT ":p"
 
 
-#define RADIO_CHANNEL_SYNDICATE "Syndicate"
+#define RADIO_CHANNEL_SYNDICATE "Chaos Insurgency"
 #define RADIO_KEY_SYNDICATE "t"
 #define RADIO_TOKEN_SYNDICATE ":t"
 
