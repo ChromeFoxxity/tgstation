@@ -215,6 +215,22 @@
 	opacity = FALSE
 	glass = TRUE
 
+/obj/machinery/door/airlock/chemistry
+	icon = 'modular_f19/icons/obj/airlocks/station/chemistry.dmi'
+	assemblytype = /obj/structure/door_assembly/door_assembly_chemistry
+
+/obj/machinery/door/airlock/chemistry/glass
+	opacity = FALSE
+	glass = TRUE
+
+/obj/machinery/door/airlock/genetics
+	icon = 'modular_f19/icons/obj/airlocks/station/genetics.dmi'
+	assemblytype = /obj/structure/door_assembly/door_assembly_genetics
+
+/obj/machinery/door/airlock/genetics/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/captain
 	icon = 'modular_f19/icons/obj/airlocks/cap.dmi'
 
@@ -506,6 +522,20 @@
 	base_name = "service airlock"
 	glass_type = /obj/machinery/door/airlock/service/glass
 	airlock_type = /obj/machinery/door/airlock/service
+
+/obj/structure/door_assembly/door_assembly_chemistry
+	name = "chemistry airlock assembly"
+	icon = 'modular_f19/icons/obj/airlocks/station/chemistry.dmi'
+	base_name = "chemistry airlock"
+	glass_type = /obj/machinery/door/airlock/chemistry/glass
+	airlock_type = /obj/machinery/door/airlock/chemistry
+
+/obj/structure/door_assembly/door_assembly_genetics
+	name = "genetics airlock assembly"
+	icon = 'modular_f19/icons/obj/airlocks/station/genetics.dmi'
+	base_name = "genetics airlock"
+	glass_type = /obj/machinery/door/airlock/genetics/glass
+	airlock_type = /obj/machinery/door/airlock/genetics
 
 /obj/structure/door_assembly/door_assembly_captain
 	name = "captain airlock assembly"
