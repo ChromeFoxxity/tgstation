@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"map_name": "Site 53",
-	"map_path": "modular_f19/maps/map_files",
+	"map_path": "map_files/Site53",
 	"map_file": "site53-1.dmm",
 	"space_ruin_levels": 0,
 	"space_empty_levels": 0,
@@ -12,38 +12,49 @@
 		"whiteship": "whiteship_meta",
 		"emergency": "emergency_meta"
 	},
+	"orbit_shift_replacement": "Attention staff, it appears that someone has broadcasted news on a frequency about this site's location, expect more threats than usual.",
 	"traits": [
 		{
 			"Up": true,
-			"Linkage": "Cross"
+			"Linkage": null,
+			"Gravity": true,
+			"Site Ruins": true,
+			"Baseturf": "/turf/open/misc/asteroid",
+			"No Parallax": true
 		},
 		{
+			"Down": true,
 			"Up": true,
-			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": "Cross"
+			"No Parallax": true
 		},
 		{
+			"Down": true,
 			"Up": true,
-			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": "Cross"
-		},
-		{
-			"Up": true,
-			"Down": true,
-			"Baseturf": "/turf/open/openspace",
-			"Linkage": "Cross"
+			"No Parallax": true
 		},
 		{
 			"Down": true,
+			"Mining": false,
+			"Linkage": null,
+			"Gravity": true,
+			"Ice Ruins": false,
+			"Weather_Snowstorm": true,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": "Cross"
+			"No Parallax": true
 		}
 	],
 	"job_changes": {
 		"Cook": {
 			"additional_cqc_areas": ["/area/station/service/bar", "/area/station/commons/lounge"]
+		},
+		"Captain": {
+			"special_charter": "site"
 		}
 	}
 }

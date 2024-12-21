@@ -260,6 +260,27 @@
 /area/icemoon/surface/outdoors/unexplored/rivers/no_monsters
 	area_flags = UNIQUE_AREA | FLORA_ALLOWED | CAVES_ALLOWED
 
+/area/site75/underground
+	name = "Site-75 Caves"
+	outdoors = TRUE
+	always_unpowered = TRUE
+	requires_power = TRUE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+	area_flags = UNIQUE_AREA
+	min_ambience_cooldown = 70 SECONDS
+	max_ambience_cooldown = 220 SECONDS
+
+/area/site75/underground/unexplored
+	name = "Site-75 Caves"
+	icon_state = "unexplored"
+	area_flags = CAVES_ALLOWED
+
+/area/site75/underground/explored // ruins can't spawn here
+	name = "Site-75 Underground"
+	area_flags = UNIQUE_AREA
+
 /area/icemoon/underground
 	name = "Icemoon Caves"
 	outdoors = TRUE

@@ -339,6 +339,11 @@
 	integer = FALSE
 	min_val = 0
 
+/datum/config_entry/number/site_budget
+	default = 90
+	integer = FALSE
+	min_val = 0
+
 /datum/config_entry/number/space_budget
 	default = 16
 	integer = FALSE

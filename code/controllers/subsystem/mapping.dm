@@ -261,6 +261,10 @@ SUBSYSTEM_DEF(mapping)
 	if (ice_ruins_underground.len)
 		seedRuins(ice_ruins_underground, CONFIG_GET(number/icemoon_budget), list(/area/icemoon/underground/unexplored), themed_ruins[ZTRAIT_ICE_RUINS_UNDERGROUND], clear_below = TRUE, mineral_budget = 21)
 
+	var/list/site_ruins = levels_by_trait(ZTRAIT_SITE_RUINS)
+	if (site_ruins.len)
+		seedRuins(site_ruins, CONFIG_GET(number/site_budget), list(/area/site75/underground/unexplored), themed_ruins[ZTRAIT_SITE_RUINS], clear_below = TRUE, mineral_budget = 21)
+
 	// Generate deep space ruins
 	var/list/space_ruins = levels_by_trait(ZTRAIT_SPACE_RUINS)
 	if (space_ruins.len)
