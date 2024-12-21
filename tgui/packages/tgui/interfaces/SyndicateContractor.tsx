@@ -78,17 +78,17 @@ const infoEntries = [
   'identity.',
 ] as const;
 
-export function Chaos InsurgencyContractor(props) {
+export function SyndicateContractor(props) {
   return (
     <NtosWindow width={500} height={600}>
       <NtosWindow.Content scrollable>
-        <Chaos InsurgencyContractorContent />
+        <SyndicateContractorContent />
       </NtosWindow.Content>
     </NtosWindow>
   );
 }
 
-function Chaos InsurgencyContractorContent(props) {
+function SyndicateContractorContent(props) {
   const { data, act } = useBackend<Data>();
   const { error, logged_in, first_load, info_screen } = data;
 

@@ -1,7 +1,7 @@
 import { Antagonist, Category } from '../base';
 import { TRAITOR_MECHANICAL_DESCRIPTION } from './traitor';
 
-const Chaos InsurgencyInfiltrator: Antagonist = {
+const SyndicateInfiltrator: Antagonist = {
   key: 'syndicateinfiltrator',
   name: 'Chaos Insurgency Infiltrator',
   description: [
@@ -12,4 +12,4 @@ const Chaos InsurgencyInfiltrator: Antagonist = {
   priority: -1,
 };
 
-export default Chaos InsurgencyInfiltrator;
+export default SyndicateInfiltrator;

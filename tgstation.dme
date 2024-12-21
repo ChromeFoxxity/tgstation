@@ -2003,6 +2003,7 @@
 #include "code\game\area\areas\station\science.dm"
 #include "code\game\area\areas\station\security.dm"
 #include "code\game\area\areas\station\service.dm"
+#include "code\game\area\areas\station\site75.dm"
 #include "code\game\area\areas\station\solars.dm"
 #include "code\game\area\areas\station\telecomm.dm"
 #include "code\game\atom\_atom.dm"

@@ -18,6 +18,14 @@
 	dictionary_key = /datum/wires/airlock/service
 	proper_name = "Service Airlock"
 
+/datum/wires/airlock/lcz
+	dictionary_key = /datum/wires/airlock/lcz
+	proper_name = "LCZ Airlock"
+
+/datum/wires/airlock/hcz
+	dictionary_key = /datum/wires/airlock/hcz
+	proper_name = "HCZ Airlock"
+
 /datum/wires/airlock/security
 	dictionary_key = /datum/wires/airlock/security
 	proper_name = "Security Airlock"

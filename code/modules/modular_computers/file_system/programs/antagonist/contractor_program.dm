@@ -9,7 +9,7 @@
 	program_flags = PROGRAM_UNIQUE_COPY
 	can_run_on_flags = PROGRAM_PDA //this is all we've got sprites for :sob:
 	undeletable = TRUE
-	tgui_id = "Chaos InsurgencyContractor"
+	tgui_id = "SyndicateContractor"
 
 	///The traitor datum stored on the program. Starts off as null and is set by the player.
 	var/datum/antagonist/traitor/traitor_data

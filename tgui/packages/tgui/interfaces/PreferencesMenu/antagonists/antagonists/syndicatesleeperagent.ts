@@ -1,7 +1,7 @@
 import { Antagonist, Category } from '../base';
 import { TRAITOR_MECHANICAL_DESCRIPTION } from './traitor';
 
-const Chaos InsurgencySleeperAgent: Antagonist = {
+const SyndicateSleeperAgent: Antagonist = {
   key: 'syndicatesleeperagent',
   name: 'Chaos Insurgency Sleeper Agent',
   description: [
@@ -15,4 +15,4 @@ const Chaos InsurgencySleeperAgent: Antagonist = {
   priority: -1,
 };
 
-export default Chaos InsurgencySleeperAgent;
+export default SyndicateSleeperAgent;
