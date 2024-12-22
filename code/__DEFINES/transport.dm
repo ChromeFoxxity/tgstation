@@ -25,11 +25,9 @@
 #define TRAMSTATION_CENTRAL 2
 #define TRAMSTATION_EAST 3
 
-#define HCZ_WEST 1
-#define HCZ_EAST 2
-
-#define LCZ_EAST 1
-#define LCZ_WEST 2
+#define S75_WEST 1
+#define S75_CENTRAL 2
+#define S75_EAST 3
 
 #define HILBERT_PORT 1
 #define HILBERT_CENTRAL 2

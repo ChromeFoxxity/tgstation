@@ -549,3 +549,37 @@
 /obj/effect/turf_decal/board_letter/h
 	icon_state = "board_h"
 
+/// SCP EMBLEM ///
+
+//Bottom
+
+/obj/effect/turf_decal/scpemblem/bottom/left
+	icon_state = "scp1,1"
+
+/obj/effect/turf_decal/scpemblem/bottom/middle
+	icon_state = "scp1,2"
+
+/obj/effect/turf_decal/scpemblem/bottom/right
+	icon_state = "scp1,3"
+
+//Middle
+
+/obj/effect/turf_decal/scpemblem/middle/left
+	icon_state = "scp2,1"
+
+/obj/effect/turf_decal/scpemblem/middle/middle
+	icon_state = "scp2,2"
+
+/obj/effect/turf_decal/scpemblem/middle/right
+	icon_state = "scp2,3"
+
+//Top
+
+/obj/effect/turf_decal/scpemblem/top/left
+	icon_state = "scp3,1"
+
+/obj/effect/turf_decal/scpemblem/top/middle
+	icon_state = "scp3,2"
+
+/obj/effect/turf_decal/scpemblem/top/right
+	icon_state = "scp3,3"

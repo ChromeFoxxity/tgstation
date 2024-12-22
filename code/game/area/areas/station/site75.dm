@@ -17,6 +17,10 @@
 	name = "\improper Restroom"
 	icon_state = "commons"
 
+/area/station/site75/commons/tram
+	name = "\improper Central Hub Tram Station"
+	icon_state = "commons"
+
 /area/station/site75/service // Base area, Do Not Use
 	name = "Service"
 	icon_state = "commons"
@@ -107,7 +111,7 @@
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/site75/lcz/tram
-	name = "LCZ Tram Line"
+	name = "LCZ Tram Station"
 	icon_state = "primaryhall"
 
 /area/station/site75/hcz
@@ -117,7 +121,7 @@
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/site75/hcz/tram
-	name = "HCZ Tram Line"
+	name = "HCZ Tram Station"
 	icon_state = "primaryhall"
 
 /area/station/site75/logistics // Base area, Do Not Use
