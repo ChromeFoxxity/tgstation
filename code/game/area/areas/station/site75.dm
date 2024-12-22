@@ -102,9 +102,23 @@
 
 /area/station/site75/lcz
 	name = "\improper Light Containment Zone"
-	icon_state = "commons"
+	icon_state = "primaryhall"
 	airlock_wires = /datum/wires/airlock/lcz
 	sound_environment = SOUND_AREA_STANDARD_STATION
+
+/area/station/site75/lcz/tram
+	name = "LCZ Tram Line"
+	icon_state = "primaryhall"
+
+/area/station/site75/hcz
+	name = "\improper Heavy Containment Zone"
+	icon_state = "primaryhall"
+	airlock_wires = /datum/wires/airlock/hcz
+	sound_environment = SOUND_AREA_STANDARD_STATION
+
+/area/station/site75/hcz/tram
+	name = "HCZ Tram Line"
+	icon_state = "primaryhall"
 
 /area/station/site75/logistics // Base area, Do Not Use
 	name = "Logistics"

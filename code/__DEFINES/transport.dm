@@ -28,6 +28,9 @@
 #define HCZ_WEST 1
 #define HCZ_EAST 2
 
+#define LCZ_EAST 1
+#define LCZ_WEST 2
+
 #define HILBERT_PORT 1
 #define HILBERT_CENTRAL 2
 #define HILBERT_STARBOARD 3
