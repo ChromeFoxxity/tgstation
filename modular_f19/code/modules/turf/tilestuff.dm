@@ -51,6 +51,13 @@ TILE_DECAL_SUBTYPE_HELPER(/obj/effect/turf_decal/tile/euclid)
 
 TILE_DECAL_SUBTYPE_HELPER(/obj/effect/turf_decal/tile/keter)
 
+/// LCZ decals
+/obj/effect/turf_decal/tile/lcz
+	name = "lcz tile decal"
+	color = "#E0C276"
+
+TILE_DECAL_SUBTYPE_HELPER(/obj/effect/turf_decal/tile/lcz)
+
 #undef TILE_DECAL_SUBTYPE_HELPER
 
 /// Automatically generates all trimlines for a decal with the given path.
@@ -127,5 +134,10 @@ TRIMLINE_SUBTYPE_HELPER(/obj/effect/turf_decal/trimline/euclid)
 	color = "#65261e"
 
 TRIMLINE_SUBTYPE_HELPER(/obj/effect/turf_decal/trimline/keter)
+
+/obj/effect/turf_decal/trimline/lcz
+	color = "#E0C276"
+
+TRIMLINE_SUBTYPE_HELPER(/obj/effect/turf_decal/trimline/lcz)
 
 #undef TRIMLINE_SUBTYPE_HELPER

@@ -7,7 +7,7 @@
 	dir = WEST
 
 /obj/effect/landmark/transport/nav_beacon/tram/platform/site75/west
-	name = "LCZ Containment Zone"
+	name = "Light Containment Zone"
 	platform_code = S75_WEST
 	tgui_icons = list("Light Containment Zone" = "box", "LCZ Security Office" = "gavel")
 
@@ -17,6 +17,6 @@
 	tgui_icons = list("Entrance Zone" = "plane-arrival")
 
 /obj/effect/landmark/transport/nav_beacon/tram/platform/site75/east
-	name = "HCZ Containment Zone"
+	name = "Heavy Containment Zone"
 	platform_code = S75_EAST
 	tgui_icons = list("Heavy Containment Zone" = "box", "HCZ Security Office" = "gavel")

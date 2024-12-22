@@ -6423,6 +6423,7 @@
 #include "modular_f19\code\modules\clothing\under\jobs\command.dm"
 #include "modular_f19\code\modules\clothing\under\jobs\science.dm"
 #include "modular_f19\code\modules\clothing\under\jobs\security.dm"
+#include "modular_f19\code\modules\papers\paperslips.dm"
 #include "modular_f19\code\modules\projectiles\guns\pistol.dm"
 #include "modular_f19\code\modules\turf\tilestuff.dm"
 #include "modular_f19\code\modules\turf\walls.dm"

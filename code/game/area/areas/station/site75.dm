@@ -114,6 +114,37 @@
 	name = "LCZ Tram Station"
 	icon_state = "primaryhall"
 
+/area/station/site75/lcz/hallway
+	name = "LCZ Corridors"
+	icon_state = "primaryhall"
+
+/area/station/site75/lcz/hallway/entrance
+	name = "LCZ Entrance Hall"
+	icon_state = "primaryhall"
+
+/area/station/site75/lcz/security // Base area, Do Not Use
+	name = "LCZ Security"
+	icon_state = "security"
+	ambience_index = AMBIENCE_DANGER
+	airlock_wires = /datum/wires/airlock/security
+	sound_environment = SOUND_AREA_STANDARD_STATION
+
+/area/station/site75/lcz/security/center
+	name = "LCZ Security Center"
+	icon_state = "brig"
+
+/area/station/site75/lcz/security/check
+	name = "LCZ Security Checkpoint"
+	icon_state = "security"
+
+/area/station/site75/lcz/security/check
+	name = "LCZ Security Checkpoint"
+	icon_state = "security"
+
+/area/station/site75/lcz/security/office
+	name = "LCZ Security Office"
+	icon_state = "securitylockerroom"
+
 /area/station/site75/hcz
 	name = "\improper Heavy Containment Zone"
 	icon_state = "primaryhall"
