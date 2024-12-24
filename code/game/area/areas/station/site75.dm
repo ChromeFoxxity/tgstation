@@ -110,10 +110,6 @@
 	airlock_wires = /datum/wires/airlock/lcz
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
-/area/station/site75/lcz/tram
-	name = "LCZ Tram Station"
-	icon_state = "primaryhall"
-
 /area/station/site75/lcz/hallway
 	name = "LCZ Corridors"
 	icon_state = "primaryhall"
@@ -150,10 +146,6 @@
 	icon_state = "primaryhall"
 	airlock_wires = /datum/wires/airlock/hcz
 	sound_environment = SOUND_AREA_STANDARD_STATION
-
-/area/station/site75/hcz/tram
-	name = "HCZ Tram Station"
-	icon_state = "primaryhall"
 
 /area/station/site75/logistics // Base area, Do Not Use
 	name = "Logistics"
@@ -194,4 +186,61 @@
 /area/station/site75/logistics/vault
 	name = "\improper Secure Vault"
 	icon_state = "cargo_bay"
+	airlock_wires = /datum/wires/airlock/command
+
+/area/station/site75/engineering // Base area, Do Not Use
+	name = "Engineering"
+	icon_state = "engie"
+	ambience_index = AMBIENCE_ENGI
+	airlock_wires = /datum/wires/airlock/engineering
+	sound_environment = SOUND_AREA_LARGE_ENCLOSED
+
+/area/station/site75/engineering/office
+	name = "\improper Engineering Office"
+	icon_state = "engine"
+
+/area/station/site75/engineering/hub
+	name = "\improper Engineering Hub"
+	icon_state = "engine_hallway"
+
+/area/station/site75/engineering/engine_smes
+	name = "\improper Engineering Power Storage"
+	icon_state = "engine_smes"
+
+/area/station/site75/engineering/supermatter
+	name = "\improper Supermatter Engine"
+	icon_state = "engine_sm"
+	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+
+/area/station/site75/engineering/supermatter/room
+	name = "\improper Supermatter Engine Room"
+	icon_state = "engine_sm_room"
+	sound_environment = SOUND_AREA_LARGE_ENCLOSED
+
+/area/station/site75/engineering/break_room
+	name = "\improper Engineering Foyer"
+	icon_state = "engine_break"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+
+/area/station/site75/engineering/storage
+	name = "Engineering Storage"
+	icon_state = "engine_storage"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+
+/area/station/site75/engineering/atmos
+	name = "\improper Facility Atmospherics"
+	icon_state = "atmos"
+
+/area/station/site75/engineering/atmos/office
+	name = "\improper Facility Atmospherics Monitoring"
+	icon_state = "atmos_office"
+
+/area/station/site75/engineering/atmos/storage
+	name = "\improper Facility Atmospherics Storage"
+	icon_state = "atmos_storage"
+
+/area/station/site75/engineering/aed
+	name = "\improper Assistant Engineering Director's Office"
+	icon_state = "ce_office"
 	airlock_wires = /datum/wires/airlock/command
