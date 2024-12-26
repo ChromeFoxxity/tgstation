@@ -187,6 +187,14 @@
 /obj/machinery/door/airlock/research
 	icon = 'modular_f19/icons/obj/airlocks/station/research.dmi'
 
+/obj/machinery/door/airlock/research/old
+	icon = 'modular_f19/icons/obj/airlocks/station/research2.dmi'
+	assemblytype = /obj/structure/door_assembly/door_assembly_research/old
+
+/obj/machinery/door/airlock/research/old/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/freezer
 	icon = 'modular_f19/icons/obj/airlocks/station/freezer.dmi'
 
@@ -438,6 +446,9 @@
 
 /obj/structure/door_assembly/door_assembly_research
 	icon = 'modular_f19/icons/obj/airlocks/station/research.dmi'
+
+/obj/structure/door_assembly/door_assembly_research/old
+	icon = 'modular_f19/icons/obj/airlocks/station/research2.dmi'
 
 /obj/structure/door_assembly/door_assembly_science
 	icon = 'modular_f19/icons/obj/airlocks/station/science.dmi'

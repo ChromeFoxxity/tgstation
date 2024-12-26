@@ -834,3 +834,214 @@
 	fire = 20
 	acid = 40
 	wound = 10
+
+// SECURITY DEPARTMENT VESTS
+// [SCP]
+
+/obj/item/clothing/suit/armor/vest/scp/security
+	name = "foundation security vest"
+	desc = "A heavy armored vest with a white 'SCP' tag on it. Worn by Site Security Guards, it has some durathread plating in it to make it durable against melee, sadly not much else though."
+	icon_state = "guard_vest"
+	body_parts_covered = CHEST|GROIN
+	cold_protection = CHEST|GROIN
+	armor_type = /datum/armor/scp/security_vest
+	dog_fashion = null
+	strip_delay = 70
+	equip_delay_other = 50
+
+/datum/armor/scp/security_vest
+	melee = 50
+	bullet = 30
+	laser = 30
+	energy = 35
+	bomb = 25
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/suit/armor/vest/scp/security/sergeant
+	name = "medium-plated foundation security vest"
+	desc = "A heavy armored vest with some additional shoulder pads to protect the arms, as well as silver rank tabs on the shoulders, and a silver 'SCP' tag on the vest. Worn by Site Security NCOs, it has some durathread plating in it to make it durable against melee, with some slight defense for other types."
+	icon_state = "sgt_guard_vest"
+	body_parts_covered = CHEST|GROIN|ARMS
+	cold_protection = CHEST|GROIN|ARMS
+	armor_type = /datum/armor/scp/security_sgt_vest
+
+/datum/armor/scp/security_sgt_vest
+	melee = 55
+	bullet = 35
+	laser = 35
+	energy = 40
+	bomb = 35
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/suit/armor/vest/scp/security/medic
+	name = "medical foundation security vest"
+	desc = "A heavy armored vest, with some additional shoulder pads to protect the arms, with one being colored white with a red cross to be designated as medical. Worn by facility security medics, it has some durathread plating in it to make it durable against melee, with some slight defense for other types."
+	icon_state = "med_guard_vest"
+	body_parts_covered = CHEST|GROIN|ARMS
+	cold_protection = CHEST|GROIN|ARMS
+	armor_type = /datum/armor/scp/security_med_vest
+
+/datum/armor/scp/security_med_vest
+	melee = 55
+	bullet = 35
+	laser = 35
+	energy = 40
+	bomb = 35
+	bio = 50
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/suit/armor/vest/scp/security/captain
+	name = "heavy-plated foundation security vest"
+	desc = "A heavy armored vest with added arm and hand armor and kneepads for full body coverage, as well as golden rank tabs on the arms, and a golden 'SCP' tag on the vest. Worn by the Site Security Captain, it has some durathread plating in it to make it the most durable against melee, with some protection against other damage types."
+	icon_state = "cpt_guard_vest"
+	body_parts_covered = CHEST|GROIN|LEGS|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|ARMS|HANDS
+	strip_delay = 80
+	equip_delay_other = 60
+	clothing_traits = list(TRAIT_BRAWLING_KNOCKDOWN_BLOCKED)
+	armor_type = /datum/armor/scp/security_cap_vest
+
+/datum/armor/scp/security_cap_vest
+	melee = 65
+	bullet = 45
+	laser = 45
+	energy = 40
+	bomb = 45
+	fire = 50
+	acid = 50
+	wound = 10
+
+// MOBILE TASK FORCE VESTS
+// [SCP]
+
+/obj/item/clothing/suit/armor/vest/scp/mtf
+	name = "tactical vest"
+	desc = "An advanced multi-plated composite vest with kevlar lining and plenty of room to move. Task Force insignia is sewn into the left pauldron, and the Task Force's nickname is sewn into the right."
+	icon_state = "mtf_tactical"
+	body_parts_covered = CHEST|GROIN|ARMS
+	cold_protection = CHEST|GROIN|ARMS
+	armor_type = /datum/armor/scp/mtf_vest
+	dog_fashion = null
+
+/datum/armor/scp/mtf_vest
+	melee = 60
+	bullet = 80
+	laser = 65
+	energy = 15
+	bomb = 60
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/suit/armor/vest/scp/mtf/medic
+	name = "tactical medical vest"
+	desc = "An advanced multi-plated composite vest with lessened kevlar lining than other models, and still plenty of room to move. Task Force insignia is sewn into the left pauldron, and the Task Force's nickname is sewn into the right."
+	icon_state = "mtf_medic"
+	armor_type = /datum/armor/scp/mtf_med_vest
+
+/datum/armor/scp/mtf_med_vest
+	melee = 55
+	bullet = 75
+	laser = 70
+	energy = 25
+	bomb = 50
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/suit/armor/vest/scp/mtf/medium
+	name = "heavy tactical vest"
+	desc = "An extremely advanced multi-plated composite vest with kevlar lining, added additional plating, and more body coverage and plenty of room to move. Task Force insignia is sewn into the left pauldron, and the Task Force's nickname is sewn into the right."
+	icon_state = "mtf_medium"
+	body_parts_covered = CHEST|GROIN|ARMS|LEGS|HANDS
+	cold_protection = CHEST|GROIN|ARMS|LEGS|HANDS
+	strip_delay = 80
+	equip_delay_other = 60
+	clothing_traits = list(TRAIT_BRAWLING_KNOCKDOWN_BLOCKED)
+	armor_type = /datum/armor/scp/mtf_heavy_vest
+
+/datum/armor/scp/mtf_heavy_vest
+	melee = 70
+	bullet = 85
+	laser = 75
+	energy = 15
+	bomb = 70
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/suit/armor/vest/scp/mtf/scout
+	name = "compact scout vest"
+	desc = "An advanced multi-plated composite vest with lessened kevlar lining than other models, and still plenty of room to move. Compact, and easy to move in."
+	icon_state = "mtf_scout"
+	armor_type = /datum/armor/scp/mtf_light_vest
+
+/datum/armor/scp/mtf_light_vest
+	melee = 45
+	bullet = 55
+	laser = 45
+	energy = 15
+	bomb = 45
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/suit/armor/vest/scp/mtf/alpha1
+	name = "'Red Right Hand' heavy compact vest"
+	desc = "An extremely advanced multi-plated composite vest with extremely toughened kevlar lining, added additional plating, and more body coverage and plenty of room to move. 'A-1' is sewn onto the torso in red."
+	icon_state = "mtf_alpha1"
+	armor_type = /datum/armor/scp/mtf_special_vest
+
+/datum/armor/scp/mtf_special_vest
+	melee = 75
+	bullet = 85
+	laser = 80
+	energy = 25
+	bomb = 70
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/suit/armor/vest/scp/mtf/omega1
+	name = "'Laws Left Hand' heavy compact vest"
+	desc = "An extremely advanced multi-plated composite vest with extremely toughened kevlar lining, added additional plating, and more body coverage and plenty of room to move. 'O-1' is sewn onto the torso in white."
+	icon_state = "mtf_omega1"
+	armor_type = /datum/armor/scp/mtf_special_vest
+
+// CHAOS INSURGENCY VESTS
+// [SCP]
+
+/obj/item/clothing/suit/armor/vest/scp/chaos
+	name = "Chaos Insurgency armored vest"
+	desc = "A heavy, russian type ballistic vest, mainly protecting against bullets, and not much else. It's usually used by russian military forces, but is used by the Chaos Insurgency."
+	icon_state = "ci_vest"
+	body_parts_covered = CHEST|GROIN
+	cold_protection = CHEST|GROIN
+	armor_type = /datum/armor/scp/chaos_vest
+	dog_fashion = null
+	strip_delay = 70
+	equip_delay_other = 50
+
+/datum/armor/scp/chaos_vest
+	melee = 35
+	bullet = 65
+	laser = 35
+	energy = 25
+	bomb = 30
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/suit/armor/vest/scp/chaos/light
+	name = "Chaos Insurgency light vest"
+	desc = "A light, agile-purposed ballistic vest with barely any plating, meant for scouting operations, pilots, or infiltrators who need the manueverability, but also need protection. It's usually used by russian military forces, but is used by the Chaos Insurgency."
+	icon_state = "ci_light_vest"
+	armor_type = /datum/armor/suit_armor
+	strip_delay = 60
+	equip_delay_other = 40

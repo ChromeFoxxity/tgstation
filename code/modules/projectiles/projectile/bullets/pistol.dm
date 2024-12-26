@@ -93,3 +93,20 @@
 	pain_mult = 3
 	jostle_pain_mult = 6
 	rip_time = 5
+
+/obj/projectile/bullet/c460magnum
+	name = ".460 Magnum"
+	damage = 35
+	stamina = 15 //knock the winds outta ya
+	wound_bonus = -35
+	bare_wound_bonus = -60
+	stamina_falloff_tile = -0.3
+
+/obj/projectile/bullet/c460magnum/ap
+	name = ".460 Magnum Armor Piercing"
+	damage = 25
+	wound_bonus = -50
+	bare_wound_bonus = -10
+	armour_penetration = 40
+	damage_falloff_tile = 0
+	stamina_falloff_tile = 0

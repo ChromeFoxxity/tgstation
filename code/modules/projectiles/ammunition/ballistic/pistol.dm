@@ -74,3 +74,18 @@
 	. = ..()
 	if(!isturf(target))
 		loaded_projectile.set_homing_target(target)
+
+/obj/item/ammo_casing/c460magnum
+	name = ".460 Magnum bullet casing"
+	desc = "A .460 Magnum bullet casing."
+	icon = 'icons/obj/weapons/guns/ammo_40x32.dmi'
+	icon_state = "sl-casing"
+	caliber = CALIBER_460MAGNUM
+	projectile_type = /obj/projectile/bullet/c460magnum
+
+/obj/item/ammo_casing/c460magnum/ap
+	name = ".460 Magnum Armor Piercing bullet casing"
+	desc = "A .460 Magnum armor-piercing bullet casing."
+	icon_state = "sr-casing"
+	caliber = CALIBER_460MAGNUM
+	projectile_type = /obj/projectile/bullet/c460magnum/ap

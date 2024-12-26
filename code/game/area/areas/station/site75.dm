@@ -13,6 +13,18 @@
 	name = "\improper Central Hub"
 	icon_state = "commons"
 
+/area/station/site75/commons/medsci
+	name = "\improper Med-Sci Hallway"
+	icon_state = "commons"
+
+/area/station/site75/commons/office
+	name = "\improper Office"
+	icon_state = "commons"
+
+/area/station/site75/commons/entrance
+	name = "\improper Entrance Hallway"
+	icon_state = "commons"
+
 /area/station/site75/commons/restroom
 	name = "\improper Restroom"
 	icon_state = "commons"
@@ -104,7 +116,20 @@
 	icon_state = "theatre"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
-/area/station/site75/lcz
+/area/station/site75/medical // Base area, Do Not Use
+	name = "Medical"
+	icon_state = "medbay"
+	ambience_index = AMBIENCE_MEDICAL
+	airlock_wires = /datum/wires/airlock/medbay
+	sound_environment = SOUND_AREA_STANDARD_STATION
+	min_ambience_cooldown = 90 SECONDS
+	max_ambience_cooldown = 180 SECONDS
+
+/area/station/site75/medical/lobby
+	name = "\improper Medical Lobby"
+	icon_state = "med_lobby"
+
+/area/station/site75/lcz // Base area, Do Not Use
 	name = "\improper Light Containment Zone"
 	icon_state = "primaryhall"
 	airlock_wires = /datum/wires/airlock/lcz
@@ -240,7 +265,7 @@
 	name = "\improper Facility Atmospherics Storage"
 	icon_state = "atmos_storage"
 
-/area/station/site75/engineering/aed
-	name = "\improper Assistant Engineering Director's Office"
+/area/station/site75/engineering/ed
+	name = "\improper Engineering Director's Office"
 	icon_state = "ce_office"
 	airlock_wires = /datum/wires/airlock/command

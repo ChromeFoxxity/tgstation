@@ -39,3 +39,29 @@
 	name = "4.6x30mm incendiary bullet"
 	damage = 10
 	fire_stacks = 1
+
+/obj/projectile/bullet/c57x28mm
+	name = "5.7x28mm bullet"
+	damage = 25
+	wound_bonus = -10
+	bare_wound_bonus = 10
+	embed_falloff_tile = -3
+
+/obj/projectile/bullet/c57x28mm/rubber
+	name = "5.7x28mm rubber bullet"
+	damage = 5
+	stamina = 35
+	wound_bonus = 20
+	sharpness = NONE
+	embed_type = null
+
+/obj/projectile/bullet/c57x28mm/ap
+	name = "5.7x28mm armor-piercing bullet"
+	damage = 20
+	armour_penetration = 40
+	embed_type = null
+
+/obj/projectile/bullet/c57x28mm/hp
+	name = "5.7x28mm hollow-point bullet"
+	damage = 30
+	weak_against_armour = TRUE

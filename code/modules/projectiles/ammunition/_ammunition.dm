@@ -2,7 +2,7 @@
 	name = "bullet casing"
 	desc = "A bullet casing."
 	icon = 'icons/obj/weapons/guns/ammo.dmi'
-	icon_state = "s-casing"
+	icon_state = "pistol-brass"
 	worn_icon_state = "bullet"
 	obj_flags = CONDUCTS_ELECTRICITY
 	slot_flags = ITEM_SLOT_BELT

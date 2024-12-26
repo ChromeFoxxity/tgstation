@@ -112,3 +112,26 @@
 	desc = "Gloves for football players! Teaches them how to tackle like a pro."
 	icon_state = "tackle_gloves"
 	inhand_icon_state = null
+
+/obj/item/clothing/gloves/tackler/scp/tactical
+	name = "tactical riot gloves"
+	desc = "Premium quality combative gloves, heavily reinforced to defend the user's hands from melee, and to give the user an edge in close combat tackles. Fireproof to boot!"
+	icon_state = "tactical_riot"
+	inhand_icon_state = null
+
+	tackle_stam_cost = 25
+	base_knockdown = 1.25 SECONDS
+	tackle_range = 5
+	skill_mod = 2
+	siemens_coefficient = 0
+	armor_type = /datum/armor/riot_gloves
+
+	cold_protection = HANDS
+	min_cold_protection_temperature = GLOVES_MIN_TEMP_PROTECT
+	heat_protection = HANDS
+	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
+	resistance_flags = NONE
+
+/datum/armor/riot_gloves
+	melee = 50
+	bio = 50

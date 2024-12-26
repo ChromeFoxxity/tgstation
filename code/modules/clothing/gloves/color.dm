@@ -28,6 +28,25 @@
 /obj/item/clothing/gloves/color/black/security/blu
 	icon_state = "sec_blu"
 
+/obj/item/clothing/gloves/color/scp
+	cold_protection = HANDS
+	min_cold_protection_temperature = GLOVES_MIN_TEMP_PROTECT
+	heat_protection = HANDS
+	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
+	resistance_flags = NONE
+
+/obj/item/clothing/gloves/color/scp/tactical
+	name = "tactical gloves"
+	desc = "These tactical combat gloves come with microchips that help the user quickly restrain suspects."
+	icon_state = "tactical"
+	clothing_traits = list(TRAIT_FAST_CUFFING)
+
+/obj/item/clothing/gloves/color/scp/tactical/nitrile
+	name = "tactical nitrile gloves"
+	desc = "Tactical combat gloves with the additional sterile coating. Excellent grip ensures very fast carrying of patients along with the faster use time of various chemical related items, while also still allowing the user to quickly restrain suspects."
+	icon_state = "tactical_nitrile"
+	clothing_traits = list(TRAIT_FAST_CUFFING, TRAIT_QUICKER_CARRY, TRAIT_FASTMED)
+
 /obj/item/clothing/gloves/fingerless
 	name = "fingerless gloves"
 	desc = "Plain black gloves without fingertips for the hard-working."

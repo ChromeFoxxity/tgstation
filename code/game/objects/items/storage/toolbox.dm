@@ -510,3 +510,73 @@
 	new /obj/item/food/grown/banana/bunch/monkeybomb(src)
 	// Somewhere to store it all.
 	new /obj/item/storage/backpack/messenger(src)
+
+/obj/item/storage/toolbox/guncase/station
+	desc = "A thick gun case with foam inserts laid out to fit a weapon, magazines, and gear securely."
+	icon_state = "guncase"
+	material_flags = NONE
+	slot_flags = null
+
+	/// Is the case visually opened or not
+	var/opened = FALSE
+
+/obj/item/storage/toolbox/guncase/station/Initialize(mapload)
+	. = ..()
+	atom_storage.max_total_storage = 14 // Technically means you could fit multiple large guns in here but its a case you cant backpack anyways so what it do
+	atom_storage.max_slots = 6 // We store some extra items in these so lets make a little extra room
+
+/obj/item/storage/toolbox/guncase/station/update_icon()
+	. = ..()
+	if(opened)
+		icon_state = "[initial(icon_state)]-open"
+	else
+		icon_state = initial(icon_state)
+
+/obj/item/storage/toolbox/guncase/station/click_alt(mob/user)
+	opened = !opened
+	update_icon()
+	return CLICK_ACTION_SUCCESS
+
+/obj/item/storage/toolbox/guncase/station/attack_self(mob/user)
+	. = ..()
+	opened = !opened
+	update_icon()
+
+/obj/item/storage/toolbox/guncase/station/empty
+
+/obj/item/storage/toolbox/guncase/station/empty/PopulateContents()
+	return
+
+// Small case for pistols and whatnot
+
+/obj/item/storage/toolbox/guncase/station/pistol
+	name = "small gun case"
+
+	icon_state = "guncase_s"
+
+	slot_flags = NONE
+
+	w_class = WEIGHT_CLASS_NORMAL
+
+/obj/item/storage/toolbox/guncase/station/pistol/Initialize(mapload)
+	. = ..()
+	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL
+
+// Empty pistol case
+
+/obj/item/storage/toolbox/guncase/station/pistol/empty
+
+/obj/item/storage/toolbox/guncase/station/pistol/empty/PopulateContents()
+	return
+
+/obj/item/storage/toolbox/guncase/station/pistol/m45a5
+	name = ".460 Magnum M45A5 Pistol"
+
+	weapon_to_spawn = /obj/item/gun/ballistic/automatic/pistol/m45a5
+
+/obj/item/storage/toolbox/guncase/station/pistol/m45a5/PopulateContents()
+	new weapon_to_spawn (src)
+
+	generate_items_inside(list(
+		/obj/item/ammo_box/magazine/m45a5 = 5,
+	), src)

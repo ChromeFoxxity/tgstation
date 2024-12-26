@@ -102,3 +102,33 @@
 	ammo_type = /obj/item/ammo_casing/c45
 	caliber = CALIBER_45
 	max_ammo = 50
+
+/obj/item/ammo_box/magazine/p90
+	name = "P90 magazine (5.7x28mm)"
+	icon_state = "p90-50"
+	base_icon_state = "p90"
+	ammo_type = /obj/item/ammo_casing/c57x28mm
+	caliber = CALIBER_57X28MM
+	max_ammo = 50
+
+/obj/item/ammo_box/magazine/p90/update_icon_state()
+	. = ..()
+	icon_state = "[base_icon_state]-[round(ammo_count(), 25)]"
+
+/obj/item/ammo_box/magazine/p90/rubber
+	name = "P90 magazine (5.7x28mm Rubber)"
+	icon_state = "p90r-50"
+	base_icon_state = "p90r"
+	ammo_type = /obj/item/ammo_casing/c57x28mm/rubber
+
+/obj/item/ammo_box/magazine/p90/ap
+	name = "P90 magazine (5.7x28mm Armor-Piercing)"
+	icon_state = "p90ap-50"
+	base_icon_state = "p90ap"
+	ammo_type = /obj/item/ammo_casing/c57x28mm/ap
+
+/obj/item/ammo_box/magazine/p90/hp
+	name = "P90 magazine (5.7x28mm Hollow-Point)"
+	icon_state = "p90hp-50"
+	base_icon_state = "p90hp"
+	ammo_type = /obj/item/ammo_casing/c57x28mm/hp

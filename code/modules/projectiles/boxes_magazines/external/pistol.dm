@@ -115,3 +115,21 @@
 	max_ammo = 8
 	multiple_sprites = AMMO_BOX_PER_BULLET
 	multiple_sprite_use_base = TRUE
+
+/obj/item/ammo_box/magazine/m45a5
+	name = "\improper M45A5 magazine (.460)"
+	desc = "A magazine for the M45A5 chambered in .460 Magnum, holds ten rounds. Warning, contains expanding head that deform on contact, may cause excessive bleeding."
+	icon = 'icons/obj/weapons/guns/ammo_40x32.dmi'
+	icon_state = "m45a5"
+	multiple_sprites = AMMO_BOX_FULL_EMPTY
+	w_class = WEIGHT_CLASS_NORMAL
+	ammo_type = /obj/item/ammo_casing/c460magnum
+	caliber = CALIBER_460MAGNUM
+	max_ammo = 10
+
+/obj/item/ammo_box/magazine/m45a5/ap
+	name = "\improper M45A5 magazine (.460 Armor Piercing)"
+	desc = "A magazine for the M45A5 chambered in .460 Magnum, holds ten rounds. Warning, contains lead core intended to penetrate body armour."
+
+/obj/item/ammo_box/magazine/m45a5/starts_empty
+	start_empty = TRUE

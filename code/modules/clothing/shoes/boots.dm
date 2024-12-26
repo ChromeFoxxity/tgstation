@@ -40,6 +40,19 @@
 	fire = 90
 	acid = 50
 
+/obj/item/clothing/shoes/combat/scp/tactical
+	name = "tactical boots"
+	desc = "High speed, low drag combat boots, used by heavy operatives and security details."
+	icon_state = "tactical"
+	armor_type = /datum/armor/shoes_combat
+
+/obj/item/clothing/shoes/combat/scp/tactical/riot
+	name = "tactical riot boots"
+	desc = "High speed, no drag combat boots, used by the Foundation's security in riots."
+	icon_state = "tactical_riot"
+	clothing_traits = list(TRAIT_NO_SLIP_WATER)
+	armor_type = /datum/armor/combat_swat
+
 /obj/item/clothing/shoes/jackboots
 	name = "jackboots"
 	desc = "SCP Foundation-issue Security combat boots for combat scenarios or combat situations. All combat, all the time."

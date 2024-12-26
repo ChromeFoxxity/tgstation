@@ -210,3 +210,44 @@
 	else
 		to_chat(user, span_notice("..and falls into view. Whew, that was a close one."))
 		user.dropItemToGround(src)
+
+/obj/item/gun/ballistic/automatic/pistol/mk9
+	name = "MK9 Foundation pistol"
+	desc = "Standard issue 9mm pistol of the SCP Foundation. Based on the HK VP9."
+	icon_state = "MK9"
+	w_class = WEIGHT_CLASS_NORMAL
+	accepted_magazine_type = /obj/item/ammo_box/magazine/m9mm
+	spawn_magazine_type = /obj/item/ammo_box/magazine/m9mm
+	fire_delay = 3
+	can_suppress = FALSE
+	projectile_damage_multiplier = 0.75
+
+///obj/item/gun/ballistic/automatic/pistol/glock
+	//name = "Glock-18"
+	//desc = "A Glock pistol. A classic 9x25mm handgun with a small magazine capacity."
+	//icon = 'modular_skyrat/modules/modular_weapons/icons/obj/company_and_or_faction_based/nanotrasen_system_inc/pistol.dmi'
+	//icon_state = "black"
+	//w_class = WEIGHT_CLASS_NORMAL
+	//spread = 10
+	//fire_sound = 'sound/items/weapons/gun/pistol/shot_alt.ogg'
+	//rack_sound = 'sound/items/weapons/gun/pistol/rack.ogg'
+	//lock_back_sound = 'sound/items/weapons/gun/pistol/slide_lock.ogg'
+	//bolt_drop_sound = 'sound/items/weapons/gun/pistol/slide_drop.ogg'
+	//pin = /obj/item/firing_pin
+	//spawn_magazine_type = /obj/item/ammo_box/magazine/m9mm/rubber
+	//suppressor_x_offset = -2
+	//suppressor_y_offset = -1
+
+/obj/item/gun/ballistic/automatic/pistol/m45a5 //From Skyrat, made by Yawet.
+	name = "M45A5"
+	desc = "A standard issue pistol manufactured for self-defense for SCP Foundation Staff such as Internal Security Department, and Central Office Representatives, chambered in .460 Rowland Magnum, now commonly found in the hands of high ranking SCP Higher-Echelon Staff."
+	icon = 'icons/obj/weapons/guns/ballistic_40x32.dmi'
+	icon_state = "m45a5"
+	fire_sound = 'sound/weapons/gun/pistol/pistol_heavy.ogg'
+	force = 15
+	fire_delay = 1 SECONDS
+	special_mags = TRUE
+	recoil = 3
+	can_suppress = FALSE
+	accepted_magazine_type = /obj/item/ammo_box/magazine/m45a5
+	spawn_magazine_type = /obj/item/ammo_box/magazine/m45a5

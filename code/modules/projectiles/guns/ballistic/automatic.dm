@@ -350,3 +350,22 @@
 	actions_types = list()
 	fire_sound = 'sound/weapons/laser.ogg'
 	casing_ejector = FALSE
+
+/obj/item/gun/ballistic/automatic/p90
+	name = "FN P90"
+	desc = "The FN P90 is a submachine gun chambered in 5.7x28mm, also classified as a personal defense weapon, designed and manufactured by FN Herstal in Belgium. Created in response to NATO requests for a replacement for 9x19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups. This one has a scope, and is issued to specifically Site Security, and or MTF."
+	icon_state = "p90"
+	inhand_icon_state = "p90"
+	w_class = WEIGHT_CLASS_BULKY
+	burst_size = 1
+	actions_types = list()
+	spread = 2
+	force = 10
+	can_suppress = FALSE
+	accepted_magazine_type = /obj/item/ammo_box/magazine/p90
+	spawn_magazine_type = /obj/item/ammo_box/magazine/p90
+
+/obj/item/gun/ballistic/automatic/p90/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/update_icon_updates_onmob)
+	AddComponent(/datum/component/automatic_fire, 0.3 SECONDS)

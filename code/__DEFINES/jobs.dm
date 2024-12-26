@@ -65,7 +65,7 @@
 #define JOB_SECURITY_OFFICER_SCIENCE "Security Officer (Science)"
 #define JOB_SECURITY_OFFICER_SUPPLY "Security Officer (Cargo)"
 //Engineering
-#define JOB_STATION_ENGINEER "Station Engineer"
+#define JOB_STATION_ENGINEER "Technician"
 #define JOB_ATMOSPHERIC_TECHNICIAN "Atmospheric Technician"
 //Medical
 #define JOB_CORONER "Coroner"

@@ -41,3 +41,27 @@
 	name = ".45 incendiary bullet casing"
 	desc = "A .45 bullet casing."
 	projectile_type = /obj/projectile/bullet/incendiary/c45
+
+/obj/item/ammo_casing/c57x28mm
+	name = "5.7x28mm bullet casing"
+	desc = "A 5.7x28mm bullet casing."
+	caliber = CALIBER_57X28MM
+	projectile_type = /obj/projectile/bullet/c57x28mm
+
+/obj/item/ammo_casing/c57x28mm/rubber
+	name = "5.7x28mm rubber bullet casing"
+	desc = "A 5.7x28mm rubber bullet casing."
+	icon_state = "pistol-brass-rubber"
+	projectile_type = /obj/projectile/bullet/c57x28mm/rubber
+
+/obj/item/ammo_casing/c57x28mm/ap
+	name = "5.7x28mm armor-piercing bullet casing"
+	desc = "A 5.7x28mm armor-piercing bullet casing."
+	icon_state = "pistol-brass-ap"
+	projectile_type = /obj/projectile/bullet/c57x28mm/ap
+
+/obj/item/ammo_casing/c57x28mm/hp
+	name = "5.7x28mm hollow-point bullet casing"
+	desc = "A 5.7x28mm hollow-point bullet casing."
+	icon_state = "pistol-brass-hollow"
+	projectile_type = /obj/projectile/bullet/c57x28mm/hp

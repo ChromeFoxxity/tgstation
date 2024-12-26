@@ -685,3 +685,210 @@
 	fire = 20
 	acid = 40
 	wound = 10
+
+// SECURITY DEPARTMENT HELMETS
+// [SCP]
+
+/obj/item/clothing/head/helmet/toggleable/scp/security
+	name = "\improper foundation security helmet"
+	desc = "A heavy non-descript helmet with built-in padding, and armor, primarily for riots, but can still take a bullet. It has a poly-carbonate yellow riot visor on it."
+	icon_state = "guard_helmet"
+	toggle_message = "You pull the visor down on"
+	alt_toggle_message = "You push the visor up on"
+	armor_type = /datum/armor/scp/security_helmet
+	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDESNOUT
+	strip_delay = 80
+	actions_types = list(/datum/action/item_action/toggle)
+	visor_flags_inv = HIDEFACE|HIDESNOUT
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
+	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
+	clothing_traits = list(TRAIT_HEAD_INJURY_BLOCKED)
+
+/datum/armor/scp/security_helmet
+	melee = 55
+	bullet = 30
+	laser = 30
+	energy = 35
+	bomb = 25
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/head/helmet/toggleable/scp/security/sergeant
+	name = "\improper medium-plated foundation security helmet"
+	desc = "A heavy non-descript helmet with slightly more built-in padding, and armor, primarily for riots, but can still take a bullet. The white stripe along the helmet incidates the rank of 'Sergeant', looks sub-par. It has a poly-carbonate yellow riot visor on it."
+	icon_state = "sgt_guard_helmet"
+	armor_type = /datum/armor/scp/security_med_helmet
+
+/datum/armor/scp/security_sgt_helmet
+	melee = 60
+	bullet = 35
+	laser = 35
+	energy = 35
+	bomb = 30
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/head/helmet/toggleable/scp/security/medic
+	name = "\improper medical foundation security helmet"
+	desc = "A heavy non-descript helmet with built-in padding, and armor, primarily for riots, but can still take a bullet, has some sterile defenses. It has a poly-carbonate white riot visor on it along with the red cross known for medics on the helmet."
+	icon_state = "med_guard_helmet"
+	armor_type = /datum/armor/scp/security_med_helmet
+
+/datum/armor/scp/security_med_helmet
+	melee = 55
+	bullet = 30
+	laser = 30
+	energy = 45
+	bomb = 25
+	bio = 50
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/head/helmet/toggleable/scp/security/captain
+	name = "\improper heavy-plated foundation security helmet"
+	desc = "A heavy non-descript helmet with more built-in padding, and armor, primarily for riots, but can still take a bullet. The golden badge on the front of the helmet incidates the rank of 'Captain', looks important. It has a poly-carbonate yellow riot visor on it."
+	icon_state = "cpt_guard_helmet"
+	armor_type = /datum/armor/scp/security_cpt_helmet
+
+/datum/armor/scp/security_cpt_helmet
+	melee = 65
+	bullet = 45
+	laser = 45
+	energy = 40
+	bomb = 45
+	fire = 50
+	acid = 50
+	wound = 10
+
+// MOBILE TASK FORCE HELMETS
+// [SCP]
+
+/obj/item/clothing/head/helmet/toggleable/scp/mtf
+	name = "tactical helmet"
+	desc = "A heavy ballistic helmet, with goggles that may or may not effect anything, usually worn by SCP Foundation MTF operatives, a simple but defensive approach. Dawned with SCP logos, and Task Force insignia."
+	icon_state = "mtf_tactical_helmet"
+	toggle_message = "You pull the goggles down on"
+	alt_toggle_message = "You push the goggles up on"
+	armor_type = /datum/armor/scp/mtf_helmet
+	actions_types = list(/datum/action/item_action/toggle)
+	strip_delay = 80
+
+/datum/armor/scp/mtf_helmet
+	melee = 45
+	bullet = 70
+	laser = 45
+	energy = 30
+	bomb = 45
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/head/helmet/scp/mtf
+	name = "tactical helmet"
+	desc = "A heavy ballistic helmet, usually worn by SCP Foundation MTF operatives, a simple but defensive approach. Dawned with SCP logos, and Task Force insignia."
+	icon_state = "mtf_helmet"
+	armor_type = /datum/armor/scp/mtf_helmet
+	strip_delay = 80
+
+/obj/item/clothing/head/beret/scp/mtf
+	name = "'Nine Tailed Fox' tactical beret"
+	desc = "A heavy padded beret used by MTF Epsilon-11, it's quite armored, more than traditional helmets."
+	icon = 'icons/obj/clothing/head/helmet.dmi'
+	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
+	icon_state = "epsilon11_beret"
+	greyscale_config = null
+	greyscale_config_worn = null
+	greyscale_colors = null
+	armor_type = /datum/armor/scp/mtf_beret
+	strip_delay = 10 SECONDS
+
+/datum/armor/scp/mtf_beret
+	melee = 50
+	bullet = 75
+	laser = 50
+	energy = 35
+	bomb = 35
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/head/beret/scp/mtf/alpha
+	name = "'Red Right Hand' tactical beret"
+	desc = "A heavy padded beret used by MTF Alpha-1, it's quite armored, more than traditional helmets."
+	icon_state = "alpha1_beret"
+
+/obj/item/clothing/head/beret/scp/mtf/omega
+	name = "'Laws Left Hand' tactical beret"
+	desc = "A heavy padded beret used by MTF Omega-1, it's quite armored, more than traditional helmets."
+	icon_state = "omega1_beret"
+
+// CHAOS INSURGENCY HELMETS
+// [SCP]
+
+/obj/item/clothing/head/helmet/scp/chaos
+	name = "Chaos Insurgency helmet"
+	desc = "A russian type of ballistics helmet usually seen worn by modern russian military forces, this one is colored tan and is used by the Chaos Insurgency."
+	icon_state = "ci_helmet"
+	armor_type = /datum/armor/scp/chaos
+
+/datum/armor/scp/chaos
+	melee = 35
+	bullet = 70
+	laser = 35
+	energy = 30
+	bomb = 35
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/head/helmet/toggleable/scp/chaos
+	name = "Chaos Insurgency K6-3 Altyn helmet"
+	desc = "A heavy russian type of helmet usually seen worn by modern russian military forces, this one has a face shield and is used by heavy soldiers, this one is colored tan and is used by the Chaos Insurgency."
+	icon_state = "ci_heavy_helmet"
+	toggle_message = "You pull the visor down on"
+	alt_toggle_message = "You push the visor up on"
+	strip_delay = 80
+	armor_type = /datum/armor/scp/chaos_heavy
+	flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDESNOUT
+	actions_types = list(/datum/action/item_action/toggle)
+	visor_flags_inv = HIDEFACE|HIDESNOUT
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
+	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
+	clothing_traits = list(TRAIT_HEAD_INJURY_BLOCKED)
+
+/datum/armor/scp/chaos_heavy
+	melee = 45
+	bullet = 75
+	laser = 40
+	energy = 25
+	bomb = 45
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/head/hats/scp/chaos
+	name = "Chaos Insurgency field cap"
+	desc = "A durable, unquestionably bulletproof russian type of field cap used by mainly officers of the russian military forces, but is used by the Chaos Insurgency."
+	icon = 'icons/obj/clothing/head/helmet.dmi'
+	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
+	icon_state = "ci_officer"
+	armor_type = /datum/armor/scp/chaos_officer
+
+/datum/armor/scp/chaos_officer
+	melee = 45
+	bullet = 65
+	laser = 30
+	energy = 25
+	bomb = 25
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/head/helmet/scp/chaos/light
+	name = "Chaos Insurgency light helmet"
+	desc = "A light helmet worn by pilots, scouts, and infiltrators usually wanting the utmost defense while having manueverability. Usually seen worn by modern russian military forces, this one is colored tan with a red visor and is used by the Chaos Insurgency."
+	icon_state = "ci_light_helmet"
+	armor_type = /datum/armor/head_helmet

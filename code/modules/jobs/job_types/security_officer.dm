@@ -214,25 +214,24 @@ GLOBAL_LIST_EMPTY(security_officer_distribution)
 	)
 
 /datum/outfit/job/security
-	name = "Security Officer"
+	name = "Security Guard"
 	jobtype = /datum/job/security_officer
 
 	id_trim = /datum/id_trim/job/security_officer
-	uniform = /obj/item/clothing/under/rank/security/officer
-	suit = /obj/item/clothing/suit/armor/vest/alt/sec
-	suit_store = /obj/item/gun/energy/disabler
+	uniform = /obj/item/clothing/under/rank/security/scp
+	suit = /obj/item/clothing/suit/armor/vest/scp/security
 	backpack_contents = list(
 		/obj/item/evidencebag = 1,
 		/obj/item/flashlight/seclite = 1,
 		)
-	belt = /obj/item/modular_computer/pda/security
+	belt = /obj/item/storage/belt/security/full
 	ears = /obj/item/radio/headset/headset_sec/alt
-	gloves = /obj/item/clothing/gloves/color/black/security
-	head = /obj/item/clothing/head/helmet/sec
-	shoes = /obj/item/clothing/shoes/jackboots/sec
+	gloves = /obj/item/clothing/gloves/color/scp/tactical
+	head = /obj/item/clothing/head/helmet/toggleable/scp/security
+	shoes = /obj/item/clothing/shoes/combat/scp/tactical
 	glasses = /obj/item/clothing/glasses/hud/security
-	l_pocket = /obj/item/restraints/handcuffs
-	r_pocket = /obj/item/assembly/flash/handheld
+	l_pocket = /obj/item/modular_computer/pda/security
+	r_pocket = /obj/item/melee/baton/telescopic
 
 	backpack = /obj/item/storage/backpack/security
 	satchel = /obj/item/storage/backpack/satchel/sec

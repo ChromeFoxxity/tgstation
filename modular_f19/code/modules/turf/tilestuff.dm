@@ -58,6 +58,12 @@ TILE_DECAL_SUBTYPE_HELPER(/obj/effect/turf_decal/tile/keter)
 
 TILE_DECAL_SUBTYPE_HELPER(/obj/effect/turf_decal/tile/lcz)
 
+/obj/effect/turf_decal/tile/science
+	name = "science tile decal"
+	color = "#0545B5"
+
+TILE_DECAL_SUBTYPE_HELPER(/obj/effect/turf_decal/tile/science)
+
 #undef TILE_DECAL_SUBTYPE_HELPER
 
 /// Automatically generates all trimlines for a decal with the given path.
@@ -139,5 +145,10 @@ TRIMLINE_SUBTYPE_HELPER(/obj/effect/turf_decal/trimline/keter)
 	color = "#E0C276"
 
 TRIMLINE_SUBTYPE_HELPER(/obj/effect/turf_decal/trimline/lcz)
+
+/obj/effect/turf_decal/trimline/science
+	color = "#0545B5"
+
+TRIMLINE_SUBTYPE_HELPER(/obj/effect/turf_decal/trimline/science)
 
 #undef TRIMLINE_SUBTYPE_HELPER
