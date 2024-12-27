@@ -55,6 +55,7 @@
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
 	gloves = /obj/item/clothing/gloves/tackler/scp/tactical
 	head = /obj/item/clothing/head/helmet/toggleable/scp/security/sergeant
+	mask = /obj/item/clothing/mask/balaclava
 	shoes = /obj/item/clothing/shoes/combat/scp/tactical
 	l_pocket = /obj/item/modular_computer/pda/warden
 	r_pocket = /obj/item/melee/baton/telescopic

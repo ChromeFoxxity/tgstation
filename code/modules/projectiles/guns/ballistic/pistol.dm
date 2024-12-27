@@ -240,7 +240,7 @@
 
 /obj/item/gun/ballistic/automatic/pistol/m45a5 //From Skyrat, made by Yawet.
 	name = "M45A5"
-	desc = "A standard issue pistol manufactured for self-defense for SCP Foundation Staff such as Internal Security Department, and Central Office Representatives, chambered in .460 Rowland Magnum, now commonly found in the hands of high ranking SCP Higher-Echelon Staff."
+	desc = "A standard issue pistol manufactured for self-defense for SCP Foundation Staff such as Internal Security Department, and Central Office Representatives, chambered in .460 Magnum, now commonly found in the hands of high ranking SCP Higher-Echelon Staff."
 	icon = 'icons/obj/weapons/guns/ballistic_40x32.dmi'
 	icon_state = "m45a5"
 	fire_sound = 'sound/weapons/gun/pistol/pistol_heavy.ogg'

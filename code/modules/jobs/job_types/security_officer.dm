@@ -228,6 +228,7 @@ GLOBAL_LIST_EMPTY(security_officer_distribution)
 	ears = /obj/item/radio/headset/headset_sec/alt
 	gloves = /obj/item/clothing/gloves/color/scp/tactical
 	head = /obj/item/clothing/head/helmet/toggleable/scp/security
+	mask = /obj/item/clothing/mask/balaclava
 	shoes = /obj/item/clothing/shoes/combat/scp/tactical
 	glasses = /obj/item/clothing/glasses/hud/security
 	l_pocket = /obj/item/modular_computer/pda/security
