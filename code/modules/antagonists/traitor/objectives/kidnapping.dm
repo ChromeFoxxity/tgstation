@@ -104,6 +104,8 @@
 		// Security
 		/datum/job/detective,
 		/datum/job/security_officer,
+		/datum/job/security_medic,
+		/datum/job/sergeant,
 		/datum/job/warden,
 	)
 	alive_bonus = 4

@@ -54,7 +54,8 @@
 	spawned.add_mob_memory(/datum/memory/key/message_server_key, decrypt_key = GLOB.preset_station_message_server_key)
 
 /datum/job/chief_engineer/get_captaincy_announcement(mob/living/captain)
-	return "Due to staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
+/datum/job/head_of_security/get_captaincy_announcement(mob/living/captain)
+	return "Due to staffing shortages, newly promoted Acting Site Director [captain.real_name], effective immediately."
 
 
 /datum/outfit/job/ce

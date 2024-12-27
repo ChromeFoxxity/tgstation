@@ -56,10 +56,12 @@
 #define JOB_PERSONAL_AI "Personal AI"
 #define JOB_HUMAN_AI "Big Brother"
 //Security
-#define JOB_WARDEN "Security Sergeant"
+#define JOB_WARDEN "Security Captain"
 #define JOB_DETECTIVE "Internal Investigation Agent"
-#define JOB_SECURITY_OFFICER "Security Agent"
+#define JOB_SECURITY_NCO "Security Sergeant"
+#define JOB_SECURITY_OFFICER "Security Guard"
 #define JOB_SECURITY_CADET "Security Cadet"
+#define JOB_SECURITY_MEDIC "Security Combat Medic"
 #define JOB_SECURITY_OFFICER_MEDICAL "Security Officer (Medical)"
 #define JOB_SECURITY_OFFICER_ENGINEERING "Security Officer (Engineering)"
 #define JOB_SECURITY_OFFICER_SCIENCE "Security Officer (Science)"
@@ -161,9 +163,10 @@
 #define JOB_DISPLAY_ORDER_HEAD_OF_SECURITY 35
 #define JOB_DISPLAY_ORDER_VETERAN_ADVISOR 36
 #define JOB_DISPLAY_ORDER_WARDEN 37
-#define JOB_DISPLAY_ORDER_DETECTIVE 38
-#define JOB_DISPLAY_ORDER_SECURITY_OFFICER 39
-#define JOB_DISPLAY_ORDER_PRISONER 40
+#define JOB_DISPLAY_ORDER_SERGEANT 38
+#define JOB_DISPLAY_ORDER_DETECTIVE 39
+#define JOB_DISPLAY_ORDER_SECURITY_OFFICER 40
+#define JOB_DISPLAY_ORDER_PRISONER 41
 
 #define DEPARTMENT_UNASSIGNED "No Department"
 
@@ -253,7 +256,7 @@ DEFINE_BITFIELD(job_flags, list(
 #define STATION_TRAIT_JOB_FLAGS (JOB_CANNOT_OPEN_SLOTS|JOB_HIDE_WHEN_EMPTY|JOB_LATEJOIN_ONLY&~JOB_REOPEN_ON_ROUNDSTART_LOSS)
 
 #define FACTION_NONE "None"
-#define FACTION_STATION "Station"
+#define FACTION_STATION "Facility"
 
 // Variable macros used to declare who is the supervisor for a given job, announced to the player when they join as any given job.
 #define SUPERVISOR_CAPTAIN "the Site Director"

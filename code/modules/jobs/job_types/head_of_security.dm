@@ -41,11 +41,12 @@
 
 
 /datum/job/head_of_security/get_captaincy_announcement(mob/living/captain)
-	return "Due to staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
+/datum/job/head_of_security/get_captaincy_announcement(mob/living/captain)
+	return "Due to staffing shortages, newly promoted Acting Site Director [captain.real_name], effective immediately."
 
 
 /datum/outfit/job/hos
-	name = "Head of Security"
+	name = "Security Director"
 	jobtype = /datum/job/head_of_security
 
 	id = /obj/item/card/id/advanced/silver

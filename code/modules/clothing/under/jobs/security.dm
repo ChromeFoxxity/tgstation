@@ -303,7 +303,7 @@
 
 /obj/item/clothing/under/rank/security/scp/sergeant
 	name = "foundation security sergeant uniform"
-	desc = "A white, tactical security uniform with SCP insignia on it. Weaved with a durable fabric to absorb melee hits. This one has a silver badge, and belt buckle, with a dirty rose color on the shoulders and wrists most known for Sergeants."
+	desc = "A white, tactical security uniform with SCP insignia on it. Weaved with a durable fabric to absorb melee hits. This one has a silver belt buckle, with a dirty rose color on the shoulders and wrists most known for Sergeants."
 	icon_state = "scp_security_sgt"
 
 /obj/item/clothing/under/rank/security/scp/medic

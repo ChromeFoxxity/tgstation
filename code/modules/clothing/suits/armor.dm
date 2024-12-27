@@ -861,7 +861,7 @@
 
 /obj/item/clothing/suit/armor/vest/scp/security/sergeant
 	name = "medium-plated foundation security vest"
-	desc = "A heavy armored vest with some additional shoulder pads to protect the arms, as well as silver rank tabs on the shoulders, and a silver 'SCP' tag on the vest. Worn by Site Security NCOs, it has some durathread plating in it to make it durable against melee, with some slight defense for other types."
+	desc = "A heavy armored vest with some additional shoulder pads to protect the arms, as well as white rank tabs on the shoulders, and a white 'SCP' tag on the vest. Worn by Site Security NCOs, it has some durathread plating in it to make it durable against melee, with some slight defense for other types."
 	icon_state = "sgt_guard_vest"
 	body_parts_covered = CHEST|GROIN|ARMS
 	cold_protection = CHEST|GROIN|ARMS
