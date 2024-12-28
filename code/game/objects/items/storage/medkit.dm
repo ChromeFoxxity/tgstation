@@ -687,6 +687,87 @@
 	for(var/i in 1 to 5)
 		new /obj/item/reagent_containers/pill/patch/ondansetron(src)
 
+/obj/item/storage/pill_bottle/classa
+	name = "bottle of Class-A amnestics"
+	desc = "A bottle full of amnestic pills, there's a warning on the side. 'For erasing recent and/or specific episodic memories'."
+	icon_state = "amnestic_pill_canister_a"
+
+/obj/item/storage/pill_bottle/classa/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/reagent_containers/pill/classa(src)
+
+/obj/item/storage/pill_bottle/classb
+	name = "bottle of Class-B amnestics"
+	desc = "A bottle full of amnestic pills, there's a warning on the side. 'For the incremental erasure of recent memories'."
+	icon_state = "amnestic_pill_canister_b"
+
+/obj/item/storage/pill_bottle/classb/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/reagent_containers/pill/classb(src)
+
+/obj/item/storage/pill_bottle/classc
+	name = "bottle of Class-C amnestics"
+	desc = "A bottle full of amnestic pills, there's a warning on the side. 'For the removal of specific memories from any point in the subject's life'."
+	icon_state = "amnestic_pill_canister_c"
+
+/obj/item/storage/pill_bottle/classc/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/reagent_containers/pill/classc(src)
+
+/obj/item/storage/pill_bottle/classd
+	name = "bottle of Class-D amnestics"
+	desc = "A bottle full of amnestic pills, there's a warning on the side. 'For the removal of early memories'."
+	icon_state = "amnestic_pill_canister_d"
+
+/obj/item/storage/pill_bottle/classd/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/reagent_containers/pill/classd(src)
+
+/obj/item/storage/pill_bottle/classe
+	name = "bottle of Class-E amnestics"
+	desc = "A bottle full of amnestic pills, there's a warning on the side. 'To induce psychological complacency with the anomalous'."
+	icon_state = "amnestic_pill_canister_e"
+
+/obj/item/storage/pill_bottle/classe/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/reagent_containers/pill/classe(src)
+
+/obj/item/storage/pill_bottle/classg
+	name = "bottle of Class-G amnestics"
+	desc = "A bottle full of amnestic pills, there's a warning on the side. 'To cause subjects to doubt the authenticity of their memories'."
+	icon_state = "amnestic_pill_canister_g"
+
+/obj/item/storage/pill_bottle/classg/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/reagent_containers/pill/classg(src)
+
+/obj/item/storage/pill_bottle/classh
+	name = "bottle of Class-H amnestics"
+	desc = "A bottle full of amnestic pills, there's a warning on the side. 'To prevent the formation of new memories'."
+	icon_state = "amnestic_pill_canister_h"
+
+/obj/item/storage/pill_bottle/classh/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/reagent_containers/pill/classh(src)
+
+/obj/item/storage/pill_bottle/classy
+	name = "bottle of Class-Y mnestics"
+	desc = "A bottle full of mnestic pills, there's a warning on the side. 'To cause temporary full memory recollection'."
+	icon_state = "amnestic_pill_canister_y"
+
+/obj/item/storage/pill_bottle/classy/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/reagent_containers/pill/classy(src)
+
+/obj/item/storage/pill_bottle/classz
+	name = "bottle of Class-Z mnestics"
+	desc = "A bottle full of mnestic pills, there's a warning on the side. 'To render the subject biochemically incapable of forgetting anything', but this one has an added actual warning. '!WARNING! Will cause death of user, do not use for memory recollection'."
+	icon_state = "amnestic_pill_canister_z"
+
+/obj/item/storage/pill_bottle/classz/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/reagent_containers/pill/classz(src)
+
 /// A box which takes in coolant and uses it to preserve organs and body parts
 /obj/item/storage/organbox
 	name = "organ transport box"

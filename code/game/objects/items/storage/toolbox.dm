@@ -570,7 +570,7 @@
 	return
 
 /obj/item/storage/toolbox/guncase/station/pistol/m45a5
-	name = ".460 Magnum M45A5 Pistol"
+	name = ".460 Magnum M45A5 Pistol gun case"
 
 	weapon_to_spawn = /obj/item/gun/ballistic/automatic/pistol/m45a5
 
@@ -579,4 +579,61 @@
 
 	generate_items_inside(list(
 		/obj/item/ammo_box/magazine/m45a5 = 5,
+	), src)
+
+/obj/item/storage/toolbox/guncase/station/pistol/glock
+	name = "9x19mm Glock-17 Pistol gun case"
+
+	weapon_to_spawn = /obj/item/gun/ballistic/automatic/pistol/glock
+
+/obj/item/storage/toolbox/guncase/station/pistol/glock/PopulateContents()
+	new weapon_to_spawn (src)
+
+	generate_items_inside(list(
+		/obj/item/ammo_box/magazine/m9mm = 5,
+	), src)
+
+/obj/item/storage/toolbox/guncase/station/pistol/glock/spec
+	name = "9x19mm Glock-19 Pistol gun case"
+
+	weapon_to_spawn = /obj/item/gun/ballistic/automatic/pistol/glock/spec
+
+/obj/item/storage/toolbox/guncase/station/pistol/glock/spec/PopulateContents()
+	new weapon_to_spawn (src)
+
+	generate_items_inside(list(
+		/obj/item/ammo_box/magazine/m9mm = 5,
+	), src)
+
+/obj/item/storage/toolbox/guncase/station/p90
+	name = "5.7x28mm FN P90 SMG gun case"
+
+	weapon_to_spawn = /obj/item/gun/ballistic/automatic/p90
+
+/obj/item/storage/toolbox/guncase/station/p90/PopulateContents()
+	new weapon_to_spawn (src)
+
+	generate_items_inside(list(
+		/obj/item/ammo_box/magazine/p90 = 2,
+		/obj/item/ammo_box/magazine/p90/rubber = 3,
+	), src)
+
+/obj/item/storage/toolbox/guncase/station/p90/full_lethal
+	weapon_to_spawn = /obj/item/gun/ballistic/automatic/p90
+
+/obj/item/storage/toolbox/guncase/station/p90/full_lethal/PopulateContents()
+	new weapon_to_spawn (src)
+
+	generate_items_inside(list(
+		/obj/item/ammo_box/magazine/p90 = 5,
+	), src)
+
+/obj/item/storage/toolbox/guncase/station/p90/full_rubber
+	weapon_to_spawn = /obj/item/gun/ballistic/automatic/p90/rubber
+
+/obj/item/storage/toolbox/guncase/station/p90/full_rubber/PopulateContents()
+	new weapon_to_spawn (src)
+
+	generate_items_inside(list(
+		/obj/item/ammo_box/magazine/p90/rubber = 5,
 	), src)

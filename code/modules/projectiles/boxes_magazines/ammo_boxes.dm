@@ -164,3 +164,98 @@
 	icon_state = "foambox_riot_mini"
 	max_ammo = 20
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*12.5)
+
+/obj/item/ammo_box/packet
+	name = "ammo packet"
+	desc = "A packet usually containing ammo."
+	icon_state = "box"
+	multiple_sprites = AMMO_BOX_FULL_EMPTY
+
+/obj/item/ammo_box/packet/c57x28mm
+	name = "box of 5.7x28mm"
+	desc = "A box containing 210 rounds of 5.7x28mm NATO."
+	icon_state = "box_57x28mm"
+	caliber = CALIBER_57X28MM
+	ammo_type = /obj/item/ammo_casing/c57x28mm
+	max_ammo = 210
+
+/obj/item/ammo_box/packet/c57x28mm/rubber
+	name = "box of Rubber 5.7x28mm"
+	desc = "A box containing 210 rounds of rubber 5.7x28mm NATO."
+	icon_state = "box_57x28mmr"
+	ammo_type = /obj/item/ammo_casing/c57x28mm/rubber
+
+/obj/item/ammo_box/packet/c57x28mm/ap
+	name = "box of Armor-Piercing 5.7x28mm"
+	desc = "A box containing 210 rounds of armor-piercing 5.7x28mm NATO."
+	icon_state = "box_57x28mmap"
+	ammo_type = /obj/item/ammo_casing/c57x28mm/ap
+
+/obj/item/ammo_box/packet/c57x28mm/hp
+	name = "box of Hollow-Point 5.7x28mm"
+	desc = "A box containing 210 rounds of hollow-point 5.7x28mm NATO."
+	icon_state = "box_57x28mmhp"
+	ammo_type = /obj/item/ammo_casing/c57x28mm/hp
+
+/obj/item/ammo_box/packet/c45
+	name = "packet of .45 ACP"
+	desc = "A packet containing 50 rounds of .45 ACP."
+	icon_state = "box_45acp"
+	caliber = CALIBER_45
+	ammo_type = /obj/item/ammo_casing/c45
+	max_ammo = 50
+
+/obj/item/ammo_box/packet/c460
+	name = "packet of .460 Magnum"
+	desc = "A packet containing 49 rounds of .460 Magnum."
+	icon_state = "box_460mag"
+	caliber = CALIBER_460MAGNUM
+	ammo_type = /obj/item/ammo_casing/c460magnum
+	max_ammo = 49
+
+/obj/item/ammo_box/packet/c9mm
+	name = "packet of 9x19mm"
+	desc = "A packet containing 70 rounds of 9x19mm Parabellum."
+	icon_state = "box_9mm"
+	caliber = CALIBER_9MM
+	ammo_type = /obj/item/ammo_casing/c9mm
+	max_ammo = 70
+
+/obj/item/ammo_box/packet/c9mm/ap
+	name = "packet of Armor-Piercing 9x19mm"
+	desc = "A packet containing 70 rounds of armor-piercing 9x19mm Parabellum."
+	icon_state = "box_9mmap"
+	ammo_type = /obj/item/ammo_casing/c9mm/ap
+
+/obj/item/ammo_box/packet/c9mm/hp
+	name = "packet of Hollow-Point 9x19mm"
+	desc = "A packet containing 70 rounds of hollow-point 9x19mm Parabellum."
+	icon_state = "box_9mmhp"
+	ammo_type = /obj/item/ammo_casing/c9mm/hp
+
+/obj/item/ammo_box/packet/shotgun
+	name = "box of Slug 12g"
+	desc = "A packet containing 50 shells of 12 Gauge Slugs."
+	icon_state = "12gbox-slug"
+	multiple_sprites = AMMO_BOX_ONE_SPRITE
+	caliber = CALIBER_SHOTGUN
+	ammo_type = /obj/item/ammo_casing/shotgun
+	max_ammo = 50
+
+/obj/item/ammo_box/packet/shotgun/buckshot
+	name = "box of Buckshot 12g"
+	desc = "A packet containing 50 shells of 12 Gauge Buckshot."
+	icon_state = "12gbox-buckshot"
+	ammo_type = /obj/item/ammo_casing/shotgun/buckshot
+
+/obj/item/ammo_box/packet/shotgun/rubbershot
+	name = "box of Rubbershot 12g"
+	desc = "A packet containing 50 shells of 12 Gauge Rubbershot."
+	icon_state = "12gbox-rubbershot"
+	ammo_type = /obj/item/ammo_casing/shotgun/rubbershot
+
+/obj/item/ammo_box/packet/shotgun/beanbag
+	name = "box of Beanbag 12g"
+	desc = "A packet containing 50 shells of 12 Gauge Beanbag."
+	icon_state = "12gbox-beanbag"
+	ammo_type = /obj/item/ammo_casing/shotgun/beanbag

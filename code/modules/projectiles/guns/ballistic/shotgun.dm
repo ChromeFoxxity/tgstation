@@ -382,3 +382,32 @@
 	bolt_wording = "bolt"
 	internal_magazine = TRUE
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/single/musket
+
+/obj/item/gun/ballistic/shotgun/winchester_sxp
+	name = "Winchester SXP Marine Defender"
+	desc = "The Winchester SXP Marine Defender uses a rotary bolt and inertia-assisted action to provide you with super-fast follow-up shots when practicing self-defense tactics. 4 massive lugs on the bolt provide incredible strength with a solid lockup, and dual steel slide bars eliminate twisting and binding when cycling the action. Chambered in 12g."
+	icon = 'icons/obj/weapons/guns/ballistic_64x32.dmi'
+	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/weapons/guns_righthand.dmi'
+	inhand_x_dimension = 0
+	inhand_y_dimension = 0
+	icon_state = "winchester_sxp"
+	inhand_icon_state = "winchester_sxp"
+	fire_delay = 4
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/winchester
+	w_class = WEIGHT_CLASS_HUGE
+
+/obj/item/gun/ballistic/shotgun/mossberg_590
+	name = "Mossberg 590 Shockwave"
+	desc = "The Mossberg 590 Shockwave Special Purpose is a unique and compact pump-action shotgun designed for close-quarters defense and tactical applications. With its short cylinder barrel and compact overall length, it offers exceptional maneuverability and ease of handling in tight spaces. Chambered in 12g."
+	icon = 'icons/obj/weapons/guns/ballistic_64x32.dmi'
+	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/weapons/guns_righthand.dmi'
+	inhand_x_dimension = 0
+	inhand_y_dimension = 0
+	icon_state = "mossberg_590"
+	inhand_icon_state = "mossberg_590"
+	fire_delay = 7
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/mossberg
+	w_class = WEIGHT_CLASS_BULKY
+	can_be_sawn_off = FALSE

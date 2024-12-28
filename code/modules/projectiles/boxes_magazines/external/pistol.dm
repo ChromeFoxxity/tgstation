@@ -41,38 +41,39 @@
 	multiple_sprite_use_base = TRUE
 
 /obj/item/ammo_box/magazine/m9mm
-	name = "pistol magazine (9mm)"
+	name = "pistol magazine (9x19mm)"
+	desc = "A pistol magazine, filled with standard lethal bullets."
 	icon_state = "9x19p"
 	base_icon_state = "9x19p"
 	ammo_type = /obj/item/ammo_casing/c9mm
 	caliber = CALIBER_9MM
 	max_ammo = 8
-	multiple_sprites = AMMO_BOX_FULL_EMPTY
+	multiple_sprites = AMMO_BOX_PER_BULLET
 	multiple_sprite_use_base = TRUE
 
 /obj/item/ammo_box/magazine/m9mm/fire
-	name = "pistol magazine (9mm incendiary)"
+	name = "pistol magazine (9x19mm Incendiary)"
 	icon_state = "9x19pI"
 	base_icon_state = "9x19pI"
-	desc = "A gun magazine. Loaded with rounds which ignite the target."
+	desc = "A pistol magazine, filled with orange-tipped bullets that are meant to ignite the target."
 	ammo_type = /obj/item/ammo_casing/c9mm/fire
 
 /obj/item/ammo_box/magazine/m9mm/hp
-	name = "pistol magazine (9mm HP)"
+	name = "pistol magazine (9x19mm Hollow-Point)"
 	icon_state = "9x19pH"
 	base_icon_state = "9x19pH"
-	desc= "A gun magazine. Loaded with hollow-point rounds, extremely effective against unarmored targets, but nearly useless against protective clothing."
+	desc= "A pistol magazine, filled with flat red-tipped bullets that expand on impact, being more deadly to softer targets."
 	ammo_type = /obj/item/ammo_casing/c9mm/hp
 
 /obj/item/ammo_box/magazine/m9mm/ap
-	name = "pistol magazine (9mm AP)"
+	name = "pistol magazine (9x19mm Armor-Piercing)"
 	icon_state = "9x19pA"
 	base_icon_state = "9x19pA"
-	desc= "A gun magazine. Loaded with rounds which penetrate armour, but are less effective against normal targets."
+	desc= "A pistol magazine, filled with Tungsten and tungsten alloyed white-tipped bullets that penetrate armor, administering bulletproof armor useless."
 	ammo_type = /obj/item/ammo_casing/c9mm/ap
 
 /obj/item/ammo_box/magazine/m9mm_aps
-	name = "stechkin pistol magazine (9mm)"
+	name = "stechkin pistol magazine (9x19mm)"
 	icon_state = "9mmaps-15"
 	base_icon_state = "9mmaps"
 	ammo_type = /obj/item/ammo_casing/c9mm

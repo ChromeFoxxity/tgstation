@@ -27,6 +27,16 @@
 	ammo_type = /obj/item/ammo_casing/shotgun/beanbag
 	max_ammo = 6
 
+/obj/item/ammo_box/magazine/internal/shot/winchester
+	name = "winchester internal magazine"
+	ammo_type = /obj/item/ammo_casing/shotgun
+	max_ammo = 6
+
+/obj/item/ammo_box/magazine/internal/shot/mossberg
+	name = "mossberg internal magazine"
+	ammo_type = /obj/item/ammo_casing/shotgun/beanbag
+	max_ammo = 5
+
 /obj/item/ammo_box/magazine/internal/shot/com/compact
 	name = "compact shotgun internal magazine"
 	max_ammo = 5

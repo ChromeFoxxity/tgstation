@@ -339,3 +339,27 @@
 	new /obj/item/clothing/under/rank/security/officer/skirt(src)
 	new /obj/item/clothing/glasses/hud/security/sunglasses(src)
 	new /obj/item/flashlight/seclite(src)
+
+/obj/structure/closet/secure_closet/lethal_shotgun
+	name = "lethal shotgun locker"
+	icon_state = "tac"
+	req_access = list(ACCESS_ARMORY)
+
+/obj/structure/closet/secure_closet/lethal_shotgun/PopulateContents()
+	..()
+	new /obj/item/gun/ballistic/shotgun/winchester_sxp(src)
+	new /obj/item/ammo_box/packet/shotgun(src)
+	new /obj/item/ammo_box/packet/shotgun/buckshot(src)
+	new /obj/item/storage/belt/bandolier(src)
+
+/obj/structure/closet/secure_closet/riot_shotgun
+	name = "riot shotgun locker"
+	icon_state = "tac"
+	req_access = list(ACCESS_ARMORY)
+
+/obj/structure/closet/secure_closet/riot_shotgun/PopulateContents()
+	..()
+	new /obj/item/gun/ballistic/shotgun/mossberg_590(src)
+	new /obj/item/ammo_box/packet/shotgun/beanbag(src)
+	new /obj/item/ammo_box/packet/shotgun/rubbershot(src)
+	new /obj/item/storage/belt/bandolier(src)

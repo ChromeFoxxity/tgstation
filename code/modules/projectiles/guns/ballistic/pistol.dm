@@ -211,32 +211,46 @@
 		to_chat(user, span_notice("..and falls into view. Whew, that was a close one."))
 		user.dropItemToGround(src)
 
-/obj/item/gun/ballistic/automatic/pistol/mk9
-	name = "MK9 Foundation pistol"
-	desc = "Standard issue 9mm pistol of the SCP Foundation. Based on the HK VP9."
-	icon_state = "MK9"
-	w_class = WEIGHT_CLASS_NORMAL
-	accepted_magazine_type = /obj/item/ammo_box/magazine/m9mm
-	spawn_magazine_type = /obj/item/ammo_box/magazine/m9mm
-	fire_delay = 3
-	can_suppress = FALSE
-	projectile_damage_multiplier = 0.75
-
-///obj/item/gun/ballistic/automatic/pistol/glock
-	//name = "Glock-18"
-	//desc = "A Glock pistol. A classic 9x25mm handgun with a small magazine capacity."
-	//icon = 'modular_skyrat/modules/modular_weapons/icons/obj/company_and_or_faction_based/nanotrasen_system_inc/pistol.dmi'
-	//icon_state = "black"
+///obj/item/gun/ballistic/automatic/pistol/mk9
+	//name = "MK9 Foundation pistol"
+	//desc = "Standard issue 9X19mm pistol of the SCP Foundation. Based on the HK VP9."
+	//icon_state = "MK9"
 	//w_class = WEIGHT_CLASS_NORMAL
 	//spread = 10
-	//fire_sound = 'sound/items/weapons/gun/pistol/shot_alt.ogg'
-	//rack_sound = 'sound/items/weapons/gun/pistol/rack.ogg'
-	//lock_back_sound = 'sound/items/weapons/gun/pistol/slide_lock.ogg'
-	//bolt_drop_sound = 'sound/items/weapons/gun/pistol/slide_drop.ogg'
-	//pin = /obj/item/firing_pin
-	//spawn_magazine_type = /obj/item/ammo_box/magazine/m9mm/rubber
-	//suppressor_x_offset = -2
-	//suppressor_y_offset = -1
+	//fire_sound = 'sound/weapons/gun/pistol/shot_alt.ogg'
+	//rack_sound = 'sound/weapons/gun/pistol/rack.ogg'
+	//lock_back_sound = 'sound/weapons/gun/pistol/slide_lock.ogg'
+	//bolt_drop_sound = 'sound/weapons/gun/pistol/slide_drop.ogg'
+	//accepted_magazine_type = /obj/item/ammo_box/magazine/m9mm
+	//spawn_magazine_type = /obj/item/ammo_box/magazine/m9mm
+	//fire_delay = 3
+	//can_suppress = FALSE
+	//projectile_damage_multiplier = 0.75
+
+/obj/item/gun/ballistic/automatic/pistol/glock
+	name = "\improper Glock-17"
+	desc = "The Glock is a brand of polymer-framed, short-recoil-operated, striker-fired, locked-breech semi-automatic pistols designed and produced by Austrian manufacturer Glock Ges.m.b.H. Chambered in 9x19mm."
+	icon = 'icons/obj/weapons/guns/ballistic_40x32.dmi'
+	icon_state = "black"
+	w_class = WEIGHT_CLASS_NORMAL
+	spread = 10
+	fire_sound = 'sound/weapons/gun/pistol/shot_alt.ogg'
+	rack_sound = 'sound/weapons/gun/pistol/rack.ogg'
+	lock_back_sound = 'sound/weapons/gun/pistol/slide_lock.ogg'
+	bolt_drop_sound = 'sound/weapons/gun/pistol/slide_drop.ogg'
+	accepted_magazine_type = /obj/item/ammo_box/magazine/m9mm
+	spawn_magazine_type = /obj/item/ammo_box/magazine/m9mm
+	suppressor_x_offset = -2
+	suppressor_y_offset = -1
+
+/obj/item/gun/ballistic/automatic/pistol/glock/spec
+	name = "\improper Glock-19"
+	desc = "The Glock is a brand of polymer-framed, short-recoil-operated, striker-fired, locked-breech semi-automatic pistols designed and produced by Austrian manufacturer Glock Ges.m.b.H. At the 2010 SHOT Show, Glock presented the 'fourth generation', now dubbed 'Gen4' by Glock itself. Updates centered on ergonomics and the recoil spring assembly. Chambered in 9x19mm."
+	icon = 'icons/obj/weapons/guns/ballistic_40x32.dmi'
+	icon_state = "silver"
+	spread = 17
+	fire_delay = 2
+	burst_size = 3
 
 /obj/item/gun/ballistic/automatic/pistol/m45a5 //From Skyrat, made by Yawet.
 	name = "M45A5"
@@ -246,7 +260,6 @@
 	fire_sound = 'sound/weapons/gun/pistol/pistol_heavy.ogg'
 	force = 15
 	fire_delay = 1 SECONDS
-	special_mags = TRUE
 	recoil = 3
 	can_suppress = FALSE
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m45a5

@@ -6,6 +6,14 @@
 	wound_bonus = -10
 	wound_falloff_tile = -10
 
+/obj/projectile/bullet/c45/rubber
+	name = ".45 rubber bullet"
+	damage = 5
+	stamina = 15
+	wound_bonus = 10
+	sharpness = NONE
+	embed_type = null
+
 /obj/projectile/bullet/c45/ap
 	name = ".45 armor-piercing bullet"
 	armour_penetration = 50
@@ -50,8 +58,8 @@
 /obj/projectile/bullet/c57x28mm/rubber
 	name = "5.7x28mm rubber bullet"
 	damage = 5
-	stamina = 35
-	wound_bonus = 20
+	stamina = 5
+	wound_bonus = 15
 	sharpness = NONE
 	embed_type = null
 

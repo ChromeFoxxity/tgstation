@@ -105,6 +105,7 @@
 
 /obj/item/ammo_box/magazine/p90
 	name = "P90 magazine (5.7x28mm)"
+	desc = "A P90 PDW magazine, filled with standard lethal bullets."
 	icon_state = "p90-50"
 	base_icon_state = "p90"
 	ammo_type = /obj/item/ammo_casing/c57x28mm
@@ -117,18 +118,21 @@
 
 /obj/item/ammo_box/magazine/p90/rubber
 	name = "P90 magazine (5.7x28mm Rubber)"
+	desc= "A P90 PDW magazine, filled with soft round blue-tipped bullets that impact targets, leaving them usually winded. Ineffective in most circumstances other than riot control."
 	icon_state = "p90r-50"
 	base_icon_state = "p90r"
 	ammo_type = /obj/item/ammo_casing/c57x28mm/rubber
 
 /obj/item/ammo_box/magazine/p90/ap
 	name = "P90 magazine (5.7x28mm Armor-Piercing)"
+	desc= "A P90 PDW magazine, filled with Tungsten and tungsten alloyed white-tipped bullets that penetrate armor, administering bulletproof armor useless."
 	icon_state = "p90ap-50"
 	base_icon_state = "p90ap"
 	ammo_type = /obj/item/ammo_casing/c57x28mm/ap
 
 /obj/item/ammo_box/magazine/p90/hp
 	name = "P90 magazine (5.7x28mm Hollow-Point)"
+	desc= "A P90 PDW magazine, filled with flat red-tipped bullets that expand on impact, being more deadly to softer targets."
 	icon_state = "p90hp-50"
 	base_icon_state = "p90hp"
 	ammo_type = /obj/item/ammo_casing/c57x28mm/hp

@@ -33,6 +33,61 @@
 	name = "\improper Central Hub Tram Station"
 	icon_state = "commons"
 
+/area/station/site75/security // Base area, Do Not Use
+	name = "Security"
+	icon_state = "security"
+	ambience_index = AMBIENCE_DANGER
+	airlock_wires = /datum/wires/airlock/security
+	sound_environment = SOUND_AREA_STANDARD_STATION
+
+/area/station/site75/security/lobby
+	name = "\improper Security Center Lobby"
+	icon_state = "security"
+
+/area/station/site75/security/office
+	name = "\improper Security Center Conference Room"
+	icon_state = "security"
+
+/area/station/site75/security/hallway
+	name = "\improper Security Center Hallway"
+	icon_state = "security"
+
+/area/station/site75/security/sergeant1
+	name = "\improper Security Sergeant Office #1"
+	icon_state = "security"
+
+/area/station/site75/security/sergeant2
+	name = "\improper Security Sergeant Office #2"
+	icon_state = "security"
+
+/area/station/site75/security/lockers
+	name = "\improper Security Center Locker Room"
+	icon_state = "securitylockerroom"
+
+/area/station/site75/security/infirmary
+	name = "\improper Security Center Infirmary"
+	icon_state = "security_medical"
+
+/area/station/site75/security/termination
+	name = "\improper Security Center Termination Room"
+	icon_state = "holding_cell"
+
+/area/station/site75/security/cells
+	name = "\improper Security Center Containment Cells"
+	icon_state = "holding_cell"
+
+/area/station/site75/security/armory
+	name = "\improper Security Center Armory"
+	icon_state = "armory"
+
+/area/station/site75/security/armory/secure
+	name = "\improper Security Center Secure Armory"
+	icon_state = "armory"
+
+/area/station/site75/security/captain
+	name = "\improper Security Captain's Office"
+	icon_state = "hos_office"
+
 /area/station/site75/service // Base area, Do Not Use
 	name = "Service"
 	icon_state = "commons"

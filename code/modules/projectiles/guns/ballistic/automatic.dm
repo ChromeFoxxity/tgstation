@@ -369,3 +369,6 @@
 	. = ..()
 	AddElement(/datum/element/update_icon_updates_onmob)
 	AddComponent(/datum/component/automatic_fire, 0.3 SECONDS)
+
+/obj/item/gun/ballistic/automatic/p90/rubber
+	spawn_magazine_type = /obj/item/ammo_box/magazine/p90/rubber
