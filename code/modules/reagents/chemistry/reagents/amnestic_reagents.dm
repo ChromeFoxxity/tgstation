@@ -256,7 +256,7 @@
 		if(6 to INFINITY)
 			affected_mob.adjust_drowsiness(4 SECONDS * REM * normalise_creation_purity() * seconds_per_tick)
 
-/datum/reagent/amnestics/classy/overdose_process(mob/living/affected_mob, seconds_per_tick, times_fired)
+/datum/reagent/amnestics/classz/overdose_process(mob/living/affected_mob, seconds_per_tick, times_fired)
 	. = ..()
 	if(affected_mob.adjustOrganLoss(ORGAN_SLOT_BRAIN, 10 * REM * seconds_per_tick * normalise_creation_purity(), required_organ_flag = affected_organ_flags))
 		return UPDATE_MOB_HEALTH
