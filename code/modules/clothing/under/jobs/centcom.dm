@@ -72,25 +72,3 @@
 	name = "tactical engineering uniform"
 	desc = "A dark colored uniform worn by CentCom's regular military engineers."
 	icon_state = "military_eng"
-
-/obj/item/clothing/under/rank/mtf/scp
-	name = "'Nine Tailed Fox' tactical uniform"
-	desc = "A tactical uniform worn by Epsilon-11 agents, it has a dark orange field suit top, with some black tactical trousers, the classic design."
-	icon = 'icons/obj/clothing/under/centcom.dmi'
-	worn_icon = 'icons/mob/clothing/under/centcom.dmi'
-	icon_state = "epsilon11"
-	armor_type = /datum/armor/clothing_under/centcom_military
-	strip_delay = 50
-	sensor_mode = SENSOR_COORDS
-	random_sensor = FALSE
-	can_adjust = FALSE
-
-/obj/item/clothing/under/rank/mtf/scp/omega1
-	name = "'Laws Left Hand' tactical uniform"
-	desc = "A tactical uniform worn by Omega-1 agents, it has a dark white field suit top, with some black tactical trousers, the classic design."
-	icon_state = "omega1"
-
-/obj/item/clothing/under/rank/mtf/scp/alpha1
-	name = "'Red Right Hand' tactical uniform"
-	desc = "A tactical uniform worn by Alpha-1 agents, it has a dark red field suit top, with some black tactical trousers, the classic design."
-	icon_state = "alpha1"

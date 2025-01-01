@@ -284,39 +284,3 @@
 	icon_state = "aerostatic_suit"
 	inhand_icon_state = null
 	can_adjust = FALSE
-
-/obj/item/clothing/under/rank/security/scp
-	name = "foundation security uniform"
-	desc = "A white, tactical security uniform with SCP insignia on it, with black shoulder and wrist markings. Weaved with a durable fabric to absorb melee hits."
-	icon_state = "scp_security"
-	inhand_icon_state = "w_suit"
-	armor_type = /datum/armor/clothing_under/rank_security
-	strip_delay = 50
-	sensor_mode = SENSOR_COORDS
-	random_sensor = FALSE
-	can_adjust = FALSE
-
-/obj/item/clothing/under/rank/security/scp/cadet
-	name = "foundation security cadet uniform"
-	desc = "A black shortsleeved shirt worn by Cadets still in training, bearing \"Trainee\" on the back of the shirt in white, with the Security Department logo on the shoulder. Also along with this is the LCZ security trousers."
-	icon_state = "scp_security_cad"
-
-/obj/item/clothing/under/rank/security/scp/sergeant
-	name = "foundation security sergeant uniform"
-	desc = "A white, tactical security uniform with SCP insignia on it. Weaved with a durable fabric to absorb melee hits. This one has a silver belt buckle, with a dirty rose color on the shoulders and wrists most known for Sergeants."
-	icon_state = "scp_security_sgt"
-
-/obj/item/clothing/under/rank/security/scp/medic
-	name = "foundation security medic uniform"
-	desc = "A white, tactical security uniform with SCP insignia on it. Weaved with a durable fabric to absorb melee hits. This one has a red cross on it, and silver belt buckle, with a deep red color on the shoulders and wrists most known for Medics."
-	icon_state = "scp_security_med"
-
-/obj/item/clothing/under/rank/security/scp/captain
-	name = "foundation security officer uniform"
-	desc = "A white, tactical security uniform with SCP insignia on it, with black shoulder and wrist markings. Weaved with a durable fabric to absorb melee hits. This one has a golden badge, and belt buckle, with a command blue color most known for Captains."
-	icon_state = "scp_security_cpt"
-
-/obj/item/clothing/under/rank/security/scp/director
-	name = "security director's uniform"
-	desc = "A white, tactical security uniform with SCP insignia on it, with gold shoulder and wrist markings. Weaved with a durable fabric to absorb melee hits. This one has a golden badge, and belt buckle, along with black slacks with a golden stripe on the leggings."
-	icon_state = "scp_security_dir"
