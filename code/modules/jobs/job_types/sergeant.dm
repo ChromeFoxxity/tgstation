@@ -45,7 +45,7 @@
 	jobtype = /datum/job/sergeant
 
 	id_trim = /datum/id_trim/job/warden
-	uniform = /obj/item/clothing/under/rank/security/scp/sergeant
+	uniform = /obj/item/clothing/under/rank/scp/security/sergeant
 	suit = /obj/item/clothing/suit/armor/vest/scp/security/sergeant
 	backpack_contents = list(
 		/obj/item/evidencebag = 1,
