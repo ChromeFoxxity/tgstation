@@ -872,6 +872,7 @@
 	icon = 'icons/obj/clothing/suits/scp_suit.dmi'
 	worn_icon = 'icons/mob/clothing/suits/scp_suit.dmi'
 	icon_state = "uiu_webbing"
+	worn_icon_state = "uiu_webbing"
 
 // GLOBAL OCCULT COALITION VESTS
 // [SCP]
