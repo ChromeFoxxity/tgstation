@@ -835,14 +835,19 @@
 	acid = 40
 	wound = 10
 
+// BASETYPE HELPERS
+// [SCP]
+
+/obj/item/clothing/suit/armor/vest/scp
+	icon = 'icons/obj/clothing/suits/scp_suit.dmi'
+	worn_icon = 'icons/mob/clothing/suits/scp_suit.dmi'
+
 // UNUSUAL INCIDENTS UNIT VESTS
 // [SCP]
 
 /obj/item/clothing/suit/armor/vest/scp/uiu
 	name = "Unusual Incidents Unit bulletproof vest"
 	desc = "A green bulletproof, there's text on the front of the vest, 'FBI'. This vest specializes in primarily bulletproof plating."
-	icon = 'icons/obj/clothing/suits/scp_suit.dmi'
-	worn_icon = 'icons/mob/clothing/suits/scp_suit.dmi'
 	icon_state = "uiu_vest"
 	body_parts_covered = CHEST|GROIN
 	cold_protection = CHEST|GROIN
@@ -874,8 +879,6 @@
 /obj/item/clothing/suit/armor/vest/scp/goc
 	name = "Global Occult Coalition compact vest"
 	desc = "A black lightweight compact armored vest, denoting the initials of the Global Occult Coalition. This vest specializes in several different defense, but primarily bulletproof plating."
-	icon = 'icons/obj/clothing/suits/scp_suit.dmi'
-	worn_icon = 'icons/mob/clothing/suits/scp_suit.dmi'
 	icon_state = "goc_vest"
 	body_parts_covered = CHEST|GROIN
 	cold_protection = CHEST|GROIN
@@ -976,8 +979,6 @@
 /obj/item/clothing/suit/armor/vest/scp/security
 	name = "foundation security vest"
 	desc = "A heavy armored vest with a white 'SCP' tag on it. Worn by Site Security Guards, it has some durathread plating in it to make it durable against melee, sadly not much else though."
-	icon = 'icons/obj/clothing/suits/scp_suit.dmi'
-	worn_icon = 'icons/mob/clothing/suits/scp_suit.dmi'
 	icon_state = "guard_vest"
 	body_parts_covered = CHEST|GROIN
 	cold_protection = CHEST|GROIN
@@ -1060,8 +1061,6 @@
 /obj/item/clothing/suit/armor/vest/scp/mtf
 	name = "tactical vest"
 	desc = "An advanced multi-plated composite vest with kevlar lining and plenty of room to move. Task Force insignia is sewn into the left pauldron, and the Task Force's nickname is sewn into the right."
-	icon = 'icons/obj/clothing/suits/scp_suit.dmi'
-	worn_icon = 'icons/mob/clothing/suits/scp_suit.dmi'
 	icon_state = "mtf_tactical"
 	body_parts_covered = CHEST|GROIN|ARMS
 	cold_protection = CHEST|GROIN|ARMS
@@ -1159,8 +1158,6 @@
 /obj/item/clothing/suit/armor/vest/scp/chaos
 	name = "Chaos Insurgency armored vest"
 	desc = "A heavy, russian type ballistic vest, mainly protecting against bullets, and not much else. It's usually used by russian military forces, but is used by the Chaos Insurgency."
-	icon = 'icons/obj/clothing/suits/scp_suit.dmi'
-	worn_icon = 'icons/mob/clothing/suits/scp_suit.dmi'
 	icon_state = "ci_vest"
 	body_parts_covered = CHEST|GROIN
 	cold_protection = CHEST|GROIN

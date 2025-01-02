@@ -13,11 +13,11 @@
 #define RADIO_KEY_ENGINEERING "e"
 #define RADIO_TOKEN_ENGINEERING ":e"
 
-#define RADIO_CHANNEL_COMMAND "Command"
+#define RADIO_CHANNEL_COMMAND "Administrative"
 #define RADIO_KEY_COMMAND "c"
 #define RADIO_TOKEN_COMMAND ":c"
 
-#define RADIO_CHANNEL_SCIENCE "Science"
+#define RADIO_CHANNEL_SCIENCE "Research"
 #define RADIO_KEY_SCIENCE "n"
 #define RADIO_TOKEN_SCIENCE ":n"
 
@@ -25,7 +25,7 @@
 #define RADIO_KEY_MEDICAL "m"
 #define RADIO_TOKEN_MEDICAL ":m"
 
-#define RADIO_CHANNEL_SUPPLY "Supply"
+#define RADIO_CHANNEL_SUPPLY "Logistics"
 #define RADIO_KEY_SUPPLY "u"
 #define RADIO_TOKEN_SUPPLY ":u"
 
@@ -46,7 +46,7 @@
 #define RADIO_KEY_SYNDICATE "t"
 #define RADIO_TOKEN_SYNDICATE ":t"
 
-#define RADIO_CHANNEL_CENTCOM "High Command"
+#define RADIO_CHANNEL_CENTCOM "Central Office"
 #define RADIO_KEY_CENTCOM "y"
 #define RADIO_TOKEN_CENTCOM ":y"
 

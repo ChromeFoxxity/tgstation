@@ -686,14 +686,72 @@
 	acid = 40
 	wound = 10
 
+// BASETYPE HELPERS
+// [SCP]
+
+/obj/item/clothing/head/helmet/scp
+	icon = 'icons/obj/clothing/head/scp_head.dmi'
+	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
+
+/obj/item/clothing/head/helmet/toggleable/scp
+	icon = 'icons/obj/clothing/head/scp_head.dmi'
+	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
+
+/obj/item/clothing/head/beret/scp
+	icon = 'icons/obj/clothing/head/scp_head.dmi'
+	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
+
+/obj/item/clothing/head/soft/scp
+	icon = 'icons/obj/clothing/head/scp_head.dmi'
+	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
+
+/obj/item/clothing/head/hats/scp
+	icon = 'icons/obj/clothing/head/scp_head.dmi'
+	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
+
+// UNUSUAL INCIDENTS UNIT HELMETS
+// [SCP]
+
+/obj/item/clothing/head/helmet/scp/uiu
+	name = "Unusual Incidents Unit helmet"
+	desc = "A green bulletproof tactical helmet, with the US flag on one of the sides, with a UIU patch on the other. This kind of helmet is usually worn by FBI raiding teams, repurposed for the UIU field agents."
+	icon_state = "uiu_helmet"
+	armor_type = /datum/armor/scp_uiu_helmet
+
+/datum/armor/scp_uiu_helmet
+	melee = 35
+	bullet = 70
+	laser = 35
+	energy = 30
+	bomb = 35
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/head/soft/scp/uiu
+	name = "Unusual Incidents Unit cap"
+	desc = "A green Unusual Incidents Unit baseball cap. Looks rather tactical, as it also has some built-in padding offering minimal protection."
+	icon_state = "uiusoft"
+	soft_type = "uiu"
+	armor_type = /datum/armor/scp_uiu_cap
+	strip_delay = 60
+
+/datum/armor/scp_uiu_cap
+	melee = 25
+	bullet = 60
+	laser = 30
+	energy = 25
+	bomb = 25
+	fire = 50
+	acid = 50
+	wound = 10
+
 // GLOBAL OCCULT COALITION HELMETS
 // [SCP]
 
 /obj/item/clothing/head/helmet/scp/goc
 	name = "Global Occult Coalition helmet"
 	desc = "A black lightweight combat helmet, with the United Nations' initials on the front usually worn by Global Occult Coalition teams. Has some bulletproof plating in it."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "goc_helmet"
 	armor_type = /datum/armor/scp_goc_helmet
 
@@ -710,8 +768,6 @@
 /obj/item/clothing/head/helmet/toggleable/scp/goc
 	name = "Global Occult Coalition heavy-plated helmet"
 	desc = "A black heavy combat helmet, with the United Nations' initials on the front usually worn by Global Occult Coalition teams, this helmet has an added cyan ballistic visor. Has some bulletproof plating in it."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "goc_heavy_helmet"
 	armor_type = /datum/armor/scp_goc_heavy_helmet
 
@@ -731,8 +787,6 @@
 /obj/item/clothing/head/soft/scp/goc
 	name = "Global Occult Coalition cap"
 	desc = "A dark blue Global Occult Coalition baseball cap. Looks rather tactical, as it also has some built-in padding offering minimal protection."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "gocsoft"
 	soft_type = "goc"
 	armor_type = /datum/armor/scp_goc_cap
@@ -751,8 +805,6 @@
 /obj/item/clothing/head/beret/scp/goc/leader
 	name = "\improper Global Occult Coalition officer beret"
 	desc = "A Global Occult Coalition beret, in the United Nations dark blue. You see a silver UNGOC logo badge on the front of it, you can feel it's armor padding, while it still keeps the classic soft clothy feel."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "goc_leaderberet"
 	greyscale_config = null
 	greyscale_config_worn = null
@@ -773,8 +825,6 @@
 /obj/item/clothing/head/beret/scp/goc
 	name = "\improper Global Occult Coalition formal beret"
 	desc = "A Global Occult Coalition beret, in the United Nations blue. You see a golden UNGOC logo badge on the front of it, meant for GOC formal occasions."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "goc_formalberet"
 	greyscale_config = null
 	greyscale_config_worn = null
@@ -798,8 +848,6 @@
 /obj/item/clothing/head/helmet/toggleable/scp/security
 	name = "\improper foundation security helmet"
 	desc = "A heavy non-descript helmet with built-in padding, and armor, primarily for riots, but can still take a bullet. It has a yellow poly-carbonate riot visor on it."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "guard_helmet"
 	toggle_message = "You pull the visor down on"
 	alt_toggle_message = "You push the visor up on"
@@ -877,8 +925,6 @@
 /obj/item/clothing/head/beret/scp/security
 	name = "foundation security beret"
 	desc = "A padded beret used by Site Security, it has a white Security Department logo on the front of it. It's got standard armor padding. But it isn't as useful as a helmet. The predicament of fashion and defense is always an issue."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "security_beret"
 	greyscale_config = null
 	greyscale_config_worn = null
@@ -934,8 +980,6 @@
 /obj/item/clothing/head/helmet/toggleable/scp/mtf
 	name = "tactical helmet"
 	desc = "A heavy ballistic helmet, with goggles that may or may not effect anything, usually worn by SCP Foundation MTF operatives, a simple but defensive approach. Dawned with SCP logos, and Task Force insignia."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "mtf_tactical_helmet"
 	toggle_message = "You pull the goggles down on"
 	alt_toggle_message = "You push the goggles up on"
@@ -956,8 +1000,6 @@
 /obj/item/clothing/head/helmet/scp/mtf
 	name = "tactical helmet"
 	desc = "A heavy ballistic helmet, usually worn by SCP Foundation MTF operatives, a simple but defensive approach. Dawned with SCP logos, and Task Force insignia."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "mtf_helmet"
 	armor_type = /datum/armor/scp_mtf_helmet
 	strip_delay = 80
@@ -965,8 +1007,6 @@
 /obj/item/clothing/head/beret/scp/mtf
 	name = "'Nine Tailed Fox' tactical beret"
 	desc = "A heavy padded beret used by MTF Epsilon-11, it's quite armored, more than traditional helmets."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "epsilon11_beret"
 	greyscale_config = null
 	greyscale_config_worn = null
@@ -1000,8 +1040,6 @@
 /obj/item/clothing/head/helmet/scp/chaos
 	name = "Chaos Insurgency helmet"
 	desc = "A russian type of ballistics helmet usually seen worn by modern russian military forces, this one is colored tan and is used by the Chaos Insurgency."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "ci_helmet"
 	armor_type = /datum/armor/scp_chaos_helmet
 
@@ -1018,8 +1056,6 @@
 /obj/item/clothing/head/helmet/toggleable/scp/chaos
 	name = "Chaos Insurgency K6-3 Altyn helmet"
 	desc = "A heavy russian type of helmet usually seen worn by modern russian military forces, this one has a face shield and is used by heavy soldiers, colored tan and is used by the Chaos Insurgency."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "ci_heavy_helmet"
 	toggle_message = "You pull the visor down on"
 	alt_toggle_message = "You push the visor up on"
@@ -1045,8 +1081,6 @@
 /obj/item/clothing/head/hats/scp/chaos
 	name = "Chaos Insurgency field cap"
 	desc = "A durable, unquestionably bulletproof russian type of field cap used by mainly officers of the russian military forces, but is repurposed by the Chaos Insurgency for their cell leaders."
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
 	icon_state = "ci_officer"
 	armor_type = /datum/armor/scp_chaos_officer
 

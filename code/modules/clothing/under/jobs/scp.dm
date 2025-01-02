@@ -72,3 +72,13 @@
 	sensor_mode = SENSOR_COORDS
 	random_sensor = FALSE
 	can_adjust = FALSE
+
+/obj/item/clothing/under/rank/scp/goc/combat
+	name = "Global Occult Coalition combat uniform"
+	desc = "Some combat-wear worn by United Nations' Global Occult Coalition PHYSICS strike teams, it's a deep dark blue field combat suit, with a black-ish blue torso. It involves a silver belt buckle, and a UNGOC emblem patch on one of the shoulders."
+	icon_state = "uiu_combat"
+	armor_type = /datum/armor/clothing_under/centcom_military
+	strip_delay = 50
+	sensor_mode = SENSOR_COORDS
+	random_sensor = FALSE
+	can_adjust = FALSE
