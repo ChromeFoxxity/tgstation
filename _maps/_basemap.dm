@@ -4,16 +4,10 @@
 
 #ifndef LOWMEMORYMODE
 	#ifdef ALL_MAPS
-		#include "map_files\Birdshot\birdshot.dmm"
 		#include "map_files\debug\multiz.dmm"
 		#include "map_files\debug\runtimestation.dmm"
-		#include "map_files\Deltastation\DeltaStation2.dmm"
-		#include "map_files\IceBoxStation\IceBoxStation.dmm"
-		#include "map_files\MetaStation\MetaStation.dmm"
 		#include "map_files\Mining\Lavaland.dmm"
-		#include "map_files\tramstation\tramstation.dmm"
-		#include "map_files\NebulaStation\NebulaStation.dmm"
-		#include "map_files\wawastation\wawastation.dmm"
+		#include "modular_f19\maps\map_files\Site53\site53-1.dmm"
 
 		#ifdef CIBUILDING
 			#include "templates.dm"

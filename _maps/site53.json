@@ -1,0 +1,60 @@
+{
+	"version": 1,
+	"map_name": "Site 53",
+	"map_path": "map_files/Site53",
+	"map_file": "site53-1.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"planetary": 1,
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_meta",
+		"emergency": "emergency_meta"
+	},
+	"orbit_shift_replacement": "Attention staff, it appears that someone has broadcasted news on a frequency about this site's location, expect more threats than usual.",
+	"traits": [
+		{
+			"Up": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Site Ruins": true,
+			"Baseturf": "/turf/open/misc/asteroid",
+			"No Parallax": true
+		},
+		{
+			"Down": true,
+			"Up": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/openspace",
+			"No Parallax": true
+		},
+		{
+			"Down": true,
+			"Up": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/openspace",
+			"No Parallax": true
+		},
+		{
+			"Down": true,
+			"Mining": false,
+			"Linkage": null,
+			"Gravity": true,
+			"Ice Ruins": false,
+			"Weather_Snowstorm": true,
+			"Baseturf": "/turf/open/openspace",
+			"No Parallax": true
+		}
+	],
+	"job_changes": {
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/service/bar", "/area/station/commons/lounge"]
+		},
+		"Captain": {
+			"special_charter": "site"
+		}
+	}
+}
