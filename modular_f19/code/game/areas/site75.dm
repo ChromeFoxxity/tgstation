@@ -55,10 +55,12 @@
 /area/station/site75/security/sergeant1
 	name = "\improper Security Sergeant Office #1"
 	icon_state = "security"
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/site75/security/sergeant2
 	name = "\improper Security Sergeant Office #2"
 	icon_state = "security"
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/site75/security/lockers
 	name = "\improper Security Center Locker Room"
@@ -70,6 +72,10 @@
 
 /area/station/site75/security/termination
 	name = "\improper Security Center Termination Room"
+	icon_state = "holding_cell"
+
+/area/station/site75/security/amnestic
+	name = "\improper Security Center Amnestic Room"
 	icon_state = "holding_cell"
 
 /area/station/site75/security/cells
@@ -86,7 +92,32 @@
 
 /area/station/site75/security/captain
 	name = "\improper Security Captain's Office"
-	icon_state = "hos_office"
+	icon_state = "warden"
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+
+/area/station/site75/security/processing
+	name = "\improper Security Center Processing"
+	icon_state = "security"
+
+/area/station/site75/security/processing_office
+	name = "\improper Security Center Processing Officer"
+	icon_state = "security"
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+
+/area/station/site75/security/firing_range
+	name = "\improper Security Center Firing Range"
+	icon_state = "firingrange"
+
+/area/station/site75/security/interrogation
+	name = "\improper Security Center Interrogation"
+	icon_state = "interrogation"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+
+/area/station/site75/security/morgue
+	name = "\improper Security Center Morgue"
+	icon_state = "security"
+	ambience_index = AMBIENCE_SPOOKY
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/site75/service // Base area, Do Not Use
 	name = "Service"
