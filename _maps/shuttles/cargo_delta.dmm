@@ -204,6 +204,11 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/supply)
+"Z" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron,
+/area/shuttle/supply)
 
 (1,1,1) = {"
 a
@@ -268,7 +273,7 @@ i
 h
 h
 h
-h
+Z
 h
 v
 y

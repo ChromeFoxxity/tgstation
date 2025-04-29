@@ -53,12 +53,22 @@
 	icon_state = "security"
 
 /area/station/site75/security/sergeant1
-	name = "\improper Security Sergeant Office #1"
+	name = "\improper Security Sergeant's Office #1"
 	icon_state = "security"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/site75/security/sergeant2
-	name = "\improper Security Sergeant Office #2"
+	name = "\improper Security Sergeant's Office #2"
+	icon_state = "security"
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+
+/area/station/site75/security/lieutenant1
+	name = "\improper Security Lieutenant's Office #1"
+	icon_state = "security"
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+
+/area/station/site75/security/lieutenant2
+	name = "\improper Security Lieutenant's Office #2"
 	icon_state = "security"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
@@ -343,7 +353,7 @@
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/site75/engineering/storage
-	name = "Engineering Storage"
+	name = "\improper Engineering Storage"
 	icon_state = "engine_storage"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
@@ -363,3 +373,51 @@
 	name = "\improper Engineering Director's Office"
 	icon_state = "ce_office"
 	airlock_wires = /datum/wires/airlock/command
+
+/area/station/site75/administrative // Base area, Do Not Use
+	name = "Administrative"
+	icon_state = "command"
+	ambientsounds = list(
+		'sound/ambience/misc/signal.ogg',
+		)
+	airlock_wires = /datum/wires/airlock/command
+	sound_environment = SOUND_AREA_STANDARD_STATION
+
+/area/station/site75/administrative/public_hall
+	name = "\improper Administrative Zone Public Hall"
+	icon_state = "command"
+
+/area/station/site75/administrative/conference
+	name = "\improper Administrative Conference Room"
+	icon_state = "meeting"
+	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
+
+/area/station/site75/administrative/security
+	name = "\improper Administrative Security Checkpoint"
+	icon_state = "security"
+	ambience_index = AMBIENCE_DANGER
+	airlock_wires = /datum/wires/airlock/security
+
+/area/station/site75/administrative/teleporter
+	name = "\improper Administrative Experimental Teleporter Room"
+	icon_state = "teleporter"
+	ambience_index = AMBIENCE_ENGI
+
+/area/station/site75/administrative/gateway
+	name = "\improper Administrative Gateway Room"
+	icon_state = "gateway"
+	ambience_index = AMBIENCE_ENGI
+
+/area/station/site75/administrative/goc_rep
+	name = "\improper Global Occult Coalition Representative's Office"
+	icon_state = "command"
+	sound_environment = SOUND_AREA_WOODFLOOR
+
+/area/station/site75/administrative/ecl
+	name = "\improper Ethics Committee Liaison's Office"
+	icon_state = "command"
+	sound_environment = SOUND_AREA_WOODFLOOR
+
+/area/station/site75/administrative/site_manager
+	name = "\improper Site Manager's Office"
+	icon_state = "hop_office"

@@ -5,6 +5,10 @@
 	name = "Security Captain"
 	icon_state = "Security Captain"
 
+/obj/effect/landmark/start/scp/security_lt
+	name = "Security Lieutenant"
+	icon_state = "Security Lieutenant"
+
 /obj/effect/landmark/start/scp/security_sgt
 	name = "Security Sergeant"
 	icon_state = "Security Sergeant"

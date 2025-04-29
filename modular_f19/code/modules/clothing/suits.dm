@@ -162,8 +162,8 @@
 	wound = 10
 
 /obj/item/clothing/suit/armor/vest/scp/security/sergeant
-	name = "medium-plated foundation security vest"
-	desc = "A heavy armored vest with some additional shoulder pads to protect the arms, as well as white rank tabs on the shoulders, and a white 'SCP' tag on the vest. Worn by Site Security NCOs, it has some durathread plating in it to make it durable against melee, with some slight defense for other types."
+	name = "light-plated foundation security vest"
+	desc = "A armored vest with some additional shoulder pads to protect the arms, as well as white rank tabs on the shoulders, and a white 'SCP' tag on the vest. Worn by Site Security NCOs, it has some durathread plating in it to make it durable against melee, with some slight defense for other types."
 	icon_state = "sgt_guard_vest"
 	body_parts_covered = CHEST|GROIN|ARMS
 	cold_protection = CHEST|GROIN|ARMS
@@ -198,16 +198,46 @@
 	acid = 50
 	wound = 10
 
+/obj/item/clothing/suit/armor/vest/scp/security/lieutenant
+	name = "medium-plated foundation security vest"
+	desc = "A hefty armored vest with added shoulder armor and kneepads for semi-full body coverage, as well as silver rank tabs on the shoulderpads, and a silver 'SCP' tag on the vest. Worn by the Site Security Lieutenants, it has some durathread plating in it to make it the most durable against melee, with some minor protection against other damage types."
+	icon_state = "lt_guard_vest"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS
+	armor_type = /datum/armor/scp_security_lt_vest
+	strip_delay = 80
+	equip_delay_other = 60
+
+/datum/armor/scp_security_lt_vest
+	melee = 60
+	bullet = 40
+	laser = 40
+	energy = 40
+	bomb = 40
+	fire = 50
+	acid = 50
+	wound = 10
+
 /obj/item/clothing/suit/armor/vest/scp/security/captain
 	name = "heavy-plated foundation security vest"
 	desc = "A heavy armored vest with added arm and hand armor and kneepads for full body coverage, as well as golden rank tabs on the arms, and a golden 'SCP' tag on the vest. Worn by the Site Security Captain, it has some durathread plating in it to make it the most durable against melee, with some protection against other damage types."
 	icon_state = "cpt_guard_vest"
-	body_parts_covered = CHEST|GROIN|LEGS|ARMS|HANDS
-	cold_protection = CHEST|GROIN|LEGS|ARMS|HANDS
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	armor_type = /datum/armor/scp_security_cap_vest
 	strip_delay = 80
 	equip_delay_other = 60
 	clothing_traits = list(TRAIT_BRAWLING_KNOCKDOWN_BLOCKED)
-	armor_type = /datum/armor/scp_security_cap_vest
+
+/obj/item/clothing/suit/armor/vest/scp/security/captain/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/adjust_fishing_difficulty, 5)
+	init_rustle_component()
+
+/obj/item/clothing/suit/armor/vest/scp/security/captain/proc/init_rustle_component()
+	AddComponent(/datum/component/item_equipped_movement_rustle)
 
 /datum/armor/scp_security_cap_vest
 	melee = 65

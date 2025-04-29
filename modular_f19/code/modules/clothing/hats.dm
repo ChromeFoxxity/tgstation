@@ -171,6 +171,16 @@
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
 	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
 	clothing_traits = list(TRAIT_HEAD_INJURY_BLOCKED)
+	sound_vary = TRUE
+	equip_sound = 'sound/items/handling/helmet/helmet_equip1.ogg'
+	pickup_sound = 'sound/items/handling/helmet/helmet_pickup1.ogg'
+	drop_sound = 'sound/items/handling/helmet/helmet_drop1.ogg'
+	visor_toggle_up_sound = SFX_VISOR_UP
+	visor_toggle_down_sound = SFX_VISOR_DOWN
+
+/obj/item/clothing/head/helmet/toggleable/scp/security/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/adjust_fishing_difficulty, 2)
 
 /datum/armor/scp_security_helmet
 	melee = 55
@@ -178,22 +188,6 @@
 	laser = 30
 	energy = 35
 	bomb = 25
-	fire = 50
-	acid = 50
-	wound = 10
-
-/obj/item/clothing/head/helmet/toggleable/scp/security/sergeant
-	name = "\improper medium-plated foundation security helmet"
-	desc = "A heavy non-descript helmet with slightly more built-in padding, and armor, primarily for riots, but can still take a bullet. The white stripe along the helmet incidates the rank of 'Sergeant', looks sub-par. It has a yellow poly-carbonate riot visor on it."
-	icon_state = "sgt_guard_helmet"
-	armor_type = /datum/armor/scp_security_med_helmet
-
-/datum/armor/scp_security_sgt_helmet
-	melee = 60
-	bullet = 35
-	laser = 35
-	energy = 35
-	bomb = 30
 	fire = 50
 	acid = 50
 	wound = 10
@@ -211,6 +205,22 @@
 	energy = 45
 	bomb = 25
 	bio = 50
+	fire = 50
+	acid = 50
+	wound = 10
+
+/obj/item/clothing/head/helmet/toggleable/scp/security/lieutenant
+	name = "\improper medium-plated foundation security helmet"
+	desc = "A heavy non-descript helmet with slightly more built-in padding, and armor, primarily for riots, but can still take a bullet. The silver stripe along the helmet incidates the rank of 'Lieutenant', looks sub-par. It has a yellow poly-carbonate riot visor on it."
+	icon_state = "lt_guard_helmet"
+	armor_type = /datum/armor/scp_security_lt_helmet
+
+/datum/armor/scp_security_lt_helmet
+	melee = 60
+	bullet = 35
+	laser = 35
+	energy = 35
+	bomb = 30
 	fire = 50
 	acid = 50
 	wound = 10

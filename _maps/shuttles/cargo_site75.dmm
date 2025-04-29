@@ -1,0 +1,278 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/window/reinforced/shuttle,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/shuttle/supply)
+"c" = (
+/obj/machinery/computer/old{
+	dir = 8;
+	icon_screen = "supply";
+	name = "supply order console";
+	desc = "Used to manage and control what a facility has ordered."
+	},
+/obj/effect/turf_decal/tile/brown/anticorner/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/supply)
+"e" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/supply)
+"i" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/structure/rack,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/supply)
+"m" = (
+/obj/structure/grille,
+/obj/machinery/light/small/red/directional/east,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/supply)
+"p" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/supply)
+"q" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters{
+	dir = 8;
+	name = "Cargo Helicopter Shutters";
+	id = "cargoheli1"
+	},
+/obj/machinery/button/door/directional/south{
+	id = "cargoheli1";
+	name = "Cargo Helicopter Shutters Control"
+	},
+/turf/open/floor/iron/dark/textured_half{
+	dir = 1
+	},
+/area/shuttle/supply)
+"s" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters{
+	dir = 4;
+	name = "Cargo Helicopter Shutters";
+	id = "cargoheli2"
+	},
+/turf/open/floor/iron/dark/textured_half{
+	dir = 1
+	},
+/area/shuttle/supply)
+"t" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/supply)
+"u" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/supply)
+"w" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters{
+	dir = 4;
+	name = "Cargo Helicopter Shutters";
+	id = "cargoheli2"
+	},
+/obj/machinery/button/door/directional/south{
+	id = "cargoheli2";
+	name = "Cargo Helicopter Shutters Control"
+	},
+/turf/open/floor/iron/dark/textured_half{
+	dir = 1
+	},
+/area/shuttle/supply)
+"A" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/server,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/supply)
+"C" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters{
+	dir = 8;
+	name = "Cargo Helicopter Shutters";
+	id = "cargoheli1"
+	},
+/turf/open/floor/iron/dark/textured_half{
+	dir = 1
+	},
+/area/shuttle/supply)
+"I" = (
+/obj/machinery/computer/old{
+	icon_keyboard = "tech_key";
+	icon_screen = "shuttle";
+	name = "Cargo Helicopter Control Console";
+	desc = "Used to control the Cargo Helicopter."
+	},
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/turf/open/floor/iron/smooth,
+/area/shuttle/supply)
+"K" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
+	},
+/obj/item/cardboard_cutout{
+	starting_cutout = "Private Security Officer"
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/supply)
+"N" = (
+/obj/machinery/door/window/survival_pod/left/directional/south{
+	name = "Cargo Helicopter Cockpit"
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth,
+/area/shuttle/supply)
+"O" = (
+/obj/machinery/computer/old{
+	icon_keyboard = "security_key";
+	icon_screen = "cameras";
+	name = "Cargo Helicopter Navigation Computer";
+	desc = "Used to designate a precise transit location for the Cargo Helicopter.";
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/supply)
+"P" = (
+/obj/structure/grille,
+/obj/machinery/light/small/red/directional/west,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/supply)
+"U" = (
+/obj/structure/grille,
+/obj/docking_port/mobile/supply{
+	dir = 1;
+	port_direction = 8
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/supply)
+"X" = (
+/turf/template_noop,
+/area/template_noop)
+"Y" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/structure/rack,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/supply)
+
+(1,1,1) = {"
+X
+a
+a
+e
+C
+q
+e
+e
+e
+X
+X
+X
+X
+X
+"}
+(2,1,1) = {"
+a
+a
+O
+Y
+p
+p
+t
+p
+e
+e
+X
+X
+m
+X
+"}
+(3,1,1) = {"
+a
+I
+K
+N
+p
+p
+p
+p
+A
+e
+e
+e
+e
+U
+"}
+(4,1,1) = {"
+a
+a
+c
+i
+p
+p
+u
+p
+e
+e
+X
+X
+P
+X
+"}
+(5,1,1) = {"
+X
+a
+a
+e
+s
+w
+e
+e
+e
+X
+X
+X
+X
+X
+"}

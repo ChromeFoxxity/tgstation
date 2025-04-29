@@ -164,6 +164,14 @@
 	glass = TRUE
 	normal_integrity = 400
 
+/obj/machinery/door/airlock/research/old
+	icon = 'modular_f19/icons/obj/airlocks/station/research2.dmi'
+	assemblytype = /obj/structure/door_assembly/door_assembly_research/old
+
+/obj/machinery/door/airlock/research/old/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/engineering
 	icon = 'modular_f19/icons/obj/airlocks/station/engineering.dmi'
 
@@ -213,6 +221,14 @@
 	opacity = FALSE
 	glass = TRUE
 
+/obj/machinery/door/airlock/robotics
+	icon = 'modular_f19/icons/obj/airlocks/station/robotics.dmi'
+	assemblytype = /obj/structure/door_assembly/door_assembly_robotics
+
+/obj/machinery/door/airlock/robotics/glass
+	opacity = FALSE
+	glass = TRUE
+
 /obj/machinery/door/airlock/captain
 	icon = 'modular_f19/icons/obj/airlocks/cap.dmi'
 
@@ -223,6 +239,14 @@
 	icon = 'modular_f19/icons/obj/airlocks/hos.dmi'
 
 /obj/machinery/door/airlock/hos/glass
+	opacity = FALSE
+	glass = TRUE
+	normal_integrity = 400
+
+/obj/machinery/door/airlock/hos/old
+	icon = 'modular_f19/icons/obj/airlocks/hos_old.dmi'
+
+/obj/machinery/door/airlock/hos/old/glass
 	opacity = FALSE
 	glass = TRUE
 	normal_integrity = 400
@@ -255,6 +279,22 @@
 	icon = 'modular_f19/icons/obj/airlocks/cmo.dmi'
 
 /obj/machinery/door/airlock/cmo/glass
+	opacity = FALSE
+	glass = TRUE
+	normal_integrity = 400
+
+/obj/machinery/door/airlock/ecl
+	icon = 'modular_f19/icons/obj/airlocks/ecl.dmi'
+
+/obj/machinery/door/airlock/ecl/glass
+	opacity = FALSE
+	glass = TRUE
+	normal_integrity = 400
+
+/obj/machinery/door/airlock/itdo
+	icon = 'modular_f19/icons/obj/airlocks/itdo.dmi'
+
+/obj/machinery/door/airlock/itdo/glass
 	opacity = FALSE
 	glass = TRUE
 	normal_integrity = 400
@@ -409,6 +449,9 @@
 /obj/structure/door_assembly/door_assembly_sec/old
 	icon = 'modular_f19/icons/obj/airlocks/station/security2.dmi'
 
+/obj/structure/door_assembly/door_assembly_research/old
+	icon = 'modular_f19/icons/obj/airlocks/station/research2.dmi'
+
 /obj/structure/door_assembly/door_assembly_eng
 	icon = 'modular_f19/icons/obj/airlocks/station/engineering.dmi'
 
@@ -420,6 +463,9 @@
 
 /obj/structure/door_assembly/door_assembly_research
 	icon = 'modular_f19/icons/obj/airlocks/station/research.dmi'
+
+/obj/structure/door_assembly/door_assembly_robotics
+	icon = 'modular_f19/icons/obj/airlocks/station/robotics.dmi'
 
 /obj/structure/door_assembly/door_assembly_science
 	icon = 'modular_f19/icons/obj/airlocks/station/science.dmi'
@@ -506,46 +552,64 @@
 	airlock_type = /obj/machinery/door/airlock/service
 
 /obj/structure/door_assembly/door_assembly_captain
-	name = "captain airlock assembly"
+	name = "site director airlock assembly"
 	icon = 'modular_f19/icons/obj/airlocks/cap.dmi'
 	glass_type = /obj/machinery/door/airlock/command/glass
 	airlock_type = /obj/machinery/door/airlock/captain
 
 /obj/structure/door_assembly/door_assembly_hop
-	name = "head of personnel airlock assembly"
+	name = "site manager airlock assembly"
 	icon = 'modular_f19/icons/obj/airlocks/hop.dmi'
 	glass_type = /obj/machinery/door/airlock/command/glass
 	airlock_type = /obj/machinery/door/airlock/hop
 
 /obj/structure/door_assembly/hos
-	name = "head of security airlock assembly"
+	name = "security captain airlock assembly"
 	icon = 'modular_f19/icons/obj/airlocks/hos.dmi'
 	glass_type = /obj/machinery/door/airlock/hos/glass
 	airlock_type = /obj/machinery/door/airlock/hos
 
 /obj/structure/door_assembly/door_assembly_cmo
-	name = "chief medical officer airlock assembly"
+	name = "medical director airlock assembly"
 	icon = 'modular_f19/icons/obj/airlocks/cmo.dmi'
 	glass_type = /obj/machinery/door/airlock/cmo/glass
 	airlock_type = /obj/machinery/door/airlock/cmo
 
 /obj/structure/door_assembly/door_assembly_ce
-	name = "chief engineer airlock assembly"
+	name = "engineering director airlock assembly"
 	icon = 'modular_f19/icons/obj/airlocks/ce.dmi'
 	glass_type = /obj/machinery/door/airlock/ce/glass
 	airlock_type = /obj/machinery/door/airlock/ce
 
 /obj/structure/door_assembly/door_assembly_rd
-	name = "research director airlock assembly"
+	name = "science director airlock assembly"
 	icon = 'modular_f19/icons/obj/airlocks/rd.dmi'
 	glass_type = /obj/machinery/door/airlock/rd/glass
 	airlock_type = /obj/machinery/door/airlock/rd
 
 /obj/structure/door_assembly/door_assembly_qm
-	name = "quartermaster airlock assembly"
+	name = "logistics officer airlock assembly"
 	icon = 'modular_f19/icons/obj/airlocks/qm.dmi'
 	glass_type = /obj/machinery/door/airlock/qm/glass
 	airlock_type = /obj/machinery/door/airlock/qm
+
+/obj/structure/door_assembly/door_assembly_itdo
+	name = "internal tribunal officer airlock assembly"
+	icon = 'modular_f19/icons/obj/airlocks/itdo.dmi'
+	glass_type = /obj/machinery/door/airlock/itdo/glass
+	airlock_type = /obj/machinery/door/airlock/itdo
+
+/obj/structure/door_assembly/door_assembly_ecl
+	name = "ethics committee liaison airlock assembly"
+	icon = 'modular_f19/icons/obj/airlocks/ecl.dmi'
+	glass_type = /obj/machinery/door/airlock/ecl/glass
+	airlock_type = /obj/machinery/door/airlock/ecl
+
+/obj/structure/door_assembly/door_assembly_hos_old
+	name = "command security airlock assembly"
+	icon = 'modular_f19/icons/obj/airlocks/hos_old.dmi'
+	glass_type = /obj/machinery/door/airlock/hos/old/glass
+	airlock_type = /obj/machinery/door/airlock/hos/old
 
 /obj/structure/door_assembly/door_assembly_psych
 	name = "psychologist airlock assembly"

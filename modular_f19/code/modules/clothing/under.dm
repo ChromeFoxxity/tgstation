@@ -48,13 +48,18 @@
 	desc = "A white, tactical security uniform with SCP insignia on it. Weaved with a durable fabric to absorb melee hits. This one has a red cross on it, and silver belt buckle, with a deep red color on the shoulders and wrists most known for Medics."
 	icon_state = "scp_security_med"
 
+/obj/item/clothing/under/rank/scp/security/lieutenant
+	name = "foundation security junior officer uniform"
+	desc = "A white, tactical security uniform with SCP insignia on it. Weaved with a durable fabric to absorb melee hits. This one has a silver badge on it, and silver belt buckle, with a deep blue color on the shoulders and wrists most known for Lieutenants."
+	icon_state = "scp_security_lt"
+
 /obj/item/clothing/under/rank/scp/security/captain
 	name = "foundation security officer uniform"
-	desc = "A white, tactical security uniform with SCP insignia on it, with black shoulder and wrist markings. Weaved with a durable fabric to absorb melee hits. This one has a golden badge, and belt buckle, with a command blue color most known for Captains."
+	desc = "A white, tactical security uniform with SCP insignia on it. Weaved with a durable fabric to absorb melee hits. This one has a golden badge on it, and golden belt buckle, with a deep blue color on the shoulders and wrists most known for Captains."
 	icon_state = "scp_security_cpt"
 
-/obj/item/clothing/under/rank/scp/security/director
-	name = "security director's uniform"
+/obj/item/clothing/under/rank/scp/security/captain/formal
+	name = "security captain's formal uniform"
 	desc = "A white, tactical security uniform with SCP insignia on it, with gold shoulder and wrist markings. Weaved with a durable fabric to absorb melee hits. This one has a golden badge, and belt buckle, along with black slacks with a golden stripe on the leggings."
 	icon_state = "scp_security_dir"
 
