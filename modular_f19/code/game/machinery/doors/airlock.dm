@@ -291,6 +291,30 @@
 	glass = TRUE
 	normal_integrity = 400
 
+/obj/machinery/door/airlock/goc
+	icon = 'modular_f19/icons/obj/airlocks/goc.dmi'
+
+/obj/machinery/door/airlock/goc/glass
+	opacity = FALSE
+	glass = TRUE
+	normal_integrity = 400
+
+/obj/machinery/door/airlock/uiu
+	icon = 'modular_f19/icons/obj/airlocks/uiu.dmi'
+
+/obj/machinery/door/airlock/uiu/glass
+	opacity = FALSE
+	glass = TRUE
+	normal_integrity = 400
+
+/obj/machinery/door/airlock/is
+	icon = 'modular_f19/icons/obj/airlocks/is.dmi'
+
+/obj/machinery/door/airlock/is/glass
+	opacity = FALSE
+	glass = TRUE
+	normal_integrity = 400
+
 /obj/machinery/door/airlock/itdo
 	icon = 'modular_f19/icons/obj/airlocks/itdo.dmi'
 
@@ -604,6 +628,24 @@
 	icon = 'modular_f19/icons/obj/airlocks/ecl.dmi'
 	glass_type = /obj/machinery/door/airlock/ecl/glass
 	airlock_type = /obj/machinery/door/airlock/ecl
+
+/obj/structure/door_assembly/door_assembly_goc
+	name = "global occult coalition airlock assembly"
+	icon = 'modular_f19/icons/obj/airlocks/goc.dmi'
+	glass_type = /obj/machinery/door/airlock/goc/glass
+	airlock_type = /obj/machinery/door/airlock/goc
+
+/obj/structure/door_assembly/door_assembly_uiu
+	name = "unusual incidents unit airlock assembly"
+	icon = 'modular_f19/icons/obj/airlocks/uiu.dmi'
+	glass_type = /obj/machinery/door/airlock/uiu/glass
+	airlock_type = /obj/machinery/door/airlock/uiu
+
+/obj/structure/door_assembly/door_assembly_is
+	name = "intake specialist airlock assembly"
+	icon = 'modular_f19/icons/obj/airlocks/is.dmi'
+	glass_type = /obj/machinery/door/airlock/is/glass
+	airlock_type = /obj/machinery/door/airlock/is
 
 /obj/structure/door_assembly/door_assembly_hos_old
 	name = "command security airlock assembly"

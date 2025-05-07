@@ -102,7 +102,8 @@
 
 /area/station/site75/security/captain
 	name = "\improper Security Captain's Office"
-	icon_state = "warden"
+	icon_state = "hos_office"
+	airlock_wires = /datum/wires/airlock/command
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/site75/security/processing
@@ -128,6 +129,12 @@
 	icon_state = "security"
 	ambience_index = AMBIENCE_SPOOKY
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+
+/area/station/site75/security/itdo
+	name = "\improper Internal Tribunal Officer's Office"
+	icon_state = "warden"
+	airlock_wires = /datum/wires/airlock/command
+	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/station/site75/service // Base area, Do Not Use
 	name = "Service"
@@ -387,6 +394,10 @@
 	name = "\improper Administrative Zone Public Hall"
 	icon_state = "command"
 
+/area/station/site75/administrative/division_hall
+	name = "\improper Administrative Zone Division Hall"
+	icon_state = "command"
+
 /area/station/site75/administrative/conference
 	name = "\improper Administrative Conference Room"
 	icon_state = "meeting"
@@ -394,6 +405,12 @@
 
 /area/station/site75/administrative/security
 	name = "\improper Administrative Security Checkpoint"
+	icon_state = "security"
+	ambience_index = AMBIENCE_DANGER
+	airlock_wires = /datum/wires/airlock/security
+
+/area/station/site75/administrative/security_office
+	name = "\improper Administrative Security Office"
 	icon_state = "security"
 	ambience_index = AMBIENCE_DANGER
 	airlock_wires = /datum/wires/airlock/security
@@ -413,6 +430,11 @@
 	icon_state = "command"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
+/area/station/site75/administrative/uiu_rep
+	name = "\improper Unusual Incidents Unit Representative's Office"
+	icon_state = "command"
+	sound_environment = SOUND_AREA_WOODFLOOR
+
 /area/station/site75/administrative/ecl
 	name = "\improper Ethics Committee Liaison's Office"
 	icon_state = "command"
@@ -421,3 +443,8 @@
 /area/station/site75/administrative/site_manager
 	name = "\improper Site Manager's Office"
 	icon_state = "hop_office"
+
+/area/station/site75/administrative/is
+	name = "\improper Intake Officer's Office"
+	icon_state = "command"
+	sound_environment = SOUND_AREA_WOODFLOOR

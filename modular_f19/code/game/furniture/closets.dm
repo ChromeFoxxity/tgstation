@@ -141,6 +141,8 @@
 	icon_state = "goc"
 	req_access = list()
 
-/obj/structure/closet/secure_closet/scp/gocrep/PopulateContents()
-	..()
-	new /obj/item/gun/ballistic/shotgun/winchester_sxp(src)
+/obj/structure/closet/secure_closet/scp/uiurep
+	name = "unusual incidents unit representative's locker"
+	icon_state = "uiu"
+	req_access = list()
+
