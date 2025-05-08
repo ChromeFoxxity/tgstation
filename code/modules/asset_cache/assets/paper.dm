@@ -18,5 +18,15 @@
 		"stamp-centcom" = 'icons/stamp_icons/large_stamp-centcom.png',
 		"stamp-syndicate" = 'icons/stamp_icons/large_stamp-syndicate.png',
 		"stamp-lcz" = 'icons/stamp_icons/large_stamp-lcz.png',
-		"stamp-ec" = 'icons/stamp_icons/large_stamp-ec.png'
+		"stamp-az" = 'icons/stamp_icons/large_stamp-az.png',
+		"stamp-ec" = 'icons/stamp_icons/large_stamp-ethics.png',
+		"stamp-scd" = 'icons/stamp_icons/large_stamp-scddir.png',
+		"stamp-sdcap" = 'icons/stamp_icons/large_stamp-sdcap.png',
+		"stamp-md" = 'icons/stamp_icons/large_stamp-mddir.png',
+		"stamp-ed" = 'icons/stamp_icons/large_stamp-eddir.png',
+		"stamp-sm" = 'icons/stamp_icons/large_stamp-sm.png',
+		"stamp-lo" = 'icons/stamp_icons/large_stamp-lo.png',
+		"stamp-sd" = 'icons/stamp_icons/large_stamp-sd.png',
+		"stamp-goc" = 'icons/stamp_icons/large_stamp-goc.png',
+		"stamp-uiu" = 'icons/stamp_icons/large_stamp-uiu.png'
 	)

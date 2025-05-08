@@ -39,41 +39,6 @@
 	// All maps should have at least 1 of each head of staff stamp
 	REGISTER_REQUIRED_MAP_ITEM(1, INFINITY)
 
-/obj/item/stamp/head/captain
-	name = "captain's rubber stamp"
-	icon_state = "stamp-cap"
-	dye_color = DYE_CAPTAIN
-
-/obj/item/stamp/head/hop
-	name = "head of personnel's rubber stamp"
-	icon_state = "stamp-hop"
-	dye_color = DYE_HOP
-
-/obj/item/stamp/head/hos
-	name = "head of security's rubber stamp"
-	icon_state = "stamp-hos"
-	dye_color = DYE_HOS
-
-/obj/item/stamp/head/ce
-	name = "chief engineer's rubber stamp"
-	icon_state = "stamp-ce"
-	dye_color = DYE_CE
-
-/obj/item/stamp/head/rd
-	name = "research director's rubber stamp"
-	icon_state = "stamp-rd"
-	dye_color = DYE_RD
-
-/obj/item/stamp/head/cmo
-	name = "chief medical officer's rubber stamp"
-	icon_state = "stamp-cmo"
-	dye_color = DYE_CMO
-
-/obj/item/stamp/head/qm
-	name = "quartermaster's rubber stamp"
-	icon_state = "stamp-qm"
-	dye_color = DYE_QM
-
 /obj/item/stamp/denied
 	name = "\improper DENIED rubber stamp"
 	icon_state = "stamp-deny"

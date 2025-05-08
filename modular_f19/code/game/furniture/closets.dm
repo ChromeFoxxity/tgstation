@@ -123,18 +123,10 @@
 	icon_state = "ecl"
 	req_access = list()
 
-/obj/structure/closet/secure_closet/scp/ecl/PopulateContents()
-	..()
-	new /obj/item/gun/ballistic/shotgun/winchester_sxp(src)
-
 /obj/structure/closet/secure_closet/scp/itdo
 	name = "internal tribunal officer's locker"
 	icon_state = "itdo"
 	req_access = list()
-
-/obj/structure/closet/secure_closet/scp/itdo/PopulateContents()
-	..()
-	new /obj/item/gun/ballistic/shotgun/winchester_sxp(src)
 
 /obj/structure/closet/secure_closet/scp/gocrep
 	name = "global occult coalition representative's locker"
@@ -146,3 +138,60 @@
 	icon_state = "uiu"
 	req_access = list()
 
+/obj/structure/closet/secure_closet/scp/is
+	name = "intake specialist's locker"
+	icon_state = "is"
+	req_access = list()
+
+/obj/structure/closet/secure_closet/scp/science_director
+	name = "scientific director's locker"
+	icon_state = "scd_dir"
+	req_access = list()
+
+/obj/structure/closet/secure_closet/scp/science_director/PopulateContents()
+	..()
+
+	new /obj/item/clothing/suit/bio_suit/scientist(src)
+	new /obj/item/clothing/head/bio_hood/scientist(src)
+	new /obj/item/storage/bag/garment/research_director(src)
+	new /obj/item/computer_disk/command/rd(src)
+	new /obj/item/radio/headset/heads/rd(src)
+	new /obj/item/megaphone/command(src)
+	new /obj/item/storage/lockbox/medal/sci(src)
+	new /obj/item/assembly/flash/handheld(src)
+	new /obj/item/door_remote/research_director(src)
+	new /obj/item/circuitboard/machine/techfab/department/science(src)
+	new /obj/item/storage/photo_album/rd(src)
+	new /obj/item/storage/box/skillchips/science(src)
+
+/obj/structure/closet/secure_closet/scp/science_director/populate_contents_immediate()
+	. = ..()
+
+	// Traitor steal objectives
+	new /obj/item/clothing/suit/armor/reactive/teleport(src)
+	new /obj/item/laser_pointer(src)
+
+/obj/structure/closet/secure_closet/scp/logistics_officer
+	name = "logistics officer's locker"
+	req_access = list()
+	icon_state = "lo"
+
+/obj/structure/closet/secure_closet/scp/logistics_officer/PopulateContents()
+	..()
+	new /obj/item/storage/lockbox/medal/cargo(src)
+	new /obj/item/radio/weather_monitor (src)
+	new /obj/item/radio/headset/heads/qm(src)
+	new /obj/item/megaphone/cargo(src)
+	new /obj/item/tank/internals/emergency_oxygen(src)
+	new /obj/item/universal_scanner(src)
+	new /obj/item/door_remote/quartermaster(src)
+	new /obj/item/circuitboard/machine/techfab/department/cargo(src)
+	new /obj/item/storage/photo_album/qm(src)
+	new /obj/item/circuitboard/machine/ore_silo(src)
+	new /obj/item/storage/bag/garment/quartermaster(src)
+
+/obj/structure/closet/secure_closet/scp/logistics_officer/populate_contents_immediate()
+	. = ..()
+
+	// Traitor steal objective
+	new /obj/item/card/id/departmental_budget/car(src)

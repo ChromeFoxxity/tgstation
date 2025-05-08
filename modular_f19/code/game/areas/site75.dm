@@ -106,6 +106,10 @@
 	airlock_wires = /datum/wires/airlock/command
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
+/area/station/site75/security/investigations
+	name = "\improper Security Center Investigations Division"
+	icon_state = "detective"
+
 /area/station/site75/security/processing
 	name = "\improper Security Center Processing"
 	icon_state = "security"
@@ -394,8 +398,13 @@
 	name = "\improper Administrative Zone Public Hall"
 	icon_state = "command"
 
-/area/station/site75/administrative/division_hall
-	name = "\improper Administrative Zone Division Hall"
+/area/station/site75/administrative/lounge
+	name = "\improper Administrative Lounge"
+	icon_state = "command"
+	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
+
+/area/station/site75/administrative/high_hall
+	name = "\improper Administrative Zone Higher Echelon Hall"
 	icon_state = "command"
 
 /area/station/site75/administrative/conference
