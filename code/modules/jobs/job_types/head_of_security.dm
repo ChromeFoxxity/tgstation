@@ -1,9 +1,9 @@
 /datum/job/head_of_security
-	title = JOB_HEAD_OF_SECURITY
+	title = JOB_SECURITY_CAPTAIN
 	description = "Coordinate security personnel, ensure they are not corrupt, \
 		make sure every department is protected."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
-	department_head = list(JOB_CAPTAIN)
+	department_head = list(JOB_SITE_DIRECTOR)
 	head_announce = list(RADIO_CHANNEL_SECURITY)
 	faction = FACTION_STATION
 	total_positions = 1
@@ -76,7 +76,7 @@
 	box = /obj/item/storage/box/survival/security
 	chameleon_extras = list(
 		/obj/item/gun/energy/e_gun/hos,
-		/obj/item/stamp/head/hos,
+		/obj/item/stamp/head/security_captain,
 		)
 	implants = list(/obj/item/implant/mindshield)
 

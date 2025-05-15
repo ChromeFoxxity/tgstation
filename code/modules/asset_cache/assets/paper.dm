@@ -26,7 +26,7 @@
 		"stamp-ed" = 'icons/stamp_icons/large_stamp-eddir.png',
 		"stamp-sm" = 'icons/stamp_icons/large_stamp-sm.png',
 		"stamp-lo" = 'icons/stamp_icons/large_stamp-lo.png',
-		"stamp-sd" = 'icons/stamp_icons/large_stamp-sd.png',
+		"stamp-sd" = 'icons/stamp_icons/large_stamp-sid.png',
 		"stamp-goc" = 'icons/stamp_icons/large_stamp-goc.png',
 		"stamp-uiu" = 'icons/stamp_icons/large_stamp-uiu.png'
 	)

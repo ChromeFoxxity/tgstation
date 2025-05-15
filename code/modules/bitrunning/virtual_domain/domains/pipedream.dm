@@ -85,7 +85,7 @@
 	head = /obj/item/clothing/head/soft/yellow
 	shoes = /obj/item/clothing/shoes/jackboots/sec
 	l_pocket = /obj/item/melee/baton/telescopic
-	r_pocket = /obj/item/stamp/head/qm
+	r_pocket = /obj/item/stamp/head/logistics_officer
 
 // Corpses
 /obj/effect/mob_spawn/corpse/human/factory

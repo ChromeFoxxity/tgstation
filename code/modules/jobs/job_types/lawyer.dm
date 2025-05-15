@@ -1,8 +1,8 @@
 /datum/job/lawyer
-	title = JOB_LAWYER
+	title = JOB_TRIBUNAL_OFFICER
 	description = "Advocate for prisoners, create law-binding contracts, \
 		ensure Security is following protocol and Space Law."
-	department_head = list(JOB_HEAD_OF_PERSONNEL)
+	department_head = list(JOB_SITE_MANAGER)
 	faction = FACTION_STATION
 	total_positions = 2
 	spawn_positions = 2

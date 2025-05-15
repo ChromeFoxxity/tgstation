@@ -1,9 +1,9 @@
 /datum/job/detective
-	title = JOB_DETECTIVE
+	title = JOB_SECURITY_INVESTIGATOR
 	description = "Investigate crimes, gather evidence, perform interrogations, \
 		look badass, smoke cigarettes."
 	auto_deadmin_role_flags = DEADMIN_POSITION_SECURITY
-	department_head = list(JOB_HEAD_OF_SECURITY)
+	department_head = list(JOB_SECURITY_CAPTAIN)
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1

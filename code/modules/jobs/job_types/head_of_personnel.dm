@@ -1,9 +1,9 @@
 /datum/job/head_of_personnel
-	title = JOB_HEAD_OF_PERSONNEL
+	title = JOB_SITE_MANAGER
 	description = "Alter access on ID cards, manage the service department, \
 		protect Ian, run the station when the captain dies."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
-	department_head = list(JOB_CAPTAIN)
+	department_head = list(JOB_SITE_DIRECTOR)
 	head_announce = list(RADIO_CHANNEL_SERVICE)
 	faction = FACTION_STATION
 	total_positions = 1
@@ -15,7 +15,7 @@
 	exp_required_type = EXP_TYPE_CREW
 	exp_required_type_department = EXP_TYPE_SERVICE
 	exp_granted_type = EXP_TYPE_CREW
-	config_tag = "HEAD_OF_PERSONNEL"
+	config_tag = "SITE_MANAGER"
 
 	outfit = /datum/outfit/job/hop
 	plasmaman_outfit = /datum/outfit/plasmaman/head_of_personnel
@@ -31,7 +31,7 @@
 	mind_traits = list(HEAD_OF_STAFF_MIND_TRAITS)
 	liver_traits = list(TRAIT_ROYAL_METABOLISM)
 
-	display_order = JOB_DISPLAY_ORDER_HEAD_OF_PERSONNEL
+	display_order = JOB_DISPLAY_ORDER_SITE_MANAGER
 
 	mail_goodies = list(
 		/obj/item/card/id/advanced/silver = 10,
@@ -69,7 +69,7 @@
 
 	chameleon_extras = list(
 		/obj/item/gun/energy/e_gun,
-		/obj/item/stamp/head/hop,
+		/obj/item/stamp/head/site_manager,
 		)
 
 /datum/outfit/job/hop/pre_equip(mob/living/carbon/human/H)

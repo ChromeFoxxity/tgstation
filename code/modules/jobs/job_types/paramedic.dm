@@ -1,8 +1,8 @@
 /datum/job/paramedic
-	title = JOB_PARAMEDIC
+	title = JOB_SENIOR_DOCTOR
 	description = "Run around the station looking for patients, respond to \
 		emergencies, give patients a roller bed ride to medbay."
-	department_head = list(JOB_CHIEF_MEDICAL_OFFICER)
+	department_head = list(JOB_MEDICAL_DIRECTOR)
 	faction = FACTION_STATION
 	total_positions = 2
 	spawn_positions = 2

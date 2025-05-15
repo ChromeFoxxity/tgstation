@@ -46,13 +46,13 @@ SUBSYSTEM_DEF(job)
 	 * See [/datum/controller/subsystem/ticker/proc/equip_characters]
 	 */
 	var/list/chain_of_command = list(
-		JOB_CAPTAIN = 1,
-		JOB_HEAD_OF_PERSONNEL = 2,
-		JOB_RESEARCH_DIRECTOR = 3,
-		JOB_CHIEF_ENGINEER = 4,
-		JOB_CHIEF_MEDICAL_OFFICER = 5,
-		JOB_HEAD_OF_SECURITY = 6,
-		JOB_QUARTERMASTER = 7,
+		JOB_SITE_DIRECTOR = 1,
+		JOB_SITE_MANAGER = 2,
+		JOB_SCIENTIFIC_DIRECTOR = 3,
+		JOB_ENGINEERING_DIRECTOR = 4,
+		JOB_MEDICAL_DIRECTOR = 5,
+		JOB_SECURITY_CAPTAIN = 6,
+		JOB_LOGISTICS_OFFICER = 7,
 	)
 
 	/// If TRUE, some player has been assigned Captaincy or Acting Captaincy at some point during the shift and has been given the spare ID safe code.
@@ -625,7 +625,7 @@ SUBSYSTEM_DEF(job)
 		return C.holder.auto_deadmin()
 
 /datum/controller/subsystem/job/proc/setup_officer_positions()
-	var/datum/job/J = SSjob.get_job(JOB_SECURITY_OFFICER)
+	var/datum/job/J = SSjob.get_job(JOB_SECURITY_GUARD)
 	if(!J)
 		CRASH("setup_officer_positions(): Security officer job is missing")
 

@@ -639,7 +639,6 @@
 "ahm" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin/carbon,
-/obj/item/stamp/head/hop,
 /obj/machinery/requests_console/directional/north{
 	department = "Head of Personnel's Desk";
 	name = "Head of Personnel's Requests Console"
@@ -61484,7 +61483,6 @@
 /obj/structure/table/wood,
 /obj/item/folder/blue,
 /obj/item/pen/fourcolor,
-/obj/item/stamp/head/captain,
 /obj/machinery/door/window/brigdoor/left/directional/north{
 	name = "Captain's Desk";
 	req_access = list("captain")
@@ -64382,10 +64380,6 @@
 /obj/item/clipboard,
 /obj/item/pen/red{
 	pixel_x = 1
-	},
-/obj/item/stamp/head/hos{
-	pixel_x = 1;
-	pixel_y = -1
 	},
 /turf/open/floor/iron/grimy,
 /area/station/command/heads_quarters/hos)
@@ -77612,7 +77606,6 @@
 "tud" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/white,
-/obj/item/stamp/head/rd,
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/rd)
 "tug" = (
@@ -83684,7 +83677,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/table/reinforced,
 /obj/item/folder/yellow,
-/obj/item/stamp/head/qm,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/qm)
@@ -84286,7 +84278,6 @@
 "uZm" = (
 /obj/structure/table/glass,
 /obj/item/paper_bin,
-/obj/item/stamp/head/cmo,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -86729,7 +86720,6 @@
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/obj/item/stamp/head/ce,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)

@@ -155,7 +155,7 @@
 "# Spawn Positions" = 2
 "# Total Positions" = 2
 
-[HEAD_OF_PERSONNEL]
+[SITE_MANAGER]
 "# Human Authority Whitelist Setting" = "HUMANS_ONLY"
 "# Playtime Requirements" = 180
 "# Required Account Age" = 10

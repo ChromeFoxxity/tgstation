@@ -187,7 +187,7 @@
 	honorific_positions = HONORIFIC_POSITION_LAST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/bitrunner
-	assignment = JOB_BITRUNNER
+	assignment = JOB_TASK_FORCE_OVERWATCH
 	trim_state = "trim_bitrunner"
 	department_color = COLOR_CARGO_BROWN
 	subdepartment_color = COLOR_CARGO_BROWN
@@ -234,7 +234,7 @@
 	job = /datum/job/botanist
 
 /datum/id_trim/job/bridge_assistant
-	assignment = JOB_BRIDGE_ASSISTANT
+	assignment = JOB_ADMINISTRATIVE_SECRETARY
 	trim_state = "trim_assistant"
 	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_COMMAND_BLUE
@@ -258,7 +258,7 @@
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/captain
-	assignment = JOB_CAPTAIN
+	assignment = JOB_SITE_DIRECTOR
 	intern_alt_name = "Captain-in-Training"
 	trim_state = "trim_captain"
 	department_color = COLOR_COMMAND_BLUE
@@ -362,7 +362,7 @@
 	job = /datum/job/chemist
 
 /datum/id_trim/job/chief_engineer
-	assignment = JOB_CHIEF_ENGINEER
+	assignment = JOB_ENGINEERING_DIRECTOR
 	intern_alt_name = "Chief Engineer-in-Training"
 	trim_state = "trim_stationengineer"
 	department_color = COLOR_COMMAND_BLUE
@@ -407,7 +407,7 @@
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/chief_medical_officer
-	assignment = JOB_CHIEF_MEDICAL_OFFICER
+	assignment = JOB_MEDICAL_DIRECTOR
 	intern_alt_name = "Chief Medical Officer-in-Training"
 	trim_state = "trim_medicaldoctor"
 	department_color = COLOR_COMMAND_BLUE
@@ -548,7 +548,7 @@
 	job = /datum/job/curator
 
 /datum/id_trim/job/detective
-	assignment = JOB_DETECTIVE
+	assignment = JOB_SECURITY_INVESTIGATOR
 	trim_state = "trim_detective"
 	department_color = COLOR_SECURITY_RED
 	subdepartment_color = COLOR_SECURITY_RED
@@ -587,42 +587,16 @@
 	if(CONFIG_GET(flag/security_has_maint_access))
 		access |= list(ACCESS_MAINT_TUNNELS)
 
-/datum/id_trim/job/geneticist
-	assignment = JOB_GENETICIST
-	trim_state = "trim_geneticist"
-	department_color = COLOR_SCIENCE_PINK
-	subdepartment_color = COLOR_SCIENCE_PINK
-	sechud_icon_state = SECHUD_GENETICIST
-	minimal_access = list(
-		ACCESS_GENETICS,
-		ACCESS_MECH_SCIENCE,
-		ACCESS_MINERAL_STOREROOM,
-		ACCESS_MORGUE,
-		ACCESS_RESEARCH,
-		ACCESS_SCIENCE,
-		ACCESS_XENOBIOLOGY,
-		)
-	extra_access = list(
-		ACCESS_ROBOTICS,
-		ACCESS_TECH_STORAGE,
-		ACCESS_ORDNANCE,
-		ACCESS_ORDNANCE_STORAGE,
-		)
-	template_access = list(
-		ACCESS_CAPTAIN,
-		ACCESS_CHANGE_IDS,
-		ACCESS_RD,
-		)
-	job = /datum/job/geneticist
+
 
 /datum/id_trim/job/head_of_personnel
-	assignment = JOB_HEAD_OF_PERSONNEL
+	assignment = JOB_SITE_MANAGER
 	intern_alt_name = "Head of Personnel-in-Training"
 	trim_state = "trim_headofpersonnel"
 	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_SERVICE_LIME
 	department_state = "departmenthead"
-	sechud_icon_state = SECHUD_HEAD_OF_PERSONNEL
+	sechud_icon_state = SECHUD_SITE_MANAGER
 	minimal_access = list(
 		ACCESS_AI_UPLOAD,
 		ACCESS_ALL_PERSONAL_LOCKERS,
@@ -671,7 +645,7 @@
 	pointer_color = COLOR_SERVICE_LIME
 
 /datum/id_trim/job/head_of_security
-	assignment = JOB_HEAD_OF_SECURITY
+	assignment = JOB_SECURITY_CAPTAIN
 	intern_alt_name = "Head of Security-in-Training"
 	trim_state = "trim_securityofficer"
 	department_color = COLOR_COMMAND_BLUE
@@ -756,7 +730,7 @@
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/lawyer
-	assignment = JOB_LAWYER
+	assignment = JOB_TRIBUNAL_OFFICER
 	trim_state = "trim_lawyer"
 	department_color = COLOR_SERVICE_LIME
 	subdepartment_color = COLOR_SECURITY_RED
@@ -825,7 +799,7 @@
 	job = /datum/job/mime
 
 /datum/id_trim/job/paramedic
-	assignment = JOB_PARAMEDIC
+	assignment = JOB_SENIOR_DOCTOR
 	trim_state = "trim_paramedic"
 	department_color = COLOR_MEDICAL_BLUE
 	subdepartment_color = COLOR_MEDICAL_BLUE
@@ -930,7 +904,7 @@
 	honorific_positions = HONORIFIC_POSITION_LAST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/quartermaster
-	assignment = JOB_QUARTERMASTER
+	assignment = JOB_LOGISTICS_OFFICER
 	intern_alt_name = "Quartermaster-in-Training"
 	trim_state = "trim_cargotechnician"
 	department_color = COLOR_COMMAND_BLUE
@@ -972,7 +946,7 @@
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/research_director
-	assignment = JOB_RESEARCH_DIRECTOR
+	assignment = JOB_SCIENTIFIC_DIRECTOR
 	intern_alt_name = "Research Director-in-Training"
 	trim_state = "trim_scientist"
 	department_color = COLOR_COMMAND_BLUE
@@ -1084,7 +1058,7 @@
 
 /// Sec officers have departmental variants. They each have their own trims with bonus departmental accesses.
 /datum/id_trim/job/security_officer
-	assignment = JOB_SECURITY_OFFICER
+	assignment = JOB_SECURITY_GUARD
 	trim_state = "trim_securityofficer"
 	department_color = COLOR_SECURITY_RED
 	subdepartment_color = COLOR_SECURITY_RED
@@ -1115,122 +1089,6 @@
 	var/department_access = list()
 	/// List of bonus departmental accesses that departmental security officers can in relation to how many overall security officers there are if the scaling system is set up. These can otherwise be granted via config settings.
 	var/elevated_access = list()
-
-/datum/id_trim/job/security_officer/refresh_trim_access()
-	. = ..()
-
-	if(!.)
-		return
-
-	access |= department_access
-
-	// Config check for if sec has maint access.
-	if(CONFIG_GET(flag/security_has_maint_access))
-		access |= list(ACCESS_MAINT_TUNNELS)
-
-	// Scaling access (POPULATION_SCALED_ACCESS) is a system directly tied into calculations derived via a config entered variable, as well as the amount of players in the shift.
-	// Thus, it makes it possible to judge if departmental security officers should have more access to their department on a lower population shift.
-	// Server operators can modify config to change it such that security officers can use this system, or alternatively either: A) always give the "elevated" access (ALWAYS_GETS_ACCESS) or B) never give this access (null value).
-
-	#define POPULATION_SCALED_ACCESS 1
-	#define ALWAYS_GETS_ACCESS 2
-
-	// If null, then the departmental security officer will not get any elevated access.
-	if(!CONFIG_GET(number/depsec_access_level))
-		return
-
-	if(CONFIG_GET(number/depsec_access_level) == POPULATION_SCALED_ACCESS)
-		var/minimal_security_officers = 3 // We do not spawn in any more lockers if there are 5 or less security officers, so let's keep it lower than that number.
-		var/datum/job/J = SSjob.get_job(JOB_SECURITY_OFFICER)
-		if((J.spawn_positions - minimal_security_officers) <= 0)
-			access |= elevated_access
-
-	if(CONFIG_GET(number/depsec_access_level) == ALWAYS_GETS_ACCESS)
-		access |= elevated_access
-
-/datum/id_trim/job/security_officer/supply
-	assignment = JOB_SECURITY_OFFICER_SUPPLY
-	subdepartment_color = COLOR_CARGO_BROWN
-	department_access = list(
-		ACCESS_BIT_DEN,
-		ACCESS_CARGO,
-		ACCESS_MINING,
-		ACCESS_SHIPPING,
-	)
-	elevated_access = list(
-		ACCESS_AUX_BASE,
-		ACCESS_MINING_STATION,
-	)
-
-/datum/id_trim/job/security_officer/engineering
-	assignment = JOB_SECURITY_OFFICER_ENGINEERING
-	subdepartment_color = COLOR_ENGINEERING_ORANGE
-	department_access = list(
-		ACCESS_ATMOSPHERICS,
-		ACCESS_ENGINEERING,
-	)
-	elevated_access = list(
-		ACCESS_AUX_BASE,
-		ACCESS_CONSTRUCTION,
-		ACCESS_ENGINE_EQUIP,
-		ACCESS_TCOMMS,
-	)
-
-/datum/id_trim/job/security_officer/medical
-	assignment = JOB_SECURITY_OFFICER_MEDICAL
-	subdepartment_color = COLOR_MEDICAL_BLUE
-	department_access = list(
-		ACCESS_MEDICAL,
-		ACCESS_MORGUE,
-	)
-	elevated_access = list(
-		ACCESS_PHARMACY,
-		ACCESS_PLUMBING,
-		ACCESS_SURGERY,
-		ACCESS_VIROLOGY,
-	)
-	honorifics = list("Orderly", "Officer")
-
-/datum/id_trim/job/security_officer/science
-	assignment = JOB_SECURITY_OFFICER_SCIENCE
-	subdepartment_color = COLOR_SCIENCE_PINK
-	department_access = list(
-		ACCESS_RESEARCH,
-		ACCESS_SCIENCE,
-	)
-	elevated_access = list(
-		ACCESS_AUX_BASE,
-		ACCESS_GENETICS,
-		ACCESS_ORDNANCE_STORAGE,
-		ACCESS_ORDNANCE,
-		ACCESS_ROBOTICS,
-		ACCESS_XENOBIOLOGY,
-	)
-
-/datum/id_trim/job/shaft_miner
-	assignment = JOB_SHAFT_MINER
-	trim_state = "trim_shaftminer"
-	department_color = COLOR_CARGO_BROWN
-	subdepartment_color = COLOR_SCIENCE_PINK
-	sechud_icon_state = SECHUD_SHAFT_MINER
-	minimal_access = list(
-		ACCESS_AUX_BASE,
-		ACCESS_CARGO,
-		ACCESS_MECH_MINING,
-		ACCESS_MINERAL_STOREROOM,
-		ACCESS_MINING,
-		ACCESS_MINING_STATION,
-		)
-	extra_access = list(
-		ACCESS_BIT_DEN,
-		ACCESS_MAINT_TUNNELS,
-		)
-	template_access = list(
-		ACCESS_CAPTAIN,
-		ACCESS_CHANGE_IDS,
-		ACCESS_QM,
-		)
-	job = /datum/job/shaft_miner
 
 /// ID card obtained from the mining Disney dollar points vending machine.
 /datum/id_trim/job/shaft_miner/spare
@@ -1276,7 +1134,7 @@
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/veteran_advisor
-	assignment = JOB_VETERAN_ADVISOR
+	assignment = JOB_SECURITY_DIRECTOR
 	trim_state = "trim_veteranadvisor"
 	department_color = COLOR_SECURITY_RED
 	subdepartment_color = COLOR_COMMAND_BLUE
@@ -1307,49 +1165,6 @@
 	// Config check for if sec has maint access.
 	if(CONFIG_GET(flag/security_has_maint_access))
 		access |= list(ACCESS_MAINT_TUNNELS)
-
-/datum/id_trim/job/warden
-	assignment = JOB_WARDEN
-	trim_state = "trim_warden"
-	department_color = COLOR_SECURITY_RED
-	subdepartment_color = COLOR_SECURITY_RED
-	sechud_icon_state = SECHUD_WARDEN
-	minimal_access = list(
-		ACCESS_ARMORY,
-		ACCESS_BRIG,
-		ACCESS_BRIG_ENTRANCE,
-		ACCESS_COURT,
-		ACCESS_MECH_SECURITY,
-		ACCESS_MINERAL_STOREROOM,
-		ACCESS_SECURITY,
-		ACCESS_WEAPONS,
-		) // See /datum/job/warden/get_access()
-	extra_access = list(
-		ACCESS_DETECTIVE,
-		ACCESS_MAINT_TUNNELS,
-		ACCESS_MORGUE,
-		)
-	template_access = list(
-		ACCESS_CAPTAIN,
-		ACCESS_CHANGE_IDS,
-		ACCESS_HOS,
-		)
-	job = /datum/job/warden
-	honorifics = list("Officer", "Watchman", "Lieutenant", "Lt.")
-	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
-
-/datum/id_trim/job/warden/refresh_trim_access()
-	. = ..()
-
-	if(!.)
-		return
-
-	// Config check for if sec has maint access.
-	if(CONFIG_GET(flag/security_has_maint_access))
-		access |= list(ACCESS_MAINT_TUNNELS)
-
-#undef POPULATION_SCALED_ACCESS
-#undef ALWAYS_GETS_ACCESS
 
 /datum/id_trim/job/human_ai
 	assignment = JOB_HUMAN_AI

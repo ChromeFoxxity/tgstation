@@ -469,7 +469,7 @@ GLOBAL_LIST_INIT(phobia_objs, list(
 		/obj/item/megaphone/sec,
 		/obj/item/melee/baton,
 		/obj/item/restraints/handcuffs,
-		/obj/item/stamp/head/hos,
+		/obj/item/stamp/head/security_captain,
 		/obj/item/toy/figure/hos,
 		/obj/item/toy/figure/secofficer,
 		/obj/machinery/door/airlock/security,

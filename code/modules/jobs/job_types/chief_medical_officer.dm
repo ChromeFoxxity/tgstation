@@ -1,8 +1,8 @@
 /datum/job/chief_medical_officer
-	title = JOB_CHIEF_MEDICAL_OFFICER
+	title = JOB_MEDICAL_DIRECTOR
 	description = "Coordinate doctors and other medbay employees, ensure they \
 		know how to save lives, check for injuries on the crew monitor."
-	department_head = list(JOB_CAPTAIN)
+	department_head = list(JOB_SITE_DIRECTOR)
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	head_announce = list(RADIO_CHANNEL_MEDICAL)
 	faction = FACTION_STATION
@@ -79,7 +79,7 @@
 	box = /obj/item/storage/box/survival/medical
 	chameleon_extras = list(
 		/obj/item/gun/syringe,
-		/obj/item/stamp/head/cmo,
+		/obj/item/stamp/head/medical_director,
 		)
 	skillchips = list(/obj/item/skillchip/entrails_reader)
 

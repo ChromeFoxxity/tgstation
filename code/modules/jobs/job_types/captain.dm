@@ -1,5 +1,5 @@
 /datum/job/captain
-	title = JOB_CAPTAIN
+	title = JOB_SITE_DIRECTOR
 	description = "Be responsible for the station, manage your Heads of Staff, \
 		keep the crew alive, be prepared to do anything and everything or die \
 		horribly trying."
@@ -87,7 +87,7 @@
 	accessory = /obj/item/clothing/accessory/medal/gold/captain
 	chameleon_extras = list(
 		/obj/item/gun/energy/e_gun,
-		/obj/item/stamp/head/captain,
+		/obj/item/stamp/head/site_director,
 		)
 	implants = list(/obj/item/implant/mindshield)
 	skillchips = list(/obj/item/skillchip/disk_verifier)
@@ -96,7 +96,7 @@
 
 /datum/outfit/job/captain/pre_equip(mob/living/carbon/human/H, visuals_only)
 	. = ..()
-	special_charter = CHECK_MAP_JOB_CHANGE(JOB_CAPTAIN, "special_charter")
+	special_charter = CHECK_MAP_JOB_CHANGE(JOB_SITE_DIRECTOR, "special_charter")
 	if(!special_charter)
 		return
 

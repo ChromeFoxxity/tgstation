@@ -35,39 +35,37 @@
 	var/obj/item/mop/our_mop
 	///list of our officer titles
 	var/static/list/officers_titles = list(
-		JOB_CAPTAIN,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
-		JOB_RESEARCH_DIRECTOR,
+		JOB_SITE_DIRECTOR,
+		JOB_SITE_MANAGER,
+		JOB_SECURITY_CAPTAIN,
+		JOB_SCIENTIFIC_DIRECTOR,
 	)
 	///job titles we can get
 	var/static/list/job_titles = list(
-		JOB_CAPTAIN = "Cpt.",
+		JOB_SITE_DIRECTOR = "Cpt.",
 
-		JOB_HEAD_OF_PERSONNEL = "Lt.",
-		JOB_LAWYER = "Esq.",
+		JOB_SITE_MANAGER = "Lt.",
+		JOB_TRIBUNAL_OFFICER = "Esq.",
 
-		JOB_HEAD_OF_SECURITY = "Maj.",
-		JOB_WARDEN = "Sgt.",
-		JOB_DETECTIVE = "Det.",
-		JOB_SECURITY_OFFICER = "Officer",
+		JOB_SECURITY_CAPTAIN = "Maj.",
 
-		JOB_CHIEF_ENGINEER = "Chief Engineer",
+		JOB_SECURITY_INVESTIGATOR = "Det.",
+		JOB_SECURITY_GUARD = "Officer",
+
+		JOB_ENGINEERING_DIRECTOR = "Chief Engineer",
 		JOB_STATION_ENGINEER = "Engineer",
 		JOB_ATMOSPHERIC_TECHNICIAN = "Technician",
 
-		JOB_CHIEF_MEDICAL_OFFICER = "C.M.O.",
+		JOB_MEDICAL_DIRECTOR = "C.M.O.",
 		JOB_MEDICAL_DOCTOR = "M.D.",
 		JOB_CHEMIST = "Pharm.D.",
 
-		JOB_RESEARCH_DIRECTOR = "Ph.D.",
+		JOB_SCIENTIFIC_DIRECTOR = "Ph.D.",
 		JOB_ROBOTICIST = "M.S.",
 		JOB_SCIENTIST = "B.S.",
-		JOB_GENETICIST = "Gene B.S.",
 	)
 	///which job titles should be placed after the name?
 	var/static/list/suffix_job_titles = list(
-		JOB_GENETICIST,
 		JOB_ROBOTICIST,
 		JOB_SCIENTIST,
 	)

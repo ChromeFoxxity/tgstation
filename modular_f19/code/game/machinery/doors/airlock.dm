@@ -16,6 +16,11 @@
 	/// Is this door external? E.g. does it lead to space? Shuttle docking systems bolt doors with this flag.
 	var/external = FALSE
 
+#define AIRLOCK_FRAME_CLOSED "closed"
+#define AIRLOCK_FRAME_CLOSING "closing"
+#define AIRLOCK_FRAME_OPEN "open"
+#define AIRLOCK_FRAME_OPENING "opening"
+
 /obj/machinery/door/airlock/external
 	external = TRUE
 

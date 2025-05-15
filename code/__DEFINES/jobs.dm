@@ -45,48 +45,49 @@
  */
 
 //No department
-#define JOB_ASSISTANT "Assistant"
-#define JOB_PRISONER "Prisoner"
+#define JOB_ASSISTANT "Office Worker"
+#define JOB_PRISONER "Class-D"
 //Command
-#define JOB_CAPTAIN "Captain"
-#define JOB_HEAD_OF_PERSONNEL "Head of Personnel"
-#define JOB_HEAD_OF_SECURITY "Head of Security"
-#define JOB_RESEARCH_DIRECTOR "Research Director"
-#define JOB_CHIEF_ENGINEER "Chief Engineer"
-#define JOB_CHIEF_MEDICAL_OFFICER "Chief Medical Officer"
-#define JOB_BRIDGE_ASSISTANT "Bridge Assistant"
-#define JOB_VETERAN_ADVISOR "Veteran Security Advisor"
+#define JOB_SITE_DIRECTOR "Site Director"
+#define JOB_SITE_MANAGER "Site Manager"
+#define JOB_SECURITY_CAPTAIN "Security Captain"
+#define JOB_SCIENTIFIC_DIRECTOR "Scientific Director"
+#define JOB_ENGINEERING_DIRECTOR "Engineering Director"
+#define JOB_MEDICAL_DIRECTOR "Medical Director"
+#define JOB_ADMINISTRATIVE_SECRETARY "Administrative Secretary"
+#define JOB_SECURITY_DIRECTOR "Security Director"
+#define JOB_ETHICS_LIAISON "Ethics Committee Liaison"
+#define JOB_TRIBUNAL_OFFICER "Internal Tribunal Officer"
+#define JOB_INTAKE_SPECIALIST "RAISA Intake Specialist"
+#define JOB_GOC_REPRESENTATIVE "Global Occult Coalition Representative"
+#define JOB_UIU_REPRESENTATIVE "Unusual Incidents Unit Representative"
+#define JOB_TASK_FORCE_OVERWATCH "Task Force Overwatch"
 //Silicon
 #define JOB_AI "AI"
 #define JOB_CYBORG "Cyborg"
 #define JOB_PERSONAL_AI "Personal AI"
 #define JOB_HUMAN_AI "Big Brother"
 //Security
-#define JOB_WARDEN "Warden"
-#define JOB_DETECTIVE "Detective"
-#define JOB_SECURITY_OFFICER "Security Officer"
-#define JOB_SECURITY_OFFICER_MEDICAL "Security Officer (Medical)"
-#define JOB_SECURITY_OFFICER_ENGINEERING "Security Officer (Engineering)"
-#define JOB_SECURITY_OFFICER_SCIENCE "Security Officer (Science)"
-#define JOB_SECURITY_OFFICER_SUPPLY "Security Officer (Cargo)"
+#define JOB_SECURITY_LIEUTENANT "Security Lieutenant"
+#define JOB_SECURITY_SERGEANT "Security Sergeant"
+#define JOB_SECURITY_MEDIC "Security Combat Medic"
+#define JOB_SECURITY_INVESTIGATOR "Investigation Officer"
+#define JOB_SECURITY_GUARD "Security Guard"
 //Engineering
-#define JOB_STATION_ENGINEER "Station Engineer"
-#define JOB_ATMOSPHERIC_TECHNICIAN "Atmospheric Technician"
+#define JOB_STATION_ENGINEER "Technician"
+#define JOB_ATMOSPHERIC_TECHNICIAN "Life Support Technician"
 //Medical
 #define JOB_CORONER "Coroner"
-#define JOB_MEDICAL_DOCTOR "Medical Doctor"
-#define JOB_PARAMEDIC "Paramedic"
-#define JOB_CHEMIST "Chemist"
+#define JOB_MEDICAL_DOCTOR "Doctor"
+#define JOB_SENIOR_DOCTOR "Senior Doctor"
+#define JOB_CHEMIST "Pharmacist"
 //Science
-#define JOB_SCIENTIST "Scientist"
-#define JOB_ROBOTICIST "Roboticist"
-#define JOB_GENETICIST "Geneticist"
+#define JOB_SCIENTIST "Researcher"
+#define JOB_ROBOTICIST "Mechatronic Engineer"
 //Supply
-#define JOB_QUARTERMASTER "Quartermaster"
-#define JOB_CARGO_TECHNICIAN "Cargo Technician"
-#define JOB_CARGO_GORILLA "Cargo Gorilla"
-#define JOB_SHAFT_MINER "Shaft Miner"
-#define JOB_BITRUNNER "Bitrunner"
+#define JOB_LOGISTICS_OFFICER "Logistics Officer"
+#define JOB_CARGO_TECHNICIAN "Logistics Technician"
+#define JOB_CARGO_GORILLA "Logistics Gorilla"
 //Service
 #define JOB_BARTENDER "Bartender"
 #define JOB_BOTANIST "Botanist"
@@ -96,7 +97,6 @@
 #define JOB_CLOWN "Clown"
 #define JOB_MIME "Mime"
 #define JOB_CURATOR "Curator"
-#define JOB_LAWYER "Lawyer"
 #define JOB_CHAPLAIN "Chaplain"
 #define JOB_PSYCHOLOGIST "Psychologist"
 #define JOB_PUN_PUN "Pun Pun"
@@ -139,7 +139,7 @@
 
 #define JOB_DISPLAY_ORDER_ASSISTANT 1
 #define JOB_DISPLAY_ORDER_CAPTAIN 2
-#define JOB_DISPLAY_ORDER_HEAD_OF_PERSONNEL 3
+#define JOB_DISPLAY_ORDER_SITE_MANAGER 3
 #define JOB_DISPLAY_ORDER_BRIDGE_ASSISTANT 4
 #define JOB_DISPLAY_ORDER_BARTENDER 5
 #define JOB_DISPLAY_ORDER_BOTANIST 6
@@ -181,25 +181,25 @@
 #define DEPARTMENT_UNASSIGNED "No Department"
 
 #define DEPARTMENT_BITFLAG_SECURITY (1<<0)
-#define DEPARTMENT_SECURITY "Security"
+#define DEPARTMENT_SECURITY "Security Department"
 #define DEPARTMENT_BITFLAG_COMMAND (1<<1)
-#define DEPARTMENT_COMMAND "Command"
+#define DEPARTMENT_COMMAND "Administrative"
 #define DEPARTMENT_BITFLAG_SERVICE (1<<2)
-#define DEPARTMENT_SERVICE "Service"
+#define DEPARTMENT_SERVICE "General Staff"
 #define DEPARTMENT_BITFLAG_CARGO (1<<3)
-#define DEPARTMENT_CARGO "Cargo"
+#define DEPARTMENT_CARGO "Logistics Department"
 #define DEPARTMENT_BITFLAG_ENGINEERING (1<<4)
-#define DEPARTMENT_ENGINEERING "Engineering"
+#define DEPARTMENT_ENGINEERING "Engineering Department"
 #define DEPARTMENT_BITFLAG_SCIENCE (1<<5)
-#define DEPARTMENT_SCIENCE "Science"
+#define DEPARTMENT_SCIENCE "Scientific Department"
 #define DEPARTMENT_BITFLAG_MEDICAL (1<<6)
-#define DEPARTMENT_MEDICAL "Medical"
+#define DEPARTMENT_MEDICAL "Medical Department"
 #define DEPARTMENT_BITFLAG_SILICON (1<<7)
 #define DEPARTMENT_SILICON "Silicon"
 #define DEPARTMENT_BITFLAG_ASSISTANT (1<<8)
 #define DEPARTMENT_ASSISTANT "Assistant"
 #define DEPARTMENT_BITFLAG_CAPTAIN (1<<9)
-#define DEPARTMENT_CAPTAIN "Captain"
+#define DEPARTMENT_CAPTAIN "Site Director"
 
 DEFINE_BITFIELD(departments_bitflags, list(
 	"SECURITY" = DEPARTMENT_BITFLAG_SECURITY,

@@ -3261,7 +3261,7 @@
 "oT" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/yellow,
-/obj/item/stamp/head/qm,
+/obj/item/stamp/head/logistics_officer,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -9187,7 +9187,7 @@
 /obj/item/clipboard,
 /obj/item/folder/blue,
 /obj/item/melee/chainofcommand,
-/obj/item/stamp/head/captain,
+/obj/item/stamp/head/site_director,
 /obj/machinery/newscaster{
 	pixel_y = 32
 	},

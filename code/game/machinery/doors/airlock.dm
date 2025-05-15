@@ -54,11 +54,6 @@
 
 // Wires for the airlock are located in the datum folder, inside the wires datum folder.
 
-#define AIRLOCK_FRAME_CLOSED "closed"
-#define AIRLOCK_FRAME_CLOSING "closing"
-#define AIRLOCK_FRAME_OPEN "open"
-#define AIRLOCK_FRAME_OPENING "opening"
-
 #define AIRLOCK_SECURITY_NONE 0 //Normal airlock //Wires are not secured
 #define AIRLOCK_SECURITY_IRON 1 //Medium security airlock //There is a simple iron plate over wires (use welder)
 #define AIRLOCK_SECURITY_PLASTEEL_I_S 2 //Sliced inner plating (use crowbar), jumps to 0

@@ -1,7 +1,7 @@
 /datum/job/bitrunner
-	title = JOB_BITRUNNER
+	title = JOB_TASK_FORCE_OVERWATCH
 	description = "Surf the virtual domain for gear and loot. Decrypt your rewards on station."
-	department_head = list(JOB_QUARTERMASTER)
+	department_head = list(JOB_LOGISTICS_OFFICER)
 	faction = FACTION_STATION
 	total_positions = 3
 	spawn_positions = 3

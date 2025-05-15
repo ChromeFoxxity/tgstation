@@ -2044,10 +2044,6 @@
 	dir = 8
 	},
 /obj/structure/table/wood,
-/obj/item/stamp/head/qm{
-	pixel_x = 1;
-	pixel_y = 12
-	},
 /obj/item/stamp/granted{
 	pixel_x = -7;
 	pixel_y = 12
@@ -4811,10 +4807,6 @@
 	},
 /obj/item/paper_bin/carbon{
 	pixel_x = -2;
-	pixel_y = 4
-	},
-/obj/item/stamp/head/hop{
-	pixel_x = -4;
 	pixel_y = 4
 	},
 /obj/machinery/button/door/directional/south{
@@ -16402,7 +16394,6 @@
 	pixel_x = -7;
 	pixel_y = 6
 	},
-/obj/item/stamp/head/hos,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hos)
 "fTn" = (
@@ -36068,7 +36059,6 @@
 "mPG" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/yellow,
-/obj/item/stamp/head/ce,
 /obj/item/reagent_containers/applicator/patch/aiuri,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /turf/open/floor/iron,
@@ -37059,7 +37049,6 @@
 "nhr" = (
 /obj/structure/table,
 /obj/item/folder/white,
-/obj/item/stamp/head/rd,
 /obj/item/toy/figure/rd{
 	pixel_y = 10
 	},
@@ -47168,9 +47157,6 @@
 /obj/item/clipboard,
 /obj/item/toy/figure/cmo,
 /obj/structure/cable,
-/obj/item/stamp/head/cmo{
-	pixel_x = -9
-	},
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
 "qLp" = (
@@ -63516,7 +63502,6 @@
 /obj/item/radio/intercom/directional/east,
 /obj/item/folder/blue,
 /obj/item/hand_tele,
-/obj/item/stamp/head/captain,
 /obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain/private)

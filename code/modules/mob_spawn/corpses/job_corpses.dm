@@ -16,11 +16,6 @@
 	outfit = /datum/outfit/job/doctor
 	icon_state = "corpsedoctor"
 
-/obj/effect/mob_spawn/corpse/human/geneticist
-	name = JOB_GENETICIST
-	outfit = /datum/outfit/job/geneticist
-	icon_state = "corpsescientist"
-
 /obj/effect/mob_spawn/corpse/human/engineer
 	name = JOB_STATION_ENGINEER
 	outfit = /datum/outfit/job/engineer/gloved
@@ -40,7 +35,7 @@
 	icon_state = "corpsescientist"
 
 /obj/effect/mob_spawn/corpse/human/miner
-	name = JOB_SHAFT_MINER
+	name = "Shaft Miner"
 	outfit = /datum/outfit/job/miner
 	icon_state = "corpseminer"
 
@@ -85,6 +80,6 @@
 	icon_state = "corpseroboticist"
 
 /obj/effect/mob_spawn/corpse/human/bitrunner
-	name = JOB_BITRUNNER
+	name = JOB_TASK_FORCE_OVERWATCH
 	outfit = /datum/outfit/job/bitrunner
 	icon_state = "corpsecargotech"

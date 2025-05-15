@@ -72,7 +72,7 @@
 	department_experience_type = EXP_TYPE_COMMAND
 	display_order = 1
 	label_class = "command"
-	ui_color = "#6681a5"
+	ui_color = "#486091"
 
 
 /datum/job_department/security
@@ -82,12 +82,11 @@
 	department_experience_type = EXP_TYPE_SECURITY
 	display_order = 2
 	label_class = "security"
-	ui_color = "#d46a78"
+	ui_color = "#b8b8b8"
 	nation_prefixes = list("Securi", "Beepski", "Shitcuri", "Red", "Stunba", "Flashbango", "Flasha", "Stanfordi")
 	department_delivery_areas = list(
-		/area/station/security/office,
-		/area/station/security/brig,
-		/area/station/security/brig/upper,
+		/area/station/site75/security/office,
+		/area/station/site75/security/hallway,
 	)
 	associated_cargo_groups = list("Security", "Armory")
 	head_of_staff_access = ACCESS_HOS
@@ -103,8 +102,8 @@
 	ui_color = "#dfb567"
 	nation_prefixes = list("Atomo", "Engino", "Power", "Teleco")
 	department_delivery_areas = list(
-		/area/station/engineering/main,
-		/area/station/engineering/lobby,
+		/area/station/site75/engineering/hub,
+		/area/station/site75/engineering/office,
 	)
 	associated_cargo_groups = list("Engineering", "Engine Construction", "Canisters & Materials")
 	head_of_staff_access = ACCESS_CE
@@ -120,10 +119,10 @@
 	ui_color = "#65b2bd"
 	nation_prefixes = list("Mede", "Healtha", "Recova", "Chemi", "Viro", "Psych")
 	department_delivery_areas = list(
-		/area/station/medical/medbay/central,
-		/area/station/medical/medbay,
-		/area/station/medical/treatment_center,
-		/area/station/medical/storage,
+		/area/station/site75/medical/central,
+		/area/station/site75/medical/lobby,
+		/area/station/site75/medical/central,
+		/area/station/site75/medical/storage,
 	)
 	associated_cargo_groups = list("Medical")
 	head_of_staff_access = ACCESS_CMO
@@ -136,7 +135,7 @@
 	department_experience_type = EXP_TYPE_SCIENCE
 	display_order = 5
 	label_class = "science"
-	ui_color = "#c973c9"
+	ui_color = "#0545B5"
 	nation_prefixes = list("Sci", "Griffa", "Geneti", "Explosi", "Mecha", "Xeno", "Nani", "Cyto")
 	department_delivery_areas = list(
 		/area/station/science/research,
@@ -155,7 +154,7 @@
 	department_experience_type = EXP_TYPE_SUPPLY
 	display_order = 6
 	label_class = "supply"
-	ui_color = "#cf9c6c"
+	ui_color = "#A46106"
 	nation_prefixes = list("Cargo", "Guna", "Suppli", "Mule", "Crate", "Ore", "Mini", "Shaf")
 	head_of_staff_access = ACCESS_QM
 	department_access = REGION_ACCESS_SUPPLY
@@ -169,7 +168,7 @@
 	label_class = "service"
 	ui_color = "#7cc46a"
 	nation_prefixes = list("Honka", "Boozo", "Fatu", "Danka", "Mimi", "Libra", "Jani", "Religi")
-	department_delivery_areas = list(/area/station/hallway/secondary/service, /area/station/service/bar/atrium)
+	department_delivery_areas = list(/area/station/site75/service/plaza, /area/station/site75/service/office)
 	associated_cargo_groups = list("Service", "Food & Hydroponics", "Livestock", "Costumes & Toys")
 	head_of_staff_access = ACCESS_HOP
 	department_access = list(ACCESS_SERVICE)

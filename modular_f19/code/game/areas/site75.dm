@@ -10,28 +10,78 @@
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
 
 /area/station/site75/commons/hub
-	name = "\improper Central Hub"
+	name = "\improper Entrance Zone Central Hub"
 	icon_state = "commons"
 
 /area/station/site75/commons/medsci
 	name = "\improper Med-Sci Hallway"
 	icon_state = "commons"
 
+/area/station/site75/commons/restroom
+	name = "\improper Entrance Zone Restrooms"
+	icon_state = "toilet"
+
+/area/station/site75/commons/shower
+	name = "\improper Entrance Zone Showers"
+	icon_state = "shower"
+
 /area/station/site75/commons/office
 	name = "\improper Office"
-	icon_state = "commons"
+	icon_state = "vacant_office"
 
 /area/station/site75/commons/entrance
 	name = "\improper Entrance Hallway"
 	icon_state = "commons"
 
-/area/station/site75/commons/restroom
-	name = "\improper Restroom"
+/area/station/site75/commons/tram
+	name = "\improper Entrance Zone Tram Station"
 	icon_state = "commons"
 
-/area/station/site75/commons/tram
-	name = "\improper Central Hub Tram Station"
-	icon_state = "commons"
+/area/station/site75/maintenance // Base area, Do Not Use
+	name = "Generic Maintenance"
+	ambience_index = AMBIENCE_MAINT
+	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED | PERSISTENT_ENGRAVINGS
+	airlock_wires = /datum/wires/airlock/maint
+	sound_environment = SOUND_AREA_TUNNEL_ENCLOSED
+	forced_ambience = TRUE
+	ambient_buzz = 'sound/ambience/maintenance/source_corridor2.ogg'
+	ambient_buzz_vol = 20
+
+/area/station/site75/maintenance/central_hub_upper
+	name = "Upper Central Hub Maintenance"
+
+/area/station/site75/maintenance/medsci
+	name = "Med-Sci Hall Maintenance"
+
+/area/station/site75/maintenance/abandoned_observation
+	name = "Abandoned Observation Lounge"
+
+/area/station/site75/maintenance/abandoned_reactor
+	name = "Abandoned Reactor Room"
+
+/area/station/site75/maintenance/abandoned_library
+	name = "Abandoned Library"
+
+/area/station/site75/maintenance/abandoned_arcade
+	name = "Abandoned Arcade"
+
+/area/station/site75/maintenance/engineering
+	name = "Engineering Maintenance"
+
+/area/station/site75/maintenance/service
+	name = "Service Plaza Maintenance"
+
+/area/station/site75/maintenance/service/upper\
+	name = "Upper Service Plaza Maintenance"
+
+/area/station/site75/maintenance/logistics
+	name = "Logistics Maintenance"
+
+/area/station/site75/maintenance/admin
+	name = "Administrative Maintenance"
+
+/area/station/site75/maintenance/abandoned_kitchen
+	name = "Abandoned Kitchen"
 
 /area/station/site75/security // Base area, Do Not Use
 	name = "Security"
@@ -91,14 +141,6 @@
 /area/station/site75/security/cells
 	name = "\improper Security Center Containment Cells"
 	icon_state = "holding_cell"
-
-/area/station/site75/security/armory
-	name = "\improper Security Center Armory"
-	icon_state = "armory"
-
-/area/station/site75/security/armory/secure
-	name = "\improper Security Center Secure Armory"
-	icon_state = "armory"
 
 /area/station/site75/security/captain
 	name = "\improper Security Captain's Office"
@@ -236,6 +278,80 @@
 	name = "\improper Medical Lobby"
 	icon_state = "med_lobby"
 
+/area/station/site75/medical/central
+	name = "Medical Central Hallway"
+	icon_state = "med_central"
+
+/area/station/site75/medical/staff
+	name = "Medical Staff Hallway"
+	icon_state = "med_aft"
+
+/area/station/site75/medical/pharmacy
+	name = "\improper Medical Pharmacy"
+	icon_state = "pharmacy"
+
+/area/station/site75/medical/office
+	name = "\improper Medical Office"
+	icon_state = "med_office"
+
+/area/station/site75/medical/morgue
+	name = "\improper Medical Morgue"
+	icon_state = "morgue"
+	ambience_index = AMBIENCE_SPOOKY
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+
+/area/station/site75/medical/storage
+	name = "Medical Primary Storage"
+	icon_state = "med_storage"
+
+/area/station/site75/medical/locker
+	name = "Medical Locker Room"
+	icon_state = "med_storage"
+
+/area/station/site75/medical/break_room
+	name = "\improper Medical Break Room"
+	icon_state = "med_break"
+
+/area/station/site75/medical/virology
+	name = "Medical Virology Lab"
+	icon_state = "virology"
+	ambience_index = AMBIENCE_VIROLOGY
+
+/area/station/site75/medical/treatment_center
+	name = "\improper Medical Treatment Center"
+	icon_state = "exam_room"
+
+/area/station/site75/medical/surgery
+	name = "\improper Medical Operating Room #1"
+	icon_state = "surgery"
+
+/area/station/site75/medical/surgery2
+	name = "\improper Medical Operating Room #2"
+	icon_state = "surgery"
+
+/area/station/site75/medical/surgical
+	name = "\improper Medical Surgical Hallway"
+	icon_state = "surgerytheatre"
+
+/area/station/site75/medical/psychology
+	name = "\improper Medical Psychology Office"
+	icon_state = "psychology"
+	mood_bonus = 3
+	mood_message = "I feel at ease here."
+	ambientsounds = list(
+		'sound/ambience/aurora_caelus/aurora_caelus_short.ogg',
+		)
+
+/area/station/site75/medical/cmo
+	name = "\improper Medical Director's Office"
+	icon_state = "cmo_office"
+	sound_environment = SOUND_AREA_WOODFLOOR
+	airlock_wires = /datum/wires/airlock/command
+
+/area/station/site75/medical/genetics
+	name = "\improper Decommissioned Medical Genetics Lab"
+	icon_state = "geneticssci"
+
 /area/station/site75/lcz // Base area, Do Not Use
 	name = "\improper Light Containment Zone"
 	icon_state = "primaryhall"
@@ -321,6 +437,7 @@
 /area/station/site75/logistics/lo
 	name = "\improper Logistics Officer's Office"
 	icon_state = "qm_office"
+	sound_environment = SOUND_AREA_WOODFLOOR
 	airlock_wires = /datum/wires/airlock/command
 
 /area/station/site75/logistics/vault
@@ -383,6 +500,7 @@
 /area/station/site75/engineering/ed
 	name = "\improper Engineering Director's Office"
 	icon_state = "ce_office"
+	sound_environment = SOUND_AREA_WOODFLOOR
 	airlock_wires = /datum/wires/airlock/command
 
 /area/station/site75/administrative // Base area, Do Not Use
@@ -452,6 +570,55 @@
 /area/station/site75/administrative/site_manager
 	name = "\improper Site Manager's Office"
 	icon_state = "hop_office"
+	sound_environment = SOUND_AREA_WOODFLOOR
+
+/area/station/site75/administrative/site_director
+	name = "\improper Site Director's Office"
+	icon_state = "captain"
+	sound_environment = SOUND_AREA_WOODFLOOR
+
+/area/station/site75/administrative/command_center
+	name = "\improper Administrative Command Center"
+	icon_state = "bridge"
+
+/area/station/site75/ai_monitored
+	icon_state = "ai"
+	sound_environment = SOUND_AREA_STANDARD_STATION
+
+/area/station/site75/ai_monitored/turret_protected
+	ambientsounds = list('sound/ambience/engineering/ambitech.ogg', 'sound/ambience/engineering/ambitech2.ogg', 'sound/ambience/engineering/ambiatmos.ogg', 'sound/ambience/engineering/ambiatmos2.ogg')
+	///Some sounds (like the space jam) are terrible when on loop. We use this variable to add it to other AI areas, but override it to keep it from the AI's core.
+	var/ai_will_not_hear_this = list('sound/ambience/misc/ambimalf.ogg')
+	airlock_wires = /datum/wires/airlock/ai
+
+/area/station/site75/ai_monitored/turret_protected/ai_upload
+	name = "\improper Facility Artificial Intelligence Upload Office"
+	icon_state = "ai_upload"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+
+/area/station/site75/ai_monitored/turret_protected/ai
+	name = "\improper Facility Artificial Intelligence Core Chamber"
+	icon_state = "ai_chamber"
+	ai_will_not_hear_this = null
+
+/area/station/site75/ai_monitored/turret_protected/ai_control
+	name = "\improper Facility Artificial Intelligence Control Room"
+	icon_state = "ai"
+	sound_environment = SOUND_ENVIRONMENT_ROOM
+
+/area/station/site75/ai_monitored/turret_protected/administrative/nuke_silo
+	name = "\improper Administrative Warhead Silo"
+	icon_state = "nuke_storage"
+	airlock_wires = /datum/wires/airlock/command
+
+/area/station/site75/ai_monitored/security/armory
+	name = "\improper Security Center Armory"
+	icon_state = "armory"
+	ambience_index = AMBIENCE_DANGER
+	airlock_wires = /datum/wires/airlock/security
+
+/area/station/site75/ai_monitored/security/armory/secure
+	name = "Security Center Secure Armory"
 
 /area/station/site75/administrative/is
 	name = "\improper Intake Officer's Office"

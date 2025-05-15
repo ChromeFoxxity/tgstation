@@ -1,9 +1,9 @@
 /datum/job/quartermaster
-	title = JOB_QUARTERMASTER
+	title = JOB_LOGISTICS_OFFICER
 	description = "Coordinate cargo technicians and shaft miners, assist with \
 		economical purchasing."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
-	department_head = list(JOB_CAPTAIN)
+	department_head = list(JOB_SITE_DIRECTOR)
 	head_announce = list(RADIO_CHANNEL_SUPPLY)
 	faction = FACTION_STATION
 	total_positions = 1
@@ -54,4 +54,4 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	l_hand = /obj/item/clipboard
 
-	chameleon_extras = /obj/item/stamp/head/qm
+	chameleon_extras = /obj/item/stamp/head/logistics_officer

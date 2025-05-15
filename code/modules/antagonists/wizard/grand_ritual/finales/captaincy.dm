@@ -32,7 +32,7 @@
 			other_crew += crewmate
 
 	dress_candidate(invoker)
-	GLOB.manifest.modify(invoker.real_name, JOB_CAPTAIN, JOB_CAPTAIN)
+	GLOB.manifest.modify(invoker.real_name, JOB_SITE_DIRECTOR, JOB_SITE_DIRECTOR)
 	minor_announce("Captain [invoker.real_name] on deck!")
 
 	// Enlist some crew to try and restore the natural order

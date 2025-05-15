@@ -1,8 +1,8 @@
 /datum/job/bridge_assistant
-	title = JOB_BRIDGE_ASSISTANT
+	title = JOB_ADMINISTRATIVE_SECRETARY
 	description = "Watch over the Bridge, command its consoles, and spend your days brewing coffee for higher-ups."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD //not really a head but close enough
-	department_head = list(JOB_CAPTAIN)
+	department_head = list(JOB_SITE_DIRECTOR)
 	faction = FACTION_STATION
 	total_positions = 0
 	spawn_positions = 0

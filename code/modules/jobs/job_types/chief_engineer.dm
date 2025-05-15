@@ -1,9 +1,9 @@
 /datum/job/chief_engineer
-	title = JOB_CHIEF_ENGINEER
+	title = JOB_ENGINEERING_DIRECTOR
 	description = "Coordinate engineering, ensure equipment doesn't get stolen, \
 		make sure the Supermatter doesn't blow up, maintain telecommunications."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
-	department_head = list(JOB_CAPTAIN)
+	department_head = list(JOB_SITE_DIRECTOR)
 	head_announce = list("Engineering")
 	faction = FACTION_STATION
 	total_positions = 1
@@ -83,7 +83,7 @@
 	messenger = /obj/item/storage/backpack/messenger/eng
 
 	box = /obj/item/storage/box/survival/engineer
-	chameleon_extras = /obj/item/stamp/head/ce
+	chameleon_extras = /obj/item/stamp/head/engineering_director
 	skillchips = list(/obj/item/skillchip/job/engineer)
 	pda_slot = ITEM_SLOT_LPOCKET
 

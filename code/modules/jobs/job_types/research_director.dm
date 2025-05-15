@@ -1,10 +1,10 @@
 /datum/job/research_director
-	title = JOB_RESEARCH_DIRECTOR
+	title = JOB_SCIENTIFIC_DIRECTOR
 	description = "Supervise research efforts, ensure Robotics is in working \
 		order, make sure the AI and its Cyborgs aren't rogue, replacing them if \
 		they are."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
-	department_head = list(JOB_CAPTAIN)
+	department_head = list(JOB_SITE_DIRECTOR)
 	head_announce = list("Science")
 	faction = FACTION_STATION
 	total_positions = 1
@@ -54,7 +54,7 @@
 
 
 /datum/outfit/job/rd
-	name = JOB_RESEARCH_DIRECTOR
+	name = JOB_SCIENTIFIC_DIRECTOR
 	jobtype = /datum/job/research_director
 
 	id = /obj/item/card/id/advanced/silver
@@ -77,7 +77,7 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag/science
 	messenger = /obj/item/storage/backpack/messenger/science
 
-	chameleon_extras = /obj/item/stamp/head/rd
+	chameleon_extras = /obj/item/stamp/head/science_director
 	skillchips = list(/obj/item/skillchip/research_director, /obj/item/skillchip/job/roboticist)
 
 /datum/outfit/job/rd/mod
