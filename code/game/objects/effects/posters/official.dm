@@ -217,8 +217,8 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/fruit_bowl, 32)
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/pda_ad, 32)
 
 /obj/structure/sign/poster/official/enlist
-	name = "Enlist" // but I thought deathsquad was never acknowledged
-	desc = "Enlist in the Nanotrasen Deathsquadron reserves today!"
+	name = "Enlist"
+	desc = "Enlist for the Facility Security Department today!"
 	icon_state = "enlist"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/enlist, 32)

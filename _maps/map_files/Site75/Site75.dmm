@@ -1634,12 +1634,11 @@
 /turf/open/floor/iron/smooth_large,
 /area/station/site75/logistics/storage)
 "aPz" = (
-/obj/effect/turf_decal/delivery,
-/obj/machinery/door/poddoor/preopen{
-	id = "lczcheckaux";
-	name = "LCZ Checkpoint Aux Exit Blast Door"
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
 	},
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/diagonal,
 /area/station/site75/lcz/security/check)
 "aPW" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -6063,6 +6062,7 @@
 	dir = 4
 	},
 /obj/structure/hedge,
+/obj/structure/sign/warning/electric_shock/directional/north,
 /turf/open/floor/iron/white,
 /area/station/site75/lcz/hallway)
 "cPF" = (
@@ -8534,6 +8534,10 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/large,
 /area/station/site75/engineering/atmos/office)
+"ebx" = (
+/obj/structure/sign/poster/official/enlist/directional/north,
+/turf/open/floor/iron,
+/area/station/site75/commons/entrance)
 "ebC" = (
 /obj/machinery/status_display{
 	pixel_y = 32
@@ -12500,6 +12504,7 @@
 	dir = 8
 	},
 /obj/structure/closet/crate/bin,
+/obj/structure/sign/poster/official/enlist/directional/west,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 4
 	},
@@ -15849,9 +15854,8 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "huk" = (
-/obj/structure/table,
-/obj/machinery/cell_charger,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/recharge_station,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/site75/engineering/office)
 "hux" = (
@@ -15918,6 +15922,12 @@
 	},
 /turf/open/floor/iron/dark/textured_half,
 /area/station/site75/medical/lobby)
+"hvn" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green,
+/obj/structure/sign/poster/official/help_others/directional/west,
+/turf/open/floor/wood,
+/area/station/site75/commons/office)
 "hvw" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/sink/directional/south,
@@ -17236,6 +17246,7 @@
 "ijw" = (
 /obj/effect/spawner/random/trash/hobo_squat,
 /obj/effect/spawner/random/trash/cigbutt,
+/obj/structure/sign/warning/electric_shock/directional/north,
 /turf/open/floor/iron,
 /area/station/site75/maintenance/engineering)
 "ijI" = (
@@ -19004,6 +19015,7 @@
 "jfd" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/machinery/power/port_gen/pacman/pre_loaded,
+/obj/structure/sign/warning/electric_shock/directional/east,
 /turf/open/floor/iron,
 /area/station/site75/maintenance/central_hub_upper)
 "jfj" = (
@@ -21645,6 +21657,10 @@
 	},
 /turf/open/floor/engine/hull/reinforced,
 /area/space)
+"kwp" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark,
+/area/space)
 "kwr" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 1
@@ -21901,6 +21917,9 @@
 	dir = 4
 	},
 /area/station/site75/logistics/office)
+"kCt" = (
+/turf/open/floor/iron/dark,
+/area/space)
 "kCM" = (
 /obj/structure/chair{
 	dir = 1
@@ -22666,9 +22685,12 @@
 /turf/open/floor/iron/dark/textured_half,
 /area/space)
 "kWZ" = (
-/obj/machinery/recharge_station,
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
 	dir = 8
+	},
+/obj/structure/closet/toolcloset,
+/obj/item/lightreplacer{
+	pixel_y = 7
 	},
 /turf/open/floor/iron,
 /area/station/site75/engineering/storage)
@@ -23131,6 +23153,7 @@
 	name = "Checkpoint Lockdown Control";
 	id = "lczchecklockdown"
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/site75/lcz/security/check)
 "ljD" = (
@@ -23931,6 +23954,7 @@
 	dir = 6
 	},
 /obj/structure/table,
+/obj/machinery/cell_charger,
 /turf/open/floor/iron,
 /area/station/site75/engineering/office)
 "lFw" = (
@@ -25043,6 +25067,7 @@
 	id = "lczentlockdown";
 	name = "LCZ Lockdown Control"
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/site75/lcz/security/check)
 "mhb" = (
@@ -25796,6 +25821,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/warning/corner{
 	dir = 4
 	},
+/obj/machinery/photocopier,
 /turf/open/floor/iron/white/smooth_edge,
 /area/station/site75/lcz/hallway)
 "mAx" = (
@@ -25895,6 +25921,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
+/obj/machinery/photocopier,
 /turf/open/floor/wood/large,
 /area/station/site75/logistics/office)
 "mEg" = (
@@ -26176,6 +26203,7 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /obj/structure/table,
+/obj/machinery/cell_charger,
 /turf/open/floor/iron/dark/small,
 /area/station/site75/lcz/hallway)
 "mJI" = (
@@ -28580,6 +28608,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
+/obj/structure/sign/eyechart/directional/west,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 4
 	},
@@ -29006,6 +29035,7 @@
 	dir = 4
 	},
 /obj/structure/closet/crate/bin,
+/obj/structure/sign/poster/official/enlist/directional/east,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 8
 	},
@@ -32327,6 +32357,13 @@
 	dir = 1
 	},
 /area/station/site75/security/hallway)
+"pKq" = (
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 1
+	},
+/obj/structure/sign/poster/official/moth_piping/directional/west,
+/turf/open/floor/iron/dark/textured_edge,
+/area/station/site75/lcz/hallway)
 "pKs" = (
 /obj/structure/chair,
 /turf/open/floor/iron/dark/smooth_large,
@@ -33490,10 +33527,11 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/thinplating_new/dark{
+/obj/machinery/light/floor,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
 	},
-/obj/machinery/light/floor,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /turf/open/floor/iron/dark/diagonal,
 /area/station/site75/lcz/security/check)
 "qmu" = (
@@ -37072,6 +37110,15 @@
 	dir = 1
 	},
 /area/station/site75/medical/storage)
+"sdF" = (
+/obj/effect/turf_decal/trimline/purple/arrow_ccw{
+	dir = 4
+	},
+/obj/structure/sign/poster/official/enlist/directional/east,
+/turf/open/floor/iron/white/side{
+	dir = 4
+	},
+/area/station/site75/commons/medsci)
 "sdH" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Security Department"
@@ -37941,6 +37988,7 @@
 	id = "lczchecklockdown";
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/site75/lcz/security/check)
 "sAC" = (
@@ -38364,6 +38412,7 @@
 	id = "lczchecklockdown";
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/site75/lcz/security/check)
 "sLd" = (
@@ -41210,7 +41259,7 @@
 	dir = 4
 	},
 /obj/structure/table,
-/obj/item/storage/toolbox/mechanical,
+/obj/machinery/cell_charger,
 /turf/open/floor/iron/dark/small,
 /area/station/site75/commons/tram)
 "ukw" = (
@@ -41821,6 +41870,11 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"uzA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning/electric_shock/directional/east,
+/turf/open/floor/iron,
+/area/station/site75/maintenance/central_hub_upper)
 "uzC" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 10
@@ -42502,6 +42556,13 @@
 /obj/machinery/status_display/evac/directional/north,
 /turf/open/floor/iron/dark/textured_half,
 /area/space)
+"uUi" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/structure/sign/poster/official/here_for_your_safety/directional/west,
+/turf/open/floor/wood,
+/area/station/site75/commons/office)
 "uUq" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -43090,6 +43151,11 @@
 	dir = 1
 	},
 /area/station/site75/commons/tram)
+"vkx" = (
+/obj/structure/chair/office/light,
+/obj/structure/sign/poster/official/moth_meth/directional/west,
+/turf/open/floor/iron/dark,
+/area/station/site75/medical/pharmacy)
 "vkL" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/item/clothing/head/costume/party,
@@ -43103,6 +43169,7 @@
 	name = "LCZ Checkpoint Lockdown Shutters";
 	id = "lczchecklockdown"
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/site75/lcz/security/check)
 "vlo" = (
@@ -45755,9 +45822,8 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/brown/filled/line,
-/obj/structure/table,
-/obj/item/modular_computer/laptop/preset/civilian,
 /obj/machinery/airalarm/directional/south,
+/obj/machinery/photocopier,
 /turf/open/floor/iron/smooth,
 /area/station/site75/logistics/office)
 "wAW" = (
@@ -48280,6 +48346,7 @@
 	id = "lczchecklockdown";
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/dark/textured_half{
 	dir = 1
 	},
@@ -48606,6 +48673,18 @@
 	},
 /turf/open/floor/wood,
 /area/station/site75/medical/break_room)
+"ycP" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 4
+	},
+/obj/structure/sign/warning/electric_shock/directional/east,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/station/site75/administrative/public_hall)
 "ycQ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -48666,7 +48745,10 @@
 /area/station/site75/service/plaza)
 "ydE" = (
 /obj/machinery/light/floor,
-/turf/open/floor/iron/dark/small,
+/obj/effect/turf_decal/siding/thinplating_new/dark/end{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/diagonal,
 /area/station/site75/lcz/security/check)
 "ydW" = (
 /obj/effect/decal/cleanable/dirt,
@@ -124155,12 +124237,12 @@ nrq
 nrq
 nrq
 nrq
-hIH
-hIH
-hIH
-hIH
-hIH
-hIH
+kej
+kej
+kej
+kej
+kej
+kej
 hIH
 hIH
 hIH
@@ -124412,11 +124494,11 @@ sKd
 rvi
 nlB
 nrq
-hIH
-hIH
-hIH
-hIH
-hIH
+kCt
+kCt
+kej
+kCt
+kCt
 hIH
 hIH
 hIH
@@ -124669,11 +124751,11 @@ vIi
 vSM
 nlB
 nrq
-hIH
-hIH
-hIH
-hIH
-hIH
+kCt
+kCt
+kej
+kCt
+kCt
 hIH
 hIH
 hIH
@@ -124926,11 +125008,11 @@ opH
 vVt
 nlB
 nrq
-hIH
-hIH
-hIH
-hIH
-hIH
+kCt
+kCt
+kej
+kCt
+kCt
 hIH
 hIH
 hIH
@@ -125183,11 +125265,11 @@ mLF
 uxl
 nrq
 nrq
-hIH
-hIH
-hIH
-hIH
-hIH
+mMY
+kCt
+kej
+mMY
+kCt
 hIH
 hIH
 hIH
@@ -125439,13 +125521,13 @@ dfK
 sKd
 rvi
 nrq
-hIH
-hIH
-hIH
-hIH
-hIH
-hIH
-hIH
+kwp
+kCt
+kCt
+kCt
+kCt
+kCt
+kCt
 hIH
 hIH
 hIH
@@ -125696,14 +125778,14 @@ rIg
 vIi
 vSM
 nrq
-hIH
-hIH
-hIH
-hIH
-hIH
-hIH
-hIH
-hIH
+kwp
+kCt
+kCt
+kCt
+kCt
+kCt
+kCt
+kCt
 hIH
 hIH
 hIH
@@ -125953,14 +126035,14 @@ iOF
 iOF
 iOF
 nrq
-hIH
-hIH
-hIH
-hIH
-hIH
-hIH
-hIH
-hIH
+kwp
+kCt
+kCt
+kCt
+kCt
+kCt
+kCt
+kCt
 hIH
 hIH
 hIH
@@ -126210,9 +126292,9 @@ kwG
 vIi
 vSM
 nrq
-hIH
-hIH
-hIH
+kCt
+kCt
+kCt
 tQr
 tQr
 tQr
@@ -128003,7 +128085,7 @@ dmZ
 lSo
 vGu
 lMp
-gRu
+pKq
 nrq
 oYC
 nKd
@@ -203536,7 +203618,7 @@ bgS
 ieH
 vJp
 xTu
-mYM
+vkx
 tfq
 uZB
 rKY
@@ -207401,13 +207483,13 @@ azF
 aMO
 hzO
 sMG
-huL
+uUi
 olS
 hBE
 rJz
 hBE
 olS
-hzO
+hvn
 sMG
 huL
 aMO
@@ -207437,7 +207519,7 @@ sfB
 sfB
 sfB
 lHT
-itL
+uzA
 pjY
 csB
 veA
@@ -210483,7 +210565,7 @@ uaZ
 sXx
 nWD
 oRL
-gBn
+sdF
 oRL
 oRL
 oRL
@@ -214617,7 +214699,7 @@ jQA
 jQA
 jQA
 jQA
-heW
+iFI
 xCv
 acs
 caF
@@ -274483,7 +274565,7 @@ uWV
 rHD
 rHD
 vKc
-vJq
+ebx
 vJq
 vJq
 vJq
@@ -275516,7 +275598,7 @@ aGe
 tIK
 asj
 oHo
-vKc
+oOU
 bil
 bil
 bil
@@ -275773,7 +275855,7 @@ sFt
 gaV
 bIl
 oHo
-vKc
+oOU
 bil
 bil
 bil
@@ -276030,7 +276112,7 @@ rBS
 akv
 hPC
 oHo
-vKc
+oOU
 bil
 bil
 bil
@@ -276082,7 +276164,7 @@ dpc
 mKS
 rXb
 mKS
-mKS
+ycP
 htD
 tXg
 mKS
@@ -276544,7 +276626,7 @@ vJq
 vJq
 vJq
 vJq
-vKc
+oOU
 bil
 bil
 bil
@@ -276801,7 +276883,7 @@ vJq
 vJq
 vJq
 vJq
-vKc
+oOU
 bil
 bil
 bil
@@ -277053,12 +277135,12 @@ hot
 rHD
 rHD
 vKc
+ebx
 vJq
 vJq
 vJq
 vJq
-vJq
-vKc
+oOU
 bil
 bil
 bil

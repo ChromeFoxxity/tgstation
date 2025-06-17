@@ -71,7 +71,7 @@
 /area/station/site75/maintenance/service
 	name = "Service Plaza Maintenance"
 
-/area/station/site75/maintenance/service/upper\
+/area/station/site75/maintenance/service/upper
 	name = "Upper Service Plaza Maintenance"
 
 /area/station/site75/maintenance/logistics
