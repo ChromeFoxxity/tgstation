@@ -1,11 +1,10 @@
 /obj/structure/rack
-	icon = 'icons/obj/scp_structures.dmi'
+	icon = 'modular_f19/icons/obj/structures_scp.dmi'
 
 /obj/structure/rack/shelf
 	name = "shelf"
 	desc = "A shelf, for storing things on. Conveinent!"
 	icon_state = "shelf"
-	icon = 'icons/obj/scp_structures.dmi'
 
 /obj/item/gun
 	var/on_rack = FALSE
@@ -30,7 +29,6 @@
 	name = "gun rack"
 	desc = "A gun rack for storing guns."
 	icon_state = "gunrack"
-	icon = 'icons/obj/scp_structures.dmi'
 
 /obj/structure/rack/gunrack/Initialize(mapload)
 	. = ..()

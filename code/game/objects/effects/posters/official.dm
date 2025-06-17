@@ -216,13 +216,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/fruit_bowl, 32)
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/pda_ad, 32)
 
-/obj/structure/sign/poster/official/enlist
-	name = "Enlist"
-	desc = "Enlist for the Facility Security Department today!"
-	icon_state = "enlist"
-
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/enlist, 32)
-
 /obj/structure/sign/poster/official/nanomichi_ad
 	name = "Nanomichi Ad"
 	desc = " A poster advertising Nanomichi brand audio cassettes."

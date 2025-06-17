@@ -2,8 +2,8 @@
 // [SCP]
 
 /obj/item/clothing/suit/armor/vest/scp
-	icon = 'icons/obj/clothing/suits/scp_suit.dmi'
-	worn_icon = 'icons/mob/clothing/suits/scp_suit.dmi'
+	icon = 'modular_f19/icons/obj/clothing/scp_suit.dmi'
+	worn_icon = 'modular_f19/icons/mob/clothing/scp_suit.dmi'
 
 // UNUSUAL INCIDENTS UNIT VESTS
 // [SCP]

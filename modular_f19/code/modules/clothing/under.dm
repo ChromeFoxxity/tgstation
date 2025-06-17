@@ -1,6 +1,6 @@
 /obj/item/clothing/under/rank/scp
-	icon = 'icons/obj/clothing/under/scp_under.dmi'
-	worn_icon = 'icons/mob/clothing/under/scp_under.dmi'
+	icon = 'modular_f19/icons/obj/clothing/scp_under.dmi'
+	worn_icon = 'modular_f19/icons/mob/clothing/scp_under.dmi'
 
 /obj/item/clothing/under/rank/scp/mtf
 	name = "'Nine Tailed Fox' tactical uniform"

@@ -2,24 +2,24 @@
 // [SCP]
 
 /obj/item/clothing/head/helmet/scp
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
+	icon = 'modular_f19/icons/obj/clothing/scp_head.dmi'
+	worn_icon = 'modular_f19/icons/mob/clothing/scp_head.dmi'
 
 /obj/item/clothing/head/helmet/toggleable/scp
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
+	icon = 'modular_f19/icons/obj/clothing/scp_head.dmi'
+	worn_icon = 'modular_f19/icons/mob/clothing/scp_head.dmi'
 
 /obj/item/clothing/head/beret/scp
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
+	icon = 'modular_f19/icons/obj/clothing/scp_head.dmi'
+	worn_icon = 'modular_f19/icons/mob/clothing/scp_head.dmi'
 
 /obj/item/clothing/head/soft/scp
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
+	icon = 'modular_f19/icons/obj/clothing/scp_head.dmi'
+	worn_icon = 'modular_f19/icons/mob/clothing/scp_head.dmi'
 
 /obj/item/clothing/head/hats/scp
-	icon = 'icons/obj/clothing/head/scp_head.dmi'
-	worn_icon = 'icons/mob/clothing/head/scp_head.dmi'
+	icon = 'modular_f19/icons/obj/clothing/scp_head.dmi'
+	worn_icon = 'modular_f19/icons/mob/clothing/scp_head.dmi'
 
 // UNUSUAL INCIDENTS UNIT HELMETS
 // [SCP]

@@ -20,6 +20,7 @@
 		"stamp-lcz" = 'icons/stamp_icons/large_stamp-lcz.png',
 		"stamp-az" = 'icons/stamp_icons/large_stamp-az.png',
 		"stamp-ec" = 'icons/stamp_icons/large_stamp-ethics.png',
+		"stamp-itd" = 'icons/stamp_icons/large_stamp-itd.png',
 		"stamp-scd" = 'icons/stamp_icons/large_stamp-scddir.png',
 		"stamp-sdcap" = 'icons/stamp_icons/large_stamp-sdcap.png',
 		"stamp-md" = 'icons/stamp_icons/large_stamp-mddir.png',

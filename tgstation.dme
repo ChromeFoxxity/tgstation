@@ -6632,6 +6632,7 @@
 #include "modular_f19\code\game\machinery\doors\airlock.dm"
 #include "modular_f19\code\game\machinery\doors\airlock_override.dm"
 #include "modular_f19\code\game\machinery\tramstuff\tramcode.dm"
+#include "modular_f19\code\game\objects\posters.dm"
 #include "modular_f19\code\modules\amnestics\bottles.dm"
 #include "modular_f19\code\modules\amnestics\mixtures.dm"
 #include "modular_f19\code\modules\amnestics\pills.dm"
