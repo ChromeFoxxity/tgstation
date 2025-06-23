@@ -12990,7 +12990,7 @@
 	name = "AZ Lockdown Blast Door"
 	},
 /obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/textured_half,
 /area/station/site75/administrative/public_hall)
 "gat" = (
 /obj/structure/rack,
@@ -46118,7 +46118,10 @@
 	name = "AZ Lockdown Blast Door"
 	},
 /obj/structure/cable,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/iron/dark/textured_half{
+	dir = 1
+	},
 /area/station/site75/commons/hub)
 "vLy" = (
 /obj/machinery/light/directional/south,
